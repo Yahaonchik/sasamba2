@@ -311,7 +311,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Приводной ремень передаёт вращение от двигателя к ��арабану. При ослаблении или разрыве ремня барабан не сможет достичь нужных оборотов и бельё останется сырым. Обычно при этом двигатель пытается работать (машинка гудит), но барабан остаётся вялым или не вращается вовсе. Если ремень слетел, его можно перекинуть на место (для этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется его замена. Причиной разрыва может быть старение ремня или износ подшипников (при сильных люфтах на валу ремень перекидывается и рвётся.
+                  Приводной ремень передаёт вращение от двигателя к барабану. При ослаблении или разрыве ремня барабан не сможет достичь нужных оборотов и бельё останется сырым. Обычно при этом двигатель пытается работать (машинка гудит), но барабан остаётся вялым или не вращается вовсе. Если ремень слетел, его можно перекинуть на место (для этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется его замена. Причиной разрыва может быть старение ремня или износ подшипников (при сильных люфтах на валу ремень перекидывается и рвётся.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -399,7 +399,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если датчик оборотов выдаёт неверные показания, контроллер перестаёт доверять двигателю – стиральная машина может просто не давать команду на отжим. Это происходит без явных механических шумов, но при этом барабан либо вращается очень медленно, либо вообще не двигается. Решается замен��й датчика.
+                  Если датчик оборотов выдаёт неверные показания, контроллер перестаёт доверять двигателю – стиральная машина может просто не давать команду на отжим. Это происходит без явных механических шумов, но при этом барабан либо вращается очень медленно, либо вообще не двигается. Решается заменой датчика.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -642,7 +642,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -696,7 +696,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -863,7 +863,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1020,7 +1020,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1079,7 +1079,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1146,7 +1146,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1381,7 +1381,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: 'Spectral SC';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2135,7 +2135,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2143,7 +2143,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2154,7 +2154,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2191,7 +2191,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

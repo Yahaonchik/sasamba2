@@ -210,7 +210,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если люк стиральной машины не закрылся до щелчка, автоматика не даст начать стирку или может прерваться в самом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убедившись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание программы. Если дверца плотно закрывается, но стирка всё равно не запускается или останавливается, возм��жно, сломан замок (устройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на дисплее может появиться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спустите воду через фильтр, чтобы безопасно добраться до замка.
+                  Если люк стиральной машины не закрылся до щелчка, автоматика не даст начать стирку или может прерваться в самом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убедившись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание программы. Если дверца плотно закрывается, но стирка всё равно не запускается или останавливается, возможно, сломан замок (устройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на дисплее может появиться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спустите воду через фильтр, чтобы безопасно добраться до замка.
                 </p>
               </div>
             </section>
@@ -603,7 +603,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -657,7 +657,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -823,7 +823,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1006,7 +1006,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1065,7 +1065,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1132,7 +1132,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1367,7 +1367,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: 'Spectral SC';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2139,7 +2139,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-container27 {
@@ -2158,7 +2158,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2169,7 +2169,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2206,7 +2206,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

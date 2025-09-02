@@ -67,7 +67,7 @@ const Page = (props) => {
               title="У стиральной машины не открывается дверца:"
               items={[
                 { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Блокировка «Детский замок».' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Остатки воды в баке или незавершённый ц��кл' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Остатки воды в баке или незавершённый цикл' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Засор в сливной системе или неисправность датчика уровня (прессостат).' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Сбой электроники или отключение питания.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#5-1', text: '5. Механическая поломка замка или ручки.' },
@@ -236,7 +236,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Внезапные перебои с питанием или ошибки в модуле управления могут приводить к «замораживанию» замка люка: контролле�� просто не получает или не обрабатывает команду на разблокировку. Иногда помогает полная перезагрузка питания, в иных случаях требуется диагностика и ремонт электронной части в сервисном центре.
+                  Внезапные перебои с питанием или ошибки в модуле управления могут приводить к «замораживанию» замка люка: контроллер просто не получает или не обрабатывает команду на разблокировку. Иногда помогает полная перезагрузка питания, в иных случаях требуется диагностика и ремонт электронной части в сервисном центре.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -284,7 +284,7 @@ const Page = (props) => {
             <PageNavigation
               prevPage={{
                 href: '/nenabiraetvodu',
-                title: 'Стиральная машина не набирает в��ду'
+                title: 'Стиральная машина не набирает воду'
               }}
               nextPage={{
                 href: '/nekrutitbaraban',
@@ -514,7 +514,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -568,7 +568,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -734,7 +734,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -899,7 +899,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -958,7 +958,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1024,7 +1024,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1259,7 +1259,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: 'Spectral SC';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2025,7 +2025,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2033,7 +2033,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2044,7 +2044,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2081,7 +2081,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

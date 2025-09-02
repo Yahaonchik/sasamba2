@@ -105,7 +105,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сначала внимательно изучите ярлык. Если на нём изображён перечёркнутый таз с водой или написано «Только химчистка», машинную стирку лучше не проводить. В остальных случаях действуйте так: очистите сухую грязь влажной салфеткой или мягкой щёткой. Уделите особое внимание участкам у карманов, воротнику и манжетам – они часто наиболее загрязнены. Проверьте карманы и вытащите всё содержимое (салфетки, мелочь, ключи). Застегните все молнии и пуговицы, снимите или отстегните меховые и декоративные элементы (капюшоны, съёмные манжеты), чтобы они не повредились и не помешали стирке. Выверните пуховик наизнанку – так вы защитите лицевую ткань и фурнитуру. Никогда не стирайте пуховик вместе с другими ��ещами, даже если кажется, что места хватает.
+                  Сначала внимательно изучите ярлык. Если на нём изображён перечёркнутый таз с водой или написано «Только химчистка», машинную стирку лучше не проводить. В остальных случаях действуйте так: очистите сухую грязь влажной салфеткой или мягкой щёткой. Уделите особое внимание участкам у карманов, воротнику и манжетам – они часто наиболее загрязнены. Проверьте карманы и вытащите всё содержимое (салфетки, мелочь, ключи). Застегните все молнии и пуговицы, снимите или отстегните меховые и декоративные элементы (капюшоны, съёмные манжеты), чтобы они не повредились и не помешали стирке. Выверните пуховик наизнанку – так вы защитите лицевую ткань и фурнитуру. Никогда не стирайте пуховик вместе с другими вещами, даже если кажется, что места хватает.
                 </p>
               </div>
             </section>
@@ -147,7 +147,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Для пуховых изделий не подходят обычные агресси��ные порошки – они плохо выполаскиваются и могут оставлять разводы. Лучше взять специальный гель или жидкость для стирки пуховиков и деликатных тканей. Многие производители выпускают средства, предназначенные именно для пуховых курток. Если их нет, используйте гель для деликатной стирки или капсулы с жидким составом. От обычного порошка лучше отказаться – он может скапливаться внутри пухового наполнителя и собираться комками. Не добавляйте кондиционер и отбеливатель при основной стирке, чтобы не нарушить структуру пуха.
+                  Для пуховых изделий не подходят обычные агрессивные порошки – они плохо выполаскиваются и могут оставлять разводы. Лучше взять специальный гель или жидкость для стирки пуховиков и деликатных тканей. Многие производители выпускают средства, предназначенные именно для пуховых курток. Если их нет, используйте гель для деликатной стирки или капсулы с жидким составом. От обычного порошка лучше отказаться – он может скапливаться внутри пухового наполнителя и собираться комками. Не добавляйте кондиционер и отбеливатель при основной стирке, чтобы не нарушить структуру пуха.
                 </p>
               </div>
             </section>
@@ -296,7 +296,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12985">
                 <span className="page-text77">
-                  Как безоп��сно перевозит�� и хранить стиральную машину
+                  Как безопасно перевозит�� и хранить стиральную машину
                 </span>
                 <div className="page-container49"></div>
               </div>
@@ -469,7 +469,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -523,7 +523,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -689,7 +689,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -851,7 +851,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -897,7 +897,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -951,7 +951,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Roboto';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1186,7 +1186,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: 'Spectral SC';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1998,7 +1998,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-container27 {
@@ -2021,7 +2021,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto Serif;
+              font-family: Roboto;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2032,7 +2032,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2069,7 +2069,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif Serif;
+              font-family: Roboto Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
