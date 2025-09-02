@@ -69,7 +69,7 @@ const Page = (props) => {
               items={[
                 { icon: '/vector.svg', href: '#2', text: 'Как избавиться от жирных пятен на одежде:' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Хозяйственное мыло и стиральный порошок' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Пищевая сода' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Пищевая со��а' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Средство для мытья посуды' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Уксус или лимон' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '5. Тальк или детская присыпка' },
@@ -114,7 +114,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Один из самых надёжных способов – использовать хорошую основу для стирки. Сначала намочите пятно тёплой водой и тщательно намыльте его хозяйственным мылом (лучше 72% жирности). Если пятно старое и въевшееся, можно присыпать намоченную ткань тёртой стружкой мыла и аккуратно втереть её губкой или щёткой. Оставьте мыло впитаться: свежие пятна обычно удаляются за 20–30 минут, для застарелых понадобится от 2 часов до суток. После этого смойте остатки мыла влажной тряпочкой и постирайте вещь обычным способом. Такой метод хорош для любых тканей; даже хозяйственное мыло с современными добавками часто содержит усилители чистящих свойств.
+                  Один из самых надёжных способов – использовать хорошую основу для стирки. Сначала намочите пятно тёплой водой и тщательно намыльте его хозяйственным мылом (лучше 72% жирности). Если пятно старое и въевшееся, можно присыпать намоченную ткань тёртой стружкой мыл�� и аккуратно втереть её губкой или щёткой. Оставьте мыло впитаться: свежие пятна обычно удаляются за 20–30 минут, для застарелых понадобится от 2 часов до суток. После этого смойте остатки мыла влажной тряпочкой и постирайте вещь обычным способом. Такой метод хорош для любых тканей; даже хозяйственное мыло с современными добавками часто содержит усилители чистящих свойств.
                 </p>
               </div>
             </section>
@@ -198,7 +198,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Жидкость для мытья посуды содержит компоненты, разрушающие жировые загрязнения, поэтому она подходит и для одежды. Нанесите несколько капель средства на пятно и оставьте на 5–10 минут. Затем постирайте вещь – как правило, этого достаточно. Для очень застарелых пятен можно предварительно замочить одежду: нанесите гель на пятно, накройте пищевой плёнкой на пару часов, а потом постирайте в тёплой воде с порошком. Это сочетание агрессивного средства и дополнительного времени улучшит результат.
+                  Жидкость для мытья посуды содержит компоненты, разрушающие жировые загрязнения, поэтому она подходит и для одежды. Нанесите несколько капель средства на пятно и оставьте на 5��10 минут. Затем постирайте вещь – как правило, этого достаточно. Для очень застарелых пятен можно предварительно замочить одежду: нанесите гель на пятно, накройте пищевой плёнкой на пару часов, а потом постирайте в тёплой воде с порошком. Это сочетание агрессивного средства и дополнительного времени улучшит результат.
                 </p>
               </div>
             </section>
@@ -361,7 +361,7 @@ const Page = (props) => {
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
-                  Ошибки, которые приводят к дорогостоящему ремонту (и как их
+                  Ошибки, которые приводят к дор��гостоящему ремонту (и как их
                   избежать)
                 </span>
                 <div className="page-container45"></div>
@@ -563,7 +563,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -617,7 +617,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -783,7 +783,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -945,7 +945,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -991,7 +991,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1045,7 +1045,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1280,7 +1280,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2086,7 +2086,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-container27 {
@@ -2109,7 +2109,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2120,7 +2120,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2157,7 +2157,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

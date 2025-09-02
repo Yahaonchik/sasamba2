@@ -323,7 +323,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Гибкий сливной шланг идёт от насоса к стояку канализации. Важно убедиться, что он не пережат и не забит грязью или жиром, особенно в местах изгибов и подсоединения к раковине или сифону. Для проверки отсоедините шланг от канализации и попробуйте продуть его: при чистом шланге воздух проходит легко и слышно, как булькает оставшаяся вода. Если шланг забит, протолкните внутрь гибкую проволоку или промойте его под струёй горячей воды. После прочистки установите шланг на место и убедитесь, что он нигде не перегибается и надёжно закреплён.
+                  Гибкий сливной шланг идёт от насоса к стояку канализации. Важно убедиться, что он не пережат и не забит грязью или жиром, особенно в местах изгибов и подсоединения к раковине или сифону. Для проверки отсоедините шланг от канализации и попробуйте продуть его: при чистом шланге воздух проходит легко и слышно, как булькает оставшаяся вода. Если шланг забит, п��отолкните внутрь гибкую проволоку или промойте его под струёй горячей воды. После прочистки установите шланг на место и убедитесь, что он нигде не перегибается и надёжно закреплён.
                 </p>
               </div>
             </section>
@@ -445,7 +445,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  Как продлить жизнь машине на 3–5 лет — простые ��ривычки,
+                  Как продлить жизнь машине на 3–5 лет — прост��е ��ривычки,
                   которые сэкономят деньги
                 </span>
                 <div className="page-container46"></div>
@@ -637,7 +637,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -691,7 +691,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -859,7 +859,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1017,7 +1017,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1077,7 +1077,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1145,7 +1145,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1380,7 +1380,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2146,7 +2146,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2154,7 +2154,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2165,7 +2165,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2202,7 +2202,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

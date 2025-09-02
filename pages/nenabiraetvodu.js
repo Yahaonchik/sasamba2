@@ -68,7 +68,7 @@ const Page = (props) => {
               items={[
                 { icon: '/external/vector8669-r6fr.svg', href: '#1', text: 'Что делать, если машина не набирает воду?' },
                 { icon: '/vector.svg', href: '#2', text: 'Основные причины поломки:' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Закрыт кран подачи воды / Низкое давление' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Закрыт кран п��дачи воды / Низкое давление' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Повреждён замок дверцы (блокировка люка).' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Пережат или перекручен заливной шланг' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Неисправен впускной клапан' },
@@ -108,7 +108,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>2. Проверьте кран и напор.</strong><br />
-                    Откройте кран на полную мощность и оцените напор. Если воды нет в кране, позвоните в коммунальную службу. Если вентиль был закрыт, полностью его откройте.
+                    Откройте кран на полную мощность и оцените напор. Если воды нет в кране, позвоните в коммунальную службу. Если вентиль был закрыт, полно��тью его откройте.
                   </p>
 
                   <p>
@@ -123,7 +123,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>5. Проверьте дверцу.</strong><br />
-                    Убедитесь, что люк закрывается плотно и фиксируется. Если бельё мешает закрытию, правильно уложите вещи. Машина не начнёт залив, пока замок не сработает.
+                    Убедитесь, что люк закрывается плотно и фиксируется. Если бельё мешает ��акрытию, правильно уложите вещи. Машина не начнёт залив, пока замок не сработает.
                   </p>
 
                   <p>
@@ -256,7 +256,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Заливной шланг – гибкая трубка от крана к машине. Он не должен быть перегибом, пережатием или смятием. Если на шланг наступили или он перекручен, вода не пойдёт. Симптом – машинка «жужжит», но залив не начинается. Остановите машину, отключите воду, осмотрите шланг. При обнаружении изгиба или зажима распрямите шланг и уберите препятствие. Если шланг повреждён (порван, сильно изношен), замените его.
+                  Заливной шланг – гибкая трубка от крана к машине. Он не должен быть перегибом, пережатием или смятием. Если на шланг наступили или он перекручен, вода не пойдёт. Симптом – машинка «жужжит», но залив не начинается. Остановите машину, отключите воду, осмотрите шланг. При обнаружении изгиба или зажима распрямите шланг и уберите препятствие. Если шланг повреждё�� (порван, сильно изношен), замените его.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -631,7 +631,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -685,7 +685,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -851,7 +851,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1017,7 +1017,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1076,7 +1076,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1143,7 +1143,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1378,7 +1378,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2139,7 +2139,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2147,7 +2147,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2158,7 +2158,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2195,7 +2195,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

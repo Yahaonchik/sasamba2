@@ -154,7 +154,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Этот приём подойдёт для прочных тканей (лучше избегать шёлка и шерсти). Разведите очень горячую воду и погрузите поражённый участок на 5–10 минут – жвачка быстро расплавится. Аккуратно счистите размягчённые кусочки щёткой. Также можно воспользоваться утюгом: положите под шмотку плотный картон (или бумажное полотенце), прогрейте утюг до 100–120 °C и на несколько секунд прижмите им место с жвачкой. Жвачка расплавится и прилипнет к картону. Повторяйте, пока все остатки не исчезнут. После используйте ткань: поместите тряпочку между утюгом и вещью, чтобы не пропекать волокна.
+                  Этот приём подойдёт для прочных тканей (лучше избегать шёлка и шерсти). Разведите очень горячую воду и погрузите поражённый участок на 5–10 минут – жвачка быстро расплавится. Аккуратно счистите размягчённые кусочки щёткой. Также можно воспользоваться утюгом: положите под шмотку плотный картон (или бумажное полотенце), прогрейте утюг до 100–120 °C и на несколько ��екунд прижмите им место с жвачкой. Жвачка расплавится и прилипнет к картону. Повторяйте, пока все остатки не исчезнут. После используйте ткань: поместите тряпочку между утюгом и вещью, чтобы не пропекать волокна.
                 </p>
               </div>
             </section>
@@ -280,7 +280,7 @@ const Page = (props) => {
                   {' '}
                   Другое народное средство – растительное или сливочное масло: нанесите его на жвачку, дождитесь 10–15 минут и попробуйте стереть жвачку (масло уменьшит её липкость). Ацетон из жидкостей для снятия лака часто заменяют уксусом: подогрейте столовый уксус до 40 °C, нанесите на жвачку и оставьте на пару минут. Жвачка размягчится, и её можно будет счистить щёткой. Эти способы хороши, но оставляют жирные пятна: после удаления резинки одежду нужно выстирать с порошком или жидкостью для посуды.
 
-                  После всех процедур обязательно постирайте вещь (лучше в прохладной воде с моющим средством). Так вы удалите остатки жвачки и любых использованных химикатов. Благодаря таким методам даже застаревшую жвачку можно убрать без следов, главное – терпение и аккуратность.
+                  После всех процедур обязательно постирайте вещь (лучше в прохладной воде с моющим средством). Так вы удалите остатки жвачки и любых использованных химикатов. Благодаря таким методам даже застаревшу�� жвачку можно убрать без следов, главное – терпение и аккуратность.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -526,7 +526,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -580,7 +580,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -746,7 +746,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -908,7 +908,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -954,7 +954,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1008,7 +1008,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1243,7 +1243,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2056,7 +2056,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-container27 {
@@ -2079,7 +2079,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2090,7 +2090,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2127,7 +2127,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

@@ -159,7 +159,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Стиральная машина очень требовательна к прочности и горизонтальности места установки. Если пол под ней не идеально ровный или слишком мягкий (например, старые деревянные доски), любая вибрация приведёт к дополнительному «прыжку» техники. Аналогично, установка на очень гладком покрытии (плитке или линолеуме) без фиксации позволит машинке подскальзывать.Совет: Проверьте положение машины уровнем – все ножки должны стоять устойчиво. Слегка раскачайте прибор руками, определите, какая опора «гуляет» больше, и подкрутите её гайкой против часовой стрелки до упора. Можно привлечь помощника или приподнять стиралку на бок, чтобы повернуть ножку удобнее. После этого ещё раз проконтролируйте ровность с уровнем. Для дополнительной устойчивости и защиты пола рекомендуется установить резиновые антискользящие накладки или антивибрационные подставки под ножки. Они гасить часть вибрации и не позволяют машине «ездить» по комнате.
+                  Стиральная машина очень требовательна к прочности и горизонтальности места установки. Если пол под ней не идеально ровный или слишком мягкий (например, старые деревянные доски), любая вибрация приведёт к дополнительному «прыжку» техники. Аналогично, установка на очень гладком покрытии (плитке или линолеуме) без фиксации поз��олит машинке подскальзывать.Совет: Проверьте положение машины уровнем – все ножки должны стоять устойчиво. Слегка раскачайте прибор руками, определите, какая опора «гуляет» больше, и подкрутите её гайкой против часовой стрелки до упора. Можно привлечь помощника или приподнять стиралку на бок, чтобы повернуть ножку удобнее. После этого ещё раз проконтролируйте ровность с уровнем. Для дополнительной устойчивости и защиты пола рекомендуется установить резиновые антискользящие накладки или антивибрационные подставки под ножки. Они гасить часть вибрации и не позволяют машине «ездить» по комнате.
                 </p>
               </div>
             </section>
@@ -216,7 +216,7 @@ const Page = (props) => {
             <section id="5" className="page-fiveproblem2">
               <div className="page-container25 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  2. Пружины подвески
+                  2. П��ужины подвески
                 </h3>
                 <svg
                   width="330"
@@ -250,7 +250,7 @@ const Page = (props) => {
                   {' '}
                   Пружины подвески играют ключевую роль в работе стиральной машины — они удерживают бак в подвешенном состоянии и компенсируют вибрации при отжиме. Когда хотя бы одна пружина растянулась или сломалаль, бак теряет устойчивость и начинает сильно раскачиваться. Из-за этого вы слышите громкий стук, глухие удары или даже металлический звон. Особенно ярко проблема проявляется на высоких оборотах, когда бак с бельём вращается с максимальной скоростью.
 
-                  Почему это происходит? Со временем пружины изнашиваются — металл теряет упругость, появляются микротрещины, а иногда пружина может и вовсе лопнуть. В результате нагрузка распределяется неравномерно, бак смещается и начинает «бить» по корпусу. Это не только неприятный шум, но и риск повреждения других деталей — амортизаторов, противовесов, даже бака.
+                  Почему это происходит? Со временем пружины изнашиваются — металл теряет упругость, появляются микротрещины, а иногда пружина может и вовсе лопнуть. В результате нагрузка распределяется неравномерно, бак смещается и начинает «бить» по корпусу. Это не только неприятный шум, но и риск повреждения других дет��лей — амортизаторов, противовесов, даже бака.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -581,7 +581,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -635,7 +635,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -809,7 +809,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -966,7 +966,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1025,7 +1025,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1123,7 +1123,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1358,7 +1358,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2119,7 +2119,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2127,7 +2127,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2138,7 +2138,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2175,7 +2175,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

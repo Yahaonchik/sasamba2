@@ -179,7 +179,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="электро-щитовая"
+                    alt="эле��тро-щитовая"
                     src="/5/shitovaya.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -270,7 +270,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Мозг стиральной машины — это управляющая плата. Именно она хранит программы стирки и управляет всеми процессами. Если она выходит из строя, техника не запускается, индикаторы не горят или ведут себя странно. Иногда помогает простой сброс: отключите питание на 10–20 минут и попробуйте снова. Если не помогло — скорее всего, нужна прошивка, ремонт или замена модуля. Этим обычно занимается специалист.
+                  Мозг стиральной машины — это управляющая плата. Именно она хранит программы стирки и управляет всеми процессами. Если она выходит из строя, техника не запускается, индикатор�� не горят или ведут себя странно. Иногда помогает простой сброс: отключите питание на 10–20 минут и попробуйте снова. Если не помогло — скорее всего, нужна прошивка, ремонт или замена модуля. Этим обычно занимается специалист.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -314,7 +314,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Двигатель стиралки питается от электрических щёток на коллекторе ротора. При сильном износе щёток двигатель либо не запускается совсем, либо работает с перебоями. Яркий признак неисправности щёток — барабан перестаёт вращаться: машина включена, напор воды есть, но барабан «не крутит». Ещё один симптом — искры или необычные «скрежещущие» звуки при попытке запустить стирку. Обычно это происходит из-за плохого контакта щёток с ротором (они коротко замкнуты или стёрлись). На дисплее в таких случаях могут появляться сервисные коды (хотя обычно исчезают, когда машина остывает). Проверьте щётки двигателя: в большинстве моделей это доступно после снятия задней крышки и корпуса мотора. Если щетки сильно короткие или имеют сколы, их нужно заменить. Это относительно простая и недорогая операция — её выполняет мастер или даже домашний умелец. Пока щетки не заменены, стиралка не запустится (особенно при больших нагрузках).
+                  Двигатель стиралки питается от электрических щёток на коллекторе ротора. При сильном износе щёток двигатель либо не запускается совсем, либо работает с перебоями. Яркий признак неисправности щёток — барабан перестаёт вращаться: машина включена, напор воды есть, но барабан «не крутит». Ещё один симпт��м — искры или необычные «скрежещущие» звуки при попытке запустить стирку. Обычно это происходит из-за плохого контакта щёток с ротором (они коротко замкнуты или стёрлись). На дисплее в таких случаях могут появляться сервисные коды (хотя обычно исчезают, когда машина остывает). Проверьте щётки двигателя: в большинстве моделей это доступно после снятия задней крышки и корпуса мотора. Если щетки сильно короткие или имеют сколы, их нужно заменить. Это относительно простая и недорогая операция — её выполняет мастер или даже домашний умелец. Пока щетки не заменены, стиралка не запустится (особенно при больших нагрузках).
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -480,7 +480,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12986">
                 <span className="page-text78">
-                  Мифы о стиралках: что правда, а что — вымысел?
+                  Мифы о стиралках: что правда, а что — вымы��ел?
                 </span>
                 <div className="page-container50"></div>
               </div>
@@ -645,7 +645,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -699,7 +699,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -865,7 +865,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1031,7 +1031,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1090,7 +1090,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1157,7 +1157,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1392,7 +1392,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -2146,7 +2146,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2154,7 +2154,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: Roboto Serif;
               font-weight: 400;
             }
             .page-better-call-master {
@@ -2165,7 +2165,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2202,7 +2202,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: Roboto Serif Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
