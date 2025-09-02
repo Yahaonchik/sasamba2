@@ -11,11 +11,11 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import dynamic from 'next/dynamic'
 const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
-const QuestionModal = dynamic(() => import('../components/QuestionModal'), { ssr: false })
-const ReviewModal = dynamic(() => import('../components/ReviewModal'), { ssr: false })
 import Image from 'next/image'
+import QuestionModal from '../components/QuestionModal'
 import OrderButton from '../components/OrderButton'
 import AskButton from '../components/AskButton'
+import ReviewModal from '../components/ReviewModal'
 import SEOHead from '../components/SEOHead'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { getSEOData } from '../utils/seoConfig'
@@ -140,7 +140,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" layout="fill" objectFit="cover" className="frame1196-image15" priority sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" layout="fill" objectFit="cover" className="frame1196-image15" />
               </a>
             </Link>
             <Link href="/negreetvodu">
@@ -161,7 +161,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не нагревает воду" src="/problems 2/21-300h.webp" layout="fill" objectFit="cover" className="frame1196-image16" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина не нагревает воду" src="/problems 2/21-300h.webp" layout="fill" objectFit="cover" className="frame1196-image16" />
               </a>
             </Link>
             <Link href="/protekaet">
@@ -180,7 +180,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" layout="fill" objectFit="cover" className="frame1196-image17" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" layout="fill" objectFit="cover" className="frame1196-image17" />
               </a>
             </Link>
             <Link href="/silnoshumit">
@@ -201,7 +201,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина шумит при отжиме" src="/problems/4-300h.webp" layout="fill" objectFit="cover" className="frame1196-image18" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина шумит при отжиме" src="/problems/4-300h.webp" layout="fill" objectFit="cover" className="frame1196-image18" />
               </a>
             </Link>
             <Link href="/nevkluchaetsa">
@@ -222,7 +222,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не включается" src="/problems 2/51-300h.webp" layout="fill" objectFit="cover" className="frame1196-image19" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина не включается" src="/problems 2/51-300h.webp" layout="fill" objectFit="cover" className="frame1196-image19" />
               </a>
             </Link>
             <Link href="/zavisaetnaprogramme">
@@ -243,7 +243,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" layout="fill" objectFit="cover" className="frame1196-image20" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" layout="fill" objectFit="cover" className="frame1196-image20" />
               </a>
             </Link>
             <Link href="/neotjimaet">
@@ -264,7 +264,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" layout="fill" objectFit="cover" className="frame1196-image21" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" layout="fill" objectFit="cover" className="frame1196-image21" />
               </a>
             </Link>
             <Link href="/nenabiraetvodu">
@@ -285,7 +285,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стир��льная машина не набирает воду" src="/problems/8-300h.webp" layout="fill" objectFit="cover" className="frame1196-image22" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Стиральная машина не набирает воду" src="/problems/8-300h.webp" layout="fill" objectFit="cover" className="frame1196-image22" />
               </a>
             </Link>
             <Link href="/neotkrivaetsadverca">
@@ -306,7 +306,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" layout="fill" objectFit="cover" className="frame1196-image23" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+                <Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" layout="fill" objectFit="cover" className="frame1196-image23" />
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
@@ -326,7 +326,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
               </div>
-              <Image alt="Стиральная машина не крутит барабан" src="/problems/10-300h.webp" layout="fill" objectFit="cover" className="frame1196-image24" sizes="(max-width: 479px) 45vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 15vw" />
+              <Image alt="Стиральная машина не крутит барабан" src="/problems/10-300h.webp" layout="fill" objectFit="cover" className="frame1196-image24" />
             </a>
           </article>
         </section>
@@ -1064,7 +1064,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text175">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Устранение пост��роннего предмета из барабана, фильтра или насоса',
+                        __html: 'Устранение постороннего предмета из барабана, фильтра или насоса',
                       }}
                     ></span>
                   </span>
@@ -1257,7 +1257,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text191">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Ремонт блокировки люка (без учета стоимости детал��й)',
+                        __html: 'Ремонт блокировки люка (без учета стоимости деталей)',
                       }}
                     ></span>
                   </span>
@@ -1722,7 +1722,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Ariston в Одессе - профессиональный сервис"
                   src="/brands/ariston-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image32"
                 />
               </div>
@@ -1730,7 +1730,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Beko в Одессе - профессиональный сервис"
                   src="/brands/beko-logo%202-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image33"
                 />
               </div>
@@ -1738,7 +1738,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Bosch в Одессе - профессиональный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image34"
                 />
               </div>
@@ -1746,7 +1746,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Candy в Одессе - професссиональьный сервис"
                   src="/brands/candy-logo%202-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image35"
                 />
               </div>
@@ -1754,7 +1754,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Electrolux в Одессе - профессиональный сервис"
                   src="/brands/electrolux-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image36"
                 />
               </div>
@@ -1762,7 +1762,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Gorenje в Одессе - профессиональный сервис"
                   src="/brands/gorenje-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image37"
                 />
               </div>
@@ -1770,7 +1770,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Ardo в Одессе - профссиональный сервис"
                   src="/brands/image%203823123-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image38"
                 />
               </div>
@@ -1778,7 +1778,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машиин Siemens в Одессе - профессиональный сервис"
                   src="/brands/image%203823125-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image39"
                 />
               </div>
@@ -1786,7 +1786,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Atlant в Одессе - профессиональный сервис"
                   src="/brands/image%203823126-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image40"
                 />
               </div>
@@ -1794,7 +1794,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Beko в Одессе - профессиональный сервис"
                   src="/brands/image%203823127-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image41"
                 />
               </div>
@@ -1802,7 +1802,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Aeg в Одессе - профессиональный сервис"
                   src="/brands/image%203823128-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image42"
                 />
               </div>
@@ -1810,7 +1810,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Miele в Одессе - профессиональный сервис"
                   src="/brands/image%203823129-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image43"
                 />
               </div>
@@ -1818,7 +1818,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Indesit в Одессе - профессиональный сервис"
                   src="/brands/image%203823130-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image44"
                 />
               </div>
@@ -1826,7 +1826,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин LG в Одессе - профессиональный сервис"
                   src="/brands/lg-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image45"
                 />
               </div>
@@ -1834,7 +1834,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Samsung в Одессе - профессиональьный сервис"
                   src="/brands/samsung-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image46"
                 />
               </div>
@@ -1842,7 +1842,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Whirlpool в Одессе - профессиональный сервис"
                   src="/brands/whirlpool-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image47"
                 />
               </div>
@@ -1850,7 +1850,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="Ремонт стиральных машин Zanussi в Одессе - профессиональный сервис"
                   src="/brands/zanussi-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image48"
                 />
               </div>
@@ -1858,7 +1858,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="image"
                   src="/brands/ariston-logo%201-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image49"
                 />
               </div>
@@ -1866,7 +1866,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="image"
                   src="/brands/beko-logo%202-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image50"
                 />
               </div>
@@ -1874,7 +1874,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="image"
                   src="/brands/bosch-logo%202-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image51"
                 />
               </div>
@@ -1882,7 +1882,7 @@ const Frame1196 = (props) => {
                 <img
                   alt="image"
                   src="/brands/candy-logo%202-200h.webp"
-                  loading="eager" decoding="async"
+                  loading="eager"
                   className="frame1196-image52"
                 />
               </div>
@@ -3270,7 +3270,7 @@ to {transform: translateX(-2620px);}}
               <p className="frame1196-text240">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случаи требуют заказа специфических деталей и повторно��о визита через 1-2 дня',
+                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случаи требуют заказа специфических деталей и повторного визита через 1-2 дня',
                   }}
                 ></span>
               </p>
@@ -3432,7 +3432,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем н��личие по телефону заранее.',
+                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по телефону заранее.',
                     }}
                   ></span>
                 </p>
@@ -3486,7 +3486,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость рем��нта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообразности ремонта.',
+                      __html: 'Если стоимость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообразности ремонта.',
                     }}
                   ></span>
                 </p>
@@ -3581,7 +3581,7 @@ to {transform: translateX(-2620px);}}
             <span className="textglavitogi frame1196-text250">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Ремонт Стиральных машин в сервисном центре "Ваше Назв��ние" в Одессе',
+                  __html: 'Ремонт Стиральных машин в сервисном центре "Ваше Название" в Одессе',
                 }}
               ></span>
             </span>
@@ -3691,7 +3691,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не запускается стирка — проверяем модуль управления или кнопку п��тания.',
+                    __html: 'Не запускается стирка — проверяем модуль управления или кнопку питания.',
                   }}
                 ></span>
               </span>
@@ -3757,7 +3757,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text271 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Сервисный центр "Ваше название" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешк�� и халтуры.',
+                __html: 'Сервисный центр "Ваше название" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
               }}
             ></span>
           </p>
@@ -3771,7 +3771,7 @@ to {transform: translateX(-2620px);}}
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, консультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше н��звание" — это ремонт стиральных машин в Одессе быстро, надёжно и профессионально.',
+                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, консультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше название" — это ремонт стиральных машин в Одессе быстро, надёжно и профессионально.',
               }}
             ></span>
           </p>
@@ -4412,7 +4412,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow10 {
@@ -4476,7 +4476,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow11 {
@@ -4540,7 +4540,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow12 {
@@ -4604,7 +4604,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow13 {
@@ -4668,7 +4668,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow14 {
@@ -4733,7 +4733,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow15 {
@@ -4797,7 +4797,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow16 {
@@ -4861,7 +4861,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow17 {
@@ -4925,7 +4925,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow18 {
@@ -4990,7 +4990,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .frame1196-arrow19 {
@@ -5482,7 +5482,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 500;
           }
           .frame1196-text141 {
@@ -5570,7 +5570,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 500;
           }
           .frame1196-text148 {
@@ -5650,7 +5650,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 500;
           }
           .frame1196-text152 {
@@ -5905,7 +5905,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 500;
           }
           .frame1196-text212 {
@@ -7988,7 +7988,7 @@ to {transform: translateX(-2620px);}}
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: 'Spectral SC';
             font-weight: 500;
             font-stretch: normal;
             text-decoration: none;
@@ -9310,7 +9310,7 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-text249 {
               color: var(--dl-color-theme-neutral-dark);
-              font-family: Spectral;
+              font-family: Spectral SC;
             }
             .ask-button-wrapper {
               align-self: center;
@@ -9443,70 +9443,70 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-text112 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container114 {
               box-shadow: none;
             }
             .frame1196-text113 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container115 {
               box-shadow: none;
             }
             .frame1196-text114 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container116 {
               box-shadow: none;
             }
             .frame1196-text115 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container117 {
               box-shadow: none;
             }
             .frame1196-text116 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container118 {
               box-shadow: none;
             }
             .frame1196-text117 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container119 {
               box-shadow: none;
             }
             .frame1196-text118 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container120 {
               box-shadow: none;
             }
             .frame1196-text119 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container121 {
               box-shadow: none;
             }
             .frame1196-text120 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container122 {
               box-shadow: none;
             }
             .frame1196-text121 {
               font-size: 16;
-              font-family: Roboto;
+              font-family: Roboto Serif;
             }
             .frame1196-container123 {
               width: 100%;
@@ -10085,7 +10085,7 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-text249 {
               color: var(--dl-color-theme-neutral-dark);
-              font-family: Spectral;
+              font-family: Spectral SC;
             }
             .frame1196-container225 {
               margin-top: var(--dl-layout-space-threeunits);
@@ -11485,7 +11485,7 @@ to {transform: translateX(-2620px);}}
               color: var(--dl-color-theme-neutral-dark);
               font-size: 18px;
               font-style: italic;
-              font-family: Spectral;
+              font-family: Spectral SC;
               font-weight: 500;
               text-decoration: none;
             }

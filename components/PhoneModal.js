@@ -91,7 +91,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
           0%, 100% { filter: drop-shadow(0 0 0 rgba(255,255,255,0)); transform: scale(1); }
           50% { filter: drop-shadow(0 0 14px rgba(255,255,255,.95)); transform: scale(1.03); }
         }
-        .pm-caption { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); font-family: var(--font-roboto); font-size: 14px; color: #fff; line-height: 1; text-shadow: 0 1px 2px rgba(0,0,0,.35); transition: color .2s ease, text-shadow .2s ease; }
+        .pm-caption { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); font-family: 'Roboto'; font-size: 14px; color: #fff; line-height: 1; text-shadow: 0 1px 2px rgba(0,0,0,.35); transition: color .2s ease, text-shadow .2s ease; }
         .pm-item:hover .pm-caption { color: #4EC8ED; text-shadow: 0 0 8px rgba(78,200,237,.8), 0 1px 2px rgba(0,0,0,.35); }
         .pm-center { position: absolute; inset: 0 0 110px 0; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #FFFFFF; text-align: center; } .pm-phone { user-select: text; -webkit-user-select: text; }
         .pm-schedule { margin-top: 12px; font-family: 'Noto Serif SC'; font-weight: 300; font-size: 14px; color: #000000; } .pm-schedule-bold { font-weight: 700; } .pm-schedule-normal { font-weight: 300; }

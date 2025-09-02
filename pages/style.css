@@ -622,14 +622,14 @@
   color: var(--dl-color-theme-neutral-dark);
   font-size: 21px;
   font-style: normal;
-  font-family: "Nunito";
+  font-family: "nunito";
   font-weight: 550;
   line-height: 1.5;
 }
  
 .Content {
   font-size: 16px;
-  font-family: Spectral;
+  font-family: Inter;
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -649,7 +649,7 @@
  
 .foter {
   font-size: 15px;
-  font-family: "Spectral";
+  font-family: "IBM Plex Serif";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -676,7 +676,7 @@
  
 .ibm {
   font-size: 18px;
-  font-family: "Spectral";
+  font-family: "IBM Plex Serif";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;

@@ -99,7 +99,7 @@ const White = (props) => {
             width: auto;
             height: auto;
             align-self: center;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
           }
           .white-container2 {
             flex: 1;
@@ -127,7 +127,7 @@ const White = (props) => {
             color: #4ec8ed;
             font-size: 16px;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 400;
             text-decoration: underline;
           }

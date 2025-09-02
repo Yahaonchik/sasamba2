@@ -42,7 +42,7 @@ const AnchorLinksSection = ({
         .toc-list { list-style: none; padding: 0; margin: calc(var(--dl-layout-space-halfunit) * 2) 0 0; display: grid; grid-template-columns: 1fr; gap: 6px; }
         .toc-item { display: flex; align-items: center; gap: 8px; }
         .toc-icon { width: 16px; height: 16px; object-fit: contain; transition: filter .2s ease; }
-        .toc-link { color: #000; text-decoration: none; font-family: var(--font-nunito); font-size: 15px; }
+        .toc-link { color: #000; text-decoration: none; font-family: 'Nunito'; font-size: 15px; }
         .toc-link:hover { text-decoration: underline; }
         .toc-item:hover .toc-icon { filter: invert(64%) sepia(66%) saturate(604%) hue-rotate(162deg) brightness(103%) contrast(101%); }
         @media (max-width: 767px) { .toc-container { max-width: 400px; } }

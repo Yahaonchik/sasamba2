@@ -13,7 +13,7 @@ const SiteTagline = () => {
           display: block;
           width: 100%;
           text-align: center;
-          font-family: var(--font-nunito);
+          font-family: Nunito;
           font-size: 16px;
           font-weight: 400;
           line-height: 1.25;

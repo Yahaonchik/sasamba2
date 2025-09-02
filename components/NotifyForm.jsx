@@ -51,8 +51,8 @@ export default function NotifyForm() {
         .notify-input, .notify-textarea { padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; background: #f9f9f9; outline: none; transition: all .2s ease; }
         .notify-textarea { min-height: 120px; resize: vertical; }
         .notify-input:focus, .notify-textarea:focus { border-color: #4EC8ED; background: #fff; box-shadow: 0 0 0 3px rgba(78, 200, 237, 0.1); }
-        .notify-consent { display: block; margin-top: 8px; font-family: var(--font-nunito), sans-serif; }
-        .notify-submit { color: #fff; font-size: 16px; font-family: var(--font-spectral); font-weight: 500; border: none; border-radius: 8px; letter-spacing: 1px; background-color: rgb(40, 40, 40); cursor: pointer; transition: all .3s ease; height: 55px; box-shadow: 5px 5px 10px rgba(43,43,43,.68); }
+        .notify-consent { display: block; margin-top: 8px; font-family: 'Nunito', sans-serif; }
+        .notify-submit { color: #fff; font-size: 16px; font-family: 'Spectral'; font-weight: 500; border: none; border-radius: 8px; letter-spacing: 1px; background-color: rgb(40, 40, 40); cursor: pointer; transition: all .3s ease; height: 55px; box-shadow: 5px 5px 10px rgba(43,43,43,.68); }
         .notify-submit:hover { box-shadow: 5px 5px 15px rgba(43,43,43,.8); transform: translateY(-2px); background-color: #87ceeb; }
         .notify-submit:active { transform: translateY(0); box-shadow: 0 0 8px #87ceeb, 3px 3px 8px rgba(43,43,43,.9); }
         .notify-status { margin-top: 8px; min-height: 20px; }

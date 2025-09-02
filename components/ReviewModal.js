@@ -176,34 +176,34 @@ const ReviewModal = ({ isOpen, onClose }) => {
         .modal-content { background: white; width: 33.33%; height: 100%; padding: 40px; box-shadow: 2px 0 20px rgba(0, 0, 0, 0.3); display: flex; flex-direction: column; animation: slideInLeft 0.3s ease-out; }
         @keyframes slideInLeft { from { transform: translateX(-100%); } to { transform: translateX(0); } }
         .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
-        .modal-header h2 { margin: 0; font-size: 28px; font-weight: bold; color: #333; font-family: var(--font-nunito), sans-serif; }
+        .modal-header h2 { margin: 0; font-size: 28px; font-weight: bold; color: #333; font-family: 'Nunito', sans-serif; }
         .modal-close { background: none; border: none; font-size: 30px; cursor: pointer; color: #999; padding: 0; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: all 0.2s ease; }
         .modal-close:hover { background-color: #f5f5f5; color: #333; }
         .modal-body { flex: 1; display: flex; flex-direction: column; }
-        .modal-description { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 40px; font-family: var(--font-nunito), sans-serif; }
+        .modal-description { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 40px; font-family: 'Nunito', sans-serif; }
         .review-form { display: flex; flex-direction: column; gap: 25px; flex: 1; }
         .form-group { display: flex; flex-direction: column; }
-        .rating-label { font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #333; font-family: var(--font-nunito), sans-serif; }
+        .rating-label { font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #333; font-family: 'Nunito', sans-serif; }
         .star-rating { display: flex; gap: 5px; }
         .star { font-size: 30px; cursor: pointer; color: #ddd; transition: all 0.3s ease; user-select: none; }
         .star:hover { transform: scale(1.1); }
         .star.filled { color: #5FCDEE; }
-        .form-input { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; font-family: var(--font-nunito), sans-serif; }
+        .form-input { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; font-family: 'Nunito', sans-serif; }
         .phone-input-group { position: relative; }
         .phone-input-group .form-input { padding-left: 74px; }
-        .phone-prefix { position: absolute; top: 50%; left: 18px; transform: translateY(-50%); color: #999; font-size: 18px; font-family: var(--font-nunito), sans-serif; pointer-events: none; }
+        .phone-prefix { position: absolute; top: 50%; left: 18px; transform: translateY(-50%); color: #999; font-size: 18px; font-family: 'Nunito', sans-serif; pointer-events: none; }
         .phone-input-group:focus-within .phone-prefix { color: #000; }
-        .form-textarea { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; resize: none; min-height: 120px; font-family: var(--font-nunito), sans-serif; }
+        .form-textarea { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; resize: none; min-height: 120px; font-family: 'Nunito', sans-serif; }
         .form-input:focus, .form-textarea:focus { background-color: #E8F0FE; border-color: #ddd; border-width: 1px; box-shadow: none; }
-        .form-input::placeholder, .form-textarea::placeholder { color: #999; font-size: 16px; font-family: var(--font-nunito), sans-serif; }
+        .form-input::placeholder, .form-textarea::placeholder { color: #999; font-size: 16px; font-family: 'Nunito', sans-serif; }
         .submit-wrapper { margin-top: 20px; display: flex; justify-content: center; }
         .honeypot-input { display: none; }
-        .status-message { margin-top: 8px; text-align: center; font-family: var(--font-nunito), sans-serif; color: #333; }
+        .status-message { margin-top: 8px; text-align: center; font-family: 'Nunito', sans-serif; color: #333; }
         .success-view { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px; }
         .success-icon { width: 64px; height: 64px; border-radius: 50%; background: #E6F9FE; color: #4EC8ED; display: flex; align-items: center; justify-content: center; font-size: 36px; margin-bottom: 16px; box-shadow: 0 0 0 3px rgba(78,200,237,0.12) inset; }
-        .success-title { margin: 0 0 8px; font-size: 22px; font-weight: 700; color: #333; font-family: var(--font-nunito), sans-serif; }
-        .success-text { margin: 0 0 20px; font-size: 16px; color: #666; line-height: 1.5; font-family: var(--font-nunito), sans-serif; }
-        .success-button { color: #fff; font-size: 16px; font-family: var(--font-spectral); font-weight: 500; border: none; border-radius: 8px; letter-spacing: 1px; background-color: rgb(40, 40, 40); cursor: pointer; transition: all 0.3s ease; height: 55px; padding: 0 22px; box-shadow: 5px 5px 10px rgba(43,43,43,.68); }
+        .success-title { margin: 0 0 8px; font-size: 22px; font-weight: 700; color: #333; font-family: 'Nunito', sans-serif; }
+        .success-text { margin: 0 0 20px; font-size: 16px; color: #666; line-height: 1.5; font-family: 'Nunito', sans-serif; }
+        .success-button { color: #fff; font-size: 16px; font-family: 'Spectral'; font-weight: 500; border: none; border-radius: 8px; letter-spacing: 1px; background-color: rgb(40, 40, 40); cursor: pointer; transition: all 0.3s ease; height: 55px; padding: 0 22px; box-shadow: 5px 5px 10px rgba(43,43,43,.68); }
         .success-button:hover { box-shadow: 5px 5px 15px rgba(43,43,43,.8); transform: translateY(-2px); background-color: #87ceeb; }
         .success-button:active { transform: translateY(0); box-shadow: 0 0 8px #87ceeb, 3px 3px 8px rgba(43,43,43,.9); }
         @media (max-width: 768px) { .modal-content { width: 90%; height: auto; max-height: 90%; margin: 16px; padding: 20px; border-radius: 12px; animation: slideInUp 0.3s ease-out; } @keyframes slideInUp { from { transform: translateY(100%); } to { transform: translateY(0); } } .modal-overlay { justify-content: center; padding: 10px; } .modal-header { margin-bottom: 15px; padding-bottom: 15px; } .modal-header h2 { font-size: 23px; } .modal-description { font-size: 15px; margin-bottom: 15px; } .review-form { gap: 12px; } .form-input, .form-textarea { padding: 11px; font-size: 15px; } .phone-input-group .form-input { padding-left: 60px; } .phone-prefix { left: 14px; font-size: 15px; } .form-input::placeholder, .form-textarea::placeholder { font-size: 15px; } .submit-wrapper { margin-top: 10px; } }

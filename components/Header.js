@@ -287,7 +287,7 @@ const Header = () => {
           /* Глобальные стили для принуждения цвета в sidebar */
           .frame1196-sidebar-nav a {
             color: white !important;
-            font-family: var(--font-roboto), sans-serif !important;
+            font-family: 'Roboto', sans-serif !important;
             font-weight: 500 !important;
           }
           .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
@@ -358,7 +358,7 @@ const Header = () => {
             }
           }
 
-          /* Переопределен��е отступов для RelatedArticles внутри page-left-main-box */
+          /* Переопределение отступов для RelatedArticles внутри page-left-main-box */
           .page-left-main-box .related-articles {
             margin-bottom: 30px !important;
             margin-top: var(--dl-layout-space-oneandhalfunits) !important;
@@ -598,7 +598,7 @@ const Header = () => {
           .frame1196-text101 {
             color: #ffffff;
             font-size: 15px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
           }
           .frame1196-container106 {
             flex: 0 0 auto;
@@ -613,7 +613,7 @@ const Header = () => {
           .frame1196-text102 {
             color: rgb(255, 255, 255);
             font-size: 15px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
           }
           .frame1196-container107 {
             flex: 0 0 auto;
@@ -628,7 +628,7 @@ const Header = () => {
           .frame1196-text103 {
             color: rgb(255, 255, 255);
             font-size: 15px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
           }
           .frame1196-telephonadres {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -667,7 +667,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1.5px;
           }
@@ -676,7 +676,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1.5px;
           }
@@ -690,7 +690,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 12px;
             align-self: center;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 300;
             letter-spacing: 1.5px;
           }
@@ -705,7 +705,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 12px;
             align-self: flex-start;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 300;
             letter-spacing: 1.5px;
             text-align: left;
@@ -856,7 +856,7 @@ const Header = () => {
             color: white !important;
             text-decoration: none !important;
             font-size: 15px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 500;
             padding: 15px 20px;
             border-radius: 8px;
@@ -938,7 +938,7 @@ const Header = () => {
           .frame1196-sidebar-phone {
             color: white;
             font-size: 16px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1px;
             text-decoration: none;
@@ -957,7 +957,7 @@ const Header = () => {
           .frame1196-sidebar-address-text {
             color: white;
             font-size: 14px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 300;
             line-height: 1.4;
             text-align: center;
@@ -974,7 +974,7 @@ const Header = () => {
           .frame1196-sidebar-schedule {
             color: white;
             font-size: 14px;
-            font-family: var(--font-roboto);
+            font-family: 'Roboto';
             font-weight: 300;
             text-align: center;
           }

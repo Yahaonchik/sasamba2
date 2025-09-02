@@ -84,7 +84,7 @@ const Component4 = (props) => {
           .component4-text1 {
             font-size: 15px;
             align-self: center;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
           }
           .component4-container3 {
             width: 100%;
@@ -102,7 +102,7 @@ const Component4 = (props) => {
             font-size: 15.5px;
             align-self: center;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .component4-container4 {
@@ -128,7 +128,7 @@ const Component4 = (props) => {
             font-size: 15.5px;
             align-self: center;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .component4-text4 {

@@ -78,7 +78,7 @@ const AppComponent = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-spectral);
+            font-family: 'Roboto Serif';
             font-weight: 400;
           }
           .component-arrow {
@@ -105,7 +105,7 @@ const AppComponent = (props) => {
           }
           .component-text2 {
             display: inline-block;
-            font-family: var(--font-spectral);
+            font-family: 'Roboto Serif';
           }
           @media (max-width: 991px) {
             .component-container {
@@ -118,10 +118,10 @@ const AppComponent = (props) => {
             }
             .component-text1 {
               font-size: 16;
-              font-family: var(--font-spectral);
+              font-family: Roboto Serif;
             }
             .component-text2 {
-              font-family: var(--font-spectral);
+              font-family: Roboto Serif;
             }
           }
           @media (max-width: 479px) {

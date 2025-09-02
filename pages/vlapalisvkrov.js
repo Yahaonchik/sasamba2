@@ -231,7 +231,7 @@ const Page = (props) => {
                     className="page-image38230522"
                   />
                   <span className="page-text19">
-                    <span>Повр��жденная проводка</span>
+                    <span>Поврежденная проводка</span>
                     <br></br>
                   </span>
                 </figure>
@@ -1277,7 +1277,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: 'Spectral SC';
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1652,7 +1652,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: 'Roboto Serif';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2123,7 +2123,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Spectral;
+              font-family: Roboto Serif;
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2160,7 +2160,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Spectral;
+              font-family: Roboto Serif;
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
