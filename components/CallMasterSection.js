@@ -4,7 +4,7 @@ import { PHONE_DISPLAY, PHONE_DISPLAY_2 } from '../utils/contacts'
 
 const CallMasterSection = ({
   onOrderClick,
-  title = 'Когда вызывать мастера?',
+  title = 'К��гда вызывать мастера?',
   companyName = 'Ваше название',
   phones = [
     { icon: '/image%203823106.svg', number: PHONE_DISPLAY },
@@ -48,7 +48,7 @@ const CallMasterSection = ({
           {phones.map((p, idx) => (
             <div className="phone-item" key={idx}>
               <img alt="phone" src={p.icon} className="phone-icon" />
-              <a href={toTelHref(p.number)} className="phone-number" aria-label={`Позвонить по номеру ${p.number}`}>{p.number}</a>
+              <a href={toTelHref(p.number)} className="phone-number" aria-label={`��озвонить по номеру ${p.number}`}>{p.number}</a>
             </div>
           ))}
         </div>
@@ -99,7 +99,7 @@ const CallMasterSection = ({
           height: auto;
           font-size: 16px;
           text-align: left;
-          font-family: 'Nunito';
+          font-family: var(--font-nunito);
           font-weight: 400;
           margin: 3px 0 5px;
           align-self: center;
@@ -158,8 +158,8 @@ const CallMasterSection = ({
         }
         @media (max-width: 479px) {
           .callout-container { max-width: 290px; padding-left: 15px; padding-right: 15px; }
-          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: Roboto Serif; font-weight: 500; }
-          .callout-text { font-size: 14px; font-family: 'Nunito'; }
+          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: var(--font-spectral); font-weight: 500; }
+          .callout-text { font-size: 14px; font-family: var(--font-nunito); }
           .workdays { font-size: 15px; }
           .phone-number { font-size: 17px; }
           .contacts-row { gap: calc(var(--dl-layout-space-unit) * 2 - 3px); }

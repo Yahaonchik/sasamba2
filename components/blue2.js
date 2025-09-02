@@ -151,7 +151,7 @@ const Blue2 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: var(--font-spectral);
             font-weight: 500;
           }
           .blue2-text2 {

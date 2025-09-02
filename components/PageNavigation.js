@@ -119,6 +119,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
           font-weight: 600;
           margin: 0;
           margin-bottom: 4px;
+          font-family: 'Noto Serif SC';
         }
 
         .page-nav-subtitle {
@@ -127,6 +128,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
           font-weight: 400;
           max-width: 200px;
           line-height: 1.4;
+          font-family: 'Noto Serif SC';
         }
 
         @media (max-width: 768px) {
