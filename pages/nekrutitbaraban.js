@@ -67,7 +67,7 @@ const Page = (props) => {
               items={[
                 { icon: '/external/vector8669-r6fr.svg', href: '#1', text: 'Что делать, если машина не крутит барабан' },
                 { icon: '/vector.svg', href: '#2', text: 'Основные причины поломки:' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Дверц�� не закрыта или не заблокирована.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Двер���� не закрыта или не заблокирована.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Проблемы с приводным ремнём.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Неисправность двигателя или щёток.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Сбои в электронном блоке управления' },
@@ -105,7 +105,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>2. Перераспределите или уберите часть белья.</strong><br />
-                    Откройте дверцу и выньте часть белья. При необходимости уменьшите загрузку, если она была слишком большой. Если белья совсем мало, добавьте ещё 2–3 вещи равн��го веса. Встряхните оставшиеся вещи, равномерно распределив их по барабану.
+                    Откройте дверцу и выньте часть белья. При необходимости уменьшите загрузку, если она была слишком большой. Если белья совсем мало, добавьте ещё 2–3 вещи р��вн��го веса. Встряхните оставшиеся вещи, равномерно распределив их по барабану.
                   </p>
 
                   <p>
@@ -546,7 +546,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -600,7 +600,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -766,7 +766,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -922,7 +922,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -981,7 +981,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1048,7 +1048,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1158,7 +1158,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1508,7 +1508,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1546,7 +1546,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1584,7 +1584,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1622,7 +1622,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1679,7 +1679,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1710,7 +1710,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1741,7 +1741,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1772,7 +1772,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1803,7 +1803,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1834,7 +1834,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2066,7 +2066,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 {
@@ -2085,7 +2085,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

@@ -202,13 +202,13 @@
  
 .thq-body-large {
   font-size: 18px;
-  font-family: Nunito;
+  font-family: var(--font-nunito);
   line-height: 1.5;
 }
  
 .thq-body-small {
   font-size: 16px;
-  font-family: Nunito;
+  font-family: var(--font-nunito);
   line-height: 1.5;
 }
  
@@ -621,7 +621,7 @@
 .zagolovok {
   font-size: 17px;
   font-style: Medium;
-  font-family: "IBM Plex Serif";
+  font-family: "Noto Serif SC";
   font-weight: 500;
   line-height: normal;
   text-transform: none;
@@ -641,7 +641,7 @@
 .maintext {
   font-size: 18px;
   font-style: Regular;
-  font-family: "IBM Plex Serif";
+  font-family: "Noto Serif SC";
   font-weight: 400;
   line-height: normal;
   text-transform: none;

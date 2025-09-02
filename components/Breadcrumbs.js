@@ -175,7 +175,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             display: flex;
             align-items: center;
             font-size: 0.85rem;
-            font-family: 'Nunito', sans-serif;
+            font-family: var(--font-nunito), sans-serif;
           }
 
           .breadcrumb-link {
@@ -185,7 +185,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             padding: 2px 4px;
             border-radius: 4px;
             transition: all 0.2s ease;
-            font-family: 'Nunito', sans-serif;
+            font-family: var(--font-nunito), sans-serif;
           }
 
           .breadcrumb-link:hover {

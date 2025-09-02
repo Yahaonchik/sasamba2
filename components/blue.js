@@ -154,7 +154,7 @@ const Blue = (props) => {
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .blue-text5 {
             display: inline-block;
@@ -303,7 +303,7 @@ const Blue = (props) => {
               align-items: center;
               font-family: Noto Serif SC;
               justify-content: center;
-              text-decoration: underline none;
+              text-decoration: none;
             }
             .blue-text6 {
               color: #4ec8ed;

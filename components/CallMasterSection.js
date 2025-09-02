@@ -99,7 +99,7 @@ const CallMasterSection = ({
           height: auto;
           font-size: 16px;
           text-align: left;
-          font-family: 'Nunito';
+          font-family: var(--font-nunito);
           font-weight: 400;
           margin: 3px 0 5px;
           align-self: center;
@@ -159,7 +159,7 @@ const CallMasterSection = ({
         @media (max-width: 479px) {
           .callout-container { max-width: 290px; padding-left: 15px; padding-right: 15px; }
           .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: Noto Serif SC; font-weight: 500; }
-          .callout-text { font-size: 14px; font-family: 'Nunito'; }
+          .callout-text { font-size: 14px; font-family: var(--font-nunito); }
           .workdays { font-size: 15px; }
           .phone-number { font-size: 17px; }
           .contacts-row { gap: calc(var(--dl-layout-space-unit) * 2 - 3px); }

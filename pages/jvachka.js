@@ -278,7 +278,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Другое народное средство – растительное или сливочное масло: нанесите его на жвачку, дождитесь 10–15 минут и попробуйте стереть жвачку (масло уменьшит её липкость). Ацетон из жидкостей для снятия лака часто заменяют уксусом: подогрейте столовый уксус до 40 °C, нанесите на жвачку и оставьте на пару минут. Жвачка размягчится, и её можно будет счистить щёткой. Эти способы хороши, но оставляют жирные пятна: после удаления резинки одежду нужно выстирать с порошком или жидкостью для посуды.
+                  Другое народное средство – растительно�� или сливочное масло: нанесите его на жвачку, дождитесь 10–15 минут и попробуйте стереть жвачку (масло уменьшит её липкость). Ацетон из жидкостей для снятия лака часто заменяют уксусом: подогрейте столовый уксус до 40 °C, нанесите на жвачку и оставьте на пару минут. Жвачка размягчится, и её можно будет счистить щёткой. Эти способы хороши, но оставляют жирные пятна: после удаления резинки одежду нужно выстирать с порошком или жидкостью для посуды.
 
                   После всех процедур обязательно постирайте вещь (лучше в прохладной воде с моющим средством). Так вы удалите остатки жвачки и любых использованных химикатов. Благодаря таким методам даже застаревшую жвачку можно убрать без следов, главное – терпение и аккуратность.
                   <span
@@ -526,7 +526,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -580,7 +580,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -746,7 +746,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -908,7 +908,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -954,7 +954,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1008,7 +1008,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1118,7 +1118,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1468,7 +1468,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1506,7 +1506,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1544,7 +1544,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1582,7 +1582,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1639,7 +1639,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1670,7 +1670,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1701,7 +1701,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1732,7 +1732,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1763,7 +1763,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1794,7 +1794,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2056,7 +2056,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 {
@@ -2079,7 +2079,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

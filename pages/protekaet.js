@@ -186,7 +186,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="vicetext">
                   {' '}
-                  Наиболее серьёзная причина – это нарушение целостности самого бака (емкости) машины. Внутри может образоваться дырка из-за мелких острых предметов – чаще всего стальных косточек от бюстгальтера, проскочивших в барабан. Такие пробоины вызывают неконтролируемый «фонтан»: вода течёт непрерывно и из-под машины в любых режимах. Иногда бак трескается по шву или по износу деформируется, что тоже даёт течь.Совет: к сожалению, отремонтировать корпус бака почти невозможно – его обычно заменяют целиком или вместе с барабаном. Чтобы не допустить такого сбоя, тщательно проверяйте и чистите внутренние карманы у белья. Раз в месяц запускайте режим самоочистки с пустым барабаном (если есть) или используйте специальные средства против накипи и загрязнений. Это уменьшит накопление частиц внутри бака и продлит его ресурс.
+                  Наиболее серьёзная причина – это нарушение целостности самого бака (емкости) машины. Внутри может образоваться дырка из-за мелких острых предметов – чаще всего стальных косточек от бюстгальтера, проскочивших в барабан. Такие пробоины вызывают неконтролируемый «фонтан»: вода течёт непрерывно и из-под машины в любых режимах. Иногда бак трескается по шву или по износу деформируется, что тоже даёт течь.Совет: к сожалению, отремонтировать корпус бака почти невозможно – его обычно заменяют целиком или вместе с барабаном. Чтобы не допустить такого сбоя, тщательно проверяйте и чистите внутренние карманы у белья. Раз в месяц запускайте режим самоочистки с пустым барабаном (если есть) или используйте специальные средства против накипи и загрязнений. Это ум��ньшит накопление частиц внутри бака и продлит его ресурс.
                 </p>
               </div>
             </section>
@@ -226,7 +226,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  В некоторых случаях вода под машиной появляется только во время отжима – это характерно для износа подшипников и сальника барабана. Сальник (уплотнитель) насоса вращения постепенно истирается, из-за чего вода попадает внутрь подшипников и выходит наружу. Сначала заметно лишь учащённое включение помпы аквастопа (если он есть), а потом – ржавая или с маслянистыми пятнами вода снизу. При этом машина громко гремит и «гуляет» на отжиме.Совет: осмотреть это своими силами можно только сняв заднюю панель, но замена подшипников – задача мастера: приходится разбирать весь бак. Если вы слышите новые скрежет и вибрацию в сочетании с лужей под стиралкой, лучше как можно скорее вызвать специалиста. Регулярное использование специальных очистителей и держание машины в ровном положении может чуть замедлить износ, но окончательно устранить течь сможет только замена сальника и подшипников.
+                  В некоторых случаях вода под машиной появляется только во время отжима – это характерно для износа подшипников и сальника барабана. Сальник (уплотнитель) насоса вращения постепенно истирается, из-за чего вода попадает внутрь подшипников и выходит наружу. Сначала заметно лишь учащённое включение помпы аквастопа (если он есть), а потом – ржавая или с маслянистыми пятнами вода снизу. При этом машина громко гремит и «гуляет» на отжиме.Совет: осмотреть это своими силами можно только сняв заднюю панель, но замена ��одшипников – задача мастера: приходится разбирать весь бак. Если вы слышите новые скрежет и вибрацию в сочетании с лужей под стиралкой, лучше как можно скорее вызвать специалиста. Регулярное использование специальных очистителей и держание машины в ровном положении может чуть замедлить износ, но окончательно устранить течь сможет только замена сальника и подшипников.
                 </p>
               </div>
             </section>
@@ -308,7 +308,7 @@ const Page = (props) => {
             <PageNavigation
               prevPage={{
                 href: '/negreetvodu',
-                title: 'Стиральная машина не греет воду'
+                title: 'Стиральная ма��ина не греет воду'
               }}
               nextPage={{
                 href: '/silnoshumit',
@@ -537,7 +537,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -591,7 +591,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -757,7 +757,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -945,7 +945,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1004,7 +1004,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1071,7 +1071,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1181,7 +1181,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1531,7 +1531,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1569,7 +1569,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1607,7 +1607,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1645,7 +1645,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1702,7 +1702,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1733,7 +1733,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1764,7 +1764,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1795,7 +1795,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1826,7 +1826,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1857,7 +1857,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2054,7 +2054,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2062,7 +2062,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

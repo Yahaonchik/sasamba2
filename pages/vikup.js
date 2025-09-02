@@ -816,7 +816,7 @@ const Vikup = (props) => {
             align-self: center;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -892,7 +892,7 @@ const Vikup = (props) => {
             font-style: italic;
             max-height: 55px;
             min-height: 55px;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
           }
           .page1-container18 {
@@ -949,7 +949,7 @@ const Vikup = (props) => {
             font-style: italic;
             max-height: 55px;
             min-height: 55px;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
           }
           .page1-container20 {
@@ -1006,7 +1006,7 @@ const Vikup = (props) => {
             font-style: italic;
             max-height: none;
             min-height: auto;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
           }
           .page1-icon28 {
@@ -1088,7 +1088,7 @@ const Vikup = (props) => {
             align-self: center;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1100,7 +1100,7 @@ const Vikup = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1429,7 +1429,7 @@ const Vikup = (props) => {
             .page1-text32 {
               font-size: 15px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 300;
               min-height: auto;
               max-height: none;
@@ -1491,7 +1491,7 @@ const Vikup = (props) => {
             .page1-text30 {
               font-size: 14px;
               font-style: italic;
-              font-family: 'Nunito';
+              font-family: var(--font-nunito);
               font-weight: 300;
             }
             .page1-text31 {
@@ -1501,7 +1501,7 @@ const Vikup = (props) => {
             .page1-text32 {
               font-size: 14px;
               font-style: italic;
-              font-family: 'Nunito';
+              font-family: var(--font-nunito);
               font-weight: 300;
               max-width: 140px;
               line-height: 1.2;

@@ -62,7 +62,7 @@ const Component3 = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -108,7 +108,7 @@ const Component3 = (props) => {
             .component3-text1 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 300;
               letter-spacing: 0.3px;
             }

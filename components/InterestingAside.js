@@ -40,7 +40,7 @@ const InterestingAside = ({
         }
         .aside-title { color: #000; font-size: 17px; font-family: 'Noto Serif SC'; font-weight: 500; }
         .aside-row { gap: 21px; display: flex; align-self: stretch; align-items: center; flex-shrink: 0; flex-direction: row-reverse; }
-        .aside-text { color: rgb(41,41,41); flex-grow: 1; font-size: 15px; text-align: left; font-family: 'Nunito'; font-weight: 400; }
+        .aside-text { color: rgb(41,41,41); flex-grow: 1; font-size: 15px; text-align: left; font-family: var(--font-nunito); font-weight: 400; }
         .aside-thumb { flex: 0 0 auto; width: 118px; height: 80px; background-size: cover; background-position: center; }
         @media (max-width: 991px) { .interesting-aside { display: none; } }
       `}</style>

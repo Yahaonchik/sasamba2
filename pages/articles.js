@@ -38,7 +38,7 @@ const Articles = (props) => {
 
   const generalArticles = [
     { title: 'Как избавиться от жирных пятен на одежде в домашних условиях?', href: '/jirniepyatna', description: 'Практическая инструкция по удалению жирных пятен с разных тканей в домашних условиях', image: '/100x100/jir.png' },
-    { title: 'Как самостоятельно удалить жвачку с одежды?', href: '/jvachka', description: 'Пошаговые способы и лайфхаки удаления застывшей жвачки с ткани', image: '/100x100/jvanik.png' },
+    { title: 'Как самостоятельно удалить жвачку с одежды?', href: '/jvachka', description: 'По��аговые способы и лайфхаки удаления застывшей жвачки с ткани', image: '/100x100/jvanik.png' },
     { title: 'Как удалить пятна крови с одежды без следов?', href: '/vlapalisvkrov', description: 'Советы по быстрому и безопасному выведению пятен крови', image: '/100x100/krov.png' },
     { title: 'Как правильно стирать пуховик в автоматической стиральной машине?', href: '/puhovik', description: 'Руководство по стирке пуховиков: подготовка, выбор режима и моющего средства', image: '/100x100/puhovik.png' }
   ]
@@ -154,9 +154,9 @@ const Articles = (props) => {
           .tab-button:hover { border-color: #87ceeb; transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,.1); }
           .tab-button.active { border-color: #4EC8ED; background: linear-gradient(135deg, #4EC8ED 0%, #87ceeb 100%); color: white; transform: translateY(-3px); box-shadow: 0 10px 30px rgba(78,200,237,.3); }
           .tab-content { position: relative; z-index: 2; }
-          .tab-title { font-size: 1.1rem; font-weight: 500; margin-bottom: 6px; font-family: 'Nunito', sans-serif; font-style: normal; transition: color .3s ease; }
+          .tab-title { font-size: 1.1rem; font-weight: 500; margin-bottom: 6px; font-family: var(--font-nunito), sans-serif; font-style: normal; transition: color .3s ease; }
           .tab-button.active .tab-title { color: white; }
-          .tab-subtitle { font-size: 0.85rem; line-height: 1.4; opacity: .8; font-family: 'Nunito', sans-serif; font-style: normal; transition: color .3s ease; }
+          .tab-subtitle { font-size: 0.85rem; line-height: 1.4; opacity: .8; font-family: var(--font-nunito), sans-serif; font-style: normal; transition: color .3s ease; }
           .tab-button.active .tab-subtitle { color: white; opacity: .9; }
 
           /* Articles */
@@ -174,10 +174,10 @@ const Articles = (props) => {
           .floating-card:hover .card-image { transform: scale(1.04); }
 
           .card-content { padding: 20px; display: flex; flex-direction: column; height: calc(100% - 120px); }
-          .card-title { font-size: 1rem; font-weight: 600; color: #232020; margin-bottom: 10px; line-height: 1.3; font-family: 'Nunito', sans-serif; flex-grow: 1; }
-          .card-description { font-size: 0.85rem; color: #333333; line-height: 1.4; margin-bottom: 15px; font-family: 'Nunito', sans-serif; font-style: normal; font-weight: 300; }
+          .card-title { font-size: 1rem; font-weight: 600; color: #232020; margin-bottom: 10px; line-height: 1.3; font-family: var(--font-nunito), sans-serif; flex-grow: 1; }
+          .card-description { font-size: 0.85rem; color: #333333; line-height: 1.4; margin-bottom: 15px; font-family: var(--font-nunito), sans-serif; font-style: normal; font-weight: 300; }
 
-          .card-button { align-self: flex-start; margin-top: auto; background: linear-gradient(45deg, #4EC8ED, #87ceeb); color: white; padding: 6px 12px; border-radius: 20px; font-size: .8rem; font-weight: 500; font-family: 'Roboto', sans-serif; transition: all .3s ease; box-shadow: 0 2px 8px rgba(78,200,237,.3); }
+          .card-button { align-self: flex-start; margin-top: auto; background: linear-gradient(45deg, #4EC8ED, #87ceeb); color: white; padding: 6px 12px; border-radius: 20px; font-size: .8rem; font-weight: 500; font-family: var(--font-roboto), sans-serif; transition: all .3s ease; box-shadow: 0 2px 8px rgba(78,200,237,.3); }
           .floating-card:hover .card-button { background: linear-gradient(45deg, #87ceeb, #5bb8e8); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(78,200,237,.4); }
           .button-text { display: block; }
 
@@ -190,8 +190,8 @@ const Articles = (props) => {
 
             .articles-tabs { grid-template-columns: 1fr; gap: 15px; }
             .tab-button { padding: 16px 14px; }
-            .tab-title { font-size: 1.1rem; font-family: 'Nunito', sans-serif; font-style: normal; font-weight: 500; }
-            .tab-subtitle { font-size: 0.85rem; font-family: 'Nunito', sans-serif; font-style: normal; }
+            .tab-title { font-size: 1.1rem; font-family: var(--font-nunito), sans-serif; font-style: normal; font-weight: 500; }
+            .tab-subtitle { font-size: 0.85rem; font-family: var(--font-nunito), sans-serif; font-style: normal; }
 
             .articles-switcher-section { padding: 30px 15px 15px; background-color: white; }
             .articles-cards-grid { grid-template-columns: 1fr; gap: 20px; }
@@ -216,8 +216,8 @@ const Articles = (props) => {
 
             .card-content { padding: 16px; }
             .card-image-wrapper { height: 110px; }
-            .card-title { font-size: 0.95rem; font-family: 'Nunito', sans-serif; }
-            .card-description { font-size: 0.85rem; font-family: 'Nunito', sans-serif; font-style: normal; }
+            .card-title { font-size: 0.95rem; font-family: var(--font-nunito), sans-serif; }
+            .card-description { font-size: 0.85rem; font-family: var(--font-nunito), sans-serif; font-style: normal; }
           }
         `}</style>
     </>

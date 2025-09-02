@@ -184,34 +184,34 @@
  
 .thq-heading-1 {
   font-size: 48px;
-  font-family: STIX Two Text;
+  font-family: var(--font-spectral);
   font-weight: 700;
   line-height: 1.5;
 }
  
 .thq-heading-2 {
   font-size: 35px;
-  font-family: STIX Two Text;
+  font-family: var(--font-spectral);
   font-weight: 600;
   line-height: 1.5;
 }
  
 .thq-heading-3 {
   font-size: 26px;
-  font-family: STIX Two Text;
+  font-family: var(--font-spectral);
   font-weight: 600;
   line-height: 1.5;
 }
  
 .thq-body-large {
   font-size: 18px;
-  font-family: Noto Sans;
+  font-family: var(--font-nunito);
   line-height: 1.5;
 }
  
 .thq-body-small {
   font-size: 16px;
-  font-family: Noto Sans;
+  font-family: var(--font-nunito);
   line-height: 1.5;
 }
  
@@ -614,7 +614,7 @@
   color: #343434;
   font-size: 14.5px;
   font-style: normal;
-  font-family: nunito;
+  font-family: var(--font-nunito);
   font-weight: 500;
 }
 
@@ -622,14 +622,14 @@
   color: var(--dl-color-theme-neutral-dark);
   font-size: 21px;
   font-style: normal;
-  font-family: "nunito";
+  font-family: var(--font-nunito);
   font-weight: 550;
   line-height: 1.5;
 }
  
 .Content {
   font-size: 16px;
-  font-family: Inter;
+  font-family: var(--font-nunito);
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -649,7 +649,7 @@
  
 .foter {
   font-size: 15px;
-  font-family: "IBM Plex Serif";
+  font-family: "Noto Serif SC";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -676,7 +676,7 @@
  
 .ibm {
   font-size: 18px;
-  font-family: "IBM Plex Serif";
+  font-family: "Noto Serif SC";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -694,7 +694,7 @@
  
 .nunitoitalic {
   font-size: 16;
-  font-family: "Nunito";
+  font-family: var(--font-nunito);
   font-weight: 400;
   line-height: normal;
   text-transform: none;
@@ -832,3 +832,19 @@
     max-height: 50px !important;
   }
 }
+
+/* Keyframes moved from inline Script */
+@media (max-width: 767px) {
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-2620px); }
+  }
+}
+@media (min-width: 768px) {
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-3638px); }
+  }
+}
+@keyframes scroll-large { from { transform: translateX(0); } to { transform: translateX(-3638px); } }
+@keyframes scroll-small { from { transform: translateX(0); } to { transform: translateX(-2620px); } }

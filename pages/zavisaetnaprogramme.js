@@ -168,7 +168,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сливной фильтр — это сетчатый элемент на передней нижней части машины, который задерживает ворсинки, мелкий мусор и мелкие предметы при сливе. Если фильтр забит, вода не уходит из бака, бельё остается мокрым, а насос (помпа) не может откачать жидкость. Программа может «зависнуть» на этапе слива или отжима. Проверьте, не гудит ли насос без слива или не остаётся ли вода после цикла — это признаки засора. Проверьте фильтр. Удалите грязь и скопившийся мусор, промойте фильтр тёплой водой и закрутите обратно. Обычно эту процедуру можно выполнить самостоятельно (важно предварительно слить воду через фильтр или аварийный слив). Если после очистки фильтра машинка снова работает нормально, причина найдена. Если фильтр чист и вода всё равно не уходит, проблема может быть глубже (насос, шланги и т.д.).
+                  Сливной фильтр — это сетчатый элемент на передней нижней части машины, который задерживает ворсинки, мелкий мусор и мелкие предметы при сливе. Если фильтр забит, вода не уходит из бака, бельё остается мокрым, а насос (помпа) не может откачать жидкость. Программа может «зависнуть» на этапе слива или отжима. Проверьте, не гуди�� ли насос без слива или не остаётся ли вода после цикла — это признаки засора. Проверьте фильтр. Удалите грязь и скопившийся мусор, промойте фильтр тёплой водой и закрутите обратно. Обычно эту процедуру можно выполнить самостоятельно (важно предварительно слить воду через фильтр или аварийный слив). Если после очистки фильтра машинка снова работает нормально, причина найдена. Если фильтр чист и вода всё равно не уходит, проблема может быть глубже (насос, шланги и т.д.).
                 </p>
               </div>
             </section>
@@ -210,7 +210,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если люк стиральной машины не закрылся до щелчка, автоматика не даст начать стирку или может прерваться в самом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убедившись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание программы. Если дверца плотно закрывается, но стирка всё равно не запускается или останавливается, возможно, сломан замок (устройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на дисплее может появиться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спустите воду через фильтр, чтобы безопасно добраться до замка.
+                  Если люк стиральной машины не закрылся до щелчка, автоматика не дас�� начать стирку или может прерваться в самом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убедившись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание программы. Если дверца плотно закрывается, но стирка всё равно не запускается или останавливается, возможно, сломан замок (устройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на дисплее может появиться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спустите воду через фильтр, чтобы безопасно добраться до замка.
                 </p>
               </div>
             </section>
@@ -240,7 +240,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="vicetext">
                   {' '}
-                  Насос и сливной шланг отвечают за отвод воды из машины. Проверьте сливной шланг: при сильном перегибе или засоре вода плохо уходит. Отключите шланг от канализации (или от задней части машины) и осмотрите его – при засоре рукав может «раздутся», быть забит грязью или мелкими предметами. Расправьте шланг, прочистите или замените его новым при необходимости.
+                  Насос и сливной шланг отвечают за отвод воды из машины. Проверьте сливной шланг: при сильном пере��ибе или засоре вода плохо уходит. Отключите шланг от канализации (или от задней части машины) и осмотрите его – при засоре рукав может «раздутся», быть забит грязью или мелкими предметами. Расправьте шланг, прочистите или замените его новым при необходимости.
                 </p>
               </div>
             </section>
@@ -603,7 +603,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -657,7 +657,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -823,7 +823,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1006,7 +1006,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1065,7 +1065,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1132,7 +1132,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1242,7 +1242,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1592,7 +1592,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1630,7 +1630,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1668,7 +1668,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1706,7 +1706,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1763,7 +1763,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1794,7 +1794,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1825,7 +1825,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1856,7 +1856,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1887,7 +1887,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1918,7 +1918,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2139,7 +2139,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 {
@@ -2158,7 +2158,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

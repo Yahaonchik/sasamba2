@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import Script from 'dangerous-html/react'
 
 import Blue2 from '../components/blue2'
 import Blue1 from '../components/blue1'
@@ -201,7 +200,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина шумит при отжиме" src="/problems/4-300h.webp" loading="lazy" className="frame1196-image18" />
+                <img alt="Стиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" loading="lazy" className="frame1196-image18" />
               </a>
             </Link>
             <Link legacyBehavior href="/nevkluchaetsa">
@@ -285,7 +284,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина не набирает воду" src="/problems/8-300h.webp" loading="lazy" className="frame1196-image22" />
+                <img alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" loading="lazy" className="frame1196-image22" />
               </a>
             </Link>
             <Link legacyBehavior href="/neotkrivaetsadverca">
@@ -311,7 +310,7 @@ const Frame1196 = (props) => {
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
               <p className="frame1196-text121">
-                Стиральная машина не крутит барабан
+                Стиральная м��шина не крутит барабан
               </p>
               <div className="frame1196-arrow19">
                 <svg
@@ -341,7 +340,7 @@ const Frame1196 = (props) => {
             </span>
             <br className="frame1196-text127" />
             <span className="frame1196-text128">
-              Профессионально устраняем любые неисправности стиральных машин —
+              Профессионально устраняем любые неисправности стиральных ��ашин —
               от самых простых дл самых сложных.
             </span>
             <br className="frame1196-text129" />
@@ -719,7 +718,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text147">2</span>
                 </div>
                 <span className="frame1196-text148">
-                  Диаагностика оборудования (при ремонте)
+                  Диагностика оборудования (при ремонте)
                 </span>
               </div>
               <div className="frame1196-container139">
@@ -770,7 +769,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text151">3</span>
                 </div>
                 <span className="frame1196-text152">
-                  Диагностока оборудования (при отказе от ремонта)
+                  Диагностика оборудования (при отказе от ремонта)
                 </span>
               </div>
               <div className="frame1196-container143">
@@ -1387,7 +1386,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text202">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
+                        __html: 'Вы��вать мастера',
                       }}
                     ></span>
                   </span>
@@ -1496,7 +1495,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text211">18</span>
                 </div>
                 <span className="frame1196-text212">
-                  Замена подшипников( с учетом стоимости подшипников)
+                  Замена подшипников (с учетом стоимости подшипников)
                 </span>
               </div>
               <div className="frame1196-container147">
@@ -1687,33 +1686,6 @@ const Frame1196 = (props) => {
           </div>
           <div>
             <div className="frame1196-container150">
-              <Script
-                html={`<style>
-/* Для экранов ��о 767px включите��ьн��� */
-@media (max-width: 767px) {
-    @keyframes scroll {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-2620px);
-        }
-    }
-}
-
-/* Для э��р����нов больше 767px */
-@media (min-width: 768px) {
-    @keyframes scroll {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-3638px);
-        }
-    }
-}
-</style>`}
-              ></Script>
             </div>
           </div>
           <div className="frame1196-container151 carousel">
@@ -1768,7 +1740,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Ardo в Одессе - профссиональный сервис"
+                  alt="Ремонт ст��ральных машин Ardo в Одессе - профссиональный сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1848,7 +1820,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Zanussi в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Zanussi в Одессе - профессионал��ный сервис"
                   src="/brands/zanussi-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image48"
@@ -1888,13 +1860,6 @@ const Frame1196 = (props) => {
               </div>
               <div>
                 <div className="frame1196-container155">
-                  <Script
-                    html={`<style>
-        @keyframes scroll-large {from {transform: translateX(0);}
-to {transform: translateX(-3638px);}}@keyframes scroll-small {from {transform: translateX(0);}
-to {transform: translateX(-2620px);}}
-        </style> `}
-                  ></Script>
                 </div>
               </div>
             </div>
@@ -3315,7 +3280,7 @@ to {transform: translateX(-2620px);}}
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Какую гарантиюю вы предоставляете?',
+                    __html: 'Какую гарантиюю вы п��едоставляете?',
                   }}
                 ></span>
               </h3>
@@ -3486,7 +3451,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообразности ремонта.',
+                      __html: 'Если сто��мость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообразности ремонта.',
                     }}
                   ></span>
                 </p>
@@ -3568,7 +3533,7 @@ to {transform: translateX(-2620px);}}
           <strong className="frame1196-text249">
             <span
               dangerouslySetInnerHTML={{
-                __html: '<span style="color: #000000">ОСТАЛИСЬ ВОПРОСЫ?</span> <span style="color: #87CEEB">Спросите мастера бесплатно</span>',
+                __html: '<span style="color: #000000">остались вопросы?</span> <span style="color: #87CEEB">спросите мастера бесплатно</span>',
               }}
             ></span>
           </strong>
@@ -3589,14 +3554,14 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Стиральная машина — это техника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со временем требует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — это не просто разовая услуга, а реальная необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному мастеру.',
+                __html: 'Стиральная машина — это техника, которая должна р��ботать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная тех��ика со временем требует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — это не просто разовая услуга, а реальная необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному мастеру.',
               }}
             ></span>
           </p>
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Под брендом "Ваше Название" рабо��ает команда мастеров, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
+                __html: 'Под брендом "Ваше Название" рабо��ает команда мастеров, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в ��дессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
               }}
             ></span>
           </p>
@@ -3673,7 +3638,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Машина не сливает воду — проблема с помпой или засор сливной системы.',
+                    __html: 'Машина не сливает воду — проблема с помпой или засор сливн��й системы.',
                   }}
                 ></span>
               </span>
@@ -3700,7 +3665,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Течёт корпус — устраняем утечки, заменяем шланги, манжеты, патрубки.',
+                    __html: 'Течёт корпус — устра��яем утечки, заменяем шланги, манжеты, патрубки.',
                   }}
                 ></span>
               </span>
@@ -3709,7 +3674,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не греет воду — диагностика и замена ТЭНа.',
+                    __html: 'Не греет воду — диагностика и зам��на ТЭНа.',
                   }}
                 ></span>
               </span>
@@ -3757,7 +3722,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text271 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Сервисный центр "Ваше н��звание" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
+                __html: 'Сервисный центр "Ваше н��звание" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восста��овления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
               }}
             ></span>
           </p>
@@ -3771,7 +3736,7 @@ to {transform: translateX(-2620px);}}
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, консультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше название" — это ремонт стиральных машин в Одессе быстро, надёжно и профессионально.',
+                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звони��е для записи, консультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше название" — это ремонт стиральных машин в Одессе быстро, надёжно и профессионально.',
               }}
             ></span>
           </p>
@@ -5256,7 +5221,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             font-size: 14.5px;
             font-style: italic;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5312,7 +5277,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             font-size: 14.5px;
             font-style: italic;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5369,7 +5334,7 @@ to {transform: translateX(-2620px);}}
             height: 90px;
             font-size: 14.5px;
             font-style: italic;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5540,7 +5505,7 @@ to {transform: translateX(-2620px);}}
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .frame1196-blue2 {
             gap: var(--dl-layout-space-halfunit);
@@ -5620,7 +5585,7 @@ to {transform: translateX(-2620px);}}
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .frame1196-blue3 {
             gap: var(--dl-layout-space-halfunit);
@@ -5700,7 +5665,7 @@ to {transform: translateX(-2620px);}}
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .frame1196-text155 {
             display: inline-block;
@@ -5955,7 +5920,7 @@ to {transform: translateX(-2620px);}}
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .frame1196-icon186 {
             left: -14px;
@@ -6429,7 +6394,7 @@ to {transform: translateX(-2620px);}}
             height: 100%;
             font-size: 14.5px;
             font-style: normal;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6576,7 +6541,7 @@ to {transform: translateX(-2620px);}}
             height: 100%;
             font-size: 14.5px;
             font-style: normal;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6723,7 +6688,7 @@ to {transform: translateX(-2620px);}}
             height: 100%;
             font-size: 14.5px;
             font-style: normal;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6870,7 +6835,7 @@ to {transform: translateX(-2620px);}}
             height: 100%;
             font-size: 14.5px;
             font-style: normal;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -7017,7 +6982,7 @@ to {transform: translateX(-2620px);}}
             height: 100%;
             font-size: 14.5px;
             font-style: normal;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 300;
             white-space: normal;
             overflow-wrap: break-word;
@@ -7189,7 +7154,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7227,7 +7192,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7265,7 +7230,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7303,7 +7268,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7341,7 +7306,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7379,7 +7344,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7417,7 +7382,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7455,7 +7420,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7493,7 +7458,7 @@ to {transform: translateX(-2620px);}}
             font-size: 15px;
             font-style: normal;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7616,7 +7581,7 @@ to {transform: translateX(-2620px);}}
             font-size: 16;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7648,7 +7613,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7723,7 +7688,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7799,7 +7764,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: Regular;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7876,7 +7841,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7952,7 +7917,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -7985,16 +7950,16 @@ to {transform: translateX(-2620px);}}
             fill: var(--dl-color-theme-neutral-dark);
             color: var(--dl-color-theme-neutral-dark);
             height: auto;
-            font-size: 18px;
+            font-size: 21px;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
-            font-weight: 500;
+            font-family: var(--font-nunito);
+            font-weight: 600;
             font-stretch: normal;
             text-decoration: none;
           }
           @media (max-width: 767px) {
-            .frame1196-text249 { font-size: 16px; }
+            .frame1196-text249 { font-size: 19px; }
           }
           .ask-button-wrapper {
             width: 325px;
@@ -8146,7 +8111,7 @@ to {transform: translateX(-2620px);}}
             font-size: 17px;
             font-style: Regular;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8164,7 +8129,7 @@ to {transform: translateX(-2620px);}}
             align-self: stretch;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8271,7 +8236,7 @@ to {transform: translateX(-2620px);}}
             font-size: 17px;
             font-style: Regular;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8289,7 +8254,7 @@ to {transform: translateX(-2620px);}}
             align-self: stretch;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8396,7 +8361,7 @@ to {transform: translateX(-2620px);}}
             font-size: 17px;
             font-style: Regular;
             text-align: center;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8414,7 +8379,7 @@ to {transform: translateX(-2620px);}}
             align-self: stretch;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8724,7 +8689,7 @@ to {transform: translateX(-2620px);}}
             font-style: Regular;
             margin-top: var(--dl-layout-space-unit);
             text-align: center;
-            font-family: Nunito;
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -8910,7 +8875,7 @@ to {transform: translateX(-2620px);}}
               font-size: 14.5px;
               font-style: italic;
               text-align: center;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 300;
             }
             .frame1196-container127 {
@@ -8932,7 +8897,7 @@ to {transform: translateX(-2620px);}}
               font-size: 14.5px;
               font-style: italic;
               text-align: center;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 300;
             }
             .frame1196-image26 {
@@ -8960,7 +8925,7 @@ to {transform: translateX(-2620px);}}
               font-size: 14.5px;
               font-style: italic;
               text-align: center;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 300;
             }
             .frame1196-image27 {
@@ -11256,7 +11221,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text229 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container187 {
@@ -11273,7 +11238,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text230 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container189 {
@@ -11289,7 +11254,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text231 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container191 {
@@ -11306,7 +11271,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text232 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container193 {
@@ -11324,7 +11289,7 @@ to {transform: translateX(-2620px);}}
               color: var(--dl-color-theme-neutral-dark);
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11343,7 +11308,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text234 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container197 {
@@ -11359,7 +11324,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text235 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container199 {
@@ -11375,7 +11340,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text236 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container201 {
@@ -11391,7 +11356,7 @@ to {transform: translateX(-2620px);}}
             .frame1196-text237 {
               font-size: 14px;
               font-style: normal;
-              font-family: Nunito;
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
             .frame1196-container206 {
@@ -11520,7 +11485,7 @@ to {transform: translateX(-2620px);}}
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: IBM Plex Serif;
+              font-family: Noto Serif SC;
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11535,7 +11500,7 @@ to {transform: translateX(-2620px);}}
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: IBM Plex Serif;
+              font-family: Noto Serif SC;
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11550,7 +11515,7 @@ to {transform: translateX(-2620px);}}
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: IBM Plex Serif;
+              font-family: Noto Serif SC;
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11791,7 +11756,7 @@ to {transform: translateX(-2620px);}}
             fill: #4EC8ED !important;
           }
 
-          /* При нажатии на ��сю карточку - стрелка становится голубой */
+          /* Пр�� нажатии на ��сю карточку - стрелка становится голубой */
           .frame1196-container113:active .frame1196-arrow10 svg path,
           .frame1196-container114:active .frame1196-arrow11 svg path,
           .frame1196-container115:active .frame1196-arrow12 svg path,

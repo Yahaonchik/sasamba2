@@ -1,4 +1,4 @@
-import { Nunito, Spectral, Noto_Serif_SC, Roboto } from 'next/font/google'
+import { Nunito, Spectral, Roboto } from 'next/font/google'
 
 export const nunito = Nunito({
   subsets: ['latin', 'cyrillic'],
@@ -14,14 +14,6 @@ export const spectral = Spectral({
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-spectral',
-})
-
-export const notoSerifSC = Noto_Serif_SC({
-  subsets: ['latin'],
-  weight: ['200','300','400','500','600','700','900'],
-  style: ['normal'],
-  display: 'swap',
-  variable: '--font-noto-serif-sc',
 })
 
 export const roboto = Roboto({

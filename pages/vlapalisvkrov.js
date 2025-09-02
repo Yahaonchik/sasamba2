@@ -113,7 +113,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сначала промойте пятно очень холодной водой, чтобы смыть как можно больше крови. Затем нанесите на влажное место густую мыльную пену – хорошо подходит хозяйственное мыло. Мыло оставляют на 20–30 минут (можно накрыть плёнкой) и снова смывают прохладной водой. Этот простой способ эффективен для свежих и слегка засохших следов. Для более стойких пятен в мыльный раствор можно добавить немного мелкой соли или стирального порошка.
+                  Сначала промойте пятно очень холодной водой, чтобы смыть как можно больше крови. Затем нанесите на влажн��е место густую мыльную пену – хорошо подходит хозяйственное мыло. Мыло оставляют на 20–30 минут (можно накрыть плёнкой) и снова смывают прохладной водой. Этот простой способ эффективен для свежих и слегка засохших следов. Для более стойких пятен в мыльный раствор можно добавить немного мелкой соли или стирального порошка.
                 </p>
               </div>
             </section>
@@ -155,7 +155,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Гель для посуды действует похожим образом: его компоненты растворяют липидную составляющую крови. Промокните пятно губкой, смоченной в холодной воде, нанесите небольшое количество средства и лёгкими движениями вспеньте. Через 5–10 минут постирайте вещь вручную или в машинке. Этот метод помогает быстро и без замачивания удалить большую часть биологических загрязнений.
+                  Гель для посуды действует похожим образом: его компоненты растворяют липидную составляющую крови. Промокните пятно губкой, смоченной в холодной воде, нанесите небольшое количество средства и лёгкими движениями вспеньте. Через 5–10 минут постирай��е вещь вручную или в машинке. Этот метод помогает быстро и без замачивания удалить большую часть биологических загрязнений.
                 </p>
               </div>
             </section>
@@ -279,7 +279,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Аммиак (нашатырный спирт) хорошо помогает от сильных пятен крови на белом хлопке и льне. На 3 литра холодной воды добавьте 60 мл нашатыря, замочите вещь на 1–2 часа, затем тщательно прополощите и постирайте. Для цветных тканей лучше использовать специализированные ферментные пятновыводители. В их составе есть протеиназы – ферменты, разрушающие белковые загрязнения. Нанесите препарат согласно инструкции (обычно на 15–30 минут), а потом выстирайте вещь. Такие средства особенно эффективны, если другие методы не помогли.
+                  Аммиак (нашатырный спирт) хорошо помогает от сильных пятен крови на белом хлопке и льне. На 3 литра холодной воды добавьте 60 мл нашатыря, замочите вещь на 1–2 часа, затем тщательно прополощите и постирайте. Для цветных тканей лучше использовать специализированные ферментные пятновыводители. В их составе есть протеиназы – ферменты, разрушающие белковые загрязнения. Нанесите препарат согласно инструкции (обычно на 15–30 минут), а потом выстирайте вещь. Такие средства особенно эффективны, если ��ругие методы не помогли.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -560,7 +560,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -614,7 +614,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -780,7 +780,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -942,7 +942,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -988,7 +988,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1042,7 +1042,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1152,7 +1152,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1502,7 +1502,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1540,7 +1540,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1578,7 +1578,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1616,7 +1616,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1673,7 +1673,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1704,7 +1704,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1735,7 +1735,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1766,7 +1766,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1797,7 +1797,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1828,7 +1828,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2089,7 +2089,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 {
@@ -2112,7 +2112,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

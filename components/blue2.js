@@ -215,7 +215,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .blue2-text5 {
             display: inline-block;
@@ -363,7 +363,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
               align-items: center;
               font-family: Noto Serif SC;
               justify-content: center;
-              text-decoration: underline none;
+              text-decoration: none;
               transition: color 0.3s ease, transform 0.2s ease;
             }
 

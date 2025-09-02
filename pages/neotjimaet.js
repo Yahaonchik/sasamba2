@@ -228,7 +228,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если датчик неправильно определяет уровень воды, блок управления не срабатывает нормально. При этом машинка может «зависать» перед отжимом – она не сливает воду полностью и аварийно останавливается. Признаки: после завершения стирки в баке остаётся вода, могут появляться ошибки уровня воды. Решается замена прессостата.
+                  Если датчик неправильно определяет уровень воды, блок управления не срабатывает нормально. При этом машинка может «зависать» перед отжимом – она не сливает воду полностью и аварийно останавливается. Признаки: после завершения стирки в бак�� остаётся вода, могут появляться ошибки уровня воды. Решается замена прессостата.
                 </p>
               </div>
             </section>
@@ -311,7 +311,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Приводной ремень передаёт вращение от двигателя к барабану. При ослаблении или разрыве ремня барабан не сможет достичь нужных оборотов и бельё останется сырым. Обычно при этом двигатель пытается работать (машинка гудит), но барабан остаётся вялым или не вращается вовсе. Если ремень слетел, его можно перекинуть на место (для этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется его замена. Причиной разрыва может быть старение ремня или износ подшипников (при сильных люфтах на валу ремень перекидывается и рвётся.
+                  Приводной ремень передаёт вращение от двигател�� к барабану. При ослаблении или разрыве ремня барабан не сможет достичь нужных оборотов и бельё останется сырым. Обычно при этом двигатель пытается работать (машинка гудит), но барабан остаётся вялым или не вращается вовсе. Если ремень слетел, его можно перекинуть на место (для этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется его замена. Причиной разрыва может быть старение ремня или износ подшипников (при сильных люфтах на валу ремень перекидывается и рвётся.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -399,7 +399,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если датчик оборотов выдаёт неверные показания, контроллер перестаёт доверять двигателю – стиральная машина может просто не давать команду на отжим. Это происходит без явных механических шумов, но при этом барабан либо вращается очень медленно, либо вообще не двигается. Решается заменой датчика.
+                  Если датчик оборотов выдаёт неверные показания, контроллер перестаёт доверять двигателю – стиральная машина может просто не давать команду на отжим. Это происходит без явных механических шумов, но при этом барабан либо вращается очень медленно, либо вообще не двигается. Решается за��еной датчика.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -642,7 +642,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -696,7 +696,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -863,7 +863,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1020,7 +1020,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1079,7 +1079,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1146,7 +1146,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1256,7 +1256,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1606,7 +1606,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1644,7 +1644,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1682,7 +1682,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1720,7 +1720,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1777,7 +1777,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1808,7 +1808,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1839,7 +1839,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1870,7 +1870,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1901,7 +1901,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1932,7 +1932,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2135,7 +2135,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2143,7 +2143,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

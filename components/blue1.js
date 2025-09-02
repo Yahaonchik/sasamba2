@@ -215,7 +215,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
             text-align: center;
             font-family: 'Noto Serif SC';
             font-weight: 500;
-            text-decoration: underline;
+            text-decoration: none;
           }
           .blue1-text5 {
             display: inline-block;
@@ -360,7 +360,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
               align-items: center;
               font-family: Noto Serif SC;
               justify-content: center;
-              text-decoration: underline none;
+              text-decoration: none;
               transition: color 0.3s ease, transform 0.2s ease;
             }
 

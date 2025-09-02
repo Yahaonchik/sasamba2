@@ -12,7 +12,6 @@
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
-    "dangerous-html": "0.1.13",
     "next": "13.4.12",
     "prop-types": "15.7.2",
     "react": "^18.2.0",

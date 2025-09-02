@@ -113,7 +113,7 @@ const Page = (props) => {
                   </span>
                 </figure>
                 <p className="vicetext">
-                  Сливной фильтр улавливает мелкие предметы и ворсинки, не давая им попасть в насос. Как правило, он находится в нижней части корпуса за откидной крышкой. Перед началом любых работ обязательно отключите машину от сети и подготовьте ёмкость для слива. Аккуратно открутите крышку фильтра против часовой стрелки – под ней немедленно начнёт вытекать вода.( см. как правильно сливать воду ) Как только в баке останется мало воды, сработает защёлка запорного механизма, и дверца разблокируется. После этого полностью вытащите фильтр и очистите его от скопившейся пыли, волос, монеток и других посторонних предметов. Собирая обратно, будьте осторожны: пластмассовый фильтр хрупкий. Если засор в фильтре был причиной проблемы, после его очистки вода будет свободно уходить, а люк должен открыться.
+                  Сливной фильтр улавливает мелкие предметы и ворсинки, не давая им попасть в насос. Как правило, он находится в нижней части корпуса за откидной крышкой. Перед началом любых работ обязательно отключите машину от сети и подготовьте ёмкость ��ля слива. Аккуратно открутите крышку фильтра против часовой стрелки – под ней немедленно начнёт вытекать вода.( см. как правильно сливать воду ) Как только в баке останется мало воды, сработает защёлка запорного механизма, и дверца разблокируется. После этого полностью вытащите фильтр и очистите его от скопившейся пыли, волос, монеток и других посторонних предметов. Собирая обратно, будьте осторожны: пластмассовый фильтр хрупкий. Если засор в фильтре был причиной проблемы, после его очистки вода будет свободно уходить, а люк должен открыться.
                 </p>
               </div>
             </section>
@@ -197,7 +197,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Помпа откачивает воду из бака в канализацию. Под крышкой фильтра видна крыльчатка насоса – маленький винт, который вращается при сливе. Проверьте, легко ли он проворачивается вручную. Если крыльчатка заклинила из-за застрявшего предмета, или мотор совсем не вращается, насос не справится со сливом. Для проверки запустите короткий режим «Слив» или «Отжим» – при исправном насосе крыльчатка будет вращаться, и вы услышите её гул. Если помпа едва вращается или останавливается при небольшом нажатии (значит, износила ресурс), её нужно заменить. При поломке насоса вода не откачиваетс�� вообще, и дверца остаётся закрытой.
+                  Помпа откачивает воду из бака в канализацию. Под крышкой фильтра видна крыльчатка насоса – маленький винт, который вращается при сливе. Проверьте, легко ли он проворачивается вручную. Если крыльчатка заклинила из-за застрявшего предмета, или мотор совсем не вращается, насос не справи��ся со сливом. Для проверки запустите короткий режим «Слив» или «Отжим» – при исправном насосе крыльчатка будет вращаться, и вы услышите её гул. Если помпа едва вращается или останавливается при небольшом нажатии (значит, износила ресурс), её нужно заменить. При поломке насоса вода не откачиваетс�� вообще, и дверца остаётся закрытой.
                 </p>
               </div>
             </section>
@@ -239,7 +239,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Электронная плата (модуль управления) посылает команды насосу при окончании цикла стирки. Если плата неисправна или «зависает», она может не запустить сливной насос и не разблокировать люк. При подозрении на сбой электроники нужна диагностика специалиста: плату обычно вынимают для тестирования. Возможные причины – перегоревшие микросхемы, сбой прошивки или окисление контактов. Это самая сложная поломка, которую сложно устранить самостоятельно.
+                  Электронная плата (модуль управления) посылает команды насосу при окончании цикла стирки. Если плата неисправна или «зависает», она может не запустить сливной насос и не разблокировать люк. При подозрении ��а сбой электроники нужна диагностика специалиста: плату обычно вынимают для тестирования. Возможные причины – перегоревшие микросхемы, сбой прошивки или окисление контактов. Это самая сложная поломка, которую сложно устранить самостоятельно.
                 </p>
               </div>
             </section>
@@ -281,7 +281,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сливной патрубок (гофра) соединяет бак с насосом. Даже после чистки фильтра вода может не уходить, если в этом патрубке что-то застряло. Чаще всего внутрь попадают монеты, пуговицы, обрывки ткани – они могут периодически перекрывать проток воды.Чтобы проверить патрубок, отключите машину, уложите её на бок и снимите заднюю или нижнюю панель. Далее отсоедините патрубок от насоса: внутри часто обнаруживаются мелкие тряпочки, носки и мелкие детали. Удалите из патрубка мусор. После сборки проверьте слив – при отсутствии засора вода должна свободно уходить.
+                  Сливной патрубок (гофра) соединяет бак с насосом. Даже после чистки фильтра вода может не уходить, если в этом патрубке что-то застряло. Чаще всего внутрь попадают монеты, пуговицы, обрывки ткани – они могут периодически перекрывать проток воды.Чтобы проверить патрубок, отключите машину, уложите её на бок и снимите заднюю или нижнюю п��нель. Далее отсоедините патрубок от насоса: внутри часто обнаруживаются мелкие тряпочки, носки и мелкие детали. Удалите из патрубка мусор. После сборки проверьте слив – при отсутствии засора вода должна свободно уходить.
                 </p>
               </div>
             </section>
@@ -323,7 +323,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Гибкий сливной шланг идёт от насоса к стояку канализации. Важно убедиться, что он не пережат и не забит грязью или жиром, особенно в местах изгибов и подсоединения к раковине или сифону. Для проверки отсоедините шланг от канализации и попробуйте продуть его: при чистом шланге воздух проходит легко и слышно, как булькает оставшаяся вода. Если шланг забит, протолкните внутрь гибкую проволоку или промойте его под струёй горячей воды. После прочистки установите шланг на место и убедитесь, что он нигде не перегибается и надёжно закреплён.
+                  Гибкий сливной шланг идёт от насоса к стояку канализации. Важно убедиться, что он не пережат и не забит грязью или жиром, особенно в местах изгибов и подсоединения к раковине или сифону. Для проверки отсоедините шланг от канализации и попробуйте продуть его: при чистом шланге воздух проходит легко и слышно, как булькает оставшаяся вода. Если шланг забит, протолкните в��утрь гибкую проволоку или промойте его под струёй горячей воды. После прочистки установите шланг на место и убедитесь, что он нигде не перегибается и надёжно закреплён.
                 </p>
               </div>
             </section>
@@ -637,7 +637,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -691,7 +691,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -859,7 +859,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1017,7 +1017,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1077,7 +1077,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -1145,7 +1145,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1255,7 +1255,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1605,7 +1605,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1643,7 +1643,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1681,7 +1681,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1719,7 +1719,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1776,7 +1776,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1807,7 +1807,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1838,7 +1838,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1869,7 +1869,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1900,7 +1900,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1931,7 +1931,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2146,7 +2146,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2154,7 +2154,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

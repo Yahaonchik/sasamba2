@@ -159,7 +159,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Стиральная машина очень требовательна к прочности и горизонтальности места установки. Если пол под ней не идеально ровный или слишком мягкий (например, старые деревянные доски), любая вибрация приведёт к дополнительному «прыжку» техники. Аналогично, установка на очень гладком покрытии (плитке или линолеуме) без фиксации позволит машинке подскальзывать.Совет: Проверьте положение машины уровнем – все ножки должны стоять устойчиво. Слегка раскачайте прибор руками, определите, какая опора «гуляет» больше, и подкрутите её гайкой против часовой стрелки до упора. Можно привлечь помощника или приподнять стиралку на бок, чтобы повернуть ножку удобнее. После этого ещё раз проконтролируйте ровность с уровнем. Для дополнительной устойчивости и защиты пола рекомендуется установить резиновые антискользящие накладки или антивибрационные подставки под ножки. Они гасить часть вибрации и не позволяют машине «ездить» по комнате.
+                  Стиральная машина очень требовательна к прочности и горизонтальности места установки. Если пол под ней не идеально ровный или слишком мягкий (например, старые деревянные доски), люба�� вибрация приведёт к дополнительному «прыжку» техники. Аналогично, установка на очень гладком покрытии (плитке или линолеуме) без фиксации позволит машинке подскальзывать.Совет: Проверьте положение машины уровнем – все ножки должны стоять устойчиво. Слегка раскачайте прибор руками, определите, какая опора «гуляет» больше, и подкрутите её гайкой против часовой стрелки до упора. Можно привлечь помощника или приподнять стиралку на бок, чтобы повернуть ножку удобнее. После этого ещё раз проконтролируйте ровность с уровнем. Для дополнительной устойчивости и защиты пола рекомендуется установить резиновые антискользящие накладки или антивибрационные подставки под ножки. Они гасить часть вибрации и не позволяют машине «ездить» по комнате.
                 </p>
               </div>
             </section>
@@ -294,7 +294,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Противовесы — это массивные блоки внутри стиральной машины, которые крепятся к баку и помогают гасить вибрации при стирке и особенно при отжиме. Их задача — стабилизировать бак, чтобы он не раскачивался и не ударялся о корпус. Если один из противовесов ослаб, раскололся или открутился, баланс нарушается, и машина начинает сильно шуметь, греметь и «прыгать» по полу.Со временем крепёжные болты противовесов могут раскрутиться из-за постоянной вибрации. В некоторых случаях бетонный противовес трескается или крошится — это встречается на старых машинах или после сильных перегрузок бельём. Когда противовес не держится плотно, при высоких оборотах бак смещается и начинается сильно стучать по корпусу.
+                  Противовесы — это массивные блоки внутри стиральной машины, которые крепятся к баку и помогают гасить вибрации при стирке и особенно при отжиме. Их задача — стабилизировать бак, чтобы он не раскачивался и не ударялся о корпус. Если один из противовесов ослаб, раскололся или открутился, баланс нарушается, и машина начинает сильно шуметь, греметь и «прыгать» по полу.Со временем крепёжные болты противовесов могут раскрутиться из-за постоянной вибрации. В некоторы�� случаях бетонный противовес трескается или крошится — это встречается на старых машинах или после сильных перегрузок бельём. Когда противовес не держится плотно, при высоких оборотах бак смещается и начинается сильно стучать по корпусу.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -338,7 +338,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  В барабан встроен подшипниковый узел – обычно два шарикоподшипника, закрытые резиновым уплотнителем (сальником). При длительной эксплуатации сальник протирается, внутрь попадает вода, смазка вымывается и подшипники ржавеют. Это вызывает люфт барабана и неравномерное вращение. В итоге при отжиме машина может сильно шуметь и «прыгать», а иногда барабан клинит. Признаки износа подшипников – топот под машиной, подтеки ржавой воды и разболтанность бака при ручном движении. Починка требует замены подшипников (и сальника) – в большинстве моделей это комплексная работа, выполняемая в сервисе.
+                  В барабан встроен подшипниковый узел – обычно два шарикоподшипника, закрытые резиновым уплотнителем (сальником). При длительной эксплуатации сальник протирается, внутрь попадает вода, смазка вымывается и подшипники ржавеют. Это вызывает люфт барабана и неравномерное вращение. В итоге при отжиме машин�� может сильно шуметь и «прыгать», а иногда барабан клинит. Признаки износа подшипников – топот под машиной, подтеки ржавой воды и разболтанность бака при ручном движении. Починка требует замены подшипников (и сальника) – в большинстве моделей это комплексная работа, выполняемая в сервисе.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -390,7 +390,7 @@ const Page = (props) => {
               <div className="page-frame12982">
                 <span className="page-text74">
                   Как продлить ��изнь маш��н�� на 3–5 лет — простые привычки,
-                  которые сэкономят деньги
+                  которые с��кономят деньги
                 </span>
                 <div className="page-container46"></div>
               </div>
@@ -581,7 +581,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -635,7 +635,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -809,7 +809,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -966,7 +966,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1025,7 +1025,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1123,7 +1123,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1233,7 +1233,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1583,7 +1583,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1621,7 +1621,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1659,7 +1659,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1697,7 +1697,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1754,7 +1754,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1785,7 +1785,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1816,7 +1816,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1847,7 +1847,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1878,7 +1878,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1909,7 +1909,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2119,7 +2119,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2127,7 +2127,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

@@ -68,7 +68,7 @@ const Page = (props) => {
               items={[
                 { icon: '/vector.svg', href: '#2', text: 'Основные причины поломки:' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Поломка ТЭНА.' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Сломан датчик температуры (термостат)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Сломан датч��к температуры (термостат)' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Неисправен датчик уровня воды (Прессостат)' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Повреждена электропроводка' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '5. Сбой или поломка модуля управления' },
@@ -231,7 +231,7 @@ const Page = (props) => {
               <div className="page-container20">
                 <p className="vicetext">
                   {' '}
-                  Часто бывает, что клеммы или провода, идущие к ТЭНу и датчикам, ослабевают или окисляются. Например, плохой контакт на клеммах ТЭНа приводит к тому, что элемент вообще не включается (или греется местно – проверяйте по почерневшей изоляции и оплавленным клеммам). Для диагностики отключают машину от сети и мультиметром прозванивают всю цепь питания ТЭНа и датчиков (исправный сигнал «должен быть», обрыв или короткое явно укажут на проблему). Визуально проверяют целостность проводов и коннекторов. При обнаружении плохого контакта или обрыва проводов провода меняют, а клеммы зачищают и плотно затягивают. После этого вновь проверяют нагрев – если проводка и вилка исправны, ТЭН снова начнёт греться.
+                  Часто бывает, что клеммы или провода, идущие к ТЭНу и датчикам, осла��евают или окисляются. Например, плохой контакт на клеммах ТЭНа приводит к тому, что элемент вообще не включается (или греется местно – проверяйте по почерневшей изоляции и оплавленным клеммам). Для диагностики отключают машину от сети и мультиметром прозванивают всю цепь питания ТЭНа и датчиков (исправный сигнал «должен быть», обрыв или короткое явно укажут на проблему). Визуально проверяют целостность проводов и коннекторов. При обнаружении плохого контакта или обрыва проводов провода меняют, а клеммы зачищают и плотно затягивают. После этого вновь проверяют нагрев – если проводка и вилка исправны, ТЭН снова начнёт греться.
                 </p>
               </div>
             </section>
@@ -308,7 +308,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-              Иногда причиной «холодной» стирки оказывается банальная ошибка в настройках. Если выставлен режим быстрой или энергосберегающей стирки без подогрева (или выбран минимальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программе. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой простой совет иногда спасает до обращения в сервис.
+              Иногда причиной «холодной» стирки оказывается банальная ошибка в настройках. Если выставлен реж��м быстрой или энергосберегающей стирки без подогрева (или выбран минимальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программе. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой простой совет иногда спасает до обращения в сервис.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -380,7 +380,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12985">
                 <span className="page-text77">
-                  Как безопасно перевозить и хранить стиральную машину
+                  Как безопасно пере��озить и хранить стиральную машину
                 </span>
                 <div className="page-container49"></div>
               </div>
@@ -556,7 +556,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -610,7 +610,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -776,7 +776,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -964,7 +964,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1023,7 +1023,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1090,7 +1090,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1200,7 +1200,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1550,7 +1550,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1588,7 +1588,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1626,7 +1626,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1664,7 +1664,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1721,7 +1721,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1752,7 +1752,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1783,7 +1783,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1814,7 +1814,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1845,7 +1845,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1876,7 +1876,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2138,7 +2138,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 {
@@ -2161,7 +2161,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

@@ -118,7 +118,7 @@ const OrderModal = ({ isOpen, onClose, successVariant = 'screenAuto' }) => {
           </div>
           {bannerVisible && (
             <div className="success-banner">
-              <div className="banner-text">Спасибо за обращение! Мы свяжемся с вами в ближайшее время.</div>
+              <div className="banner-text">Спасибо за обращение! Мы свяжемся с ва��и в ближайшее время.</div>
             </div>
           )}
           <div className="modal-body">
@@ -184,35 +184,35 @@ const OrderModal = ({ isOpen, onClose, successVariant = 'screenAuto' }) => {
         .modal-content { background: white; width: 33.33%; height: 100%; padding: 40px; box-shadow: 2px 0 20px rgba(0, 0, 0, 0.3); display: flex; flex-direction: column; animation: slideInLeft 0.3s ease-out; }
         @keyframes slideInLeft { from { transform: translateX(-100%); } to { transform: translateX(0); } }
         .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
-        .modal-header h2 { margin: 0; font-size: 28px; font-weight: bold; color: #333; font-family: 'Nunito', sans-serif; }
+        .modal-header h2 { margin: 0; font-size: 28px; font-weight: bold; color: #333; font-family: var(--font-nunito), sans-serif; }
         .modal-close { background: none; border: none; font-size: 30px; cursor: pointer; color: #999; padding: 0; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: all 0.2s ease; }
         .modal-close:hover { background-color: #f5f5f5; color: #333; }
         .modal-body { flex: 1; display: flex; flex-direction: column; }
-        .modal-description { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 40px; font-family: 'Nunito', sans-serif; }
+        .modal-description { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 40px; font-family: var(--font-nunito), sans-serif; }
         .order-form { display: flex; flex-direction: column; gap: 25px; flex: 1; }
         .form-group { display: flex; flex-direction: column; }
-        .form-input { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; font-family: 'Nunito', sans-serif; }
+        .form-input { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; font-family: var(--font-nunito), sans-serif; }
         .phone-input-group { position: relative; }
         .phone-input-group .form-input { padding-left: 74px; }
-        .phone-prefix { position: absolute; top: 50%; left: 18px; transform: translateY(-50%); color: #999; font-size: 18px; font-family: 'Nunito', sans-serif; pointer-events: none; }
+        .phone-prefix { position: absolute; top: 50%; left: 18px; transform: translateY(-50%); color: #999; font-size: 18px; font-family: var(--font-nunito), sans-serif; pointer-events: none; }
         .phone-input-group:focus-within .phone-prefix { color: #000; }
         .form-input:focus { background-color: #E8F0FE; border-color: #ddd; border-width: 1px; box-shadow: none; }
-        .form-input::placeholder { color: #999; font-size: 16px; font-family: 'Nunito', sans-serif; }
+        .form-input::placeholder { color: #999; font-size: 16px; font-family: var(--font-nunito), sans-serif; }
         .submit-wrapper { margin-top: 20px; display: flex; justify-content: center; }
         .honeypot-input { display: none; }
-        .status-message { margin-top: 8px; text-align: center; font-family: 'Nunito', sans-serif; color: #333; }
+        .status-message { margin-top: 8px; text-align: center; font-family: var(--font-nunito), sans-serif; color: #333; }
         .success-view { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px; }
         .success-icon { width: 64px; height: 64px; border-radius: 50%; background: #E6F9FE; color: #4EC8ED; display: flex; align-items: center; justify-content: center; font-size: 36px; margin-bottom: 16px; box-shadow: 0 0 0 3px rgba(78,200,237,0.12) inset; }
-        .success-title { margin: 0 0 8px; font-size: 22px; font-weight: 700; color: #333; font-family: 'Nunito', sans-serif; }
-        .success-text { margin: 0 0 20px; font-size: 16px; color: #666; line-height: 1.5; font-family: 'Nunito', sans-serif; }
-        .success-button { color: #fff; font-size: 16px; font-family: 'Spectral'; font-weight: 500; border: none; border-radius: 8px; letter-spacing: 1px; background-color: rgb(40, 40, 40); cursor: pointer; transition: all 0.3s ease; height: 55px; padding: 0 22px; box-shadow: 5px 5px 10px rgba(43,43,43,.68); }
+        .success-title { margin: 0 0 8px; font-size: 22px; font-weight: 700; color: #333; font-family: var(--font-nunito), sans-serif; }
+        .success-text { margin: 0 0 20px; font-size: 16px; color: #666; line-height: 1.5; font-family: var(--font-nunito), sans-serif; }
+        .success-button { color: #fff; font-size: 16px; font-family: var(--font-spectral); font-weight: 500; border: none; border-radius: 8px; letter-spacing: 1px; background-color: rgb(40, 40, 40); cursor: pointer; transition: all 0.3s ease; height: 55px; padding: 0 22px; box-shadow: 5px 5px 10px rgba(43,43,43,.68); }
         .success-button:hover { box-shadow: 5px 5px 15px rgba(43,43,43,.8); transform: translateY(-2px); background-color: #87ceeb; }
         .success-button:active { transform: translateY(0); box-shadow: 0 0 8px #87ceeb, 3px 3px 8px rgba(43,43,43,.9); }
         .success-toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #fff; color: #333; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.15); padding: 12px 16px; display: flex; align-items: center; gap: 10px; z-index: 1100; border: 1px solid #eaeaea; }
         .toast-icon { width: 28px; height: 28px; border-radius: 50%; background: #E6F9FE; color: #4EC8ED; display: flex; align-items: center; justify-content: center; font-size: 16px; box-shadow: 0 0 0 2px rgba(78,200,237,0.12) inset; }
-        .toast-text { font-size: 14px; font-family: 'Nunito', sans-serif; }
+        .toast-text { font-size: 14px; font-family: var(--font-nunito), sans-serif; }
         .success-banner { position: fixed; top: 0; left: 0; right: 0; background: #E6F9FE; color: #1b1b1b; z-index: 1100; padding: 10px 16px; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
-        .success-banner .banner-text { text-align: center; font-family: 'Nunito', sans-serif; font-size: 15px; }
+        .success-banner .banner-text { text-align: center; font-family: var(--font-nunito), sans-serif; font-size: 15px; }
         @media (max-width: 768px) { .modal-content { width: 90%; height: auto; max-height: 90%; margin: 16px; border-radius: 12px; animation: slideInUp 0.3s ease-out; } @keyframes slideInUp { from { transform: translateY(100%); } to { transform: translateY(0); } } .modal-overlay { justify-content: center; padding: 16px; } .modal-header h2 { font-size: 23px; } .modal-description { font-size: 15px; margin-bottom: 36px; } .order-form { gap: 21px; } .form-input { padding: 11px; font-size: 15px; } .phone-input-group .form-input { padding-left: 60px; } .phone-prefix { left: 14px; font-size: 15px; } .form-input::placeholder { font-size: 15px; } .submit-wrapper { margin-top: 16px; } .success-banner .banner-text { font-size: 14px; } .success-toast { bottom: 16px; padding: 10px 14px; } .toast-text { font-size: 13px; } }
       `}</style>
     </>

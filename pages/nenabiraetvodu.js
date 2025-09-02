@@ -123,7 +123,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>5. Проверьте дверцу.</strong><br />
-                    Убедитесь, что люк закрывается плотно и фиксируется. Если бельё мешает закрытию, правильно уложите вещи. Машина не начнёт залив, пока замок не сработает.
+                    Убедитесь, что люк закрывается плотно и фиксируется. Если бельё мешает закрытию, правильно уложите вещи. Машина не начнёт з��лив, пока замок не сработает.
                   </p>
 
                   <p>
@@ -177,7 +177,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Водяной кран – это вентиль на трубе, подающей воду к машинке. Если он закрыт или напор воды очень слабый, вода в машину просто не поступает. Признак такой неисправности: машина пытается начать работу (гудит), но вода не набирается или идёт очень медленно. Убедитесь, что вентиль полностью открыт (ручка параллельна трубе).Если напор в кране слабый, попробуйте подождать стабилизации давления или сообщить об этом в ЖКХ. Если кран сломан или не держит герметичность, вызовите сантехника или мастера.
+                  Водяной кран – это вентиль на трубе, подающей воду к машинке. Если он закрыт или напор воды очень слабый, вода в машину просто не поступает. Признак т��кой неисправности: машина пытается начать работу (гудит), но вода не набирается или идёт очень медленно. Убедитесь, что вентиль полностью открыт (ручка параллельна трубе).Если напор в кране слабый, попробуйте подождать стабилизации давления или сообщить об этом в ЖКХ. Если кран сломан или не держит герметичность, вызовите сантехника или мастера.
                 </p>
               </div>
             </section>
@@ -388,7 +388,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Плата управления — «мозг» стиральной машины. Если она сбоит (из-за перепада напряжения или попадания влаги), команды на залив воды могут не передаваться. Признаки: после включения стирки машина блокирует люк, но воды не набирает, нередко выскакивает ошибка набора воды. Эта неисправность требует диагностики и ремонта.
+                  Плата управл��ния — «мозг» стиральной машины. Если она сбоит (из-за перепада напряжения или попадания влаги), команды на залив воды могут не передаваться. Признаки: после включения стирки машина блокирует люк, но воды не набирает, нередко выскакивает ошибка набора воды. Эта неисправность требует диагностики и ремонта.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -631,7 +631,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -685,7 +685,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -851,7 +851,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -910,7 +910,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1017,7 +1017,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1076,7 +1076,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1143,7 +1143,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1253,7 +1253,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1554,7 +1554,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 600;
             line-height: normal;
             font-stretch: normal;
@@ -1603,7 +1603,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1641,7 +1641,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1679,7 +1679,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1717,7 +1717,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1774,7 +1774,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1805,7 +1805,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1836,7 +1836,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1867,7 +1867,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1898,7 +1898,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1929,7 +1929,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -2139,7 +2139,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
@@ -2147,7 +2147,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {

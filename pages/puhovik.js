@@ -58,7 +58,7 @@ const Page = (props) => {
               </h1>
             </div>
             <AnchorLinksSection
-              title="Как правильно стирать пуховик в автоматической стиральной машине?:"
+              title="Как правильно стирать пуховик в автоматической стирально�� машине?:"
               items={[
                 { icon: '/vector.svg', href: '#2', text: 'Основные этапы:' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Подготовка к стирке' },
@@ -189,7 +189,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Установите самую щадящую программу – «деликатная стирка», «шёлк», «шерсть» или «ручная». Вода должна быть холодной или тёплой (не выше 30–40 °C). Отжим либо отключите совсем, либо задайте очень низкие обороты (400–600 об/мин) – сильное отжимание может скатать пух в комки. Перед запуском положите в барабан 2–4 чистых теннисных мячика или специальные мячики для стирки пуховых вещей. Они помогут «переворачивать» и распушивать наполнитель во время стирки и отжима, не давая ему сбиться и скомкаться. Также можно включить функцию двойного полоскания, чтобы полностью удалить моющее средство из структуры куртки. Жидкость с пухом сильно набухает, увеличивая свой объём и вес, поэтому стирайте пуховик по одному – загрузка двумя изделиями может нарушить работу машины и стирку.
+                  Установите самую щадящую программу – «деликатная стирка», «шёлк», «шерсть» или ��ручная». Вода должна быть холодной или тёплой (не выше 30–40 °C). Отжим либо отключите совсем, либо задайте очень низкие обороты (400–600 об/мин) – сильное отжимание может скатать пух в комки. Перед запуском положите в барабан 2–4 чистых теннисных мячика или специальные мячики для стирки пуховых вещей. Они помогут «переворачивать» и распушивать наполнитель во время стирки и отжима, не давая ему сбиться и скомкаться. Также можно включить функцию двойного полоскания, чтобы полностью удалить моющее средство из структуры куртки. Жидкость с пухом сильно набухает, увеличивая свой объём и вес, поэтому стирайте пуховик по одному – загрузка двумя изделиями может нарушить работу машины и стирку.
                 </p>
               </div>
             </section>
@@ -469,7 +469,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -523,7 +523,7 @@ const Page = (props) => {
             color: rgb(69, 197, 237);
             font-size: 15px;
             font-style: normal;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             padding-left: 0px;
             letter-spacing: 0.5px;
@@ -689,7 +689,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
             padding: 5px;
@@ -851,7 +851,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -897,7 +897,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -951,7 +951,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto';
+            font-family: var(--font-roboto);
             font-weight: 400;
             margin-bottom: var(--dl-layout-space-halfunit);
           }
@@ -1061,7 +1061,7 @@ const Page = (props) => {
             font-size: 16px;
             max-width: 100%;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1411,7 +1411,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1449,7 +1449,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1487,7 +1487,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1525,7 +1525,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: normal;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1582,7 +1582,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1613,7 +1613,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1644,7 +1644,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1675,7 +1675,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1706,7 +1706,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1737,7 +1737,7 @@ const Page = (props) => {
             font-size: 15px;
             font-style: Regular;
             text-align: left;
-            font-family: 'Nunito';
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1998,7 +1998,7 @@ const Page = (props) => {
             .page-text45 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-container27 {
@@ -2021,7 +2021,7 @@ const Page = (props) => {
             .page-text48 {
               font-size: 13px;
               font-style: normal;
-              font-family: Roboto;
+              font-family: var(--font-roboto);
               font-weight: 400;
             }
             .page-better-call-master {
