@@ -10,7 +10,7 @@ const RELATED = [
   },
   {
     href: '/vlapalisvkrov',
-    title: 'Как удалить пятна крови с одежды без следов?',
+    title: 'Как уд��лить пятна крови с одежды без следов?',
     image: '/100x100/krov.png',
     alt: 'Как удалить пятна крови с одежды'
   },
@@ -34,7 +34,7 @@ const RelatedArticles = () => {
       <h4 className="related-title">Другие статьи</h4>
       <div className="related-grid">
         {RELATED.map((item, idx) => (
-          <Link href={item.href} key={idx}>
+          <Link legacyBehavior href={item.href} key={idx}>
             <a className="related-card">
               <div className="thumb-wrap">
                 <img src={item.image} alt={item.alt} className="thumb-img" loading="lazy" />

@@ -2,14 +2,14 @@ import React, { Fragment } from 'react'
 import Link from 'next/link'
 import PropTypes from 'prop-types'
 
-const Blue1 = (props) => {
+const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.svg', imageAlt = 'image', text1, onClick, clickableTitle = false, titleLink = null }) => {
   return (
     <>
-      <div className={`blue1-blue ${props.rootClassName} `}>
+      <div className={`blue1-blue ${rootClassName} `}>
         <div className="blue1-container1">
           <div className="blue1-container2">
             <span className="blue1-text1">
-              {props.text2 ?? (
+              {text2 ?? (
                 <Fragment>
                   <span className="blue1-text7">
                     <span
@@ -22,10 +22,10 @@ const Blue1 = (props) => {
               )}
             </span>
           </div>
-          {props.clickableTitle && props.titleLink ? (
-            <Link href={props.titleLink}>
+          {clickableTitle && titleLink ? (
+            <Link href={titleLink}>
               <strong className="blue1-text2 clickable-service-title">
-                {props.text ?? (
+                {text ?? (
                   <Fragment>
                     <span className="blue1-text6">
                       <span
@@ -39,8 +39,8 @@ const Blue1 = (props) => {
               </strong>
             </Link>
           ) : (
-            <strong className={`blue1-text2 ${!props.clickableTitle ? 'normal-service-title' : ''}`}>
-              {props.text ?? (
+            <strong className={`blue1-text2 ${!clickableTitle ? 'normal-service-title' : ''}`}>
+              {text ?? (
                 <Fragment>
                   <span className="blue1-text6">
                     <span
@@ -56,7 +56,7 @@ const Blue1 = (props) => {
         </div>
         <div className="blue1-container3">
           <p className="blue1-text3">
-            {props.text1 ?? (
+            {text1 ?? (
               <Fragment>
                 <span className="blue1-text8">
                   <span
@@ -98,15 +98,15 @@ const Blue1 = (props) => {
               strokeDasharray="11 11"
             ></path>
           </svg>
-          <div className="blue1-container4" onClick={props.onClick}>
+          <div className="blue1-container4" onClick={onClick}>
             <img
-              alt={props.imageAlt}
-              src={props.imageSrc}
+              alt={imageAlt}
+              src={imageSrc}
               loading="lazy"
               className="blue1-image"
             />
             <strong className="blue1-text4">
-              {props.text3 ?? (
+              {text3 ?? (
                 <Fragment>
                   <span className="blue1-text5">
                     <span
@@ -151,7 +151,7 @@ const Blue1 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 500;
           }
           .blue1-text2 {
@@ -396,18 +396,6 @@ const Blue1 = (props) => {
   )
 }
 
-Blue1.defaultProps = {
-  rootClassName: '',
-  text3: undefined,
-  text: undefined,
-  text2: undefined,
-  imageSrc: '/ICONS/29.svg',
-  imageAlt: 'image',
-  text1: undefined,
-  onClick: undefined,
-  clickableTitle: false,
-  titleLink: null,
-}
 
 Blue1.propTypes = {
   rootClassName: PropTypes.string,

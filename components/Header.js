@@ -228,7 +228,7 @@ const Header = () => {
               </button>
             </div>
             <nav className="frame1196-sidebar-nav">
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a
                   className={`frame1196-sidebar-link ${router.pathname === '/' ? 'frame1196-sidebar-link-active' : ''}`}
                   style={{ color: router.pathname === '/' ? '#87ceeb !important' : 'white !important' }}
@@ -236,7 +236,7 @@ const Header = () => {
                   Главная
                 </a>
               </Link>
-              <Link href="/vikup">
+              <Link legacyBehavior href="/vikup">
                 <a
                   className={`frame1196-sidebar-link ${router.pathname === '/vikup' ? 'frame1196-sidebar-link-active' : ''}`}
                   style={{ color: router.pathname === '/vikup' ? '#87ceeb !important' : 'white !important' }}
@@ -244,7 +244,7 @@ const Header = () => {
                   Выкуп б/у машин
                 </a>
               </Link>
-              <Link href="/articles">
+              <Link legacyBehavior href="/articles">
                 <a
                   className={`frame1196-sidebar-link ${isArticlesPage ? 'frame1196-sidebar-link-active' : ''}`}
                   style={{ color: isArticlesPage ? '#87ceeb !important' : 'white !important' }}
@@ -294,7 +294,7 @@ const Header = () => {
             color: #87ceeb !important;
           }
 
-          /* Синхронизированные отступы заголовков статей с контейнером "Полезные статьи" */
+          /* Синхронизированные отступы заголовков статей с контейнером "Полез��ые статьи" */
           .page-main { padding-top: 0 !important; }
           .page-headertextwashermachine { margin-top: 24px !important; padding-top: 0 !important; }
           .page-text10 { margin-top: 0 !important; }

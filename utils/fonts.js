@@ -1,16 +1,8 @@
-import { Roboto_Serif, Nunito, Spectral, Noto_Serif_SC } from 'next/font/google'
-
-export const robotoSerif = Roboto_Serif({
-  subsets: ['latin', 'cyrillic'],
-  weight: ['300', '400', '500', '700'],
-  style: ['normal', 'italic'],
-  display: 'swap',
-  variable: '--font-roboto-serif',
-})
+import { Nunito, Spectral, Noto_Serif_SC, Roboto } from 'next/font/google'
 
 export const nunito = Nunito({
   subsets: ['latin', 'cyrillic'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-nunito',
@@ -25,9 +17,17 @@ export const spectral = Spectral({
 })
 
 export const notoSerifSC = Noto_Serif_SC({
-  subsets: ['latin', 'cyrillic'],
-  weight: ['200','300','400','500','600','700','800','900'],
-  style: ['normal','italic'],
+  subsets: ['latin'],
+  weight: ['200','300','400','500','600','700','900'],
+  style: ['normal'],
   display: 'swap',
   variable: '--font-noto-serif-sc',
+})
+
+export const roboto = Roboto({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['300','400','500','700','900'],
+  style: ['normal','italic'],
+  display: 'swap',
+  variable: '--font-roboto',
 })

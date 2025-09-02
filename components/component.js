@@ -12,7 +12,7 @@ const AppComponent = (props) => {
               <span className="component-text2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Стиральная машина не сливает воду',
+                    __html: 'Стиральная машина не сливает в��ду',
                   }}
                 ></span>
               </span>
@@ -78,7 +78,7 @@ const AppComponent = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .component-arrow {
@@ -105,7 +105,7 @@ const AppComponent = (props) => {
           }
           .component-text2 {
             display: inline-block;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
           }
           @media (max-width: 991px) {
             .component-container {
@@ -118,10 +118,10 @@ const AppComponent = (props) => {
             }
             .component-text1 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .component-text2 {
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
           }
           @media (max-width: 479px) {

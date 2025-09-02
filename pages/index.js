@@ -122,7 +122,7 @@ const Frame1196 = (props) => {
             <OrderButton onClick={openModal} variant="primary" />
           </div>
           <article className="frame1196-cards">
-            <Link href="/neslivaetvodu">
+            <Link legacyBehavior href="/neslivaetvodu">
               <a className="frame1196-container113">
                 <p className="frame1196-text112">
                   Стиральная машина не сливает воду
@@ -140,10 +140,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" layout="fill" objectFit="cover" className="frame1196-image15" />
+                <img alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" loading="lazy" className="frame1196-image15" />
               </a>
             </Link>
-            <Link href="/negreetvodu">
+            <Link legacyBehavior href="/negreetvodu">
               <a className="frame1196-container114">
                 <p className="frame1196-text113">
                   Стиральная машина не греет воду
@@ -161,10 +161,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не нагревает воду" src="/problems 2/21-300h.webp" layout="fill" objectFit="cover" className="frame1196-image16" />
+                <img alt="Стиральная машина не нагревает воду" src="/problems 2/21-300h.webp" loading="lazy" className="frame1196-image16" />
               </a>
             </Link>
-            <Link href="/protekaet">
+            <Link legacyBehavior href="/protekaet">
               <a className="frame1196-container115">
                 <p className="frame1196-text114">Стиральная машина протекает</p>
                 <div className="frame1196-arrow12">
@@ -180,10 +180,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" layout="fill" objectFit="cover" className="frame1196-image17" />
+                <img alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" loading="lazy" className="frame1196-image17" />
               </a>
             </Link>
-            <Link href="/silnoshumit">
+            <Link legacyBehavior href="/silnoshumit">
               <a className="frame1196-container116">
                 <p className="frame1196-text115">
                   Стиррльная машина шумит при отжиме
@@ -201,10 +201,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина шумит при отжиме" src="/problems/4-300h.webp" layout="fill" objectFit="cover" className="frame1196-image18" />
+                <img alt="Стиральная машина шумит при отжиме" src="/problems/4-300h.webp" loading="lazy" className="frame1196-image18" />
               </a>
             </Link>
-            <Link href="/nevkluchaetsa">
+            <Link legacyBehavior href="/nevkluchaetsa">
               <a className="frame1196-container117">
                 <p className="frame1196-text116">
                   Стиральная машина не включается
@@ -222,10 +222,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не включается" src="/problems 2/51-300h.webp" layout="fill" objectFit="cover" className="frame1196-image19" />
+                <img alt="Стиральная машина не включается" src="/problems 2/51-300h.webp" loading="lazy" className="frame1196-image19" />
               </a>
             </Link>
-            <Link href="/zavisaetnaprogramme">
+            <Link legacyBehavior href="/zavisaetnaprogramme">
               <a className="frame1196-container118">
                 <p className="frame1196-text117">
                   Стиральная машина зависает на программе
@@ -243,10 +243,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" layout="fill" objectFit="cover" className="frame1196-image20" />
+                <img alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" loading="lazy" className="frame1196-image20" />
               </a>
             </Link>
-            <Link href="/neotjimaet">
+            <Link legacyBehavior href="/neotjimaet">
               <a className="frame1196-container119">
                 <p className="frame1196-text118">
                   Стиральная машина не отжимает
@@ -264,10 +264,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" layout="fill" objectFit="cover" className="frame1196-image21" />
+                <img alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" loading="lazy" className="frame1196-image21" />
               </a>
             </Link>
-            <Link href="/nenabiraetvodu">
+            <Link legacyBehavior href="/nenabiraetvodu">
               <a className="frame1196-container120">
                 <p className="frame1196-text119">
                   Стиральная машиина не набирает воду
@@ -285,10 +285,10 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не набирает воду" src="/problems/8-300h.webp" layout="fill" objectFit="cover" className="frame1196-image22" />
+                <img alt="Стиральная машина не набирает воду" src="/problems/8-300h.webp" loading="lazy" className="frame1196-image22" />
               </a>
             </Link>
-            <Link href="/neotkrivaetsadverca">
+            <Link legacyBehavior href="/neotkrivaetsadverca">
               <a className="frame1196-container121">
                 <p className="frame1196-text120">
                   У стиральной машины не открывается дверца
@@ -306,7 +306,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" layout="fill" objectFit="cover" className="frame1196-image23" />
+                <img alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" loading="lazy" className="frame1196-image23" />
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
@@ -326,7 +326,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
               </div>
-              <Image alt="Стиральная машина не крутит барабан" src="/problems/10-300h.webp" layout="fill" objectFit="cover" className="frame1196-image24" />
+              <img alt="Стиральная машина не крутит барабан" src="/problems/10-300h.webp" loading="lazy" className="frame1196-image24" />
             </a>
           </article>
         </section>
@@ -1290,7 +1290,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text194">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
+                        __html: 'Вызват�� мастера',
                       }}
                     ></span>
                   </span>
@@ -1840,7 +1840,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Whirlpool в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Whirlpool в Одессе - профес��иональный сервис"
                   src="/brands/whirlpool-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image47"
@@ -1907,7 +1907,7 @@ to {transform: translateX(-2620px);}}
                 <h3 className="frame1196-text216">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Теперь продать стиральную машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сложно</span><span style="color: #FFD84D;">!</span>',
+                      __html: 'Теперь продать с��иральную машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сложно</span><span style="color: #FFD84D;">!</span>',
                     }}
                   ></span>
                 </h3>
@@ -2014,7 +2014,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text218">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Современное оборудованиее по диаагностике',
+                          __html: 'Современное оборудованиее по диаагности��е',
                         }}
                       ></span>
                     </h3>
@@ -3324,7 +3324,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text242">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'На все виды работ даем гарантию 6 месяцев, на замененые запчасти - 1 год. Гарантийный талон выдается сразу после завершения ремонта',
+                      __html: 'На все виды работ даем гарантию 6 месяцев, на замененые запчасти - 1 год. Гарантийный талон выдается сразу после завершения ремо��та',
                     }}
                   ></span>
                 </p>
@@ -3432,7 +3432,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по телефону заранее.',
+                      __html: 'Мастер возит базовы�� набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по телефону заранее.',
                     }}
                   ></span>
                 </p>
@@ -3596,7 +3596,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Под брендом "Ваше Название" работает команда мастеров, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
+                __html: 'Под брендом "Ваше Название" рабо��ает команда мастеров, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
               }}
             ></span>
           </p>
@@ -3757,7 +3757,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text271 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Сервисный центр "Ваше название" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
+                __html: 'Сервисный центр "Ваше н��звание" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
               }}
             ></span>
           </p>
@@ -3970,7 +3970,7 @@ to {transform: translateX(-2620px);}}
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              Я считаю это победа над стиральной машиной, которой 12 лет))  Очень круто!! Благодарю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но сейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
+              Я считаю это победа над стиральной маши��ой, которой 12 лет))  Очень круто!! Благодарю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но сейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
             </p>
             <svg
               width="330"
@@ -4412,7 +4412,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow10 {
@@ -4476,7 +4476,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow11 {
@@ -4540,7 +4540,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow12 {
@@ -4604,7 +4604,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow13 {
@@ -4668,7 +4668,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow14 {
@@ -4733,7 +4733,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow15 {
@@ -4797,7 +4797,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow16 {
@@ -4861,7 +4861,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow17 {
@@ -4925,7 +4925,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow18 {
@@ -4990,7 +4990,7 @@ to {transform: translateX(-2620px);}}
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 400;
           }
           .frame1196-arrow19 {
@@ -5482,7 +5482,7 @@ to {transform: translateX(-2620px);}}
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 500;
           }
           .frame1196-text141 {
@@ -5570,7 +5570,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 500;
           }
           .frame1196-text148 {
@@ -5650,7 +5650,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 500;
           }
           .frame1196-text152 {
@@ -5905,7 +5905,7 @@ to {transform: translateX(-2620px);}}
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Roboto Serif';
+            font-family: 'Noto Serif SC';
             font-weight: 500;
           }
           .frame1196-text212 {
@@ -7988,7 +7988,7 @@ to {transform: translateX(-2620px);}}
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral SC';
+            font-family: 'Spectral';
             font-weight: 500;
             font-stretch: normal;
             text-decoration: none;
@@ -9310,7 +9310,7 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-text249 {
               color: var(--dl-color-theme-neutral-dark);
-              font-family: Spectral SC;
+              font-family: Spectral;
             }
             .ask-button-wrapper {
               align-self: center;
@@ -9443,70 +9443,70 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-text112 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container114 {
               box-shadow: none;
             }
             .frame1196-text113 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container115 {
               box-shadow: none;
             }
             .frame1196-text114 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container116 {
               box-shadow: none;
             }
             .frame1196-text115 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container117 {
               box-shadow: none;
             }
             .frame1196-text116 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container118 {
               box-shadow: none;
             }
             .frame1196-text117 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container119 {
               box-shadow: none;
             }
             .frame1196-text118 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container120 {
               box-shadow: none;
             }
             .frame1196-text119 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container121 {
               box-shadow: none;
             }
             .frame1196-text120 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container122 {
               box-shadow: none;
             }
             .frame1196-text121 {
               font-size: 16;
-              font-family: Roboto Serif;
+              font-family: Noto Serif SC;
             }
             .frame1196-container123 {
               width: 100%;
@@ -10085,7 +10085,7 @@ to {transform: translateX(-2620px);}}
             }
             .frame1196-text249 {
               color: var(--dl-color-theme-neutral-dark);
-              font-family: Spectral SC;
+              font-family: Spectral;
             }
             .frame1196-container225 {
               margin-top: var(--dl-layout-space-threeunits);
@@ -11485,7 +11485,7 @@ to {transform: translateX(-2620px);}}
               color: var(--dl-color-theme-neutral-dark);
               font-size: 18px;
               font-style: italic;
-              font-family: Spectral SC;
+              font-family: Spectral;
               font-weight: 500;
               text-decoration: none;
             }
@@ -11754,7 +11754,7 @@ to {transform: translateX(-2620px);}}
           }
 
 
-          /* Ли��ейная аним��ция для икон��к */
+          /* Ли��ейная ан��м��ция для икон��к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,

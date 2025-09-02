@@ -112,9 +112,8 @@ const Vikup = (props) => {
                 <Image
                   alt="мастер по ремонту стиральных машин жмет руку покупателю"
                   src="/vikupsochi-1500w.webp"
-                  layout="fill"
-                  objectFit="contain"
-                  className="page1-image2"
+                  fill
+                                    className="page1-image2"
                 />
               </div>
             </div>

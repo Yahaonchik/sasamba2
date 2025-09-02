@@ -87,7 +87,7 @@ const Articles = (props) => {
           <div className="articles-cards-grid">
             {activeTab === 'care'
               ? generalArticles.map((article, index) => (
-                  <Link href={article.href} key={index}>
+                  <Link legacyBehavior href={article.href} key={index}>
                     <a className="floating-card general-card">
                       <div className="card-image-wrapper">
                         <img alt={article.title} src={article.image} loading="lazy" className="card-image" />
@@ -101,7 +101,7 @@ const Articles = (props) => {
                   </Link>
                 ))
               : problemArticles.map((article, index) => (
-                  <Link href={article.href} key={index}>
+                  <Link legacyBehavior href={article.href} key={index}>
                     <a className="floating-card problem-card">
                       <div className="card-image-wrapper">
                         <img alt={article.alt} src={article.image} loading="lazy" className="card-image" />

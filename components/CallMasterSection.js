@@ -10,7 +10,7 @@ const CallMasterSection = ({
     { icon: '/image%203823106.svg', number: PHONE_DISPLAY },
     { icon: '/image%203823107.svg', number: PHONE_DISPLAY_2 },
   ],
-  buttonText = 'Заказать мастера',
+  buttonText = 'Заказать ма��тера',
 }) => {
   const toTelHref = (s) => {
     const digits = s.replace(/\D+/g, '');
@@ -158,7 +158,7 @@ const CallMasterSection = ({
         }
         @media (max-width: 479px) {
           .callout-container { max-width: 290px; padding-left: 15px; padding-right: 15px; }
-          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: Roboto Serif; font-weight: 500; }
+          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: Noto Serif SC; font-weight: 500; }
           .callout-text { font-size: 14px; font-family: 'Nunito'; }
           .workdays { font-size: 15px; }
           .phone-number { font-size: 17px; }
