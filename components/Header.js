@@ -291,7 +291,7 @@ const Header = () => {
           .frame1196-sidebar-nav a {
             color: white !important;
             font-family: var(--font-roboto), sans-serif !important;
-            font-weight: 500 !important;
+            font-weight: 400 !important;
           }
           .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
             color: #87ceeb !important;
@@ -329,7 +329,7 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 24px !important; margin-bottom: 15px !important; }
             .page-text10 { margin-top: 0 !important; margin-bottom: 15px !important; }
           }
-          /* Мобилк��: точно как у "Полезные статьи" - 50px + 16px padding = 66px общий отступ */
+          /* Мобилк��: то����но как у "Полезные статьи" - 50px + 16px padding = 66px общий отступ */
           @media (max-width: 480px) {
             .page-headertextwashermachine { margin-top: 66px !important; margin-bottom: 15px !important; }
             .page-text10 { margin-top: 0 !important; margin-bottom: 15px !important; }
@@ -361,7 +361,7 @@ const Header = () => {
             }
           }
 
-          /* Переопреде��ение отступов для RelatedArticles внутри page-left-main-box */
+          /* Переопред����ение отступов для RelatedArticles внутри page-left-main-box */
           .page-left-main-box .related-articles {
             margin-bottom: 30px !important;
             margin-top: var(--dl-layout-space-oneandhalfunits) !important;
@@ -860,7 +860,7 @@ const Header = () => {
             text-decoration: none !important;
             font-size: 15px;
             font-family: var(--font-roboto);
-            font-weight: 500;
+            font-weight: 400;
             padding: 15px 20px;
             border-radius: 8px;
             background-color: rgba(46, 51, 55, 0.41);

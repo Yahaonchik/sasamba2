@@ -41,7 +41,7 @@ const NotFound = (props) => {
             color: rgb(38, 38, 38);
             font-size: 252px;
             margin-top: -20px;
-            font-weight: 900;
+            font-weight: 600;
             margin-bottom: -20px;
             letter-spacing: -20px;
           }

@@ -24,14 +24,14 @@ const Articles = (props) => {
   const closeQuestionModal = () => setIsQuestionModalOpen(false)
 
   const problemArticles = [
-    { title: 'Стиральная машина не сливает воду', href: '/neslivaetvodu', image: '/problems 2/11-300h.webp', alt: 'Стиральная машина не сливает воду' },
+    { title: 'Стиральная машина не сливает воду', href: '/neslivaetvodu', image: '/problems 2/11-300h.webp', alt: 'Стиральная машина не слива��т воду' },
     { title: 'Стиральная машина не греет воду', href: '/negreetvodu', image: '/problems 2/21-300h.webp', alt: 'Стиральная машина не нагревает воду' },
     { title: 'Стиральная машина протекает', href: '/protekaet', image: '/problems 2/31-300h.webp', alt: 'Стир��льная машина протекает' },
     { title: 'Стиральная машина шумит при отжиме', href: '/silnoshumit', image: '/problems/4-300h.webp', alt: 'Стиральн��я машина шумит при отжиме' },
     { title: 'Стиральная машина не включается', href: '/nevkluchaetsa', image: '/problems 2/51-300h.webp', alt: 'Стиральная машина не включается' },
     { title: 'Стиральная машина зависает на программе', href: '/zavisaetnaprogramme', image: '/problems 2/61-300h.webp', alt: 'Стиральная машина зависает на программе' },
     { title: 'Стиральная машина не отжимает', href: '/neotjimaet', image: '/problems 2/71-300h.webp', alt: 'Стиральная машина не отжимает' },
-    { title: 'Стиральная машина не набирает воду', href: '/nenabiraetvodu', image: '/problems/8-300h.webp', alt: 'Стиральная машина не набирает воду' },
+    { title: 'Стиральная машина не набирае�� воду', href: '/nenabiraetvodu', image: '/problems/8-300h.webp', alt: 'Стиральная машина не набирает воду' },
     { title: 'У стиральной машины не открывается дверца', href: '/neotkrivaetsadverca', image: '/problems 2/91-300h.webp', alt: 'Не открывается дверца стиральной машины' },
     { title: 'Стиральная машина не крутит барабан', href: '/nekrutitbaraban', image: '/problems/10-300h.webp', alt: 'Стиральная машина не крутит барабан' }
   ]
@@ -39,8 +39,8 @@ const Articles = (props) => {
   const generalArticles = [
     { title: 'Как избавиться от жирных пятен на одежде в домашних условиях?', href: '/jirniepyatna', description: 'Практическая инструкция по удалению жирных пятен с разных тканей в домашних условиях', image: '/100x100/jir.png' },
     { title: 'Как самостоятельно удалить жвачку с одежды?', href: '/jvachka', description: 'По��аговые способы и лайфхаки удаления застывшей жвачки с ткани', image: '/100x100/jvanik.png' },
-    { title: 'Как удалить пятна крови с одежды без следов?', href: '/vlapalisvkrov', description: 'Советы по быстрому и безопасному выведению пятен крови', image: '/100x100/krov.png' },
-    { title: 'Как правильно стирать пуховик в автоматической стиральной машине?', href: '/puhovik', description: 'Руководство по стирке пуховиков: подготовка, выбор режима и моющего средства', image: '/100x100/puhovik.png' }
+    { title: 'Как удалить пятна крови �� одежды без следов?', href: '/vlapalisvkrov', description: 'Советы по быстрому и безопасному выведению пятен крови', image: '/100x100/krov.png' },
+    { title: 'Как правильно стирать пуховик в автоматической стиральной машине?', href: '/puhovik', description: 'Руководство по стирке пуховиков: подготовка, выбор режима и моющего средств��', image: '/100x100/puhovik.png' }
   ]
 
   const seoData = getSEOData('/articles')
@@ -62,7 +62,7 @@ const Articles = (props) => {
         <section className="articles-hero">
           <div className="articles-hero-content">
             <h1 className="articles-title"><span className="articles-title-blue">Полезные </span><span className="articles-title-black">статьи</span></h1>
-            <p className="articles-subtitle">Экспертные советы по ремонту стиральных машин и уходу за одеждой</p>
+            <p className="articles-subtitle">Экспертные совет�� по ремонту стиральных машин и уходу за одеждой</p>
           </div>
         </section>
 
@@ -143,7 +143,7 @@ const Articles = (props) => {
           }
           .articles-hero-content { max-width: 800px; margin: 0 auto; }
           .articles-title { font-size: 35px; font-family: var(--font-nunito), sans-serif; font-weight: 500; margin-bottom: 16px; text-align: center; }
-          .articles-title-blue { color: #87ceeb; font-weight: 700; }
+          .articles-title-blue { color: #87ceeb; font-weight: 600; }
           .articles-title-black { color: #000000; }
           .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: var(--font-nunito), sans-serif; line-height: 1.6; color: #333333; }
 
@@ -177,7 +177,7 @@ const Articles = (props) => {
           .card-title { font-size: 1rem; font-weight: 500; color: #232020; margin-bottom: 10px; line-height: 1.3; font-family: var(--font-nunito), sans-serif; flex-grow: 1; }
           .card-description { font-size: 0.85rem; color: #333333; line-height: 1.4; margin-bottom: 15px; font-family: var(--font-nunito), sans-serif; font-style: normal; font-weight: 300; }
 
-          .card-button { align-self: flex-start; margin-top: auto; background: linear-gradient(45deg, #4EC8ED, #87ceeb); color: white; padding: 6px 12px; border-radius: 20px; font-size: .8rem; font-weight: 500; font-family: var(--font-roboto), sans-serif; transition: all .3s ease; box-shadow: 0 2px 8px rgba(78,200,237,.3); }
+          .card-button { align-self: flex-start; margin-top: auto; background: linear-gradient(45deg, #4EC8ED, #87ceeb); color: white; padding: 6px 12px; border-radius: 20px; font-size: .8rem; font-weight: 400; font-family: var(--font-roboto), sans-serif; transition: all .3s ease; box-shadow: 0 2px 8px rgba(78,200,237,.3); }
           .floating-card:hover .card-button { background: linear-gradient(45deg, #87ceeb, #5bb8e8); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(78,200,237,.4); }
           .button-text { display: block; }
 

@@ -604,7 +604,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: var(--font-roboto);
-            font-weight: 500;
+            font-weight: 400;
             line-height: normal;
             font-stretch: normal;
             padding-left: var(--dl-layout-space-unit);
@@ -830,39 +830,39 @@ const Page = (props) => {
           }
           .page-text21 {
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text22 {
             font-style: normal;
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text24 {
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text25 {
             font-style: normal;
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text27 {
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text28 {
             font-style: normal;
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text30 {
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-text31 {
             font-style: normal;
             font-family: var(--font-nunito);
-            font-weight: 700;
+            font-weight: 600;
           }
           .page-container15 {
             width: 400px;

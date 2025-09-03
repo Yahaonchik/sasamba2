@@ -287,7 +287,7 @@ const MainFooter = () => {
           }
 
           .frame1196-text-bold {
-            font-weight: 700;
+            font-weight: 600;
           }
 
           .frame1196-icon403 {

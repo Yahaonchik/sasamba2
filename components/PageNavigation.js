@@ -116,7 +116,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
         .page-nav-title {
           color: rgb(80, 80, 80);
           font-size: 17px;
-          font-weight: 700;
+          font-weight: 600;
           margin: 0;
           margin-bottom: 4px;
         }

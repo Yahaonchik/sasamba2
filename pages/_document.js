@@ -1,9 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { nunito, ibmPlexSerif, ibmPlexSerifNoto, ibmPlexSerifSc, roboto } from '../utils/fonts'
+import { nunito, roboto } from '../utils/fonts'
 class CustomDocument extends Document {
   render() {
     return (
-      <Html className={`${nunito.variable} ${ibmPlexSerif.variable} ${ibmPlexSerifNoto.variable} ${ibmPlexSerifSc.variable} ${roboto.variable}`}>
+      <Html className={`${nunito.variable} ${roboto.variable}`}>
         <Head>
           <link rel="preload" as="image" href="/to%20the%20backgrouund-1500w.png" />
           <link rel="preload" as="image" href="/all%20ina%20dast%20or%20dust.webp" />

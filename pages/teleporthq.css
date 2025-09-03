@@ -182,7 +182,7 @@
 .thq-heading-1 {
   font-size: 48px;
   font-family: var(--font-nunito);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
 }
  
@@ -546,7 +546,7 @@
   align-self: stretch;
   text-align: left;
   font-family: var(--font-nunito);
-  font-weight: normal;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
 }
@@ -592,7 +592,7 @@
   font-size: 20px;
   font-style: normal;
   font-family: var(--font-nunito);
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   text-transform: none;
   text-decoration: none;
@@ -652,7 +652,7 @@
   font-size: 20px;
   font-style: normal;
   font-family: var(--font-nunito);
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   text-transform: none;
   text-decoration: none;
@@ -662,7 +662,7 @@
   font-size: 20px;
   font-style: normal;
   font-family: var(--font-nunito);
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   text-transform: none;
   text-decoration: none;

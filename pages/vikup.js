@@ -753,7 +753,7 @@ const Vikup = (props) => {
             font-weight: 500;
           }
           .page1-text10-black { color: #000000; }
-          .page1-text10-blue { color: #87ceeb; font-weight: 700; }
+          .page1-text10-blue { color: #87ceeb; font-weight: 600; }
           .page1-text13 {
             font-size: 16px;
             max-width: 700px;
