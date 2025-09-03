@@ -1,6 +1,7 @@
 import Script from 'next/script'
 
-const GoogleAnalytics = ({ gtag = "G-XXXXXXXXXX" }) => {
+const GoogleAnalytics = ({ gtag }) => {
+  if (!gtag || gtag === 'G-XXXXXXXXXX') return null;
   return (
     <>
       <Script

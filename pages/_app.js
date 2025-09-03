@@ -8,7 +8,9 @@ import { nunito, roboto } from '../utils/fonts';
 export default function MyApp({ Component, pageProps }) {
   return (
     <div className={`${nunito.variable} ${roboto.variable}`}>
-      <GoogleAnalytics gtag={process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXXXXX"} />
+      {process.env.NEXT_PUBLIC_GA_ID && (
+        <GoogleAnalytics gtag={process.env.NEXT_PUBLIC_GA_ID} />
+      )}
       <Component {...pageProps} />
       <SiteTagline />
     </div>

@@ -113,7 +113,7 @@ const Frame1196 = (props) => {
 
         <section className="frame1196-container111">
           <div className="frame1196-hero-bg" aria-hidden="true">
-            <Image src="/all%20ina%20dast%20or%20dust.webp" alt="" fill priority sizes="100vw" className="frame1196-hero-bg-img" />
+            <Image src="/all%20ina%20dast%20or%20dust.webp" alt="" fill priority sizes="100vw" quality={100} unoptimized className="frame1196-hero-bg-img" />
           </div>
           <div className="frame1196-container112">
             <h1 className="frame1196-text108">
@@ -142,7 +142,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image15"><Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} priority style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image15"><Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/negreetvodu">
@@ -328,7 +328,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="frame1196-image24"><Image alt="Стиральная ма��ина не крутит барабан" src="/problems/10-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+              <div className="frame1196-image24"><Image alt="Сти��альная ма��ина не крутит барабан" src="/problems/10-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
             </a>
           </article>
         </section>
@@ -646,7 +646,7 @@ const Frame1196 = (props) => {
                 </span>
               </div>
               <div className="frame1196-container135">
-                <span className="frame1196-text145">Бесплатно</span>
+                <span className="frame1196-text145">��есплатно</span>
                 <svg
                   width="100%"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1118,7 +1118,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text195">
-                    <span>Замена амортизаторов (без учетаа ��тоимости амортизаторо��)</span>
+                    <span>Замена амортизаторов (без учетаа ��тоимост�� амортизаторо��)</span>
                   </span>
                 </Fragment>
               }
@@ -1451,7 +1451,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машин Beko в О����ссе - профессиональный сервис"
+                  alt="Ре��онт стиральных машин Beko в О����ссе - профессиональный сервис"
                   src="/brands/beko-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image33"
@@ -1523,7 +1523,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машиин Siemens в Одессе - проф��ссиональный сервис"
+                  alt="Ремонт стиральных машиин Siemens в Одессе - проф����сиональный сервис"
                   src="/brands/image%203823125-200h.webp"
                   loading="eager"
                   className="frame1196-image39"
@@ -1595,7 +1595,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машин LG в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных ��ашин LG в Одессе - профессиональный сервис"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
@@ -2043,7 +2043,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text221">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Получаем нужные з��пчасти быстро, по выгодным ценам и без переплат.',
+                      __html: 'Получаем нужные з��пчасти быстро, по выгодным ценам и без перепл��т.',
                     }}
                   ></span>
                 </p>
@@ -2437,7 +2437,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text225">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Квалифициров��нные специалисты, которые знают своё де��о.',
+                      __html: 'Квалифициров��нные специ��листы, которые знают своё де��о.',
                     }}
                   ></span>
                 </p>
@@ -2634,7 +2634,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text227">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Подтверждаем надёжность ремонта длительным сроком гарантии.',
+                      __html: 'Подтверждаем надёжность рем��нта длительным сроком гарантии.',
                     }}
                   ></span>
                 </p>
@@ -3212,7 +3212,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по тел��фону заранее.',
+                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по тел��фону заране��.',
                     }}
                   ></span>
                 </p>
@@ -3468,7 +3468,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не греет воду — диагностика и зам��на ТЭНа.',
+                    __html: 'Не греет воду — диагно��тика и зам��на ТЭНа.',
                   }}
                 ></span>
               </span>
@@ -3503,7 +3503,7 @@ const Frame1196 = (props) => {
           </h2>
           <p className="frame1196-text271 textITOGI">
             <span>
-              Сервисный ц��нтр "Ваше название" — это современная профессиональная мастерска�� в Одессе, где в���п��лняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмс�� за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Прово��им профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только по���ле согласования с клиентом мы приступаем к работе. Мы ц��ним довери�� и работаем аккуратно — б��з спешки и халтуры.
+              Сервисный ц��нтр "Ваше название" — это современная профессиональная мастерска�� в Одессе, где в���п��лняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмс�� за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Прово��им профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — ма��тер объясняет, в чём проблема, и предлагает решение. Только по���ле согласования с клиентом мы приступаем к работе. Мы ц��ним довери�� и работаем аккуратно — б��з спешки и халтуры.
             </span>
           </p>
           <h2 className="textglavitogi">
@@ -3552,7 +3552,7 @@ const Frame1196 = (props) => {
               className="frame1196-frame10701"
             />
             <p className="frame1196-text276">
-              Я долбоеб. я не могу жить без стиралки, потому что когда она сломана я не могу плакать на взрыд во время отжима.
+              Я долбоеб. я не могу жить без стиралки, пото��у что когда она сломана я не могу плакать на взрыд во время отжима.
             </p>
             <svg
               width="330"
@@ -3703,7 +3703,7 @@ const Frame1196 = (props) => {
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдалась ему полностью, �� не стала брыкаться. не знаю, что он там с ней делал, н�� ���ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
+              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдала��ь ему полностью, �� не стала брыкаться. не знаю, что он там с ней делал, н�� ���ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
             </p>
             <svg
               width="330"
@@ -4028,6 +4028,10 @@ const Frame1196 = (props) => {
               background-image: none !important;
             }
             .frame1196-hero-bg { display: none; }
+            .frame1196-container100 { background-image: none !important; }
+          }
+          @media (max-width: 991px) {
+            .frame1196-container100 { background-image: none !important; }
           }
           .frame1196-container112 {
             gap: var(--dl-layout-space-threeunits);
