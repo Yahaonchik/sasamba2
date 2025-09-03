@@ -114,7 +114,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-container111">
           <div className="frame1196-container112">
             <h1 className="frame1196-text108">
-              <span>Ремонт стиральных машин </span>
+              <span>Ремонт стиральных маши�� </span>
               <span className="frame1196-text110">в </span>
               <span className="frame1196-text111">Одессе!</span>
             </h1>
@@ -139,7 +139,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" loading="lazy" className="frame1196-image15" />
+                <Image alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" className="frame1196-image15" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/negreetvodu">
@@ -160,7 +160,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" loading="lazy" className="frame1196-image16" />
+                <Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" className="frame1196-image16" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/protekaet">
@@ -179,7 +179,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" loading="lazy" className="frame1196-image17" />
+                <Image alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" className="frame1196-image17" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/silnoshumit">
@@ -200,7 +200,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" loading="lazy" className="frame1196-image18" />
+                <Image alt="Стиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" className="frame1196-image18" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/nevkluchaetsa">
@@ -221,7 +221,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стирал��ная машина не включается" src="/problems 2/51-300h.webp" loading="lazy" className="frame1196-image19" />
+                <Image alt="Стирал��ная машина не включается" src="/problems 2/51-300h.webp" className="frame1196-image19" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/zavisaetnaprogramme">
@@ -242,7 +242,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" loading="lazy" className="frame1196-image20" />
+                <Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" className="frame1196-image20" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/neotjimaet">
@@ -263,7 +263,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" loading="lazy" className="frame1196-image21" />
+                <Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" className="frame1196-image21" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/nenabiraetvodu">
@@ -284,7 +284,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" loading="lazy" className="frame1196-image22" />
+                <Image alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" className="frame1196-image22" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <Link legacyBehavior href="/neotkrivaetsadverca">
@@ -305,7 +305,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" loading="lazy" className="frame1196-image23" />
+                <Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" className="frame1196-image23" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
@@ -325,7 +325,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
               </div>
-              <img alt="Стиральная ма��ина не крутит барабан" src="/problems/10-300h.webp" loading="lazy" className="frame1196-image24" />
+              <Image alt="Стиральная ма��ина не крутит барабан" src="/problems/10-300h.webp" className="frame1196-image24" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
             </a>
           </article>
         </section>
@@ -335,7 +335,7 @@ const Frame1196 = (props) => {
             <span className="frame1196-text124">"Ваше название" </span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
-               мы заботимс�� о надёжной работ�� вашей техники во вс����х уголках
+               мы заботимс�� �� надёжной работ�� вашей техники во вс����х уголках
               Одессы.
             </span>
             <br className="frame1196-text127" />
@@ -889,7 +889,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text167">
-                    <span>Ремонт сливного насоса</span>
+                    <span>Ремо��т сливного насоса</span>
                   </span>
                 </Fragment>
               }
@@ -1435,171 +1435,255 @@ const Frame1196 = (props) => {
           <div className="frame1196-container151 carousel">
             <div className="frame1196-container152 track">
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Ariston в Одессе - профессиональный сервис"
                   src="/brands/ariston-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image32"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Beko в Од��ссе - профессиональный сервис"
                   src="/brands/beko-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image33"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стираль��ых машин Bosch в Одессе - профессиональный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image34"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Candy в Одессе - професссиональьный сервис"
                   src="/brands/candy-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image35"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Electrolux в Одессе - профессиональный сер��ис"
                   src="/brands/electrolux-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image36"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт с��иральных м��шин Gorenje в Одессе - профессиональный сервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремон�� ст��ральных машин Ardo в Одессе - профссиональный сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машиин Siemens в Одессе - проф��ссиональный сервис"
                   src="/brands/image%203823125-200h.webp"
                   loading="eager"
                   className="frame1196-image39"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Atlant в Оде��се - профессиональный сервис"
                   src="/brands/image%203823126-200h.webp"
                   loading="eager"
                   className="frame1196-image40"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Beko в Одессе - профессиональный сервис"
                   src="/brands/image%203823127-200h.webp"
                   loading="eager"
                   className="frame1196-image41"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Aeg в Одессе - профессиональный сервис"
                   src="/brands/image%203823128-200h.webp"
                   loading="eager"
                   className="frame1196-image42"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
-                  alt="Ремонт ��тиральных машин Miele в Одессе - профессиональный сервис"
+                <Image
+                  alt="Ремонт ��тиральных машин Miele в Одессе - профессио��альный сервис"
                   src="/brands/image%203823129-200h.webp"
                   loading="eager"
                   className="frame1196-image43"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Indesit в Одессе - профессиональный сервис"
                   src="/brands/image%203823130-200h.webp"
                   loading="eager"
                   className="frame1196-image44"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин LG в Одессе - профессиональный сервис"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Samsung в Одессе - профессиональьный сервис"
                   src="/brands/samsung-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image46"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных машин Whirlpool в Одессе - профес���иональный серв��с"
                   src="/brands/whirlpool-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image47"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="Ремонт стиральных ��ашин Zanussi в Одессе - профессионал��ный сервис"
                   src="/brands/zanussi-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image48"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="image"
                   src="/brands/ariston-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image49"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="image"
                   src="/brands/beko-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image50"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="image"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image51"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div className="item">
-                <img
+                <Image
                   alt="image"
                   src="/brands/candy-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image52"
+                  width={180}
+                  height={65}
+                  sizes="(max-width: 767px) 120px, 180px"
+                  quality={60}
                 />
               </div>
               <div>
@@ -3278,7 +3362,7 @@ const Frame1196 = (props) => {
             <span>Стиральная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со временем тре��ует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реальная необходимость для многих владельцев. Важно доверить ремонт проверен��ым спе��иалистам, а не случайному мастеру.</span>
           </p>
           <p className="frame1196-text252 textITOGI">
-            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных машин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
+            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
           </p>
           <h2 className="textglavitogi">
             <span>Почему выбирают нас</span>
@@ -3354,7 +3438,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Шум и вибрации — чаще всего износ амортизаторов или подшипников.',
+                    __html: 'Шум и вибраци�� — чаще всего износ амортизаторов или подшипников.',
                   }}
                 ></span>
               </span>
@@ -3416,7 +3500,7 @@ const Frame1196 = (props) => {
           </h2>
           <p className="frame1196-text271 textITOGI">
             <span>
-              Сервисный центр "Ваше название" — это современная профессиональная мастерска�� в Одессе, где в���полняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Проводим профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.
+              Сервисный центр "Ваше название" — это современная профессиональная мастерска�� в Одессе, где в���полняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Проводим профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только по��ле согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.
             </span>
           </p>
           <h2 className="textglavitogi">
@@ -3616,7 +3700,7 @@ const Frame1196 = (props) => {
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но ��ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
+              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но ���ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
             </p>
             <svg
               width="330"
@@ -11369,7 +11453,7 @@ const Frame1196 = (props) => {
             box-shadow: 0px 4px 15px 0px rgba(175, 160, 115, 0.4);
           }
 
-          /* Ан��мация разворачи������ия из центр�� для ответов FAQ */
+          /* Ан��мация разворачи�������ия из центр�� для ответов FAQ */
           .frame1196-otvet1,
           .frame1196-otvet2,
           .frame1196-otvet3,
@@ -11403,7 +11487,7 @@ const Frame1196 = (props) => {
           }
 
 
-          /* Ли��ейная ан��м��ция д��я икон��к */
+          /* Ли��ейная ан��м��ция д����я икон��к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,
