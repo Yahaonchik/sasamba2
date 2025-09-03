@@ -1,4 +1,4 @@
-import './teleporthq.css';
+import '../styles/teleporthq.css';
 import './style.css';
 import '../styles/problem-pages.css';
 import GoogleAnalytics from '../components/GoogleAnalytics';
