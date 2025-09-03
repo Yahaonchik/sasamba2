@@ -151,8 +151,10 @@ const CallMasterSection = ({
           text-decoration: none;
         }
         @media (max-width: 767px) {
-          .callout-container { max-width: 400px; }
+          .callout-container { max-width: 400px; margin-left: auto; margin-right: auto; }
           .contacts-row { gap: calc(var(--dl-layout-space-unit) * 2); }
+          .callout-text { text-align: center; }
+          .phone-number { text-align: center; }
           .top { left: 1px; }
           .bottom { left: 0px; }
         }

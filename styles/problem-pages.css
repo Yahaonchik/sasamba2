@@ -255,11 +255,25 @@
 
   .page-text10 {
     font-size: 28px;
+    text-align: center;
   }
 
   .page-main {
     flex-direction: column;
     gap: var(--dl-layout-space-twounits);
+  }
+
+  .page-left-main-box {
+    align-items: center;
+  }
+
+  .page-headertextwashermachine {
+    align-items: center;
+  }
+
+  .page-container15 {
+    align-self: center;
+    margin: 0 auto;
   }
 
   .page-dops-info {
