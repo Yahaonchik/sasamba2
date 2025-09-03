@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import WashingMachineAnimation from './WashingMachineAnimation'
+const WashingMachineAnimation = dynamic(() => import('./WashingMachineAnimation'), { ssr: false })
 import { PHONE_TEL, PHONE_DISPLAY, PHONE_TEL_2, PHONE_DISPLAY_2 } from '../utils/contacts'
 import dynamic from 'next/dynamic'
 const PhoneModal = dynamic(() => import('./PhoneModal'), { ssr: false })
@@ -139,7 +139,7 @@ const Header = () => {
               <div className="frame1196-container110">
                 <span className="frame1196-text106">
                   <span className="frame1196-text106-bold">Адрес:</span>
-                  <span className="frame1196-text106-normal"> пл. Независимости, 1, Одесса, Одесская область, 65000</span>
+                  <span className="frame1196-text106-normal"> пл. Нез��висимости, 1, Одесса, Одесская область, 65000</span>
                 </span>
                 <span className="frame1196-text107">
                   <span className="frame1196-text107-bold">Пн-Вс:</span>
