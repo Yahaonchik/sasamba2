@@ -12,7 +12,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 import AnchorLinksSection from '../components/AnchorLinksSection'
 import CallMasterSection from '../components/CallMasterSection'
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -122,7 +122,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>2. Проверьте электрическую цепь.</strong><br />
-                    Убедитесь, что автомат в электрощите включён, а провод питания и розетка не повреждены. Подключите к той же розетке другой прибор, чтобы убедиться, что питание есть.
+                    Убедитесь, что автомат в электрощите включён, а провод питания и розетка не повреждены. П��дключите к той же розетке другой прибор, чтобы убедиться, что питание есть.
                   </p>
 
                   <p>
@@ -137,12 +137,12 @@ const Page = (props) => {
 
                   <p>
                     <strong>5. Перезапустите оборудование.</strong><br />
-                    Отключите машину от сети на несколько минут (примерно на 10–15), затем включите снова. Иногда однократный «глюк» электроники устраняется сбросом питания.
+                    Отключите машину от сети на нес��олько минут (примерно на 10–15), затем включите снова. Иногда однократный «глюк» электроники устраняется сбросом питания.
                   </p>
 
                   <p>
                     <strong>6. Проверьте фильтры и шланги.</strong><br />
-                    Если машинка всё ещё не подаёт признаков жизни, осмотрите сетевой фильтр и впускной клапан. Для фильтра нужен мультиметр, для клапана — визуальный осмотр или звон мастеру. Часто эти детали меняют полностью.
+                    Если машинка всё ещё не подаёт признаков жизни, осмотрите сетевой фильтр и впускной клапан. Для фильтра нужен мультиметр, для клапана — визуальны�� осмотр или звон мастеру. Часто эти детали меняют полностью.
                   </p>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Page = (props) => {
             <section id="2" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  1. Отсутствие питания
+                  1. Отсутствие п��тания
                 </h3>
                 <svg
                   width="330"
@@ -231,7 +231,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  В большинстве современных машин стоит сетевой фильтр, который защищает электронику от скачков напряжения. ��огда он выходит из строя, машинка перестаёт реагировать на включение. Симптомы — шнур и розетка исправны, но техника полностью «мертва». Проверить фильтр можно мультиметром (или доверить мастеру). Иногда на корпусе фильтра видны следы подгорания. Если элемент неисправен, его просто меняют на новый.
+                  В большинстве современных машин стоит сетевой фильтр, который защищает электронику от скачков напряжения. ��огда он выходит из строя, маши��ка перестаёт реагировать на включение. Симптомы — шнур и розетка исправны, но техника полностью «мертва». Проверить фильтр можно мультиметром (или доверить мастеру). Иногда на корпусе фильтра видны следы подгорания. Если элемент неисправен, его просто меняют на новый.
                 </p>
               </div>
             </section>
@@ -314,7 +314,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Двигатель стиралки питается от электрических щёток на коллекторе ротора. При сильном износе щёток двигатель либо не запускается совсем, либо работает с перебоями. Яркий признак неисправности щёток — барабан перестаёт вращаться: машина включена, напор воды е��ть, но барабан «не крутит». Ещё один сим��том — искры ��ли необычные «скрежещущие» звуки при попытке запустить стирку. Обычно это происходит из-за плохого контакта щёток с ротором (они коротко замкнуты или стёрлись). На дисплее в таких случаях могут появляться сервисные коды (хотя обычно исчезают, когда машина остывает). Проверьте щётки двигателя: в большинстве моделей это доступно после снятия задней крышки и корпуса мотора. Если щетки сильно ко��откие или имеют сколы, их нужно заменить. Это относительно простая и недорогая операция — её выполняет мастер или даже домашний умелец. Пока щетки не заменены, стиралка не запустится (особенно при больших нагрузках).
+                  Двигатель стиралки питается от электрических щёток на коллекторе ротора. При сильном износе щёток двигатель либо не запускается совсем, либо работает с перебоями. Яркий признак неисправ��ости щёток — барабан перестаёт вращаться: машина включена, напор воды е��ть, но барабан «не крутит». Ещё один сим��том — искры ��ли необычные «скрежещущие» звуки при попытке запустить стирку. Обычно это происходит из-за плохого контакта щёток с ротором (они коротко замкнуты или стёрлись). На дисплее в таких случаях могут появляться сервисные коды (хотя обычно исчезают, когда машина остывает). Проверьте щётки двигателя: в большинстве моделей это доступно после снятия задней крышки и корпуса мотора. Если щетки сильно ко��откие или имеют сколы, их нужно заменить. Это относительно простая и недорогая операция — её выполняет мастер или даже домашний умелец. Пока щетки не заменены, стиралка не запустится (особенно при больших нагрузках).
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -358,7 +358,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Практически все стиралки блокируют дверцу перед стартом (из соображений безопасности). Если замок (Устройство Блокировки Люка, УБЛ) сломан или просто не фиксирует дверцу, машина не даст себя включить. Проявляется это тем, что при попытке старта ничего не происходит — машинка не отвечает на нажатия. На некоторых моделях на экране появл��ется код ошибки, связанный с дверцей: например, LG выдаёт «dE», Samsung — «DC». Часто бывает и просто «виснет»: люк не захлопнут до конца. Попробуйте открыть и затем сильно закрыть дверцу до щелчка – иногда достаточно убедиться, что она плотно заперта. Если же замок действительно сломан, его ��ридётся заменить. Устройство состоит из микровыключателя и заслонки — ремонт нецелесообразен, заменять нужно весь узел. До замены машина работать не будет (ее «кидает»: ни вода не набирается, ни барабан не крутится).
+                  Практически все стиралки блокируют дверцу перед стартом (из соображений безопасности). Если замок (Устройство Блокировки Люка, УБЛ) сломан или просто не фиксирует дверцу, машина не даст себя включить. Проявляется это тем, что при попытке старта ничего не происходит — машинка не отвечает на нажатия. На некоторых моделях на экране появл��ется код ошибки, связанный с дверцей: например, LG выдаёт «dE», Samsung — «DC». Часто бывает и просто «виснет»: люк не захлопнут до конца. Попробуйте открыть и затем сильно закрыть дверцу до щелчка – иногда дост��точно убедиться, что она плотно заперта. Если же замок действительно сломан, его ��ридётся заменить. Устройство состоит из микровыключателя и заслонки — ремонт нецелесообразен, заменять нужно весь узел. До замены машина работать не будет (ее «кидает»: ни вода не набирается, ни барабан не крутится).
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -402,7 +402,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Если индикаторы на панели загораются, но после включения программа не стартует, обратите внимание на подачу воды. Во время цикла машинка должна заблокировать люк и тут же начать залив воды. Если воды нет (или не подаётся), стирка не начнётся. Сначала проверьте, открыт ли кран водоснабжения для машины и не пережат ли заливной шланг. Без наличия во��ы стиралка просто не запустится. Если с подачей воды всё в порядке, возможен отказ впускного (заливного) клапана. Это электромагнит, открывающий подачу воды при команде блока управления. Признаки: машинка блокирует люк, пытается набрать воду (можно услышать гудение), но бак остаётся пустым. На дисплее может мигать ошибка «нет воды» (например, код H2O у Indesit или F02 у Bosch). Иногда заливается вода то��ько на некоторые программы (например, полоскание) — это из-за того, что современные стиралки используют двойной клапан и может выходить из строя только один из его патрубков. Что делать: убедитесь, что кран открыт и шланг не изогнут. Если вода есть, но машинка всё равно не набирает, скорее всего, впускной клапан неисправен или заби�� мусором. Нередко в корпусе клапана устанавливается мелкая сеточка-фильтр — её можно очистить. Если проверка не помогла, потребуется заменить клапан на новый. Это уже задача мастера: самостоятельно без опыта лучше не рисковать.
+                  Если индикаторы на панели загораются, но после включения программа не стартует, обратите внимание на подачу воды. Во время цикла машинка должна заблокировать люк и тут же начать залив воды. Если воды нет (или н�� подаётся), стирка не начнётся. Сначала проверьте, открыт ли кран водоснабжения для машины и не пережат ли заливной шланг. Без наличия во��ы стиралка просто не запустится. Если с подачей воды всё в порядке, возможен отказ впускного (заливного) клапана. Это электромагнит, открывающий подачу воды при команде блока управления. Признаки: машинка блокирует люк, пытается набрать воду (можно услышать гудение), но бак остаётся пустым. На дисплее может мигать ошибка «нет воды» (например, код H2O у Indesit или F02 у Bosch). Иногда заливается вода то��ько на некоторые программы (например, полоскание) — это из-за того, что современные стиралки используют двойной клапан и может выходить из строя только один из его патрубков. Что делать: убедитесь, что кран открыт и шланг не изогнут. Если вода есть, но машинка всё равно не набирает, скорее всего, впускной клапан неисправен или заби�� мусором. Нередко в корпусе клапана устанавливается мелкая сеточка-фильтр — её можно очистить. Если проверка не помогла, потребуется заменить клапан на новый. Это уже задача мастера: самостоятельно без опыта лучше не рисковать.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -480,7 +480,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12986">
                 <span className="page-text78">
-                  Мифы о стиралках: что правда, а что — вы��ысел?
+                  Мифы о стиралках: ��то правда, а что — вы��ысел?
                 </span>
                 <div className="page-container50"></div>
               </div>
@@ -574,7 +574,7 @@ const Page = (props) => {
             font-size: 32px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -871,39 +871,39 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text21 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text22 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -924,7 +924,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1254,7 +1254,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1307,7 +1307,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1353,7 +1353,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1380,7 +1380,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1392,7 +1392,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral-sc);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1456,7 +1456,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1469,7 +1469,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1524,7 +1524,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1537,7 +1537,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1568,7 +1568,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1767,7 +1767,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-roboto-serif);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2077,7 +2077,7 @@ const Page = (props) => {
               font-size: 25px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2165,14 +2165,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2202,7 +2202,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2235,7 +2235,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

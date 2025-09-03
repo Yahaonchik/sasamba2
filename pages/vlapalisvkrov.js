@@ -11,7 +11,7 @@ import dynamic from 'next/dynamic'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 import AnchorLinksSection from '../components/AnchorLinksSection'
 const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getArticleStructuredData } from '../utils/structuredData'
 
@@ -107,7 +107,7 @@ const Page = (props) => {
                     className="page-image38230522"
                   />
                   <span className="page-text19">
-                    <span>Нагревательный элемент (ТЭН)</span>
+                    <span>Нагревательный ��лемент (ТЭН)</span>
                     <br></br>
                   </span>
                 </figure>
@@ -149,13 +149,13 @@ const Page = (props) => {
                     className="page-image38230522"
                   />
                   <span className="page-text19">
-                    <span>Датчик температуры</span>
+                    <span>Датчик температу��ы</span>
                     <br></br>
                   </span>
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Гель для посуды действует похожим образом: его компоненты растворяют липидную составляющую крови. Промокните пятно губкой, смоченной в холодной воде, нанесите небольшое количество средства и лёгкими движениями вспеньте. Через 5–10 минут постирай��е вещь вручную или в машинке. Этот метод помогает быстро и без замачивания удалить большую часть биологических загрязнений.
+                  Гель для посуды действует п��хожим образом: его компоненты растворяют липидную составляющую крови. Промокните пятно губкой, смоченной в холодной воде, нанесите небольшое количество средства и лёгкими движениями вспеньте. Через 5–10 минут постирай��е вещь вручную или в машинке. Этот метод помогает быстро и без замачивания удалить большую часть биологических загрязнений.
                 </p>
               </div>
             </section>
@@ -237,7 +237,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Есть и «сухой» вариант: обильно посыпьте пятно солью, потрите мягкой щёткой и дайте впитаться 15–30 минут, затем смойте и постирайте. Аналогично работают и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и сно��а постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средне�� давности пятен.
+                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем сти��айте обычным способом. Есть и «сухой» вариант: обильно посыпьте пятно солью, потрите мягкой щёткой и дайте впитаться 15–30 минут, затем смойте и постирайте. Аналогично работают и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и сно��а постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средне�� давности пятен.
                 </p>
               </div>
             </section>
@@ -314,7 +314,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Один из малоизвестных, но действенных методов – использование подогретого глицерина. Глицерин слегка подогревают, пропитывают им ват��ый диск и растирают пятно с обеих сторон. Такой приём позволяет «распуст��ть» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказано!), глицерин действительно помогает вывести пятно без высоких температур.
+                  Один из малоизвестных, но действенных методов – использование подогретого глицерина. Глицерин слегка подогревают, пропитывают им ват��ый диск и растирают пятно с обеих сторон. Такой приём позволяет «распуст��ть» застаревшие пятна крови. ��осле обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно пр��тивопоказано!), глицерин действительно помогает вывести пятно без высоких температур.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -372,7 +372,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12983">
                 <span className="page-text75">
-                  Почему стиралка воняет — 7 быстрых пр��чин и что сделать прямо
+                  Почему стиралка воняет — 7 быстрых пр��чин и что сдел��ть прямо
                   сейчас
                 </span>
                 <div className="page-container47"></div>
@@ -489,7 +489,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -786,30 +786,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -830,7 +830,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -869,7 +869,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1139,7 +1139,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1192,7 +1192,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1238,7 +1238,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1265,7 +1265,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1277,7 +1277,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral-sc);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1341,7 +1341,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1354,7 +1354,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1409,7 +1409,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1422,7 +1422,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1453,7 +1453,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1652,7 +1652,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-roboto-serif);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1962,7 +1962,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2123,14 +2123,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2160,7 +2160,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2193,7 +2193,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

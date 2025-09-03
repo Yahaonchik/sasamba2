@@ -11,7 +11,7 @@ import dynamic from 'next/dynamic'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 import AnchorLinksSection from '../components/AnchorLinksSection'
 const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -50,7 +50,7 @@ const Page = (props) => {
             <div className="page-headertextwashermachine">
               <h1 className="page-text10">
                 <span className="page-text11">
-                  Стиральная машина не крутит барабан —
+                  Стиральная машина не крутит бараб��н —
                 </span>
                 <span className="page-text12">
                   <span
@@ -70,7 +70,7 @@ const Page = (props) => {
                 { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Двер���� не закрыта или не заблокирована.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Проблемы с приводным ремнём.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Неисправность двигателя или щёток.' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Сбои в электронном блоке управления' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Сбои в э��ектронном блоке управления' },
               ]}
             />
             <section id="1" className="page-firstproblem">
@@ -100,7 +100,7 @@ const Page = (props) => {
                 <div className="vicetext">
                   <p>
                     <strong>1. Обесточьте машину и слейте воду.</strong><br />
-                    Выключите стиральную машину и отключите её от сети. Слейте воду из барабана с помощью аварийного шланга или через фильтр (если таковой имеется). Это необходимо сделать перед любыми проверками, чтобы вода не помешала осмотру и не повредила пол под машиной.
+                    Выключите стиральную машин�� и отключите её от сети. Слейте воду из барабана с помощью аварийного шланга или через фильтр (если таковой имеется). Это необходимо сделать перед любыми проверками, чтобы вода не помешала осмотру и не повредила пол под машиной.
                   </p>
 
                   <p>
@@ -175,7 +175,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если люк не закрыт «до щелчка» или что-то мешает защёлке — например, ткань прилипла к уплотнителю — машина распознает это как неисправность и не запустит программу; отсутствие характерного щелчка или свободно болтающаяся дверца могут указывать на механическую поломку замка. В таких случаях нужно убедиться, что люк закрыт плотно и ничего не зажато; при признаках повреждения замка или его ненадёжной фиксации замена узла в сервисе решит проблему, поскольку продолжать работу с неисправной защёлкой опасно и неэффективно.
+                  Если люк не закрыт «до щелчка» или что-то мешает защёлке — например, ткань прилипла к уплотнителю — машина распознает это как неисправность и не запустит программу; отсутствие характерного щелчка или свободно болтающаяся дверца могут указывать на механическую по��омку замка. В таких случаях нужно убедиться, что люк закрыт плотно и ничего не зажато; при признаках повреждения замка или его ненадёжной фиксации замена узла в сервисе решит проблему, поскольку продолжать работу с неисправной защёлкой опасно и неэффективно.
                 </p>
               </div>
             </section>
@@ -304,7 +304,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Отказ платы управления, неисправн��сть таходатчика или других сенсоров может приводить к тому, что контроллер не получает корректных данных о положении и оборо��ах барабана и блокирует отжим; проявления варьируются от мигающих ошибок на дисплее до полной неработоспособности на отдельных этапах. В таких случаях перезагрузка — кратковременное отключение питания — иногда устраняет временные сбои, но при повторяющихся ошибках требуется профессиональная диагностика и ремонт электроники, так как самостоятельные вмешательства в плату без опыта чреваты усугублением неисправности.
+                  Отказ платы управления, неисправн��сть таходатчика или других сенсоров может приводить к тому, что контроллер не получает корректных данных о положении и оборо��ах барабана и блокирует отжим; проявления варьируются от мигающих ошибок на дисплее до полной неработоспособности на отдельных этапах. В таких случаях перезагрузка — кратковременное отключение питания — иногда устраняет временные сбои, но при повторяющихся ошибках требуется профессиональная диагностика и ремонт электроники, так как само��тоятельные вмешат��льства в плату без опыта чреваты усугублением неисправности.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -362,7 +362,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12983">
                 <span className="page-text75">
-                  Почему ст��ралка воняет — 7 быстрых причин и что сделать прям����
+                  Почему ст��ралка воняет — 7 быстрых причин и что сделать пря������
                   сейчас
                 </span>
                 <div className="page-container47"></div>
@@ -475,7 +475,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -772,30 +772,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -816,7 +816,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1145,7 +1145,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1198,7 +1198,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1244,7 +1244,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1271,7 +1271,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1283,7 +1283,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1347,7 +1347,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1360,7 +1360,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1415,7 +1415,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1428,7 +1428,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1459,7 +1459,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1658,7 +1658,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1962,7 +1962,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2096,14 +2096,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2133,7 +2133,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2166,7 +2166,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

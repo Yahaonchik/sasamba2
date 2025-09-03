@@ -83,7 +83,7 @@ const White1 = (props) => {
             width: auto;
             height: auto;
             align-self: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .white1-container2 {
             width: 100%;
@@ -99,7 +99,7 @@ const White1 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .white1-container4 {
@@ -113,7 +113,7 @@ const White1 = (props) => {
             color: #4ec8ed;
             font-size: 16px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: underline;
           }

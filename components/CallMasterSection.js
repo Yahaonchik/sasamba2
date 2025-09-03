@@ -10,7 +10,7 @@ const CallMasterSection = ({
     { icon: '/image%203823106.svg', number: PHONE_DISPLAY },
     { icon: '/image%203823107.svg', number: PHONE_DISPLAY_2 },
   ],
-  buttonText = 'Заказать мастера',
+  buttonText = 'Заказать ��астера',
 }) => {
   const toTelHref = (s) => {
     const digits = s.replace(/\D+/g, '');
@@ -89,7 +89,7 @@ const CallMasterSection = ({
           color: var(--dl-color-theme-neutral-dark);
           font-size: 19px;
           text-align: center;
-          font-family: var(--font-noto-serif-sc);
+          font-family: var(--font-nunito);
           font-weight: 400;
         }
         .callout-text {
@@ -109,7 +109,7 @@ const CallMasterSection = ({
         .workdays {
           color: #58c3e8;
           font-size: 16px;
-          font-family: var(--font-noto-serif-sc);
+          font-family: var(--font-nunito);
           font-weight: 500;
           text-decoration: underline;
           display: block;
@@ -146,7 +146,7 @@ const CallMasterSection = ({
           width: 100%;
           font-size: 18px;
           text-align: left;
-          font-family: var(--font-noto-serif-sc);
+          font-family: var(--font-nunito);
           font-weight: 400;
           text-decoration: none;
         }
@@ -158,7 +158,7 @@ const CallMasterSection = ({
         }
         @media (max-width: 479px) {
           .callout-container { max-width: 290px; padding-left: 15px; padding-right: 15px; }
-          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: var(--font-noto-serif-sc); font-weight: 500; }
+          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: var(--font-nunito); font-weight: 500; }
           .callout-text { font-size: 14px; font-family: var(--font-nunito); }
           .workdays { font-size: 15px; }
           .phone-number { font-size: 17px; }

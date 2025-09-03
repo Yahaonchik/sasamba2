@@ -46,7 +46,7 @@ const Header = () => {
 
   return (
     <>
-      {/* Изолированный контейнер для хедера */}
+      {/* И��олированный контейнер для хедера */}
       <div className="header-component">
         <header className="frame1196-container101">
           <div className="frame1196-container102">
@@ -257,7 +257,7 @@ const Header = () => {
             </nav>
             <div className="frame1196-sidebar-contact">
               <div className="frame1196-sidebar-phones">
-                <button type="button" aria-label={`Открыть контакты ${PHONE_DISPLAY}`} className="phone-link" onClick={() => setPhoneOpen(true)}>
+                <button type="button" aria-label={`О��крыть контакты ${PHONE_DISPLAY}`} className="phone-link" onClick={() => setPhoneOpen(true)}>
                   <img
                     alt="Позвонить"
                     src="/ICONS/dla%20hedera%20trubka.svg"
@@ -519,7 +519,7 @@ const Header = () => {
             font-size: 23px;
             word-wrap: break-word;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             white-space: normal;
             letter-spacing: 1.5px;

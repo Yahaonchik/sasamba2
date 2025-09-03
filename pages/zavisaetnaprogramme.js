@@ -11,7 +11,7 @@ import dynamic from 'next/dynamic'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 import AnchorLinksSection from '../components/AnchorLinksSection'
 const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -116,7 +116,7 @@ const Page = (props) => {
                   <br />
                   <strong>4. После ручного слива можно безо��асно открыть люк.</strong>
                   <br />
-                  Обычно дв��рца автоматически разблокируется после снятия напряжения, но если она осталась заблокированной, подождите несколько минут или разберите систему блокировки (иногда нужно подождать пока УБЛ «остынет»).
+                  Обычно дв��рца автоматически разблокир��ется после снятия напряжения, но если она осталась заблокированной, подождите несколько минут или разберите систему блокировки (иногда нужно подождать пока УБЛ «остынет»).
                   <br />
                   <strong>5. Перезапустите цикл.</strong>
                   <br />
@@ -133,7 +133,7 @@ const Page = (props) => {
             <section id="2" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  1. Засор сливного фильтра
+                  1. ��асор сливного фильтра
                 </h3>
                 <svg
                   width="330"
@@ -198,7 +198,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="рука и дверца стиралки"
+                    alt="рука и дверца ст��ралки"
                     src="/6/image%203823050-800h.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -412,7 +412,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  Как продлить жизнь машине на 3–5 лет — простые прив��чки,
+                  Как продл��ть жизнь машине на 3–5 лет — простые прив��чки,
                   которые сэкономят деньги
                 </span>
                 <div className="page-container46"></div>
@@ -532,7 +532,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -829,39 +829,39 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text21 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text22 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -882,7 +882,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -907,7 +907,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1229,7 +1229,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1282,7 +1282,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1328,7 +1328,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1355,7 +1355,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1367,7 +1367,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral-sc);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1431,7 +1431,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1444,7 +1444,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1499,7 +1499,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1512,7 +1512,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1543,7 +1543,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1742,7 +1742,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-roboto-serif);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2046,7 +2046,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2169,14 +2169,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2206,7 +2206,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2239,7 +2239,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

@@ -12,7 +12,7 @@ const AppComponent = (props) => {
               <span className="component-text2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Стиральная машина не сливает воду',
+                    __html: 'Стиральная машин�� не сливает воду',
                   }}
                 ></span>
               </span>
@@ -78,7 +78,7 @@ const AppComponent = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .component-arrow {
@@ -105,7 +105,7 @@ const AppComponent = (props) => {
           }
           .component-text2 {
             display: inline-block;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           @media (max-width: 991px) {
             .component-container {
@@ -118,10 +118,10 @@ const AppComponent = (props) => {
             }
             .component-text1 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .component-text2 {
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
           }
           @media (max-width: 479px) {

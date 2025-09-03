@@ -27,7 +27,7 @@ const Articles = (props) => {
     { title: 'Стиральная машина не сливает воду', href: '/neslivaetvodu', image: '/problems 2/11-300h.webp', alt: 'Стиральная машина не сливает воду' },
     { title: 'Стиральная машина не греет воду', href: '/negreetvodu', image: '/problems 2/21-300h.webp', alt: 'Стиральная машина не нагревает воду' },
     { title: 'Стиральная машина протекает', href: '/protekaet', image: '/problems 2/31-300h.webp', alt: 'Стир��льная машина протекает' },
-    { title: 'Стиральная машина шумит при отжиме', href: '/silnoshumit', image: '/problems/4-300h.webp', alt: 'Стиральная машина шумит при отжиме' },
+    { title: 'Стиральная машина шумит при отжиме', href: '/silnoshumit', image: '/problems/4-300h.webp', alt: 'Стиральн��я машина шумит при отжиме' },
     { title: 'Стиральная машина не включается', href: '/nevkluchaetsa', image: '/problems 2/51-300h.webp', alt: 'Стиральная машина не включается' },
     { title: 'Стиральная машина зависает на программе', href: '/zavisaetnaprogramme', image: '/problems 2/61-300h.webp', alt: 'Стиральная машина зависает на программе' },
     { title: 'Стиральная машина не отжимает', href: '/neotjimaet', image: '/problems 2/71-300h.webp', alt: 'Стиральная машина не отжимает' },
@@ -131,7 +131,7 @@ const Articles = (props) => {
             min-height: 100vh;
             min-height: 100dvh;
             background-color: #f8f9fa;
-            font-family: var(--font-noto-serif-sc), serif;
+            font-family: var(--font-nunito), sans-serif;
           }
 
           /* Hero */
@@ -142,10 +142,10 @@ const Articles = (props) => {
             margin-top: 8px;
           }
           .articles-hero-content { max-width: 800px; margin: 0 auto; }
-          .articles-title { font-size: 35px; font-family: var(--font-noto-serif-sc), serif; font-weight: 500; margin-bottom: 16px; text-align: center; }
+          .articles-title { font-size: 35px; font-family: var(--font-nunito), sans-serif; font-weight: 500; margin-bottom: 16px; text-align: center; }
           .articles-title-blue { color: #87ceeb; font-weight: 700; }
           .articles-title-black { color: #000000; }
-          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: var(--font-noto-serif-sc), serif; line-height: 1.6; color: #333333; }
+          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: var(--font-nunito), sans-serif; line-height: 1.6; color: #333333; }
 
           /* Tabs */
           .articles-switcher-section { padding: 24px 16px 16px; max-width: 1000px; margin: 0 auto; }

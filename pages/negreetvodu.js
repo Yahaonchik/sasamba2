@@ -203,7 +203,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Прессостат (датчик уровня воды) сообщает модулю управления о наполнении бака, и по сигналам датчика регулируется подача воды. Если прессостат забит или сломан, машина может не начать нагревать воду – она не «увидит» необходимый уровень, чтобы включить ТЭН. Для проверки ��ткрывают переднюю панель и визуально осматривают трубку к прессостату (обычно видно под панелью или около насоса) на засоры и перетяжки. Кроме того, прозванивают контакты датчика тестером. В большинстве случаев чистят внутреннюю трубку от грязи и мелкого мусора (например, нитей или монет). Если ж�� датчик повреждён (не�� реакции или неправильные показания), его ��аменяют новым
+                  Прессостат (датчик уровня воды) сообщает модулю управления о наполнении бака, и по сигналам датчика регулируется подача воды. Если прессостат забит или сломан, машина может не начать нагревать воду – она не «увидит» необходимый уровень, чтобы включить ТЭН. Для проверки ����крывают переднюю панель и визуально осматривают трубку к прессостату (обычно видно под панелью или около насоса) на засоры и перетяжки. Кроме того, прозванивают контакты датчика тестером. В большинстве случаев чистят внутреннюю трубку от грязи и мелкого мусора (например, нитей или монет). Если ж�� датчик повреждён (не�� реакции или неправильные показания), его ��аменяют новым
                 </p>
               </div>
             </section>
@@ -273,7 +273,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-              Электронный блок управления (ЭБУ) — это «мозг» машины. Если в нём выходят из строя силовые реле, повреждается плата или программируется ошибка, то команда на нагрев может просто не подаваться. Распознать такую неисправность самостоятельно сложно: чаще всего на дисплее появляется соответствующий код, либо машина не реагирует на любые настройки. Проверку и ремонт модуля обычно доверяют специалисту, однако ясно одно: при любой проблеме с платой ��одачу напряжения на ТЭН прекращают, и новая плата или ремонт старой полностью решают проблему. Самостоятельно можно только убедиться, что напряжение в розетке подаётся и модули питания целы; для сложного ремонта платы лучше пригласить мастера.
+              Электронный блок управления (ЭБУ) — это «мозг» машины. Если в нём выходят из строя силовые реле, повреждается плата или программируется ошибка, то команда на нагрев может просто не подаваться. Распознать такую неисправность самостоятельно сложно: чаще всего на дисплее появляется соответствующий код, либо машина не реагирует на любые настройки. Проверку и ремонт модуля обычно доверяют специалисту, однако ясно одно: при любой проблеме с платой ��одачу напря��ения на ТЭН прекращают, и новая плата или ремонт старой полностью решают проблему. Самостоятельно можно только убедиться, что напряжение в розетке подаётся и модули питания целы; для сложного ремонта платы лучше пригласить мастера.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -308,7 +308,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-              Иногда причиной «холодной» стирки ока��ывается банальная ошибка в настройках. Если выставлен ре����м быстрой и��и энергосберегающей стирки без подогрева (или выбран минимальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программе. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой п��остой совет иногда спасает до обращения в сервис.
+              Иногда причиной «холодной» стирки ока��ывается банальная ошибка в настройках. Если выставлен ре����м быстрой и��и энергосберегающей стирки без подогрева (или выбран минимальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программе. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой п��остой сов��т иногда спасает до обращения в сервис.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -485,7 +485,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -782,30 +782,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -826,7 +826,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -865,7 +865,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1187,7 +1187,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1240,7 +1240,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1286,7 +1286,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1313,7 +1313,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1325,7 +1325,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral-sc);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1389,7 +1389,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1402,7 +1402,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1457,7 +1457,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1470,7 +1470,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1501,7 +1501,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1700,7 +1700,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-roboto-serif);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2011,7 +2011,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2172,14 +2172,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2209,7 +2209,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2242,7 +2242,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

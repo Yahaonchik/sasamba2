@@ -574,7 +574,7 @@ const Vikup = (props) => {
           <div className="page1-container28">
             <span className="page1-text44">До 10 лет</span>
             <div className="page1-container29">
-              <p className="page1-text45">От 500 до 1000 грн</p>
+              <p className="page1-text45">О�� 500 до 1000 грн</p>
               <svg
                 width="100%"
                 xmlns="http://www.w3.org/2000/svg"
@@ -607,7 +607,7 @@ const Vikup = (props) => {
               </svg>
               <div className="page1-container30 clickable-button" onClick={openSellModal}>
                 <div className="page1-container31">
-                  <span className="page1-text46">Продать</span>
+                  <span className="page1-text46">Продат��</span>
                 </div>
                 <img alt="image" src="/ICONS/29.svg" loading="eager" className="page1-image7" />
               </div>
@@ -749,7 +749,7 @@ const Vikup = (props) => {
             font-size: 35px;
             align-self: center;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-text10-black { color: #000000; }
@@ -758,7 +758,7 @@ const Vikup = (props) => {
             font-size: 16px;
             max-width: 700px;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             line-height: 1.35;
           }
           .page1-text14 {
@@ -816,7 +816,7 @@ const Vikup = (props) => {
             align-self: center;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -875,7 +875,7 @@ const Vikup = (props) => {
             font-style: normal;
             max-height: 35px;
             min-height: 35px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-icon10 {
@@ -932,7 +932,7 @@ const Vikup = (props) => {
             font-style: normal;
             max-height: 35px;
             min-height: 35px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-icon16 {
@@ -989,7 +989,7 @@ const Vikup = (props) => {
             font-style: normal;
             max-height: 35px;
             min-height: 35px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-icon22 {
@@ -1088,7 +1088,7 @@ const Vikup = (props) => {
             align-self: center;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1142,7 +1142,7 @@ const Vikup = (props) => {
             font-size: 22px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-container25 {
@@ -1159,7 +1159,7 @@ const Vikup = (props) => {
             font-size: 17px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-icon44 {
@@ -1188,7 +1188,7 @@ const Vikup = (props) => {
           }
           .page1-text43 {
             color: #4ec8ed;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .page1-image6 {
             width: 22px;
@@ -1270,7 +1270,7 @@ const Vikup = (props) => {
             font-size: 22px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-container29 {
@@ -1287,7 +1287,7 @@ const Vikup = (props) => {
             font-size: 17px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-icon66 {
@@ -1317,7 +1317,7 @@ const Vikup = (props) => {
           .page1-text46 {
             fill: #4ec8ed;
             color: #4ec8ed;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .page1-image7 {
             width: 22px;
@@ -1342,7 +1342,7 @@ const Vikup = (props) => {
             font-size: 22px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-container33 {
@@ -1359,7 +1359,7 @@ const Vikup = (props) => {
             font-size: 17px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .page1-icon72 {
@@ -1389,7 +1389,7 @@ const Vikup = (props) => {
           .page1-text49 {
             fill: #4ec8ed;
             color: #4ec8ed;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .page1-image8 {
             width: 22px;
@@ -1423,7 +1423,7 @@ const Vikup = (props) => {
             }
             .page1-text31 {
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
             }
             .page1-text32 {
@@ -1587,7 +1587,7 @@ const Vikup = (props) => {
               font-size: 18px;
               align-self: center;
               text-align: center;
-              font-family: var(--font-spectral);
+              font-family: var(--font-nunito);
             }
             .page1-container15 {
               gap: calc(var(--dl-layout-space-unit) - 6px);
@@ -1663,7 +1663,7 @@ const Vikup = (props) => {
               font-size: 18px;
               align-self: center;
               text-align: center;
-              font-family: var(--font-spectral);
+              font-family: var(--font-nunito);
             }
             .page1-container23 {
               width: 290px;
@@ -1732,7 +1732,7 @@ const Vikup = (props) => {
             .page1-text48 {
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
             }
           }

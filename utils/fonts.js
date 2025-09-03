@@ -1,4 +1,4 @@
-import { Nunito, IBM_Plex_Serif, Roboto } from 'next/font/google'
+import { Nunito, Roboto } from 'next/font/google'
 
 export const nunito = Nunito({
   subsets: ['latin', 'cyrillic'],
@@ -9,25 +9,25 @@ export const nunito = Nunito({
 })
 
 // Map IBM Plex Serif to legacy variables used across the project
-export const ibmPlexSerif = IBM_Plex_Serif({
+export const ibmPlexSerif = Nunito({
   subsets: ['latin', 'cyrillic'],
-  weight: ['300', '400', '500'],
+  weight: ['300', '400', '500', '700'],
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-spectral',
 })
 
-export const ibmPlexSerifNoto = IBM_Plex_Serif({
+export const ibmPlexSerifNoto = Nunito({
   subsets: ['latin', 'cyrillic'],
-  weight: ['300', '400', '500'],
+  weight: ['300', '400', '500', '700'],
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-noto-serif-sc',
 })
 
-export const ibmPlexSerifSc = IBM_Plex_Serif({
+export const ibmPlexSerifSc = Nunito({
   subsets: ['latin', 'cyrillic'],
-  weight: ['300', '400', '500'],
+  weight: ['300', '400', '500', '700'],
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-spectral-sc',

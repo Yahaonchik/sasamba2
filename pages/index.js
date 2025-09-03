@@ -139,7 +139,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image15"><Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} priority fetchPriority="high" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image15"><Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} priority style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/negreetvodu">
@@ -305,7 +305,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image23"><Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover', objectPosition: 'top left' }} /></div>
+                <div className="frame1196-image23"><Image alt="Не откры��ается дверца стиральной машины" src="/problems 2/91-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover', objectPosition: 'top left' }} /></div>
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
@@ -340,7 +340,7 @@ const Frame1196 = (props) => {
             </span>
             <br className="frame1196-text127" />
             <span className="frame1196-text128">
-              Профессионально устраняем любые неиспр��вности стиральных ��ашин —
+              Профессионально устраняем любые неиспр����ности стиральных ��ашин —
               от самых простых д�� самых сложных.
             </span>
             <br className="frame1196-text129" />
@@ -502,7 +502,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
                 <p className="frame1196-text136">
-                  <span>Детально обсуждаем объём работ и стоимость до нача��а ремонта.</span>
+                  <span>Дета��ьно обсуждаем объём работ и стоимость до нача��а ремонта.</span>
                 </p>
               </div>
               <img
@@ -889,7 +889,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text167">
-                    <span>Ремо��т сливного ��асоса</span>
+                    <span>Ремо��т сливного ���асоса</span>
                   </span>
                 </Fragment>
               }
@@ -1243,7 +1243,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text211">18</span>
                 </div>
                 <span className="frame1196-text212">
-                  Замен�� подшипников (с учетом стоимости подшипников)
+                  Заме���� подшипников (с учетом стоимости подшипников)
                 </span>
               </div>
               <div className="frame1196-container147">
@@ -1448,7 +1448,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машин Beko в Од��ссе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Beko в О����ссе - профессиональный сервис"
                   src="/brands/beko-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image33"
@@ -2040,7 +2040,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text221">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Получаем нужные запчасти быстро, по выгодным ценам и без переплат.',
+                      __html: 'Получаем нужные з��пчасти быстро, по выгодным ценам и без переплат.',
                     }}
                   ></span>
                 </p>
@@ -2434,7 +2434,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text225">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Квалифицированные специалисты, которые знают своё дело.',
+                      __html: 'Квалифицированные специалисты, которые знают своё де��о.',
                     }}
                   ></span>
                 </p>
@@ -4046,7 +4046,7 @@ const Frame1196 = (props) => {
             align-self: stretch;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -4087,7 +4087,7 @@ const Frame1196 = (props) => {
             box-shadow: 5px 5px 10px 0px #2b2b2b;
             font-style: normal;
             min-height: 60px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             border-radius: 8px;
@@ -4138,7 +4138,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow10 {
@@ -4202,7 +4202,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow11 {
@@ -4266,7 +4266,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow12 {
@@ -4330,7 +4330,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow13 {
@@ -4394,7 +4394,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow14 {
@@ -4458,7 +4458,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow15 {
@@ -4522,7 +4522,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow16 {
@@ -4586,7 +4586,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow17 {
@@ -4650,7 +4650,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow18 {
@@ -4715,7 +4715,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-arrow19 {
@@ -4842,7 +4842,7 @@ const Frame1196 = (props) => {
             max-width: 950px;
             margin-top: var(--dl-layout-space-fourunits);
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: 1.25;
             font-stretch: normal;
@@ -4966,7 +4966,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 16px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5022,7 +5022,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 16px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5079,7 +5079,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 16px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5153,7 +5153,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: 1.15;
             font-stretch: normal;
@@ -5209,12 +5209,12 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-text141 {
             font-size: 16px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-text142 {
@@ -5239,7 +5239,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-icon162 {
@@ -5265,7 +5265,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5297,13 +5297,13 @@ const Frame1196 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-text148 {
             font-size: 16px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-container139 {
@@ -5319,7 +5319,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-icon168 {
@@ -5345,7 +5345,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5377,13 +5377,13 @@ const Frame1196 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-text152 {
             font-size: 16px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-container143 {
@@ -5399,7 +5399,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-icon174 {
@@ -5425,7 +5425,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5632,13 +5632,13 @@ const Frame1196 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-text212 {
             color: var(--dl-color-theme-neutral-dark);
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
           .frame1196-container147 {
@@ -5654,7 +5654,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .frame1196-icon180 {
@@ -5680,7 +5680,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5777,7 +5777,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -5960,7 +5960,7 @@ const Frame1196 = (props) => {
             height: auto;
             font-size: 27px;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -5977,7 +5977,7 @@ const Frame1196 = (props) => {
             font-style: normal;
             max-height: 50px;
             min-height: 55px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             background-color: #ffd84d;
@@ -6025,7 +6025,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -6134,7 +6134,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6281,7 +6281,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6428,7 +6428,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6575,7 +6575,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6722,7 +6722,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6795,7 +6795,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -7273,7 +7273,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -7811,7 +7811,7 @@ const Frame1196 = (props) => {
             font-size: 23px;
             font-style: italic;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -8210,7 +8210,7 @@ const Frame1196 = (props) => {
             background: linear-gradient(180deg, #fdfdf6 0%, #faf8f6 100%);
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             font-style: normal;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.17);
             margin-right: var(--dl-layout-space-sixunits);
@@ -8276,7 +8276,7 @@ const Frame1196 = (props) => {
             align-self: flex-start;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: 1.15;
             text-transform: none;
@@ -8298,11 +8298,11 @@ const Frame1196 = (props) => {
           }
           .frame1196-text282 {
             font-size: 15px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .frame1196-text283 {
             font-size: 15px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .frame1196-container234 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -8313,17 +8313,17 @@ const Frame1196 = (props) => {
           }
           .frame1196-text284 {
             font-size: 15px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .frame1196-text285 {
             font-size: 15px;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .frame1196-text286 {
             font-size: 15px;
             align-self: flex-start;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
           }
           .frame1196-icon403 {
             width: 190px;
@@ -8358,7 +8358,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: 1.15;
             text-transform: none;
@@ -8376,7 +8376,7 @@ const Frame1196 = (props) => {
             font-style: normal;
             max-height: 50px;
             min-height: 55px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             border-radius: 8px;
@@ -8407,7 +8407,7 @@ const Frame1196 = (props) => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             cursor: pointer;
             transition: color 0.3s ease;
@@ -8417,7 +8417,7 @@ const Frame1196 = (props) => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             cursor: pointer;
             transition: color 0.3s ease;
@@ -8427,7 +8427,7 @@ const Frame1196 = (props) => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             text-transform: capitalize;
@@ -8563,7 +8563,7 @@ const Frame1196 = (props) => {
             }
             .frame1196-text122 {
               font-size: 17px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               padding-left: var(--dl-layout-space-threeunits);
               padding-right: var(--dl-layout-space-threeunits);
             }
@@ -8762,7 +8762,7 @@ const Frame1196 = (props) => {
               justify-content: flex-end;
             }
             .frame1196-text212 {
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container147 {
               gap: var(--dl-layout-space-oneandhalfunits);
@@ -9175,70 +9175,70 @@ const Frame1196 = (props) => {
             }
             .frame1196-text112 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container114 {
               box-shadow: none;
             }
             .frame1196-text113 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container115 {
               box-shadow: none;
             }
             .frame1196-text114 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container116 {
               box-shadow: none;
             }
             .frame1196-text115 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container117 {
               box-shadow: none;
             }
             .frame1196-text116 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container118 {
               box-shadow: none;
             }
             .frame1196-text117 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container119 {
               box-shadow: none;
             }
             .frame1196-text118 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container120 {
               box-shadow: none;
             }
             .frame1196-text119 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container121 {
               box-shadow: none;
             }
             .frame1196-text120 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container122 {
               box-shadow: none;
             }
             .frame1196-text121 {
               font-size: 16;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container123 {
               width: 100%;
@@ -9249,7 +9249,7 @@ const Frame1196 = (props) => {
             }
             .frame1196-text122 {
               font-size: 17px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               padding-left: var(--dl-layout-space-oneandhalfunits);
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
@@ -9833,7 +9833,7 @@ const Frame1196 = (props) => {
               color: rgb(255, 255, 255);
               font-size: 20px;
               font-style: italic;
-              font-family: var(--font-spectral);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -9887,7 +9887,7 @@ const Frame1196 = (props) => {
               font-size: 17px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-spectral);
+              font-family: var(--font-nunito);
               font-weight: 500;
             }
             .frame1196-image10 {
@@ -10038,7 +10038,7 @@ const Frame1196 = (props) => {
               color: rgb(55, 55, 55);
               font-size: 15px;
               margin-top: var(--dl-layout-space-twounits);
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               padding-left: var(--dl-layout-space-unit);
               padding-right: var(--dl-layout-space-unit);
@@ -10258,7 +10258,7 @@ const Frame1196 = (props) => {
             .frame1196-text141 {
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -10289,7 +10289,7 @@ const Frame1196 = (props) => {
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               justify-content: center;
             }
@@ -10308,7 +10308,7 @@ const Frame1196 = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               justify-content: center;
               text-decoration: underline none;
             }
@@ -10349,7 +10349,7 @@ const Frame1196 = (props) => {
               width: 100%;
               font-size: 15px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -10370,7 +10370,7 @@ const Frame1196 = (props) => {
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               justify-content: center;
             }
@@ -10389,7 +10389,7 @@ const Frame1196 = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               justify-content: center;
               text-decoration: underline none;
             }
@@ -10430,7 +10430,7 @@ const Frame1196 = (props) => {
               width: 100%;
               font-size: 15px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -10451,7 +10451,7 @@ const Frame1196 = (props) => {
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               justify-content: center;
             }
@@ -10470,7 +10470,7 @@ const Frame1196 = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               justify-content: center;
               text-decoration: underline none;
             }
@@ -10588,7 +10588,7 @@ const Frame1196 = (props) => {
               fill: #faf8f6;
               color: #ffffff;
               font-size: 20px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .frame1196-container160 {
               gap: 0;
@@ -10879,7 +10879,7 @@ const Frame1196 = (props) => {
               align-self: center;
               font-style: normal;
               text-align: left;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               letter-spacing: 0.3px;
             }
@@ -11254,7 +11254,7 @@ const Frame1196 = (props) => {
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11269,7 +11269,7 @@ const Frame1196 = (props) => {
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11284,7 +11284,7 @@ const Frame1196 = (props) => {
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11454,7 +11454,7 @@ const Frame1196 = (props) => {
             box-shadow: 0px 4px 15px 0px rgba(175, 160, 115, 0.4);
           }
 
-          /* Ан��мация разворачи����������ия и�� центр�� для ответов FAQ */
+          /* Ан��мация ��азворачи����������ия и�� центр�� для ответов FAQ */
           .frame1196-otvet1,
           .frame1196-otvet2,
           .frame1196-otvet3,
@@ -11488,7 +11488,7 @@ const Frame1196 = (props) => {
           }
 
 
-          /* Ли��ейная ан��м��ция д�����я ико����к */
+          /* Ли����йная ан��м��ция д�����я ико����к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,
@@ -11539,7 +11539,7 @@ const Frame1196 = (props) => {
             fill: #4EC8ED !important;
           }
 
-          /* Стили ��ля кликабельных кнопок */
+          /* Стили ��ля к��икабельных кнопок */
           .clickable-button {
             cursor: pointer !important;
             transition: all 0.2s ease !important;

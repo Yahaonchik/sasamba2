@@ -1,8 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { nunito, ibmPlexSerif, ibmPlexSerifNoto, ibmPlexSerifSc, roboto } from '../utils/fonts'
 class CustomDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html className={`${nunito.variable} ${ibmPlexSerif.variable} ${ibmPlexSerifNoto.variable} ${ibmPlexSerifSc.variable} ${roboto.variable}`}>
         <Head>
           <link rel="preload" as="image" href="/to%20the%20backgrouund-1500w.png" />
           <link rel="preload" as="image" href="/all%20ina%20dast%20or%20dust.webp" />
@@ -18,7 +19,7 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: var(--font-noto-serif-sc);\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-theme-neutral-dark);\n    background: var(--dl-color-theme-neutral-light);\n    \n    fill: var(--dl-color-theme-neutral-dark);\n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: var(--font-nunito);\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-theme-neutral-dark);\n    background: var(--dl-color-theme-neutral-light);\n    \n    fill: var(--dl-color-theme-neutral-dark);\n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>

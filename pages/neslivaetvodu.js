@@ -11,7 +11,7 @@ import dynamic from 'next/dynamic'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 import AnchorLinksSection from '../components/AnchorLinksSection'
 const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -113,7 +113,7 @@ const Page = (props) => {
                   </span>
                 </figure>
                 <p className="vicetext">
-                  Сливной фильтр улавливает мелкие предметы и ворсинки, не давая им попасть в насос. Как правило, он находится в нижней части корпуса за откидной крышкой. Перед началом любых работ обязательно отключите машину от сети и подготовьте ёмкость ��ля слива. Аккуратно открутите крышку фильтра против часовой стрелки – под ней немедленно начнёт вытекать вода.( см. как правильно сливать воду ) Как только в баке останется мало воды, сработает защёлка запорного механизма, и дверца разблокируется. После этого полностью вытащите фильтр и очистите его от скопившейся пыли, волос, монеток и других посторонних предметов. Собирая обратно, будьте осторожны: пластмассовый фильтр хрупкий. Если засор в фильтре был причиной проблемы, после его очистки вода будет свободно уходить, а люк должен открыться.
+                  Сливной фильтр улавливает мелкие предметы и ворсинки, не давая им попасть в насос. Как правило, он находится в нижней части корпуса за откидной крышкой. Перед началом любых работ обязательно отключите машину от сети и подготовьте ёмкость ��ля слива. Аккуратно открутите крышку фильтра против часовой стрелки – под ней немедленно начнёт вытекать вода.( см. как правильно сливать воду ) Как только в баке останется мало воды, сработает защёлка запорного механизма, и дверца разблокируется. После этого полностью вытащите фильтр и очистите его от скопившейся пыли, волос, монеток и других посторонних предметов. Собирая обратно, будьте осторожны: пластмассовый фильтр хрупкий. Ес��и засор в фильтре был причиной проблемы, после его очистки вода будет свободно уходить, а люк должен открыться.
                 </p>
               </div>
             </section>
@@ -197,7 +197,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Помпа откачивает воду из бака в канализацию. Под крышкой фильтра в��дна крыльчатка насоса – маленький винт, который вращается при сливе. Проверьте, легко ли он проворачивается вручную. Если крыльчатка заклинила из-за застрявшего предмета, или мотор совсем не вращается, насос не справи��ся со сливом. Для проверки запустите короткий режим «Слив» или «Отжим» – при исправном насосе крыльчатка будет вращаться, и вы услышите её гул. Если помпа едва вращается или останавливается при небольшом нажатии (значит, износила ресурс), её нужно заменить. При поломке насоса вода не откачиваетс�� вообще, и дверца остаётся закрытой.
+                  Помпа откачивает воду из бака в канализацию. Под крышкой фильтра в��дна крыльчатка насоса – маленький винт, который вращается при сливе. Проверьте, легко ли он проворачивается вручную. Если крыльчатка заклинила из-за застрявшего предмета, или мотор совсем не вращается, насос не справи��ся со сливом. Для проверки запустите короткий режим «Слив» или «Отжим» – при исправном насосе крыльчатка будет вращаться, и вы услышите её гул. Если помпа едва вращается или останавливается при небольшом нажатии (значит, износила ресурс), её нужно заменить. При поломке насоса вода не откач��ваетс�� вообще, и дверца остаётся закрытой.
                 </p>
               </div>
             </section>
@@ -246,7 +246,7 @@ const Page = (props) => {
             <section id="2d" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  5. Засор сливного патрубка
+                  5. Засор сли��ного патрубка
                 </h3>
                 <svg
                   width="330"
@@ -281,7 +281,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сливной патрубок (гофра) соединяет бак с насосом. Даже после чистки фильтра вода может не уходить, если в этом патрубке что-то застряло. Чаще всего внутрь попадают монеты, пуговицы, обрывки ткани – они могут периодически перекрывать проток воды.Чтобы проверить патрубок, отключите машину, уложите е�� на бок и снимите заднюю или нижнюю п��нель. Далее отсоедините патрубок от насоса: внутри часто обнаруживаются мелкие тряпочки, носки и мелкие детали. Удалите из патрубка мусор. После сборки проверьте слив – при отсутствии засора вода должна свободно уходить.
+                  Сливн��й патрубок (гофра) соединяет бак с насосом. Даже после чистки фильтра вода может не уходить, если в этом патрубке что-то застряло. Чаще всего внутрь попадают монеты, пуговицы, обрывки ткани – они могут периодически перекрывать проток воды.Чтобы проверить патрубок, отключите машину, уложите е�� на бок и снимите заднюю или нижнюю п��нель. Далее отсоедините патрубок от насоса: внутри часто обнаруживаются мелкие тряпочки, носки и мелкие детали. Удалите из патрубка мусор. После сборки проверьте слив – при отсутствии засора вода должна свободно уходить.
                 </p>
               </div>
             </section>
@@ -362,7 +362,7 @@ const Page = (props) => {
                   </span>
                 </figure>
                 <div className="vicetext">
-                  <p><strong>1. Отключите питание.</strong><br />Выньте вилку из розетки — это обязательная мера безопасности.</p>
+                  <p><strong>1. Отключите питание.</strong><br />Выньте вилку из розетки — это обязательная мера бе��опасности.</p>
                   <p><strong>2. Подготовьте всё для сбора воды.</strong><br />Возьмите тряпки или старые полотенца и плоскую невысокую ёмкость (таз, миску или лоток). Если можно — отведите сливной шланг в душевую/ванну; иначе собирайте воду в ёмкость и переносите.</p>
                   <p><strong>3. Дайте воде остыть.</strong><br />Если стирка была недавно, дождитесь остывания. Оцените температуру по стеклу люка: если оно горячее — подожди��е.</p>
                   <p><strong>4. Откройте доступ к сливному фильтру.</strong><br />Он внизу спереди за крышкой. Подставьте плоскую ёмкость и аккуратно приоткрутите пробку для слива.</p>
@@ -459,7 +459,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12984">
                 <span className="page-text76">
-                  Как секономить электричест��о и воду — реальные настройки и
+                  Как секономить электриче��т��о и воду �� реальные настройки и
                   лайфхаки
                 </span>
                 <div className="page-container48"></div>
@@ -566,7 +566,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -910,7 +910,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1242,7 +1242,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1295,7 +1295,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1341,7 +1341,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1368,7 +1368,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1380,7 +1380,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1444,7 +1444,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1457,7 +1457,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1512,7 +1512,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1525,7 +1525,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1556,7 +1556,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1755,7 +1755,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2064,7 +2064,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2165,14 +2165,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2202,7 +2202,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2235,7 +2235,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

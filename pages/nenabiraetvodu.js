@@ -10,7 +10,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import dynamic from 'next/dynamic'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import AnchorLinksSection from '../components/AnchorLinksSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
@@ -29,7 +29,7 @@ const Page = (props) => {
   const seoData = getSEOData('/nenabiraetvodu')
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getProblemPageStructuredData(
-    'Ремонт стиральной машины которая не набирает воду',
+    'Ремонт стирально�� машины которая не набирает воду',
     'Профессиональный ремонт стиральных машин которые не набирают воду в Одессе. Чистка фильтров, ремонт клапанов.',
     `${baseUrl}/nenabiraetvodu`
   )
@@ -118,7 +118,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>4. Очистите сетчатый фильтр.</strong><br />
-                    Перекройте воду, аккуратно открутите шланг у машины и достаньте сеточку-фильтр. Промойте её от загрязнений под сильной струёй или почистите щёткой. Соберите всё обратно.
+                    Перекройте воду, аккуратно открути��е шланг у машины и достаньте сеточку-фильтр. Промойте её от загрязнений под сильной струёй или почистите щёткой. Соберите всё обратно.
                   </p>
 
                   <p>
@@ -135,7 +135,7 @@ const Page = (props) => {
             </section>
             <div className="page-container15">
               <h2 className="page-text34">
-                <span>Основные причины неисправности:</span>
+                <span>Основные прич��ны неисправности:</span>
                 <br></br>
               </h2>
             </div>
@@ -177,7 +177,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Водяной кран – это вентиль на трубе, подающей воду к машинке. Если он закрыт ил�� напор воды очень слабый, вода в машину просто не поступает. Признак т��кой неисправности: машина пыт��ется начать работу (гудит), но вода не набирается или идёт очень медленно. Убедитесь, что вентиль полностью открыт (ручка параллельна трубе).Если напор в кране слабый, попробуйте подождать стабилизации давления или сообщить об этом в ЖКХ. Если кран сломан или не держит герметичность, вызовите сантехника или мастера.
+                  Водяной кран – это вентиль на трубе, подающей воду к машинке. Если он закрыт ил�� напор воды очень слабый, вода в машину просто не поступает. Признак т��кой неисправности: машина пыт��ется начать работу (гудит), но вода не набирается или идёт очень медленно. Убедитесь, что вентиль полностью открыт (ручка параллельна трубе).Если напор в кране слабый, попробуйте подождать стабилизации давления или сообщить об этом в ЖКХ. Если кран сломан или не держит герметичность, вызовите сантехника ил�� мастера.
                 </p>
               </div>
             </section>
@@ -217,14 +217,14 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Устройство блокировки люка (УБЛ) фиксирует ��верцу перед стартом. Если оно изношено или сломано, дверца не закрывается плотно и стирка не начнётся. Симптом: машинка не запускается вообще, люк может остаться незаблокированным, часто загорается ошибка. Проверьте, плотно ли закрывается люк – о�� должен щёлкать. Если замок не срабатывает, машина «гудит», но воды не набирается. Осмотрите уплотнитель и корпус замка: при деформации или поломке нужен мастер.
+                  Устройство блокировки люка (УБЛ) фиксирует ��верцу перед стартом. Если оно изношено или сломано, дверца не закры��ается плотно и стирка не начнётся. Симптом: машинка не запускается вообще, люк может остаться незаблокированным, часто загорается ошибка. Проверьте, плотно ли закрывается люк – о�� должен щёлкать. Если замок не срабатывает, машина «гудит», но воды не набирается. Осмотрите уплотнитель и корпус замка: при деформации или поломке нужен мастер.
                 </p>
               </div>
             </section>
             <section id="4" className="page-fiveproblem1">
               <div className="page-container22 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  3. Пережат или перекручен заливной шланг
+                  3. Пережат или перекручен заливной ��ланг
                 </h3>
                 <svg
                   width="330"
@@ -256,7 +256,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Заливной шланг – гибкая трубка от крана к машине. Он не должен быть перегибом, пережатием или смятием. Если на шланг наступили или он перекручен, вода не пойдёт. Симптом – машинка «жужжит», но ��алив не начинается. Остановите машину, отключите воду, осмотрите шланг. При обнаружении изгиба или зажима распрямите шланг и уберите препятствие. Если шланг повр��ждён (порван, сильно изношен), замените его.
+                  Заливной шланг – гибкая трубка от крана к машине. Он не должен быть перегибом, пережатием или смятием. Если на шланг наступили или он перекручен, вода не пойдёт. Симптом – машинка «жужжит», но ��алив не начинается. Остановите машину, отключите воду, осмотри��е шланг. При обнаружении изгиба или зажима распрямите шланг и уберите препятствие. Если шланг повр��ждён (порван, сильно изношен), замените его.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -300,7 +300,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Впускной клапан – электромагнитный клапан внутри машины, который открывает и закрывает поток воды по команде платы. При его поломке клапан не открывается полностью и машина физически не может набрать нужное количество воды. Признаки: люк закрыт, машина включается, но вода не поступает или поступает очень мало, на дисплее может загореться код ошибки набора воды. Этот узел не подлежит ремонту — при подозрении на его поломку нужно вызвать мастера, который заменит клапан.
+                  Впускной клапан – электромагнитный клапан внутри машины, который открывает и закрывает поток воды по команде платы. При его поломке к��апан не открывается полностью и машина фи��ически не может набрать нужное количество воды. Признаки: люк закрыт, машина включается, но вода не поступает или поступает очень мало, на дисплее может загореться код ошибки набора воды. Этот узел не под��ежит ремонту — при подозрении на его поломку нужно вызвать мастера, который заменит клапан.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -344,7 +344,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Прессостат – датчик, определяющий уровень воды в баке. Если прессостат «залип» (считал бак полным) или вышел из строя, машина не начнёт залив воды вообще. Симптомы схожи с клапаном: люк блокируется, но залива нет, появляется ошибка «набор воды» или «прессостат» на дисплее. Иногда вода может сливаться сразу, создаётся ложная сигнализация об избыточном уровне. Пользователь может проверить шланг прессостата на засор (и прочистить его), но обычно требуется замена датчика.
+                  Прессостат – датчик, определяющий уровень воды в баке. Если прессостат «залип» (считал бак полным) или вышел из строя, машина не начнёт залив воды вообще. Симптомы схожи с клапаном: люк блокируется, но залива нет, появляетс�� ошибка «набор воды» или «прессостат» на дисплее. Иногда вода может сливаться сразу, создаётся ложная сигнализация об избыточном уровне. Пользователь может проверить шланг прессостата на засор (и про��истить его), но обычно требуется замена датчика.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -560,7 +560,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -857,39 +857,39 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text21 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text22 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -910,7 +910,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1240,7 +1240,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1293,7 +1293,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1339,7 +1339,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1366,7 +1366,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1378,7 +1378,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral-sc);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1442,7 +1442,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1455,7 +1455,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1510,7 +1510,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1523,7 +1523,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1554,7 +1554,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1753,7 +1753,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-roboto-serif);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2057,7 +2057,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2158,14 +2158,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2195,7 +2195,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2228,7 +2228,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

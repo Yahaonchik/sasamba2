@@ -114,7 +114,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Шланги, подводящие воду к машине и отводящие её в канализацию, сильно подвержены механическим повреждениям. Например, если стиральную машину двигали или при транспортировке не убрали транспортировочные крепления, шланг мог надорваться или о��стегнуться. На старых машинках резиновый сливной шланг может рассохнуться и трескаться. В последнем случае воду видно под машиной во время слива – она капает снизу или из самого шланга.Совет: иногда проблему решает подзатягивание хомута на соединении шланга с насосом или патрубком. Если же шланг порван или прогрызен (иногда кошки любят погрызть упругую резину), лучше сразу заменить его новым – это недорогая мера, а эффект очень заметен. Аналогично проверьте шланг подач�� воды: при сильных изгибах и перегибах он также может пропускать. Меняйте старые шланги примерно раз в пять–семь лет и при малейших признаках протечки меняйте крепления.
+                  Шланги, подводящие воду к машине и отводящие её в канализацию, сильно подвержены механическим повреждениям. Например, если стиральную машину двигали или при транспортировке не убрали транспортировочные крепления, шланг мог надорваться или о��стегнуться. На старых машинках резиновый сливной шланг может рассохнуться и трескаться. В последнем случае воду видно под машиной во время слива – она капает снизу или из самого шланга.Совет: иногда проблему решает подзатягивание хомута на соединении шланга с насосом или патрубком. Если же шланг порван или прогрызен (иногда кошки любят погрызть упругую резину), лучше сразу заменить его новым – это недорогая мера, а эффект очень заметен. Аналогично проверьте шланг подач�� воды: при сильных изгибах и перегибах он также может пропускать. Меняйте старые шланги примерно раз в пять–семь лет и при малейших признаках протечки мен��йте крепления.
                 </p>
               </div>
             </section>
@@ -156,7 +156,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если после набора воды заметили под стиралкой воду в районе лотка для порошка, причиной часто бывает его засор. Тогда часть воды «уползает» мимо и вытекает наружу. Иногда лоток просто трескается или расслаивается со временем – тогда вода тоже может уходить прямо через него.Совет: регулярно вынимайте и промывайте лоток для порошка и сам патрубок подачи воды в бак. Если давление в ��одопроводе слишком сильное, воду может «выдавить» наружу – попробуйте немного прикрыть кран подачи. Не используйте слишком много моющего средства и только предназначенные для машин порошки – избыток пены тоже выгоняет влагу наружу. При появлении лужи на полу во время набора воды стоит отключить машинку, собрать бельё и прочистить дозатор: обычно это быстро решает проблему.
+                  Если после набора воды заметили под стиралкой воду в районе лотка для порошка, причиной часто бывает его засор. Тогда часть воды «уползает» мимо и вытекает наружу. Иногда лоток просто трескается или расслаивается со временем – тогда вода тоже может уходить прямо через него.Совет: регулярно вынимайте и промывайте лоток для порошка и сам патрубок подачи воды в бак. Если давление в ��одопроводе слишком сильное, воду может «выдавить» наружу – попробуйте немного прикрыть кран подачи. Не используйте слишком много моющего средства и то��ько предназначенные для машин порошки – избыток пены тоже выгоняет влагу наружу. При появлении лужи на полу во время набора воды стоит отключить машинку, собрать бельё и прочистить дозатор: обычно это быстро решает проблему.
                 </p>
               </div>
             </section>
@@ -295,7 +295,7 @@ const Page = (props) => {
                   <br />
                   <span className="tip-title">6. Не перегружайте барабан.</span> Переполнение бельем нарушает баланс и увеличивает нагрузку на уплотнители и подшипники. Загружайте ровно столько, сколько рекомендует производитель.
                   <br />
-                  <span className="tip-title">7. Проверяйте напор воды и фильтры водопровода.</span> Слишком сильный напор может выдавить воду через дозатор. Установите редуктор д��вления при необходимости и чистите сетчатый фильтр на входном шланге.
+                  <span className="tip-title">7. Проверяйте напор воды и фильтры водопровода.</span> Слишком сильный напор может выдавить воду через дозатор. Установите редуктор д��вления при необхо��имости и чистите сетчатый фильтр на входном шланге.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -466,7 +466,7 @@ const Page = (props) => {
             font-size: 32px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -763,30 +763,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -807,7 +807,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -846,7 +846,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1168,7 +1168,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1221,7 +1221,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1267,7 +1267,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1294,7 +1294,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1306,7 +1306,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1370,7 +1370,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1383,7 +1383,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1438,7 +1438,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1451,7 +1451,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1482,7 +1482,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1985,7 +1985,7 @@ const Page = (props) => {
               font-size: 25px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2080,7 +2080,7 @@ const Page = (props) => {
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2143,7 +2143,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

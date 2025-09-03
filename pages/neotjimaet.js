@@ -12,7 +12,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import dynamic from 'next/dynamic'
 const RelatedArticles = dynamic(() => import('../components/RelatedArticles'), { ssr: false })
 const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
-import InterestingAside from '../components/InterestingAside'
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -119,13 +119,13 @@ const Page = (props) => {
                   </p>
 
                   <p>
-                    <strong>2. Если фильтр в порядке, обратите внимание на сливной шланг.</strong><br />
+                    <strong>2. Если фильтр в порядке, обратите внимание на сли��ной шланг.</strong><br />
                     Он не должен быть перегнут или зажат мебелью. Изгибы мешают свободному стоку воды, и машина также отказывается переходить к отжиму. Осмотрите шланг по всей длине, расправьте петли и проверьте соединение с канализацией или сифоном. При необходимости очистите засор в сифоне или замените шланг.
                   </p>
 
                   <p>
                     <strong>3. ��щё одна распространенная причин�� — неверные настройки.</strong><br />
-                    Убедитесь, что вы не выбрали режим без отжима, например «Полоскание без отжима» или «Деликатная стирка». В некоторых программах скорость вращения барабана снижена или отжим отключён полностью, чтобы не повредить ткань. Если это так, просто перезапустите стирку с нужным режимом.
+                    Убедитесь, что вы не выбрали режим без отжима, например «Полоскание без отжима» или «Деликатная стирка». В некоторых программах скорость вращения барабана снижена или отжим отключён полностью, чтобы не повредить тка��ь. Если это так, просто перезапустите стирку с нужным режимом.
                   </p>
 
                   <p>
@@ -135,7 +135,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>5. Если все эти меры не помогли, попробуйте перезагрузить электронику.</strong><br />
-                    Выключите стиральную машину из розетки на 10–15 минут, затем включите снова и запустите короткий цикл. Иногда этого достаточно, чтобы сбросить сбой программы.
+                    Выключите стиральную машину из розетки на 10–15 минут, затем включите снова и запустите короткий ци��л. Иногда этого достаточно, чтобы сбросить сбой программы.
                   </p>
 
                   <p>
@@ -216,7 +216,7 @@ const Page = (props) => {
               <div className="page-container20">
                 <figure className="page-container21">
                   <img
-                    alt="прессостат"
+                    alt="п��ессостат"
                     src="/2/presso.webp"
                     loading="lazy"
                     className="page-image38230523"
@@ -235,7 +235,7 @@ const Page = (props) => {
             <section id="4" className="page-fiveproblem1">
               <div className="page-container22 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  3. Изношенные щетки двигателя
+                  3. Изнош��нные щетки двигателя
                 </h3>
                 <svg
                   width="330"
@@ -267,7 +267,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Изношенные щетки двигателя. В большинстве машин двигатель имеет угольные щётки, которые со временем стираются. Из-за плохого контакта мотор не набирает обороты и искрит. Вы заметите искрение внутри корпуса и ощущение, что барабан «лениво» пытается крутиться, но не раскручивается. Если вовремя не заменить щетки, двигатель может вообще перестать вращать барабан.
+                  Изношенные щетки двигателя. �� большинстве машин двигатель имеет угольные щётки, которые со временем стираются. Из-за плохого контакта мотор не набирает обороты и искрит. Вы заметите искрение внутри корпуса и ощущение, что барабан «лениво» пытается крутиться, но не раскручивается. Есл�� вовремя не заменить щетки, двигатель может вообще перестать вращать барабан.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -311,7 +311,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Приводной ремень передаёт вращение от двигател�� к барабану. При ослаблении или разрыве ремня барабан не сможет достичь нужных оборотов и бельё останется сырым. Обычно при этом двигатель пытается работать (машинка гудит), но барабан остаётся вялым или не вращается вовсе. Если ремень слетел, его можно перекинуть на место (для этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется его замена. Причиной разрыва может быть старение ремня или износ подшипников (при сильных люфтах на валу ремень перекидывается и рвётся.
+                  Приводной ремень передаёт вращение от двигател�� к барабану. При ослаблении или разрыве ремня барабан не сможет достичь нужных оборотов и бельё останется сырым. Обычно при этом двигатель пытается работать (машинка гудит), но барабан остаётся вялым или не вращается вовсе. Если ремень слетел, его можно перекинуть на место (для этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется ��го замена. Причиной разрыва может быть старение ремня или износ подшипников (при сильных люфтах на валу ремень перекидывается и рвётся.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -395,7 +395,7 @@ const Page = (props) => {
                     loading="lazy"
                     className="page-image38230525"
                   />
-                  <span className="page-text48">Датчик оборотов</span>
+                  <span className="page-text48">Дат��ик оборотов</span>
                 </figure>
                 <p className="vicetext">
                   {' '}
@@ -416,7 +416,7 @@ const Page = (props) => {
               }}
               nextPage={{
                 href: '/nenabiraetvodu',
-                title: 'Стиральная машина не набирает воду'
+                title: 'Стиральная машина не н��бирает воду'
               }}
             />
             <svg
@@ -571,7 +571,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -869,30 +869,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -913,7 +913,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1243,7 +1243,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1296,7 +1296,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1342,7 +1342,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1369,7 +1369,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1381,7 +1381,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral-sc);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1445,7 +1445,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1458,7 +1458,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1513,7 +1513,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1526,7 +1526,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1557,7 +1557,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1756,7 +1756,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-roboto-serif);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2066,7 +2066,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2154,14 +2154,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2191,7 +2191,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-roboto-serif);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2224,7 +2224,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

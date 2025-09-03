@@ -109,7 +109,7 @@ const Blue = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .blue-container3 {
@@ -125,7 +125,7 @@ const Blue = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .blue-vector96 {
@@ -153,7 +153,7 @@ const Blue = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: none;
           }
@@ -260,7 +260,7 @@ const Blue = (props) => {
               max-width: 115px;
               min-width: 115px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -281,7 +281,7 @@ const Blue = (props) => {
               font-size: 17px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               justify-content: center;
             }
@@ -302,7 +302,7 @@ const Blue = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               justify-content: center;
               text-decoration: none;
             }

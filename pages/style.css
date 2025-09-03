@@ -1,4 +1,4 @@
-:root { --font-noto-serif-sc: 'IBM Plex Serif', serif; }
+:root { --font-noto-serif-sc: 'Nunito', sans-serif; }
 
 .thq-button-animated:before {
  top: 0;
@@ -121,7 +121,7 @@
 .advicefoter {
  font-size: 17px;
  font-style: normal;
- font-family: var(--font-noto-serif-sc);
+ font-family: var(--font-nunito);
  font-weight: 500;
  line-height: normal;
  letter-spacing: 1px;
@@ -131,7 +131,7 @@
 
 .foter {
  font-size: 15px;
- font-family: var(--font-noto-serif-sc);
+ font-family: var(--font-nunito);
  font-weight: 400;
  line-height: 1.15;
  text-transform: none;
@@ -140,7 +140,7 @@
 
 .besplatno {
  font-size: 16px;
- font-family: var(--font-noto-serif-sc);
+ font-family: var(--font-nunito);
  font-weight: 500;
  line-height: 1.15;
  text-transform: none;
@@ -149,7 +149,7 @@
 
 .fdgd1 {
  font-size: 16px;
- font-family: var(--font-noto-serif-sc);
+ font-family: var(--font-nunito);
  font-weight: 400;
  line-height: 1.15;
  text-transform: none;
@@ -158,7 +158,7 @@
 
 .ibm {
  font-size: 18px;
- font-family: var(--font-noto-serif-sc);
+ font-family: var(--font-nunito);
  font-weight: 400;
  line-height: 1.15;
  text-transform: none;
@@ -167,7 +167,7 @@
 
 .fdgd {
  font-size: 16px;
- font-family: var(--font-noto-serif-sc);
+ font-family: var(--font-nunito);
  font-weight: 400;
  line-height: 1.15;
  text-transform: none;

@@ -151,13 +151,13 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .blue2-text2 {
             font-size: 1em;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
           }
 
@@ -186,7 +186,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
           }
           .blue2-icon1 {
@@ -213,7 +213,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             text-decoration: none;
           }
@@ -321,7 +321,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
               max-width: 115px;
               min-width: 115px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -342,7 +342,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               justify-content: center;
             }
@@ -361,7 +361,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               justify-content: center;
               text-decoration: none;
               transition: color 0.3s ease, transform 0.2s ease;

@@ -236,7 +236,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если ни холод, ни тепло не помогли, пробуйте местные растворители. Жидкость для снятия лака с ацетоном мягко разъедает жевательную резинку – смочите ватный диск, приложите к пятну на 2–3 минуты, затем сотрите резинку щёткой. Ксилол (уайт-спирит) или промышленный очиститель WD-40 тоже эффективно размягчают клейкость жвачки. Эти средства хорошо подходят для плотных тканей, но обязательно протестируйте их на незаметном фрагменте, чтобы избежать обесцвечивания. По��ле применения растворителя одежду нужно о��язательно выстирать – это удалит остатки химии и запах.
+                  Если ни холод, ни тепло не помогли, пробуйте местные растворители. Жидкость для снятия лака с ацетоном мягко разъедает жевательную резинку – смочите ватный диск, приложите к пятну на 2–3 минуты, затем сотрите резинку щёткой. Ксилол (уайт-спирит) или промышленный очиститель WD-40 тоже эффективно размягчают клейкость жвачки. Эти средства хорошо подходят для плотных тканей, но обязательно протестируйте их на незаметном фрагменте, чтобы избежать обесцвечивания. По��ле применения растворителя одежду нужно о��язательно выстирать – это удалит остатки хими�� и запах.
                 </p>
               </div>
             </section>
@@ -280,7 +280,7 @@ const Page = (props) => {
                   {' '}
                   Другое народное средство – растительно�� или сливочное ��асло: нанесите его на жвачку, дождитесь 10–15 минут и по��робуйте стереть жвачку (масло уменьшит её липкость). Ацетон из жидкостей для снятия лака часто заменяют уксусом: подогрейте столовый уксус до 40 °C, нанесите на жвачку и оставьте на пару минут. Жвачка размягчится, и её можно будет счистить щёткой. Эти способы хороши, но оставляют жирные пятна: после удаления резинки одежду нужно выстирать с порошком или жидкостью для посуды.
 
-                  После всех процедур обязательно постирайте вещь (лучше в прохладной воде с моющим средством). Так вы удалите остатки жвачки и любых использованных химикатов. Благодаря таким методам даже застаревшую жвачку можно убрать без следов, главное – терпение и аккуратность.
+                  После всех процедур обязательно постирайте вещь (лучше в прохл��дной воде с моющим средством). Так вы удалите остатки жвачки и любых использованных химикатов. Благодаря таким методам даже застаревшую жвачку можно убрать без следов, главное – терпение и аккуратность.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -455,7 +455,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -752,30 +752,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 700;
           }
           .page-container15 {
@@ -796,7 +796,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -835,7 +835,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1105,7 +1105,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1158,7 +1158,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1204,7 +1204,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1231,7 +1231,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1243,7 +1243,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1307,7 +1307,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1320,7 +1320,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1375,7 +1375,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1388,7 +1388,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1419,7 +1419,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: var(--font-spectral);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1618,7 +1618,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: var(--font-noto-serif-sc);
+            font-family: var(--font-nunito);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1929,7 +1929,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2090,14 +2090,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
             }
             .page-text58 {
               font-style: normal;
@@ -2127,7 +2127,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2160,7 +2160,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: var(--font-noto-serif-sc);
+              font-family: var(--font-nunito);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

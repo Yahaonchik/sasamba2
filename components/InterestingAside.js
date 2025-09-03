@@ -38,7 +38,7 @@ const InterestingAside = ({
           background-color: #faf8f6;
           max-width: 417px;
         }
-        .aside-title { color: #000; font-size: 17px; font-family: var(--font-noto-serif-sc); font-weight: 500; }
+        .aside-title { color: #000; font-size: 17px; font-family: var(--font-nunito); font-weight: 500; }
         .aside-row { gap: 21px; display: flex; align-self: stretch; align-items: center; flex-shrink: 0; flex-direction: row-reverse; }
         .aside-text { color: rgb(41,41,41); flex-grow: 1; font-size: 15px; text-align: left; font-family: var(--font-nunito); font-weight: 300; }
         .aside-thumb { flex: 0 0 auto; width: 118px; height: 80px; background-size: cover; background-position: center; }
