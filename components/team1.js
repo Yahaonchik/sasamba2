@@ -605,7 +605,7 @@ const Team1 = (props) => {
           }
           .team1-text13 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text14 {
             text-align: center;
@@ -648,7 +648,7 @@ const Team1 = (props) => {
           }
           .team1-text16 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text17 {
             text-align: center;
@@ -698,7 +698,7 @@ const Team1 = (props) => {
           }
           .team1-text19 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text20 {
             text-align: center;
@@ -741,7 +741,7 @@ const Team1 = (props) => {
           }
           .team1-text22 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text23 {
             text-align: center;
@@ -799,7 +799,7 @@ const Team1 = (props) => {
           }
           .team1-text25 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text26 {
             text-align: center;
@@ -842,7 +842,7 @@ const Team1 = (props) => {
           }
           .team1-text28 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text29 {
             text-align: center;
@@ -892,7 +892,7 @@ const Team1 = (props) => {
           }
           .team1-text31 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text32 {
             text-align: center;
@@ -935,7 +935,7 @@ const Team1 = (props) => {
           }
           .team1-text34 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 500;
           }
           .team1-text35 {
             text-align: center;

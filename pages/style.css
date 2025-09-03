@@ -390,7 +390,7 @@
   overflow: hidden;
   background: linear-gradient(to right, var(--dl-color-theme-primary1) 50%, var(--dl-color-theme-neutral-dark) 50%);
   transition: background-position 300ms ease;
-  font-weight: 600;
+  font-weight: 500;
   background-clip: text;
   background-size: 200% 100%;
   background-position: 100%;

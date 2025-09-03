@@ -118,7 +118,7 @@ const OrderModal = ({ isOpen, onClose, successVariant = 'screenAuto' }) => {
           </div>
           {bannerVisible && (
             <div className="success-banner">
-              <div className="banner-text">Спасибо за обращение! Мы свяжемся с ва��и в ближайшее время.</div>
+              <div className="banner-text">Спасибо за обращение! Мы свяжемся с вами в ближайшее время.</div>
             </div>
           )}
           <div className="modal-body">

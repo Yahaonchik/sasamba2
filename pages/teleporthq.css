@@ -189,14 +189,14 @@
 .thq-heading-2 {
   font-size: 35px;
   font-family: "Noto Serif SC";
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
 }
  
 .thq-heading-3 {
   font-size: 26px;
   font-family: "Noto Serif SC";
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
 }
  
@@ -384,7 +384,7 @@
   overflow: hidden;
   background: linear-gradient(to right, var(--dl-color-theme-primary1) 50%, var(--dl-color-theme-neutral-dark) 50%);
   transition: background-position 300ms ease;
-  font-weight: 600;
+  font-weight: 500;
   background-clip: text;
   background-size: 200% 100%;
   background-position: 100%;
@@ -578,7 +578,7 @@
   align-self: stretch;
   text-align: left;
   font-family: "Noto Serif SC";
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.75;
   font-stretch: normal;
   letter-spacing: 0.5px;

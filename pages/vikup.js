@@ -763,23 +763,23 @@ const Vikup = (props) => {
           }
           .page1-text14 {
             color: #191818;
-            font-weight: 600;
+            font-weight: 500;
           }
           .page1-text15 {
             color: #58c3e8;
-            font-weight: 600;
+            font-weight: 500;
           }
           .page1-text16 {
             color: #373737;
           }
           .page1-text18 {
-            font-weight: 600;
+            font-weight: 500;
           }
           .page1-text20 {
-            font-weight: 600;
+            font-weight: 500;
           }
           .page1-text22 {
-            font-weight: 600;
+            font-weight: 500;
           }
           .page1-text24 {
             color: #373737;

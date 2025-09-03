@@ -236,7 +236,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Внезапные перебои с питанием или ошибки в модуле управления могут приво��ить к «замораживанию» замка люка: контро��лер просто не получает или не обрабатывает команду на разблокировку. Иногда помогает полная перезагрузка питания, в иных случаях требуется диагностика и ремонт электронной части в сервисном центре.
+                  Внезапные перебои с питанием или ошибки в модуле управления могут приво��ить к «замораживанию» замка люка: контро��лер просто не п��лучает или не обрабатывает команду на разблокировку. Иногда помогает полная перезагрузка питания, в иных случаях требуется диагностика и ремонт электронной части в сервисном центре.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -322,7 +322,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  К��к продлить жизнь машине на 3–5 лет — простые привычки,
+                  К���� продлить жизнь машине на 3–5 лет — простые привычки,
                   которые сэконо��ят деньги
                 </span>
                 <div className="page-container46"></div>
@@ -1145,18 +1145,18 @@ const Page = (props) => {
           }
           .page-text53 {
             color: #58c3e8;
-            font-weight: 600;
+            font-weight: 500;
           }
           .page-text54 {
             color: #58c3e8;
-            font-weight: 600;
+            font-weight: 500;
           }
           .page-text55 {
             color: #58c3e8;
-            font-weight: 600;
+            font-weight: 500;
           }
           .page-text56 {
-            font-weight: 600;
+            font-weight: 500;
           }
           .page-text57 {
             font-style: normal;
@@ -2115,7 +2115,7 @@ const Page = (props) => {
               font-size: 16px;
               font-style: normal;
               font-family: Noto Serif SC;
-              font-weight: 600;
+              font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }

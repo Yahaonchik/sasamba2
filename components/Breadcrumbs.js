@@ -36,7 +36,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
       '/neotjimaet': 'Стиральная машина не отжимает',
       '/nenabiraetvodu': 'Стиральная машина не набирает воду',
       '/neotkrivaetsadverca': 'У стиральной машины не открывается дверца',
-      '/nekrutitbaraban': 'Стир��льная машина не крутит барабан'
+      '/nekrutitbaraban': 'Стиральная машина не крутит барабан'
     }
 
     if (problemPages[pathname]) {

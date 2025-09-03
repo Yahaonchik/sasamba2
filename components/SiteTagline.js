@@ -20,6 +20,7 @@ const SiteTagline = () => {
           text-decoration: none;
           margin: 8px auto;
           background: transparent !important;
+          background: none !important;
           box-shadow: none !important;
           border: none !important;
           padding: 0 !important;
@@ -33,7 +34,7 @@ const SiteTagline = () => {
 
         @media (max-width: 991px) {
           .site-tagline {
-            padding: 0 16px calc(50px + env(safe-area-inset-bottom, 0px)) 16px !important;
+            padding: 0 16px calc(25px + env(safe-area-inset-bottom, 0px)) 16px !important;
           }
         }
 

@@ -104,7 +104,7 @@ const QuestionModal = ({ isOpen, onClose }) => {
                       name="question"
                       value={formData.question}
                       onChange={handleInputChange}
-                      placeholder="Напиш��те ваш вопрос"
+                      placeholder="Напишите ваш вопрос"
                       className="form-textarea"
                       rows="4"
                       required

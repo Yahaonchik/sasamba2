@@ -10,7 +10,7 @@ const CallMasterSection = ({
     { icon: '/image%203823106.svg', number: PHONE_DISPLAY },
     { icon: '/image%203823107.svg', number: PHONE_DISPLAY_2 },
   ],
-  buttonText = 'Заказать ма��тера',
+  buttonText = 'Заказать мастера',
 }) => {
   const toTelHref = (s) => {
     const digits = s.replace(/\D+/g, '');
@@ -104,8 +104,8 @@ const CallMasterSection = ({
           margin: 3px 0 5px;
           align-self: center;
         }
-        .company-quote { color: #58c3e8; font-weight: 600; }
-        .company-name { color: #58c3e8; font-weight: 600; }
+        .company-quote { color: #58c3e8; font-weight: 500; }
+        .company-name { color: #58c3e8; font-weight: 500; }
         .workdays {
           color: #58c3e8;
           font-size: 16px;

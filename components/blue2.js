@@ -367,7 +367,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
               transition: color 0.3s ease, transform 0.2s ease;
             }
 
-            /* Hover эффекты для кнопки "Вызвать маст��ра" */
+            /* Hover эффекты для кнопки "Вызвать мастера" */
             .blue2-container4 {
               cursor: pointer;
               transition: transform 0.2s ease, background-color 0.2s ease;

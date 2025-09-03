@@ -257,7 +257,7 @@ const MainFooter = () => {
           }
 
           .frame1196-text-bold {
-            font-weight: 600;
+            font-weight: 700;
           }
 
           .frame1196-icon403 {
@@ -291,8 +291,9 @@ const MainFooter = () => {
           }
 
           .frame1196-text287 {
-            color: #202020;
-            font-size: 17px;
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+            font-size: 18px;
             align-self: center;
             font-style: normal;
             text-align: center;
