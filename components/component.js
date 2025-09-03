@@ -78,7 +78,7 @@ const AppComponent = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .component-arrow {
@@ -105,7 +105,7 @@ const AppComponent = (props) => {
           }
           .component-text2 {
             display: inline-block;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           @media (max-width: 991px) {
             .component-container {
@@ -118,10 +118,10 @@ const AppComponent = (props) => {
             }
             .component-text1 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .component-text2 {
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
           }
           @media (max-width: 479px) {

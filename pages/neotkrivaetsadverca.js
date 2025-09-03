@@ -271,7 +271,7 @@ const Page = (props) => {
               <div className="page-container26">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Износ или поломка механики замка, сломанная ручка или повреждённый фиксатор — частая причина невозможности открытия люка. При такой неисправности замок может не фиксироваться или проворачиваться «в холостую», и потребуется замена механизма или ручки: это уже профильная работа для мастера.
+                  Износ или поломка механики замка, сломанная ручка или повреждённый фиксатор — частая причина невозможности открытия люка. При такой неисправности замок может не фиксироваться или проворачиваться «в холостую», и потребуется замена механи��ма или ручки: это уже профильная работа для мастера.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -793,7 +793,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1259,7 +1259,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: var(--font-spectral);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1435,7 +1435,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 600;
             line-height: normal;
             font-stretch: normal;
@@ -1634,7 +1634,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: 'Roboto Serif';
+            font-family: 'var(--font-roboto)';
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2044,7 +2044,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: var(--font-roboto);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2081,7 +2081,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: var(--font-roboto);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

@@ -166,7 +166,7 @@ const Vikup = (props) => {
               <div className="page1-container18">
                 <img alt="image" src="/ICONS/res3.svg" loading="eager" className="page1-image4" />
                 <div className="page1-container19">
-                  <h3 className="page1-text31">Экономия времени</h3>
+                  <h3 className="page1-text31">Экономи�� времени</h3>
                   <svg
                     width="100%"
                     xmlns="http://www.w3.org/2000/svg"
@@ -649,7 +649,7 @@ const Vikup = (props) => {
               </svg>
               <div className="page1-container34 clickable-button" onClick={openSellModal}>
                 <div className="page1-container35">
-                  <span className="page1-text49">Продать</span>
+                  <span className="page1-text49">Продат��</span>
                 </div>
                 <img alt="image" src="/ICONS/29.svg" loading="eager" className="page1-image8" />
               </div>
@@ -1587,7 +1587,7 @@ const Vikup = (props) => {
               font-size: 18px;
               align-self: center;
               text-align: center;
-              font-family: Spectral;
+              font-family: var(--font-spectral);
             }
             .page1-container15 {
               gap: calc(var(--dl-layout-space-unit) - 6px);
@@ -1663,7 +1663,7 @@ const Vikup = (props) => {
               font-size: 18px;
               align-self: center;
               text-align: center;
-              font-family: Spectral;
+              font-family: var(--font-spectral);
             }
             .page1-container23 {
               width: 290px;

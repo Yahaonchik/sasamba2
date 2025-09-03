@@ -1,4 +1,7 @@
 :root {
+  --font-noto-serif-sc: "Noto Serif SC", serif;
+  --font-roboto-serif: "Roboto Serif", serif;
+  --font-spectral-sc: "Spectral SC", serif;
   --dl-layout-size-large: 144px;
   --dl-layout-size-small: 48px;
   --dl-layout-space-unit: 16px;
@@ -639,7 +642,7 @@
 .advicefoter {
   font-size: 17px;
   font-style: normal;
-  font-family: "Noto Serif SC";
+  font-family: var(--font-noto-serif-sc);
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1px;
@@ -649,7 +652,7 @@
  
 .foter {
   font-size: 15px;
-  font-family: "Noto Serif SC";
+  font-family: var(--font-noto-serif-sc);
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -658,7 +661,7 @@
  
 .besplatno {
   font-size: 16px;
-  font-family: "Noto Serif SC";
+  font-family: var(--font-noto-serif-sc);
   font-weight: 500;
   line-height: 1.15;
   text-transform: none;
@@ -667,7 +670,7 @@
  
 .fdgd1 {
   font-size: 16px;
-  font-family: Noto Serif SC;
+  font-family: var(--font-noto-serif-sc);
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -676,7 +679,7 @@
  
 .ibm {
   font-size: 18px;
-  font-family: "Noto Serif SC";
+  font-family: var(--font-noto-serif-sc);
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
@@ -685,7 +688,7 @@
  
 .fdgd {
   font-size: 16px;
-  font-family: Noto Serif SC;
+  font-family: var(--font-noto-serif-sc);
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;

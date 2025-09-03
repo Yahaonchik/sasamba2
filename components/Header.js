@@ -46,7 +46,7 @@ const Header = () => {
 
   return (
     <>
-      {/* Изолированный контейнер для хедера */}
+      {/* Изолированн��й контейнер для хедера */}
       <div className="header-component">
         <header className="frame1196-container101">
           <div className="frame1196-container102">
@@ -516,7 +516,7 @@ const Header = () => {
             font-size: 23px;
             word-wrap: break-word;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 300;
             white-space: normal;
             letter-spacing: 1.5px;

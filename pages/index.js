@@ -160,7 +160,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина не нагревает воду" src="/problems 2/21-300h.webp" loading="lazy" className="frame1196-image16" />
+                <img alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" loading="lazy" className="frame1196-image16" />
               </a>
             </Link>
             <Link legacyBehavior href="/protekaet">
@@ -221,7 +221,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <img alt="Стиральная машина не включается" src="/problems 2/51-300h.webp" loading="lazy" className="frame1196-image19" />
+                <img alt="Стирал��ная машина не включается" src="/problems 2/51-300h.webp" loading="lazy" className="frame1196-image19" />
               </a>
             </Link>
             <Link legacyBehavior href="/zavisaetnaprogramme">
@@ -269,7 +269,7 @@ const Frame1196 = (props) => {
             <Link legacyBehavior href="/nenabiraetvodu">
               <a className="frame1196-container120">
                 <p className="frame1196-text119">
-                  Стиральная машиина не набирает воду
+                  Стиральная машиина не набирает ��оду
                 </p>
                 <div className="frame1196-arrow17">
                   <svg
@@ -335,12 +335,12 @@ const Frame1196 = (props) => {
             <span className="frame1196-text124">"Ваше название" </span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
-               мы заботимся о надёжной работе вашей техники во всех уголках
+               мы заботимс�� о надёжной работе вашей техники во вс��х уголках
               Одессы.
             </span>
             <br className="frame1196-text127" />
             <span className="frame1196-text128">
-              Профессионально устраняем любые неисправности стиральных ��ашин —
+              Профессионально устраняем любые неиспр��вности стиральных ��ашин —
               от самых простых дл самых сложных.
             </span>
             <br className="frame1196-text129" />
@@ -424,11 +424,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container125">
               <div className="frame1196-container126">
                 <strong className="frame1196-text133">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Бесплатный выезд',
-                    }}
-                  ></span>
+                  <span>Бесплатный выезд</span>
                 </strong>
                 <svg
                   width="100%"
@@ -461,11 +457,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
                 <p className="frame1196-text134">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Бесплатный выезд специалиста в любой район города',
-                    }}
-                  ></span>
+                  <span>Бесплатный выезд специалиста в любой район города</span>
                 </p>
               </div>
               <img
@@ -477,11 +469,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container127">
               <div className="frame1196-container128">
                 <strong className="frame1196-text135">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Честные цены',
-                    }}
-                  ></span>
+                  <span>Честные цены</span>
                 </strong>
                 <svg
                   width="100%"
@@ -514,11 +502,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
                 <p className="frame1196-text136">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Детально обсуждаем объем работ и стоимость до начала ремонта.',
-                    }}
-                  ></span>
+                  <span>Детально обсуждаем объём работ и стоимость до начала ремонта.</span>
                 </p>
               </div>
               <img
@@ -530,11 +514,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container129">
               <div className="frame1196-container130">
                 <strong className="frame1196-text137">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Ремонт в день обращения',
-                    }}
-                  ></span>
+                  <span>Ремонт в день обращения</span>
                 </strong>
                 <svg
                   width="100%"
@@ -567,11 +547,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
                 <p className="frame1196-text138">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Не нужно ждать несколько дней - ваша техника заработает уже сегодня.',
-                    }}
-                  ></span>
+                  <span>Не нужно ждать несколько дней — ваша техника заработает уже сегодня.</span>
                 </p>
               </div>
               <img
@@ -651,11 +627,7 @@ const Frame1196 = (props) => {
           </div>
           <div className="frame1196-container131">
             <h2 className="frame1196-text139">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Цены',
-                }}
-              ></span>
+              <span>Цены</span>
             </h2>
           </div>
           <section className="frame1196-container132">
@@ -820,44 +792,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text155">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Мелкий ремонт',
-                      }}
-                    ></span>
+                    <span>Мелкий ремонт</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text156">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 400 грн',
-                      }}
-                    ></span>
+                    <span>от 400 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text157">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '4',
-                      }}
-                    ></span>
+                    <span>4</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text158">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -868,44 +824,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text159">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Ремонт модуля управления',
-                      }}
-                    ></span>
+                    <span>Ремонт модуля управления</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text160">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 1000 грн',
-                      }}
-                    ></span>
+                    <span>от 1000 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text161">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '5',
-                      }}
-                    ></span>
+                    <span>5</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text162">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -916,44 +856,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text163">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Чистка фильтров и патрубков',
-                      }}
-                    ></span>
+                    <span>Чистка фильтров и патрубков</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text164">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 400 грн',
-                      }}
-                    ></span>
+                    <span>от 400 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text165">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '6',
-                      }}
-                    ></span>
+                    <span>6</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text166">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -965,44 +889,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text167">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Ремонт сливного насоса',
-                      }}
-                    ></span>
+                    <span>Ремонт сливного насоса</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text168">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 500 грн',
-                      }}
-                    ></span>
+                    <span>от 500 г��н</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text169">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '7',
-                      }}
-                    ></span>
+                    <span>7</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text170">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1013,44 +921,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text171">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена сливного насоса (с учетом стоимости насоса)',
-                      }}
-                    ></span>
+                    <span>Замена сливного насоса (с учетом стоимости насоса)</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text172">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 450 грн',
-                      }}
-                    ></span>
+                    <span>от 450 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text173">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '8',
-                      }}
-                    ></span>
+                    <span>8</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text174">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1061,44 +953,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text175">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Устранение постороннего предмета из барабана, фильтра или насоса',
-                      }}
-                    ></span>
+                    <span>Устранение постороннего предмета из барабана, фильтра или насоса</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text176">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 500 грн',
-                      }}
-                    ></span>
+                    <span>от 500 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text177">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '9',
-                      }}
-                    ></span>
+                    <span>9</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text178">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1110,44 +986,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text179">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена нагревательного элемента (с учетом стоимости ТЭНа)',
-                      }}
-                    ></span>
+                    <span>Замена нагревательного элемента (с учетом стоимости ТЭНа)</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text180">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 800 грн',
-                      }}
-                    ></span>
+                    <span>от 800 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text181">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '10',
-                      }}
-                    ></span>
+                    <span>10</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text182">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1158,44 +1018,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text183">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена щеток двигателя (с учетом стоимости щеток)',
-                      }}
-                    ></span>
+                    <span>Замена щеток двигателя (с учетом стоимо��ти щеток)</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text184">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 800 грн',
-                      }}
-                    ></span>
+                    <span>от 800 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text185">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '11',
-                      }}
-                    ></span>
+                    <span>11</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text186">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1206,44 +1050,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text187">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена манжеты люка',
-                      }}
-                    ></span>
+                    <span>Замена манжеты люка</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text188">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 800 грн',
-                      }}
-                    ></span>
+                    <span>от 800 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text189">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '12',
-                      }}
-                    ></span>
+                    <span>12</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text190">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1254,44 +1082,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text191">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Ремонт блокировки люка (без учета стоимости деталей)',
-                      }}
-                    ></span>
+                    <span>Ремонт блокировки люка (без учета стоимости деталей)</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text192">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 500 грн',
-                      }}
-                    ></span>
+                    <span>от 500 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text193">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '13',
-                      }}
-                    ></span>
+                    <span>13</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text194">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызват�� мастера',
-                      }}
-                    ></span>
+                    <span>Вызват�� мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1303,44 +1115,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text195">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена амортизаторов (без учетаа стоимости амортизаторов)',
-                      }}
-                    ></span>
+                    <span>Замена амортизаторов (без учетаа ��тоимости амортизаторов)</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text196">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 1500 грн',
-                      }}
-                    ></span>
+                    <span>от 1500 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text197">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '14',
-                      }}
-                    ></span>
+                    <span>14</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text198">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1351,44 +1147,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text199">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена сливноого или наливного шланга',
-                      }}
-                    ></span>
+                    <span>Замена сливноого или наливн��го шланга</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text200">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 800 грн',
-                      }}
-                    ></span>
+                    <span>от 800 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text201">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '15',
-                      }}
-                    ></span>
+                    <span>15</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text202">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вы��вать мастера',
-                      }}
-                    ></span>
+                    <span>Вы��вать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1399,44 +1179,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text203">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замеена приводного ремня',
-                      }}
-                    ></span>
+                    <span>Замеена приводного ремня</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text204">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 800 грн',
-                      }}
-                    ></span>
+                    <span>от 800 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text205">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '16',
-                      }}
-                    ></span>
+                    <span>16</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text206">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1447,44 +1211,28 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text207">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Замена сальника',
-                      }}
-                    ></span>
+                    <span>Замена сальника</span>
                   </span>
                 </Fragment>
               }
               text1={
                 <Fragment>
                   <span className="frame1196-text208">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'от 500 грн',
-                      }}
-                    ></span>
+                    <span>от 500 грн</span>
                   </span>
                 </Fragment>
               }
               text2={
                 <Fragment>
                   <span className="frame1196-text209">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '17',
-                      }}
-                    ></span>
+                    <span>17</span>
                   </span>
                 </Fragment>
               }
               text3={
                 <Fragment>
                   <span className="frame1196-text210">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Вызвать мастера',
-                      }}
-                    ></span>
+                    <span>Вызвать мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1495,7 +1243,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text211">18</span>
                 </div>
                 <span className="frame1196-text212">
-                  Замена подшипников (с учетом стоимости подшипников)
+                  Замен�� подшипников (с учетом стоимости подшипников)
                 </span>
               </div>
               <div className="frame1196-container147">
@@ -1677,11 +1425,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-remont-vsehmar">
           <div className="frame1196-remont-vseh-marok">
             <h2 className="frame1196-text215">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Ремонтируем все марки',
-                }}
-              ></span>
+              <span>Ремонтируем все марки</span>
             </h2>
           </div>
           <div>
@@ -1724,7 +1468,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Electrolux в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Electrolux в Одессе - профессиональный сер��ис"
                   src="/brands/electrolux-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image36"
@@ -1732,7 +1476,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Gorenje в Одессе - профессиональный сервис"
+                  alt="Ремонт с��иральных м��шин Gorenje в Одессе - профессиональный сервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
@@ -1740,7 +1484,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт ст��ральных машин Ardo в Одессе - профссиональный сервис"
+                  alt="Ремон�� ст��ральных машин Ardo в Одессе - профссиональный сервис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1780,7 +1524,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Miele в Одессе - профессиональный сервис"
+                  alt="Ремонт ��тиральных машин Miele в Одессе - профессиональный сервис"
                   src="/brands/image%203823129-200h.webp"
                   loading="eager"
                   className="frame1196-image43"
@@ -1812,7 +1556,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Whirlpool в Одессе - профес��иональный сервис"
+                  alt="Ремонт стиральных машин Whirlpool в Одессе - профес���иональный серв��с"
                   src="/brands/whirlpool-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image47"
@@ -1870,19 +1614,15 @@ const Frame1196 = (props) => {
             <div className="frame1196-container158">
               <div className="frame1196-container159">
                 <h3 className="frame1196-text216">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: 'Теперь продать с��иральную машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сложно</span><span style="color: #FFD84D;">!</span>',
-                    }}
-                  ></span>
+                  <span>
+                    Теперь продать с��иральную машину в Одессе -{' '}
+                    <span style={{ color: '#FFD84D', fontWeight: 700 }}>это не сложно</span>
+                    <span style={{ color: '#FFD84D' }}>!</span>
+                  </span>
                 </h3>
                 <Link href="/vikup">
                   <button type="button" className="frame1196-button2 button">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: 'Выкуп б/у машин',
-                      }}
-                    ></span>
+                    <span>Выкуп б/у машин</span>
                   </button>
                 </Link>
               </div>
@@ -1892,11 +1632,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-container160">
           <div className="frame1196-container161">
             <h2 className="frame1196-text217">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Почему мы?',
-                }}
-              ></span>
+              <span>Почему мы?</span>
             </h2>
           </div>
           <div className="frame1196-container162">
@@ -2023,7 +1759,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text219">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Находим неисправности быстро и точно благодаря профессиональной технике.',
+                      __html: 'Находим неисправности быстро и точно благодаря профессиональ��о�� технике.',
                     }}
                   ></span>
                 </p>
@@ -2373,7 +2109,7 @@ const Frame1196 = (props) => {
                     <h3 className="frame1196-text222">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Низкие цены на весь сервисный диапазон услуг',
+                          __html: 'Низ��ие цены на весь сервисный диапазон услуг',
                         }}
                       ></span>
                     </h3>
@@ -2767,7 +2503,7 @@ const Frame1196 = (props) => {
                     <h3 className="frame1196-text226">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Гарантийный срок до 12 месяцев',
+                          __html: 'Гарантийный срок д�� 12 месяцев',
                         }}
                       ></span>
                     </h3>
@@ -2889,11 +2625,7 @@ const Frame1196 = (props) => {
         </section>
         <div className="frame1196-container183">
           <h2 className="frame1196-text228">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Наши работы',
-              }}
-            ></span>
+            <span>Наши работы</span>
           </h2>
         </div>
         <div className="frame1196-container184">
@@ -3082,7 +2814,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container199">
               <div className="frame1196-container200">
                 <figcaption className="frame1196-text236">
-                  Восстановление упправляющей платы на Siemens
+                  Восстановление упп��авляющей платы на Siemens
                 </figcaption>
               </div>
             </div>
@@ -3126,11 +2858,7 @@ const Frame1196 = (props) => {
         <div className="frame1196-container206">
           <div className="frame1196-container207">
             <h2 className="frame1196-text238">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Ответы на часто задаваемые вопросы!',
-                }}
-              ></span>
+              <span>Ответы на часто задаваемые вопросы!</span>
             </h2>
           </div>
           <svg
@@ -3226,7 +2954,7 @@ const Frame1196 = (props) => {
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Сколько времени занимает ремонт?',
+                    __html: 'Сколько в��емени занимает ремонт?',
                   }}
                 ></span>
               </h3>
@@ -3235,7 +2963,7 @@ const Frame1196 = (props) => {
               <p className="frame1196-text240">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случаи требуют заказа специфических деталей и повторного визита через 1-2 дня',
+                    __html: '99% поломок устраняем на месте за 30-60 минут. Только редкие случ��и требуют заказа специфических деталей и повторного визита через 1-2 дня',
                   }}
                 ></span>
               </p>
@@ -3280,7 +3008,7 @@ const Frame1196 = (props) => {
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Какую гарантиюю вы п��едоставляете?',
+                    __html: '��акую гарантиюю вы п��едоставляете?',
                   }}
                 ></span>
               </h3>
@@ -3343,7 +3071,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text244">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Диагностика стоит 200 гривен. При согласии на ремонт стоимость диагоностики засчитывается в общую сумму работ. Выезд мастера бесплатный',
+                      __html: 'Диаг����стика стоит 200 гривен. При согласии на ремонт стоимость диагоностики засчитывается в общую сумму работ. Выезд мастера бесплатный',
                     }}
                   ></span>
                 </p>
@@ -3388,7 +3116,7 @@ const Frame1196 = (props) => {
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Будет ли у мастера детали для моей техники?',
+                    __html: 'Будет ли �� мастера детали для моей техники?',
                   }}
                 ></span>
               </h3>
@@ -3531,11 +3259,10 @@ const Frame1196 = (props) => {
             ></circle>
           </svg>
           <strong className="frame1196-text249">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: '<span style="color: #000000">остались вопросы?</span> <span style="color: #87CEEB">спросите мастера бесплатно</span>',
-              }}
-            ></span>
+            <span>
+              <span style={{ color: '#000000' }}>остались вопросы?</span>{' '}
+              <span style={{ color: '#87CEEB' }}>спросите мастера бесплатно</span>
+            </span>
           </strong>
         </div>
         <div className="ask-button-wrapper">
@@ -3544,40 +3271,24 @@ const Frame1196 = (props) => {
         <div className="frame1196-container225">
           <div className="frame1196-container226">
             <span className="textglavitogi frame1196-text250">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: 'Ремонт Стиральных машин в сервисном центре "Ваше Название" в Одессе',
-                }}
-              ></span>
+              <span>Ремонт стиральных машин в сервисном центре "Ваше название" в Одессе</span>
             </span>
           </div>
           <p className="frame1196-text251 textITOGI">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Стиральная машина — это техника, которая должна р��ботать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная тех��ика со временем требует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — это не просто разовая услуга, а реальная необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному мастеру.',
-              }}
-            ></span>
+            <span>Стиральная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со временем требует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Поэтому ремонт стиральных машин в Одессе — не разовая услуга, а реальная необходимость для многих владельцев. Важно доверить ремонт проверен��ым спе��иалистам, а не случайному мастеру.</span>
           </p>
           <p className="frame1196-text252 textITOGI">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Под брендом "Ваше Название" рабо��ает команда мастеров, каждый из которых занимается ремонтом стиральных машин более семи лет. Мы обучались у лучших, прошли сертификацию, посещали техкурсы и накопили опыт работы с техникой любых поколений. Сегодня мы предлагаем ремонт стиральных машин в ��дессе с гарантией, использованием оригинальных запчастей и вниманием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.',
-              }}
-            ></span>
+            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стиральных машин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлагаем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к каждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
           </p>
           <h2 className="textglavitogi">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Почему выбирают нас',
-              }}
-            ></span>
+            <span>Почему выбирают нас</span>
           </h2>
           <ul className="frame1196-ul1 list">
             <li className="list-item">
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'На рынке ремонта бытовой техники с 2011 года.',
+                    __html: 'На рынке рем��нта бытовой техники с 2011 года.',
                   }}
                 ></span>
               </span>
@@ -3620,11 +3331,7 @@ const Frame1196 = (props) => {
             </li>
           </ul>
           <h2 className="textglavitogi">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Частые поломки стиралнных машин',
-              }}
-            ></span>
+            <span>Частые поломки стиралнных машин</span>
           </h2>
           <p className="frame1196-text260 textITOGI">
             <span
@@ -3665,7 +3372,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Течёт корпус — устра��яем утечки, заменяем шланги, манжеты, патрубки.',
+                    __html: 'Течёт корпус — устра��яем утечки, заменяем шланги, ма��жеты, патрубки.',
                   }}
                 ></span>
               </span>
@@ -3692,62 +3399,36 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Регулярное техобслуживание — профилактика раз в 12 месяцев продлевает срок службы.',
+                    __html: 'Регулярное техобслуживание — профилактика ��аз в 12 месяцев продлевает срок службы.',
                   }}
                 ></span>
               </span>
             </li>
           </ul>
           <h2 className="textglavitogi">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Обслуживаемые бренды',
-              }}
-            ></span>
+            <span>Обслуживаемые бренды</span>
           </h2>
           <p className="textITOGI">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'LG, Samsung, Bosch, Electrolux, Whirlpool, Indesit, Zanussi, Gorenje, AEG, Miele и другие. работает не только по Одессе, но и в прригородах.',
-              }}
-            ></span>
+            <span>LG, Samsung, Bosch, Electrolux, Whirlpool, Indesit, Zanussi, Gorenje, AEG, Miele и другие. Работаем не только по Одессе, но и в пригородах.</span>
           </p>
           <h2 className="textglavitogi">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Сервисная мастерская',
-              }}
-            ></span>
+            <span>Сервисная мастерская</span>
           </h2>
           <p className="frame1196-text271 textITOGI">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Сервисный центр "Ваше н��звание" — это современная профессиональная мастерская в Одессе, где выполняются все виды ремонта: от быстрой замены деталей до полного восста��овления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента.Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭНов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и глубокую чистку барабана и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
-              }}
-            ></span>
+            <span>
+              Сервисный центр "Ваше название" — это современная профессиональная мастерская в Одессе, где в��полняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посто��онние шумы. Проводим профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.
+            </span>
           </p>
           <h2 className="textglavitogi">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Контакты',
-              }}
-            ></span>
+            <span>Контакты</span>
           </h2>
           <p className="textITOGI">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звони��е для записи, консультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше название" — это ремонт стиральных машин в Одессе быстро, надёжно и профессионально.',
-              }}
-            ></span>
+            <span>Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, ко��сультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем. "Ваше название" — это ремонт стиральны�� машин в Одессе быстро, надёжно и профессионально.</span>
           </p>
         </div>
         <div className="frame1196-container227">
           <h2 className="frame1196-text274">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: 'Отзывы',
-              }}
-            ></span>
+            <span>Отзывы</span>
           </h2>
         </div>
         <div className="frame1196-container228">
@@ -3935,7 +3616,7 @@ const Frame1196 = (props) => {
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              Я считаю это победа над стиральной маши��ой, которой 12 лет))  Очень круто!! Благодарю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но сейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
+              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Благо��арю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но сейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
             </p>
             <svg
               width="330"
@@ -4204,11 +3885,7 @@ const Frame1196 = (props) => {
           </article>
         </div>
         <button type="button" className="frame1196-button4 button" onClick={openReviewModal}>
-          <span
-            dangerouslySetInnerHTML={{
-              __html: 'Добавить отзыв',
-            }}
-          ></span>
+          <span>Добавить отзыв</span>
         </button>
         <img
           alt="Vector8616"
@@ -4326,7 +4003,7 @@ const Frame1196 = (props) => {
             box-shadow: 5px 5px 10px 0px #2b2b2b;
             font-style: normal;
             min-height: 60px;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             border-radius: 8px;
@@ -5391,7 +5068,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: 1.15;
             font-stretch: normal;
@@ -6015,7 +5692,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -6215,7 +5892,7 @@ const Frame1196 = (props) => {
             font-style: normal;
             max-height: 50px;
             min-height: 55px;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             background-color: #ffd84d;
@@ -6263,7 +5940,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -7033,7 +6710,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -7511,7 +7188,7 @@ const Frame1196 = (props) => {
             font-size: 21px;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -8046,7 +7723,7 @@ const Frame1196 = (props) => {
             font-size: 23px;
             font-style: italic;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -8445,7 +8122,7 @@ const Frame1196 = (props) => {
             background: linear-gradient(180deg, #fdfdf6 0%, #faf8f6 100%);
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             font-style: normal;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.17);
             margin-right: var(--dl-layout-space-sixunits);
@@ -8611,7 +8288,7 @@ const Frame1196 = (props) => {
             font-style: normal;
             max-height: 50px;
             min-height: 55px;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             border-radius: 8px;
@@ -8711,7 +8388,7 @@ const Frame1196 = (props) => {
             position: absolute;
           }
 
-          /* У���ираем margin-bottom у блока с з��голо��ком и кнопкой до 1618px */
+          /* У���ираем margin-bottom у ���лока с з��голо��ком и кнопкой до 1618px */
           @media (max-width: 1618px) {
             .frame1196-container112 {
               margin-bottom: 0px;
@@ -9275,7 +8952,7 @@ const Frame1196 = (props) => {
             }
             .frame1196-text249 {
               color: var(--dl-color-theme-neutral-dark);
-              font-family: Spectral;
+              font-family: var(--font-spectral);
             }
             .ask-button-wrapper {
               align-self: center;
@@ -10050,7 +9727,7 @@ const Frame1196 = (props) => {
             }
             .frame1196-text249 {
               color: var(--dl-color-theme-neutral-dark);
-              font-family: Spectral;
+              font-family: var(--font-spectral);
             }
             .frame1196-container225 {
               margin-top: var(--dl-layout-space-threeunits);
@@ -10064,7 +9741,7 @@ const Frame1196 = (props) => {
               color: rgb(255, 255, 255);
               font-size: 20px;
               font-style: italic;
-              font-family: Spectral;
+              font-family: var(--font-spectral);
               font-weight: 600;
               line-height: normal;
               text-decoration: none;
@@ -10118,7 +9795,7 @@ const Frame1196 = (props) => {
               font-size: 17px;
               font-style: normal;
               text-align: center;
-              font-family: Spectral;
+              font-family: var(--font-spectral);
               font-weight: 500;
             }
             .frame1196-image10 {
@@ -11450,7 +11127,7 @@ const Frame1196 = (props) => {
               color: var(--dl-color-theme-neutral-dark);
               font-size: 18px;
               font-style: italic;
-              font-family: Spectral;
+              font-family: var(--font-spectral);
               font-weight: 500;
               text-decoration: none;
             }
@@ -11706,7 +11383,7 @@ const Frame1196 = (props) => {
             padding-bottom: 0 !important;
           }
 
-          /* По��азывать активные от���е��ы с эффекто���� разв���р��чивания */
+          /* По��азывать ��ктивные от���е��ы с эффекто���� разв���р��чивания */
           .frame1196-otvet1.faq-active,
           .frame1196-otvet2.faq-active,
           .frame1196-otvet3.faq-active,
@@ -11770,7 +11447,7 @@ const Frame1196 = (props) => {
             fill: #4EC8ED !important;
           }
 
-          /* Стили для кликабельных кнопок */
+          /* Стили ��ля кликабельных кнопок */
           .clickable-button {
             cursor: pointer !important;
             transition: all 0.2s ease !important;

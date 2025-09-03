@@ -197,7 +197,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или палочку) и наблюдайте, как кровь «вспенивается». После нескольких минут, когда прореагировавшие остатки растворятся, смойте тёплой (остывшей, не горячей) водой и постирайте ткань. Важно помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тканей (шифон, шерсть) лучше обойтись другими методами.
+                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или палочку) и наблюдайте, как кровь «вспенивается». После нескольких минут, когда прореагировавшие остатки растворятся, смойте тёплой (остывшей, не горячей) водой и постирайте ткань. Важно помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тканей (шифон, шерсть) лучше обойтись другими м��тодами.
                 </p>
               </div>
             </section>
@@ -366,7 +366,7 @@ const Page = (props) => {
               <div className="page-frame12982">
                 <span className="page-text74">
                   Как продлить жизн�� машине на 3–5 лет — простые привычки,
-                  которые сэкономят ��еньги
+                  которые сэкономят ����еньги
                 </span>
                 <div className="page-container46"></div>
               </div>
@@ -392,7 +392,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12986">
                 <span className="page-text78">
-                  Мифы о стиралках: что правда, а что — вымысел?
+                  Мифы о ст��ралках: что правда, а что — вымысел?
                 </span>
                 <div className="page-container50"></div>
               </div>
@@ -1277,7 +1277,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral SC';
+            font-family: var(--font-spectral-sc);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1652,7 +1652,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: 'Roboto Serif';
+            font-family: var(--font-roboto-serif);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2123,7 +2123,7 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Roboto Serif;
+              font-family: var(--font-roboto-serif);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
@@ -2160,7 +2160,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Roboto Serif;
+              font-family: var(--font-roboto-serif);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }

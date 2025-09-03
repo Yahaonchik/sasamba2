@@ -62,7 +62,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: var(--dl-layout-space-twounits);
+          gap: var(--dl-layout-space-sixunits);
           margin-top: 60px;
           margin-bottom: 30px;
         }
@@ -115,16 +115,16 @@ const PageNavigation = ({ prevPage, nextPage }) => {
 
         .page-nav-title {
           color: rgb(80, 80, 80);
-          font-size: 16px;
-          font-weight: 600;
+          font-size: 17px;
+          font-weight: 700;
           margin: 0;
           margin-bottom: 4px;
         }
 
         .page-nav-subtitle {
-          color: rgb(120, 120, 120);
-          font-size: 14px;
-          font-weight: 400;
+          color: rgb(90, 90, 90);
+          font-size: 15px;
+          font-weight: 500;
           max-width: 200px;
           line-height: 1.4;
         }

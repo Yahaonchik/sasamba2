@@ -84,7 +84,7 @@ const Component2 = (props) => {
           .component2-text1 {
             font-size: 15px;
             align-self: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .component2-container3 {
             width: 100%;
@@ -129,12 +129,12 @@ const Component2 = (props) => {
           .component2-text4 {
             display: inline-block;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .component2-text5 {
             display: inline-block;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .component2-text6 {
             display: inline-block;
@@ -170,11 +170,11 @@ const Component2 = (props) => {
             }
             .component2-text4 {
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
             }
             .component2-text5 {
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
           }
         `}

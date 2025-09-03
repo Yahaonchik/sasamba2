@@ -38,7 +38,7 @@ const AnchorLinksSection = ({
         .bottom { bottom: -12px; left: -2px; width: 100%; height: 5px; }
         .right { top: 0; right: -12px; width: 5px; height: 100%; }
         .left { bottom: -3px; left: -12px; width: 5px; height: 100%; }
-        .toc-title { color: #45C5ED; font-size: 16.5px; font-family: 'Noto Serif SC'; font-weight: 600; line-height: 1.3; display: inline-block; }
+        .toc-title { color: #45C5ED; font-size: 16.5px; font-family: var(--font-noto-serif-sc); font-weight: 600; line-height: 1.3; display: inline-block; }
         .toc-list { list-style: none; padding: 0; margin: calc(var(--dl-layout-space-halfunit) * 2) 0 0; display: grid; grid-template-columns: 1fr; gap: 6px; }
         .toc-item { display: flex; align-items: center; gap: 8px; }
         .toc-icon { width: 16px; height: 16px; object-fit: contain; transition: filter .2s ease; }

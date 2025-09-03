@@ -151,13 +151,13 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .blue1-text2 {
             font-size: 16px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 300;
           }
 
@@ -186,7 +186,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .blue1-icon1 {
@@ -213,7 +213,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             text-decoration: none;
           }
@@ -318,7 +318,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
               width: 100%;
               font-size: 15px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -339,7 +339,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               justify-content: center;
             }
@@ -358,7 +358,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               justify-content: center;
               text-decoration: none;
               transition: color 0.3s ease, transform 0.2s ease;

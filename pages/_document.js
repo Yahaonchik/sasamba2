@@ -5,6 +5,7 @@ class CustomDocument extends Document {
       <Html>
         <Head>
           <link rel="preload" as="image" href="/to%20the%20backgrouund-1500w.png" />
+          <link rel="preload" as="image" href="/all%20ina%20dast%20or%20dust.webp" />
           <meta charSet="utf-8"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <style
@@ -17,23 +18,15 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: \"Noto Serif SC\";\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-theme-neutral-dark);\n    background: var(--dl-color-theme-neutral-light);\n    \n    fill: var(--dl-color-theme-neutral-dark);\n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: var(--font-noto-serif-sc);\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-theme-neutral-dark);\n    background: var(--dl-color-theme-neutral-light);\n    \n    fill: var(--dl-color-theme-neutral-dark);\n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
-          <link
-            rel="stylesheet"
-            href="https://unpkg.com/animate.css@4.1.1/animate.css"
-          ></link>
           {/* Keep only required Google Fonts */}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;800;900&subset=cyrillic,latin&display=swap"
             data-tag="font"
-          ></link>
-          <link
-            rel="stylesheet"
-            href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
           ></link>
         </Head>
         <body>

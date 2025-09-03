@@ -679,7 +679,7 @@
  
 .ge {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: var(--font-roboto);
   font-weight: 300;
   line-height: normal;
   letter-spacing: 0;
