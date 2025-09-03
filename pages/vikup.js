@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
+import Head from 'next/head'
 import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import Breadcrumbs from '../components/Breadcrumbs'
-import dynamic from 'next/dynamic'
-const SellModal = dynamic(() => import('../components/SellModal'), { ssr: false })
+import SellModal from '../components/SellModal'
 import { getSEOData } from '../utils/seoConfig'
 import { getServiceData, getLocalBusinessData } from '../utils/structuredData'
+import Image from 'next/image'
 
 const Vikup = (props) => {
   const [isSellModalOpen, setIsSellModalOpen] = useState(false)
@@ -108,12 +109,11 @@ const Vikup = (props) => {
                 </p>
               </div>
               <div className="page1-hero-image">
-                <img
+                <Image
                   alt="мастер по ремонту стиральных машин жмет руку покупателю"
                   src="/vikupsochi-1500w.webp"
-                  loading="lazy"
-                  decoding="async"
-                  className="page1-image2"
+                  fill
+                                    className="page1-image2"
                 />
               </div>
             </div>
@@ -790,10 +790,6 @@ const Vikup = (props) => {
             height: 325px;
           }
           .page1-image2 {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
             object-fit: cover;
           }
           .page1-container14 {

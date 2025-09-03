@@ -6,8 +6,6 @@ export const nunito = Nunito({
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-nunito',
-  adjustFontFallback: false,
-  fallback: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
 })
 
 
@@ -17,6 +15,4 @@ export const roboto = Roboto({
   style: ['normal'],
   display: 'swap',
   variable: '--font-roboto',
-  adjustFontFallback: false,
-  fallback: ['system-ui', '-apple-system', 'Segoe UI', 'Arial', 'sans-serif'],
 })
