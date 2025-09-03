@@ -72,6 +72,7 @@ const Header = () => {
               <img
                 alt="Позвонить"
                 src="/ICONS/dla%20hedera%20trubka.svg"
+                loading="lazy"
                 className="frame1196-image11"
               />
             </button>
@@ -126,6 +127,7 @@ const Header = () => {
                   <img
                     alt="Позвонить"
                     src="/ICONS/dla%20hedera%20trubka.svg"
+                    loading="lazy"
                     className="frame1196-image13"
                   />
                 </button>
@@ -259,6 +261,7 @@ const Header = () => {
                   <img
                     alt="Позвонить"
                     src="/ICONS/dla%20hedera%20trubka.svg"
+                    loading="lazy"
                     className="frame1196-sidebar-phone-icon"
                   />
                 </button>
@@ -307,7 +310,7 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 66px !important; }
           }
 
-          /* Большие экраны: нижний отступ заголовочного блока 54px (было 60) */
+          /* Б��льшие экраны: нижний отступ заголовочного блока 54px (было 60) */
           @media (min-width: 992px) {
             .page-headertextwashermachine { margin-bottom: 27px !important; }
           }
@@ -326,7 +329,7 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 24px !important; margin-bottom: 15px !important; }
             .page-text10 { margin-top: 0 !important; margin-bottom: 15px !important; }
           }
-          /* Мобилки: точно как у "Полезные статьи" - 50px + 16px padding = 66px общий отступ */
+          /* Мобилк��: точно как у "Полезные статьи" - 50px + 16px padding = 66px общий отступ */
           @media (max-width: 480px) {
             .page-headertextwashermachine { margin-top: 66px !important; margin-bottom: 15px !important; }
             .page-text10 { margin-top: 0 !important; margin-bottom: 15px !important; }
@@ -358,7 +361,7 @@ const Header = () => {
             }
           }
 
-          /* Переопределение отступов для RelatedArticles внутри page-left-main-box */
+          /* Переопреде��ение отступов для RelatedArticles внутри page-left-main-box */
           .page-left-main-box .related-articles {
             margin-bottom: 30px !important;
             margin-top: var(--dl-layout-space-oneandhalfunits) !important;

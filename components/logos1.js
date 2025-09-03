@@ -23,31 +23,37 @@ const Logos1 = (props) => {
               alt={props.logo1Alt}
               src={props.logo1Src}
               className="logos1-logo1 thq-img-ratio-16-9"
+              loading="lazy"
             />
             <img
               alt={props.logo2Alt}
               src={props.logo2Src}
               className="logos1-logo2 thq-img-ratio-16-9"
+              loading="lazy"
             />
             <img
               alt={props.logo3Alt}
               src={props.logo3Src}
               className="logos1-logo3 thq-img-ratio-16-9"
+              loading="lazy"
             />
             <img
               alt={props.logo4Alt}
               src={props.logo4Src}
               className="logos1-logo4 thq-img-ratio-16-9"
+              loading="lazy"
             />
             <img
               alt={props.logo5Alt}
               src={props.logo5Src}
               className="logos1-logo5 thq-img-ratio-16-9"
+              loading="lazy"
             />
             <img
               alt={props.logo6Alt}
               src={props.logo6Src}
               className="logos1-logo6 thq-img-ratio-16-9"
+              loading="lazy"
             />
           </div>
         </div>

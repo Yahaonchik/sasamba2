@@ -47,7 +47,7 @@ const CallMasterSection = ({
         <div className="phones">
           {phones.map((p, idx) => (
             <div className="phone-item" key={idx}>
-              <img alt="phone" src={p.icon} className="phone-icon" />
+              <img alt="phone" src={p.icon} loading="lazy" className="phone-icon" />
               <a href={toTelHref(p.number)} className="phone-number" aria-label={`Позвонить по номеру ${p.number}`}>{p.number}</a>
             </div>
           ))}

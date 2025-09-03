@@ -72,7 +72,7 @@ const Page = (props) => {
                 { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '1. Амортизаторы' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '2. Пружины подвески' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#5-1', text: '3. Противовесы' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#5-2', text: '4. Подшипники и сальник.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5-2', text: '4. Подшипники и с��льник.' },
               ]}
             />
             <div className="page-container15">
@@ -172,7 +172,7 @@ const Page = (props) => {
             <section id="4" className="page-fiveproblem1">
               <div className="page-container22 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  1. Амортизаторы
+                  1. Аморт��заторы
                 </h3>
                 <svg
                   width="330"
@@ -248,7 +248,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Пружины подвески играют ключевую роль в работе стиральной машины — они удерживают бак в подвешенном состоянии и компенсируют вибрации при отжиме. Когда хотя бы одна пружина растянулась или сломалаль, бак теряет устойчивость и начинает сильно раскачиваться. Из-за этого вы слышите громкий стук, глухие удары или даже металлический звон. Особенно ярко проблема проявляется на высоких оборотах, когда бак с бельём вращается с максимальной скоростью.
+                  Пружины подвески играют ключевую роль в работе стиральной машины — они удерживают бак в подвешенном состоянии и компенсируют вибрации при отжиме. Когда хотя бы одна пружина растянулас�� или сломалаль, бак теряет устойчивость и начинает сильно раскачиваться. Из-за этого вы слышите громкий стук, глухие удары или даже металлический звон. Особенно ярко проблема проявляется на высоких оборотах, когда бак с бельём вращается с максимальной скоростью.
 
                   Почему э��о происходит? Со временем пружины изнашиваются — металл теряет упругость, появляются микротрещины, а иногда пружина может и вовсе ��опнуть. В результате нагру��ка распределяется неравномерно, бак смещается и начинает «бить» по корпусу. Это не только неприятный шум, но и риск повреждения других деталей — амортизаторов, противовесов, даже бака.
                   <span
@@ -510,7 +510,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -815,30 +815,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-container15 {
@@ -1070,7 +1070,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1220,7 +1220,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1273,7 +1273,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1319,7 +1319,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1346,7 +1346,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1422,7 +1422,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1435,7 +1435,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1490,7 +1490,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1503,7 +1503,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2037,7 +2037,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2145,7 +2145,7 @@ const Page = (props) => {
             }
             .page-text51 {
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .page-text58 {
               font-style: normal;
@@ -2208,7 +2208,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

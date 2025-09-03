@@ -14,7 +14,7 @@ import Image from 'next/image'
 import QuestionModal from '../components/QuestionModal'
 import OrderButton from '../components/OrderButton'
 import AskButton from '../components/AskButton'
-import ReviewModal from '../components/ReviewModal'
+const ReviewModal = dynamic(() => import('../components/ReviewModal'), { ssr: false })
 import SEOHead from '../components/SEOHead'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { getSEOData } from '../utils/seoConfig'
@@ -139,7 +139,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не сливает воду" src="/problems 2/11-300h.webp" className="frame1196-image15" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image15"><Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} priority fetchPriority="high" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/negreetvodu">
@@ -160,7 +160,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" className="frame1196-image16" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image16"><Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/protekaet">
@@ -179,7 +179,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина протекает" src="/problems 2/31-300h.webp" className="frame1196-image17" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image17"><Image alt="Ст���ральная машина протекает" src="/problems 2/31-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/silnoshumit">
@@ -200,7 +200,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" className="frame1196-image18" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image18"><Image alt="��тиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/nevkluchaetsa">
@@ -221,7 +221,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стирал��ная машина не включается" src="/problems 2/51-300h.webp" className="frame1196-image19" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image19"><Image alt="Стирал����ная машина не вклю��ается" src="/problems 2/51-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/zavisaetnaprogramme">
@@ -242,7 +242,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" className="frame1196-image20" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image20"><Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/neotjimaet">
@@ -263,7 +263,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" className="frame1196-image21" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image21"><Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/nenabiraetvodu">
@@ -284,7 +284,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" className="frame1196-image22" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image22"><Image alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/neotkrivaetsadverca">
@@ -305,7 +305,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" className="frame1196-image23" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+                <div className="frame1196-image23"><Image alt="Не открывается дверца стиральной машины" src="/problems 2/91-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover', objectPosition: 'top left' }} /></div>
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
@@ -325,7 +325,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
               </div>
-              <Image alt="Стиральная ма��ина не крутит барабан" src="/problems/10-300h.webp" className="frame1196-image24" width={149} height={215} sizes="149px" quality={60} loading="lazy" />
+              <div className="frame1196-image24"><Image alt="Стиральная ма��ина не крутит барабан" src="/problems/10-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
             </a>
           </article>
         </section>
@@ -335,7 +335,7 @@ const Frame1196 = (props) => {
             <span className="frame1196-text124">"Ваше название" </span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
-               мы заботимс�� �� надёжной работ�� вашей техники во вс����х уголках
+               мы заботимс�� �� надёжной ��абот�� вашей техники во вс����х уголках
               Одессы.
             </span>
             <br className="frame1196-text127" />
@@ -741,7 +741,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text151">3</span>
                 </div>
                 <span className="frame1196-text152">
-                  Диагностика оборудования (при отказе от ремонта)
+                  Диаг��остика оборудования (при отказе от ремонта)
                 </span>
               </div>
               <div className="frame1196-container143">
@@ -863,7 +863,7 @@ const Frame1196 = (props) => {
               text1={
                 <Fragment>
                   <span className="frame1196-text164">
-                    <span>от 400 грн</span>
+                    <span>��т 400 грн</span>
                   </span>
                 </Fragment>
               }
@@ -889,7 +889,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text167">
-                    <span>Ремо��т сливного насоса</span>
+                    <span>Ремо��т сливного ��асоса</span>
                   </span>
                 </Fragment>
               }
@@ -953,7 +953,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text175">
-                    <span>Устранение постороннего предмета из барабана, фильтра или насоса</span>
+                    <span>Устранение постороннего пред��ета из барабана, фильтра ��ли насоса</span>
                   </span>
                 </Fragment>
               }
@@ -1018,7 +1018,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text183">
-                    <span>Замена щеток двигателя (с учетом стоимо��ти щеток)</span>
+                    <span>Заме��а щеток двигателя (с учетом стоимо��ти щеток)</span>
                   </span>
                 </Fragment>
               }
@@ -1082,7 +1082,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text191">
-                    <span>Ремонт блокировки люка (без учета стоимости деталей)</span>
+                    <span>Ремонт блокировки люка (б��з учета стоимости деталей)</span>
                   </span>
                 </Fragment>
               }
@@ -1232,7 +1232,7 @@ const Frame1196 = (props) => {
               text3={
                 <Fragment>
                   <span className="frame1196-text210">
-                    <span>Вызвать мастера</span>
+                    <span>Вызв��ть мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1436,7 +1436,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container152 track">
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машин Ariston в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Ariston в Одессе - профессиональн��й сервис"
                   src="/brands/ariston-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image32"
@@ -1460,7 +1460,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стираль��ых машин Bosch в Одессе - профессиональный сервис"
+                  alt="Ремонт стираль��ых машин Bosch в ��дессе - профессиональный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image34"
@@ -1496,7 +1496,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт с��иральных м��шин Gorenje в Одессе - профессиональный сервис"
+                  alt="Ре��онт с��иральных м��шин Gorenje в Одессе - профессиональный сервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
@@ -1996,7 +1996,7 @@ const Frame1196 = (props) => {
                     <h3 className="frame1196-text220">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Налаженные связи с поставщиками',
+                          __html: 'Налаженные ��вязи с поставщиками',
                         }}
                       ></span>
                     </h3>
@@ -2193,7 +2193,7 @@ const Frame1196 = (props) => {
                     <h3 className="frame1196-text222">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Низ��ие цены на весь сервисный диапазон услуг',
+                          __html: 'Низ��ие ��ены на весь сервисный диапазон услуг',
                         }}
                       ></span>
                     </h3>
@@ -2849,7 +2849,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container185">
               <div className="frame1196-container186">
                 <figcaption className="frame1196-text229">
-                  Установка нового уплотнителя дверцы стиралки Zanussi
+                  Установка нового уплотнителя дверцы с��иралки Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3092,7 +3092,7 @@ const Frame1196 = (props) => {
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: '��акую гарантиюю вы п��едоставляете?',
+                    __html: '��акую гарантиюю вы п��ед��ставляете?',
                   }}
                 ></span>
               </h3>
@@ -3155,7 +3155,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text244">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Диаг����стика стоит 200 гривен. При согласии на ремонт стоимость диагоностики засчитывается в общую сумму работ. Выезд мастера бесплатный',
+                      __html: 'Диаг����стика стоит 200 гривен. При согласии на р��монт стоимость диагоностики засчитывается в общую сумму работ. Выезд мастера бесплатный',
                     }}
                   ></span>
                 </p>
@@ -3209,7 +3209,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по телефону заранее.',
+                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по тел��фону заранее.',
                     }}
                   ></span>
                 </p>
@@ -3254,7 +3254,7 @@ const Frame1196 = (props) => {
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Дешевле отремонтиро��ать или заменить?',
+                    __html: 'Де��евле отремонтиро��ать или заменить?',
                   }}
                 ></span>
               </h3>
@@ -3263,7 +3263,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если сто��мость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообразности ремонта.',
+                      __html: 'Если сто��мость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообра��ности ремонта.',
                     }}
                   ></span>
                 </p>
@@ -3359,10 +3359,10 @@ const Frame1196 = (props) => {
             </span>
           </div>
           <p className="frame1196-text251 textITOGI">
-            <span>Стиральная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со временем тре��ует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реальная необходимость для многих владельцев. Важно доверить ремонт проверен��ым спе��иалистам, а не случайному мастеру.</span>
+            <span>Стира��ьная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со времене�� тре��ует внимания. Механические детали изнашиваются, электроника даёт сбои, а бытовая нагрузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реальная необходимость для многих владельцев. Важно доверить ремонт проверен��ым спе��иалистам, а не случайному мастеру.</span>
           </p>
           <p className="frame1196-text252 textITOGI">
-            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессионально оснащённая мастерская, склад комплектующих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
+            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессио��ально оснащённая мастерская, склад комплекту��щих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
           </p>
           <h2 className="textglavitogi">
             <span>Почему выбирают нас</span>
@@ -3408,7 +3408,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Работаем как с типовыми, так и со сложными неисправностями.',
+                    __html: 'Работаем как с типовыми, так и со сложными неисправно��тями.',
                   }}
                 ></span>
               </span>
@@ -3420,7 +3420,7 @@ const Frame1196 = (props) => {
           <p className="frame1196-text260 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ремонт стиральных машин в Одессе необходим как новым, так и давно использованным моделям. Все уз��ы техники имеют ограниченный ресурс, и при активной эксплуатации однажды выходят из строя. Мы собрали самые частые причины, по к��торым клиенты обращаются в наш сервис:',
+                __html: 'Ремонт стиральных машин в Одессе необходим как новым, так и давно использованным моделям. Все уз��ы техники имеют ограниченный ре��урс, и при активной эксплуатации однажды выходят из строя. Мы собрали самые частые причины, по к��торым клиенты обращаются в наш сервис:',
               }}
             ></span>
           </p>
@@ -3500,7 +3500,7 @@ const Frame1196 = (props) => {
           </h2>
           <p className="frame1196-text271 textITOGI">
             <span>
-              Сервисный центр "Ваше название" — это современная профессиональная мастерска�� в Одессе, где в���полняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмся за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Проводим профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только по��ле согласования с клиентом мы приступаем к работе. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.
+              Сервисный ц��нтр "Ваше название" — это современная профессиональная мастерска�� в Одессе, где в���п��лняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмс�� за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Прово��им профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только по���ле согласования с клиентом мы приступаем к работе. Мы ц��ним доверие и работаем аккуратно — б��з спешки и халтуры.
             </span>
           </p>
           <h2 className="textglavitogi">
@@ -3700,7 +3700,7 @@ const Frame1196 = (props) => {
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдалась ему полностью, а не стала брыкаться. не знаю, что он там с ней делал, но ���ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
+              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдалась ему полностью, �� не стала брыкаться. не знаю, что он там с ней делал, но ���ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
             </p>
             <svg
               width="330"
@@ -4046,14 +4046,14 @@ const Frame1196 = (props) => {
             align-self: stretch;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
           }
 
-          /* ��ерный цвет для заголовка когда нет фоновой ��артинки (на мобильных экранах) */
+          /* ��ерный цвет для заг��ловка когда нет фоновой ��артинки (на мобильных экранах) */
           @media (max-width: 767px) {
             .frame1196-text108 {
               color: #000000;
@@ -4138,7 +4138,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow10 {
@@ -4202,7 +4202,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow11 {
@@ -4266,7 +4266,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow12 {
@@ -4330,7 +4330,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow13 {
@@ -4394,7 +4394,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow14 {
@@ -4425,7 +4425,6 @@ const Frame1196 = (props) => {
             width: 149px;
             height: 215px;
             position: absolute;
-            box-shadow: 5px 5px 10px 0px #d4d4d4;
             object-fit: cover;
           }
           .frame1196-container118 {
@@ -4459,7 +4458,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow15 {
@@ -4523,7 +4522,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow16 {
@@ -4587,7 +4586,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow17 {
@@ -4651,7 +4650,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow18 {
@@ -4716,7 +4715,7 @@ const Frame1196 = (props) => {
             position: relative;
             font-size: 17px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-arrow19 {
@@ -4749,6 +4748,8 @@ const Frame1196 = (props) => {
             position: absolute;
             object-fit: cover;
           }
+          :global(.frame1196-image15 img, .frame1196-image16 img, .frame1196-image17 img, .frame1196-image18 img, .frame1196-image19 img, .frame1196-image20 img, .frame1196-image21 img, .frame1196-image22 img, .frame1196-image23 img, .frame1196-image24 img) { object-fit: cover; width: 100%; height: 100%; object-position: center; }
+          :global(.frame1196-image23 img) { object-position: top left; }
           .frame1196-container123 {
             width: 100%;
             height: 100%;
@@ -4819,7 +4820,7 @@ const Frame1196 = (props) => {
               box-shadow: 0px 10px 20px 0px #d4d4d4 !important;
             }
 
-            /* У��еньшение ��азмера шрифта ��арточек н�� м��бильных экранах */
+            /* У��еньшение ��азм��ра ш��ифта ��арточек н�� м��бильных экранах */
             .frame1196-text112,
             .frame1196-text113,
             .frame1196-text114,
@@ -4841,7 +4842,7 @@ const Frame1196 = (props) => {
             max-width: 950px;
             margin-top: var(--dl-layout-space-fourunits);
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: 1.25;
             font-stretch: normal;
@@ -4965,7 +4966,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 16px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5021,7 +5022,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 16px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5078,7 +5079,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 16px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -5208,12 +5209,12 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-text141 {
             font-size: 16px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-text142 {
@@ -5238,7 +5239,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-icon162 {
@@ -5264,7 +5265,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5296,13 +5297,13 @@ const Frame1196 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-text148 {
             font-size: 16px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-container139 {
@@ -5318,7 +5319,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-icon168 {
@@ -5344,7 +5345,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5376,13 +5377,13 @@ const Frame1196 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-text152 {
             font-size: 16px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-container143 {
@@ -5398,7 +5399,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-icon174 {
@@ -5424,7 +5425,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5631,13 +5632,13 @@ const Frame1196 = (props) => {
             height: auto;
             align-self: center;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-text212 {
             color: var(--dl-color-theme-neutral-dark);
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
           }
           .frame1196-container147 {
@@ -5653,7 +5654,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
           }
           .frame1196-icon180 {
@@ -5679,7 +5680,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             text-decoration: none;
           }
@@ -5959,7 +5960,7 @@ const Frame1196 = (props) => {
             height: auto;
             font-size: 27px;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -6133,7 +6134,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6280,7 +6281,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6427,7 +6428,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6574,7 +6575,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -6721,7 +6722,7 @@ const Frame1196 = (props) => {
             height: 100%;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             white-space: normal;
             overflow-wrap: break-word;
@@ -8275,7 +8276,7 @@ const Frame1196 = (props) => {
             align-self: flex-start;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: 1.15;
             text-transform: none;
@@ -8297,11 +8298,11 @@ const Frame1196 = (props) => {
           }
           .frame1196-text282 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .frame1196-text283 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .frame1196-container234 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -8312,17 +8313,17 @@ const Frame1196 = (props) => {
           }
           .frame1196-text284 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .frame1196-text285 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .frame1196-text286 {
             font-size: 15px;
             align-self: flex-start;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
           }
           .frame1196-icon403 {
             width: 190px;
@@ -8357,7 +8358,7 @@ const Frame1196 = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: 1.15;
             text-transform: none;
@@ -8406,7 +8407,7 @@ const Frame1196 = (props) => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             cursor: pointer;
             transition: color 0.3s ease;
@@ -8416,7 +8417,7 @@ const Frame1196 = (props) => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             cursor: pointer;
             transition: color 0.3s ease;
@@ -8426,7 +8427,7 @@ const Frame1196 = (props) => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             text-transform: capitalize;
@@ -8475,7 +8476,7 @@ const Frame1196 = (props) => {
             position: absolute;
           }
 
-          /* У���ираем margin-bottom у ���лока с з��голо��ком и кнопкой до 1618px */
+          /* У���ираем margin-bottom у ���лока с з��голо��ком и кнопкой ��о 1618px */
           @media (max-width: 1618px) {
             .frame1196-container112 {
               margin-bottom: 0px;
@@ -8562,7 +8563,7 @@ const Frame1196 = (props) => {
             }
             .frame1196-text122 {
               font-size: 17px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               padding-left: var(--dl-layout-space-threeunits);
               padding-right: var(--dl-layout-space-threeunits);
             }
@@ -8761,7 +8762,7 @@ const Frame1196 = (props) => {
               justify-content: flex-end;
             }
             .frame1196-text212 {
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container147 {
               gap: var(--dl-layout-space-oneandhalfunits);
@@ -9174,70 +9175,70 @@ const Frame1196 = (props) => {
             }
             .frame1196-text112 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container114 {
               box-shadow: none;
             }
             .frame1196-text113 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container115 {
               box-shadow: none;
             }
             .frame1196-text114 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container116 {
               box-shadow: none;
             }
             .frame1196-text115 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container117 {
               box-shadow: none;
             }
             .frame1196-text116 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container118 {
               box-shadow: none;
             }
             .frame1196-text117 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container119 {
               box-shadow: none;
             }
             .frame1196-text118 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container120 {
               box-shadow: none;
             }
             .frame1196-text119 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container121 {
               box-shadow: none;
             }
             .frame1196-text120 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container122 {
               box-shadow: none;
             }
             .frame1196-text121 {
               font-size: 16;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container123 {
               width: 100%;
@@ -9248,7 +9249,7 @@ const Frame1196 = (props) => {
             }
             .frame1196-text122 {
               font-size: 17px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               padding-left: var(--dl-layout-space-oneandhalfunits);
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
@@ -10037,7 +10038,7 @@ const Frame1196 = (props) => {
               color: rgb(55, 55, 55);
               font-size: 15px;
               margin-top: var(--dl-layout-space-twounits);
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               padding-left: var(--dl-layout-space-unit);
               padding-right: var(--dl-layout-space-unit);
@@ -10257,7 +10258,7 @@ const Frame1196 = (props) => {
             .frame1196-text141 {
               width: 100%;
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -10288,7 +10289,7 @@ const Frame1196 = (props) => {
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               justify-content: center;
             }
@@ -10307,7 +10308,7 @@ const Frame1196 = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               justify-content: center;
               text-decoration: underline none;
             }
@@ -10348,7 +10349,7 @@ const Frame1196 = (props) => {
               width: 100%;
               font-size: 15px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -10369,7 +10370,7 @@ const Frame1196 = (props) => {
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               justify-content: center;
             }
@@ -10388,7 +10389,7 @@ const Frame1196 = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               justify-content: center;
               text-decoration: underline none;
             }
@@ -10429,7 +10430,7 @@ const Frame1196 = (props) => {
               width: 100%;
               font-size: 15px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               overflow-wrap: break-word;
             }
@@ -10450,7 +10451,7 @@ const Frame1196 = (props) => {
               font-size: 16px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               justify-content: center;
             }
@@ -10469,7 +10470,7 @@ const Frame1196 = (props) => {
               max-width: 150px;
               text-align: center;
               align-items: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               justify-content: center;
               text-decoration: underline none;
             }
@@ -10587,7 +10588,7 @@ const Frame1196 = (props) => {
               fill: #faf8f6;
               color: #ffffff;
               font-size: 20px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .frame1196-container160 {
               gap: 0;
@@ -10878,7 +10879,7 @@ const Frame1196 = (props) => {
               align-self: center;
               font-style: normal;
               text-align: left;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               letter-spacing: 0.3px;
             }
@@ -11253,7 +11254,7 @@ const Frame1196 = (props) => {
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11268,7 +11269,7 @@ const Frame1196 = (props) => {
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11283,7 +11284,7 @@ const Frame1196 = (props) => {
               color: rgb(35, 35, 35);
               font-size: 13.5px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -11453,7 +11454,7 @@ const Frame1196 = (props) => {
             box-shadow: 0px 4px 15px 0px rgba(175, 160, 115, 0.4);
           }
 
-          /* Ан��мация разворачи�������ия из центр�� для ответов FAQ */
+          /* Ан��мация разворачи����������ия и�� центр�� для ответов FAQ */
           .frame1196-otvet1,
           .frame1196-otvet2,
           .frame1196-otvet3,
@@ -11487,7 +11488,7 @@ const Frame1196 = (props) => {
           }
 
 
-          /* Ли��ейная ан��м��ция д����я икон��к */
+          /* Ли��ейная ан��м��ция д�����я ико����к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,

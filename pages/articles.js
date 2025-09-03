@@ -71,7 +71,7 @@ const Articles = (props) => {
             <button className={`tab-button ${activeTab === 'care' ? 'active' : ''}`} onClick={() => setActiveTab('care')}>
               <div className="tab-content">
                 <h3 className="tab-title">Уход за одеждой</h3>
-                <p className="tab-subtitle">Практические советы по стирке и выведению различных пятен</p>
+                <p className="tab-subtitle">Практические советы по стирке и выведению разл��чных пятен</p>
               </div>
             </button>
             <button className={`tab-button ${activeTab === 'problems' ? 'active' : ''}`} onClick={() => setActiveTab('problems')}>
@@ -131,7 +131,7 @@ const Articles = (props) => {
             min-height: 100vh;
             min-height: 100dvh;
             background-color: #f8f9fa;
-            font-family: 'Noto Serif SC', serif;
+            font-family: var(--font-noto-serif-sc), serif;
           }
 
           /* Hero */
@@ -142,10 +142,10 @@ const Articles = (props) => {
             margin-top: 8px;
           }
           .articles-hero-content { max-width: 800px; margin: 0 auto; }
-          .articles-title { font-size: 35px; font-family: 'Noto Serif SC', serif; font-weight: 500; margin-bottom: 16px; text-align: center; }
+          .articles-title { font-size: 35px; font-family: var(--font-noto-serif-sc), serif; font-weight: 500; margin-bottom: 16px; text-align: center; }
           .articles-title-blue { color: #87ceeb; font-weight: 700; }
           .articles-title-black { color: #000000; }
-          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: 'Noto Serif SC', serif; line-height: 1.6; color: #333333; }
+          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: var(--font-noto-serif-sc), serif; line-height: 1.6; color: #333333; }
 
           /* Tabs */
           .articles-switcher-section { padding: 24px 16px 16px; max-width: 1000px; margin: 0 auto; }

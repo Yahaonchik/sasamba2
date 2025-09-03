@@ -79,7 +79,7 @@ const Page = (props) => {
             <section id="1" className="page-firstproblem">
               <div className="page-container12 zagolovkiskorobkoy">
                 <h2 className="zagolovki2">
-                  Что делать, если машина не набирает воду:
+                  Что делать, если м��шина не набирает воду:
                 </h2>
                 <svg
                   width="330"
@@ -217,7 +217,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Устройство блокировки люка (УБЛ) фиксирует дверцу перед стартом. Если оно изношено или сломано, дверца не закрывается плотно и стирка не начнётся. Симптом: машинка не запускается вообще, люк может остаться незаблокированным, часто загорается ошибка. Проверьте, плотно ли закрывается люк – о�� должен щёлкать. Если замок не срабатывает, машина «гудит», но воды не набирается. Осмотрите уплотнитель и корпус замка: при деформации или поломке нужен мастер.
+                  Устройство блокировки люка (УБЛ) фиксирует ��верцу перед стартом. Если оно изношено или сломано, дверца не закрывается плотно и стирка не начнётся. Симптом: машинка не запускается вообще, люк может остаться незаблокированным, часто загорается ошибка. Проверьте, плотно ли закрывается люк – о�� должен щёлкать. Если замок не срабатывает, машина «гудит», но воды не набирается. Осмотрите уплотнитель и корпус замка: при деформации или поломке нужен мастер.
                 </p>
               </div>
             </section>
@@ -256,7 +256,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Заливной шланг – гибкая трубка от крана к машине. Он не должен быть перегибом, пережатием или смятием. Если на шланг наступили или он перекручен, вода не пойдёт. Симптом – машинка «жужжит», но залив не начинается. Остановите машину, отключите воду, осмотрите шланг. При обнаружении изгиба или зажима распрямите шланг и уберите препятствие. Если шланг повр��ждён (порван, сильно изношен), замените его.
+                  Заливной шланг – гибкая трубка от крана к машине. Он не должен быть перегибом, пережатием или смятием. Если на шланг наступили или он перекручен, вода не пойдёт. Симптом – машинка «жужжит», но ��алив не начинается. Остановите машину, отключите воду, осмотрите шланг. При обнаружении изгиба или зажима распрямите шланг и уберите препятствие. Если шланг повр��ждён (порван, сильно изношен), замените его.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -560,7 +560,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -857,39 +857,39 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text21 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text22 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text24 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-container15 {
@@ -1240,7 +1240,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1293,7 +1293,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1339,7 +1339,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1366,7 +1366,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1442,7 +1442,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1455,7 +1455,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1510,7 +1510,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1523,7 +1523,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2057,7 +2057,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2165,7 +2165,7 @@ const Page = (props) => {
             }
             .page-text51 {
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .page-text58 {
               font-style: normal;
@@ -2228,7 +2228,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

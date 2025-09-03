@@ -15,7 +15,7 @@ const AnchorLinksSection = ({
       <ul className="toc-list">
         {items.map((it, idx) => (
           <li className="toc-item" key={idx}>
-            <img alt={it.alt || 'item'} src={it.icon || '/external/vector8669-r6fr.svg'} className="toc-icon" />
+            <img alt={it.alt || 'item'} src={it.icon || '/external/vector8669-r6fr.svg'} loading="lazy" className="toc-icon" />
             <a href={it.href} className="toc-link">{it.text}</a>
           </li>
         ))}

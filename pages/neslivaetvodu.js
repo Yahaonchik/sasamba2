@@ -239,7 +239,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Электронная плата (модуль управления) посылает команды насосу при окончании цикла стирки. Если плата неисправна или «зависает», она может не запустить сливной насос и не разблокировать люк. При подозрении ��а сбой электроники нужна диагностика специалиста: плату обычно вынимают для тестирования. Возможные причины – перегоревшие микросхемы, сбой прошивки или окисление контактов. Это самая сложная поломка, которую сложно устранить самостоятельно.
+                  Электронная плата (модуль управления) посылает команды насосу при окончании цикла стирки. Если плата неисправна или «зависает», она может не запустить сливной насос и не разблоки��овать люк. При подозрении ��а сбой электроники нужна диагностика специалиста: плату обычно вынимают для тестирования. Возможные причины – перегоревшие микросхемы, сбой прошивки или окисление контактов. Это самая сложная поломка, которую сложно устранить самостоятельно.
                 </p>
               </div>
             </section>
@@ -323,7 +323,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Гибкий сливной шланг идёт от насоса к стояку канализации. Важно убедиться, что он не пережат и не забит грязью или жиром, особенно в местах изгибов и подсоединения к раковине или сифону. Для проверки отсоедините шланг от канализации и попробуйте продуть его: при чистом шланге воздух проходит легко и слышно, как булькает оставшая��я вода. Если шланг забит, протолкните в��утрь гибкую проволоку или промойте его под струёй горячей воды. После прочистки установите шланг на место и убедитесь, что он нигде не перегибается и надёжно закреплён.
+                  Гибкий сливной шланг идёт от насоса к стояку канализации. Важно убедиться, что он не пережат и не забит грязью или жиром, особенно в местах изгибов и подсоединения к раковине или сифону. Для проверки отсоедините шланг от канализации и попробуйте продуть его: при чистом шланге воздух проходит легко и слышно, как булькает оставшая��я вода. Если шланг забит, протолкните в��утрь гибкую проволоку или промойте его под струёй горячей воды. После пр��чистки установите шланг на место и убедитесь, что он нигде не перегибается и надёжно закреплён.
                 </p>
               </div>
             </section>
@@ -364,7 +364,7 @@ const Page = (props) => {
                 <div className="vicetext">
                   <p><strong>1. Отключите питание.</strong><br />Выньте вилку из розетки — это обязательная мера безопасности.</p>
                   <p><strong>2. Подготовьте всё для сбора воды.</strong><br />Возьмите тряпки или старые полотенца и плоскую невысокую ёмкость (таз, миску или лоток). Если можно — отведите сливной шланг в душевую/ванну; иначе собирайте воду в ёмкость и переносите.</p>
-                  <p><strong>3. Дайте воде остыть.</strong><br />Если стирка была недавно, дождитесь остывания. Оцените температуру по стеклу люка: если оно горячее — подождите.</p>
+                  <p><strong>3. Дайте воде остыть.</strong><br />Если стирка была недавно, дождитесь остывания. Оцените температуру по стеклу люка: если оно горячее — подожди��е.</p>
                   <p><strong>4. Откройте доступ к сливному фильтру.</strong><br />Он внизу спереди за крышкой. Подставьте плоскую ёмкость и аккуратно приоткрутите пробку для слива.</p>
                   <p><strong>5. Наклоните машинку немного назад.</strong><br />Так остатки быстрее стекают к фильтру. Делайте это вдвоём — техника тяжёлая.</p>
                   <p><strong>6. Очистите фильтр.</strong><br />Когда вода выйдет, выкрутите фильтр до конца, удалите мусор, промойте и установите обратно.</p>
@@ -566,7 +566,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -910,7 +910,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1242,7 +1242,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1295,7 +1295,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1341,7 +1341,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1368,7 +1368,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1380,7 +1380,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1444,7 +1444,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1457,7 +1457,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1512,7 +1512,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1525,7 +1525,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1556,7 +1556,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1755,7 +1755,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2064,7 +2064,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2165,14 +2165,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .page-text58 {
               font-style: normal;
@@ -2202,7 +2202,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2235,7 +2235,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

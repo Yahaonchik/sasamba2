@@ -67,7 +67,7 @@ const Page = (props) => {
               title="Вляпались в кровь:"
               items={[
                 { icon: '/vector.svg', href: '#2', text: 'Как удалить пятна крови с одежды без следов?' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Холодная вода и хозяйственное мыло' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Холодная вода и х��зяйственное мыло' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Жидкость для мытья посуды' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Перекись водорода (для белых тканей)' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Соль и сода' },
@@ -113,7 +113,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сначала промойте пятно очень холодной водой, чтобы смыть как можно больше крови. Затем нанесите на влажн��е место густую мыльную пену – хорошо подходит хозяйственное мыло. Мыло оставляют на 20–30 минут (можно накрыть плёнкой) и снова смывают прохладной водой. Этот простой способ эффективен для свежих и слегка засохших следов. Для более стойких пятен в мыльный раствор можно добавить немного мелкой соли или стирального порошка.
+                  Сначала промойте пятно очень холодной водой, чтобы смыть как можно больше крови. Затем нанесите на влажн��е место густую мыльную пену – хорошо подходит хозяйств��нное мыло. Мыло оставляют на 20–30 минут (можно накрыть плёнкой) и снова смывают прохладной водой. Этот простой способ эффективен для свежих и слегка засохших следов. Для более стойких пятен в мыльный раствор можно добавить немного мелкой соли или стирального порошка.
                 </p>
               </div>
             </section>
@@ -185,7 +185,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="прессос��ат"
+                    alt="прессос����т"
                     src="/2/presso.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -197,7 +197,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или палочку) и наблюдайте, как кровь «вспенивается». После нескольких минут, когда прореагировавшие остатки растворятся, смойте тёплой (остывшей, не горячей) водой и постирайте ткань. Важно помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тканей (шифон, шер��ть) лучше обойтись другими м��тодами.
+                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или палочку) и наблюдайте, как кровь «вспенивается». После нескольких минут, когда прореагировавшие остатки растворятся, смойте тёплой (остывшей, не горячей) водой и постирайте ткань. Важно помнить: перекись может осветлить или даже повредить цветную ткань, поэтому эт��т способ подходит только для белой или очень светлой одежды. Для деликатных тканей (шифон, шер��ть) лучше обойтись другими м��тодами.
                 </p>
               </div>
             </section>
@@ -225,7 +225,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="ремень стиральной машины"
+                    alt="р��мень стиральной машины"
                     src="/10/image%2038230551-800h.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -237,7 +237,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Есть и «сухой» вариант: обильно посыпьте пятно солью, потрите мягкой щёткой и дайте впитаться 15–30 минут, затем смойте и постирайте. Аналогично работают и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и снова постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средне�� давности пятен.
+                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Есть и «сухой» вариант: обильно посыпьте пятно солью, потрите мягкой щёткой и дайте впитаться 15–30 минут, затем смойте и постирайте. Аналогично работают и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и сно��а постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средне�� давности пятен.
                 </p>
               </div>
             </section>
@@ -489,7 +489,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -786,30 +786,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-container15 {
@@ -830,7 +830,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -869,7 +869,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1139,7 +1139,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1192,7 +1192,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1238,7 +1238,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1265,7 +1265,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1341,7 +1341,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1354,7 +1354,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1409,7 +1409,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1422,7 +1422,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1453,7 +1453,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1962,7 +1962,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2130,7 +2130,7 @@ const Page = (props) => {
             }
             .page-text51 {
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .page-text58 {
               font-style: normal;
@@ -2193,7 +2193,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

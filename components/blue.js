@@ -53,6 +53,7 @@ const Blue = (props) => {
           <img
             alt={props.vector96Alt}
             src={props.vector96Src}
+            loading="lazy"
             className="blue-vector96"
           />
           <div className="blue-container4">

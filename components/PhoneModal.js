@@ -45,7 +45,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
           <div className="pm-icons">
             <div className="pm-item viber">
               <a href={viberHref} className="pm-icon-link viber" aria-label="Viber">
-                <img src="/viber2.svg" alt="" className="pm-icon-img" />
+                <img src="/viber2.svg" alt="" loading="lazy" className="pm-icon-img" />
               </a>
               <span className="pm-caption">Viber</span>
             </div>
@@ -63,7 +63,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
             </div>
             <div className="pm-item whatsapp">
               <a href={waHref} className="pm-icon-link whatsapp" aria-label="WhatsApp">
-                <img src="/whatsapp.svg" alt="" className="pm-icon-img" />
+                <img src="/whatsapp.svg" alt="" loading="lazy" className="pm-icon-img" />
               </a>
               <span className="pm-caption">WhatsApp</span>
             </div>

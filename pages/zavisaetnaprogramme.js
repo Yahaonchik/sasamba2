@@ -28,7 +28,7 @@ const Page = (props) => {
   const seoData = getSEOData('/zavisaetnaprogramme')
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getProblemPageStructuredData(
-    'Ремонт стиральной машины которая зависает на программе',
+    'Ремонт стиральн��й машины которая зависает на программе',
     'Профессиональный ремонт стиральных машин которые зависают на программах в Одессе. Ремонт модуля управления.',
     `${baseUrl}/zavisaetnaprogramme`
   )
@@ -120,7 +120,7 @@ const Page = (props) => {
                   <br />
                   <strong>5. Перезапустите цикл.</strong>
                   <br />
-                  Поставьте пустую машину на короткую программу «Отжим» или «Слив», чтобы убедиться, что вода больше не задерживается. Если техника запустилась и отработала нормально, проблема скорее всего решена.
+                  Поставьте пустую машину на короткую программу «Отжим» или «Слив», чтобы убедиться, что вода больше не задерживается. Если техника з��пустилась и отработала нормально, проблема скорее всего решена.
                 </p>
               </div>
             </section>
@@ -210,7 +210,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если люк стиральной машины не закрылся до щелчка, автоматика не дас�� начать стирку или может прерваться в самом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убедившись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание программы. Если дверца плотно закрывается, но стирка всё равно не запускается или останавливается, возможно, сломан замок (устройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на дисплее может появиться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спустите воду через фильтр, чтобы безопасно добраться до замка.
+                  Если люк стиральной машины не закрылся до щелчка, автоматика не дас�� начать стирку или может прерваться в самом начале ц��кла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убедившись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание программы. Если дверца плотно закрывается, но стирка всё равно не запускается или останавливается, возможно, сломан замок (устройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на дисплее может появиться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спустите воду через фильтр, чтобы безопасно добраться до замка.
                 </p>
               </div>
             </section>
@@ -282,7 +282,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Блок управления (электронная плата) — «��озг» стиральной машины, который управляет всеми узлами. При скачке напряжения или сбоя электроники программа может зависнуть или не реагировать на кнопки. Обычно это называется «разовым сбоем модуля». Перезагрузите машину: выдерните вилку из розетки на 10–15 минут, затем включите вновь. Если сбой был единичным, после паузы машина начнет работать. Если же проблема повторяется (программа регулярно зависает, гаснет подсветка, на табло появляются странные символы), нужна диагностика платы. Повреждения в модуле управления устранить сложно — чаще всего его перепрошивают или заменяют. Без опыта ремонтов электроники не стоит разбирать плату самому.
+                  Блок управления (электронная плата) — «��озг» стиральной машины, который управляет всеми узлами. При скачке напряжения или сбоя электроники программа может зависнуть или не реагировать на кнопки. Обычно это называется «разовым сбоем модуля». Перезагрузите машину: выдерните вилку из розетки на 10–15 минут, затем включите вновь. Если сбой был единичным, после паузы машина начнет работать. Если же проблема повторяется (программа регулярно зависает, гас��ет подсветка, на табло появляются странные символы), нужна диагностика платы. Повреждения в модуле управления устранить сложно — чаще всего его перепрошивают или заменяют. Без опыта ремонтов электроники не стоит разбирать плату самому.
                 </p>
               </div>
             </section>
@@ -324,7 +324,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Прессостат — это датчик, который определяет, сколько воды набрано в бак. Если он выходит из строя, блок управления «не знает», наполнен ли барабан водой. В результате машина может остановиться сразу после начала набора воды или не доливать воду вовсе. Признаки: при такой неисправности машинка может резко остановиться на этапе набора, стирки, полоскания или отжима (в зависимости от программы) и не продолжить цикл.
+                  Прессостат — это датчик, который определяет, сколько воды набрано в бак. Если он выходит из строя, блок управления «не знает», наполнен ли барабан водой. В результате машина может остановиться сразу после начала набора воды или не доливать воду вовсе. Признаки: при такой неисправности машинка может резко остановитьс�� на этапе набора, стирки, полоскания или отжима (в зависимости от программы) и не продолжить цикл.
                 </p>
               </div>
             </section>
@@ -532,7 +532,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -829,39 +829,39 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text21 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text22 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text24 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-container15 {
@@ -882,7 +882,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -907,7 +907,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1229,7 +1229,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1282,7 +1282,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1328,7 +1328,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1355,7 +1355,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1431,7 +1431,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1444,7 +1444,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1499,7 +1499,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1512,7 +1512,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1543,7 +1543,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -2046,7 +2046,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2176,7 +2176,7 @@ const Page = (props) => {
             }
             .page-text51 {
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .page-text58 {
               font-style: normal;
@@ -2239,7 +2239,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

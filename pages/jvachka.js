@@ -29,7 +29,7 @@ const Page = (props) => {
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getArticleStructuredData(
     'Как удалить жвачку с одежды',
-    'Эффективные методы удаления жвачки с одежды: холод, тепло и мягкие растворители',
+    'Эффективные мето��ы удаления жвачки с одежды: холод, тепло и мягкие растворители',
     `${baseUrl}/jvachka`,
     `${baseUrl}/100x100/jvanik.png`
   )
@@ -112,7 +112,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если вещь помещается в морозильник, это наиболее простой способ. Поместите испачканную одежду в полиэтиленовый пакет и уберите в морозилку на 2–3 часа. Когда жвачка полность�� застынет, её легко отлепить от ткани руками. Если куртка слишком большая, приложите на пятно кусочки льда – жвачка затвердеет на месте и её можно будет собрать щёткой или пальцами. После снятия жвачки может остаться лёгкий след: он обычно хорошо отстирывается мылом или порошком.
+                  Если вещь помещается в морозильник, это наиболее простой способ. Поместите испачканную одежду в полиэтиленовый пакет и уберите в морозилку н�� 2–3 часа. Когда жвачка полность�� застынет, её легко отлепить от ткани руками. Если куртка слишком большая, приложите на пятно кусочки льда – жвачка затвердеет на месте и её можно будет собрать щёткой или пальцами. После снятия жвачки может остаться лёгкий след: он обычно хорошо отстирывается мылом или порошком.
                 </p>
               </div>
             </section>
@@ -196,7 +196,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Скотч может помочь с сырой или частично размягчённой резинкой. Направьте на жвачку тёплый воздух из фена на 1–2 минуты – резинка размягчится. Затем плотно прижмите кусок клейкой ленты к жвачке и резко оторвите – так вы сможете «вытянуть» жвачку за ленту. Повторяйте, пока не оторвёте всё. ��тот способ удобен, когда нет под рукой морозильника.
+                  Скотч может помочь с сырой или частично размягчённой резинкой. Направьте на жвачку тёплый воздух из фена на 1–2 минуты – резинка размягчится. Затем плотно прижмите кусок клейкой ленты к жвачке и резко оторвите – так вы сможете «вытянуть» жвачку за л��нту. Повторяйте, пока не оторвёте всё. ��тот способ удобен, когда нет под рукой морозильника.
                 </p>
               </div>
             </section>
@@ -236,7 +236,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если ни холод, ни тепло не помогли, пробуйте местные растворители. Жидкость для снятия лака с ацетоном мягко разъедает жевательную резинку – смочите ватный диск, приложите к пятну на 2–3 минуты, затем сотрите резинку щёткой. Ксилол (уайт-спирит) или промышленный очиститель WD-40 тоже эффективно размягчают клейкость жвачки. Эти средства хорошо подходят для плотных тканей, но обязательно протестируйте их на незаметном фрагменте, чтобы избежать обесцвечивания. После применения растворителя одежду нужно о��язательно выстирать – это удалит остатки химии и запах.
+                  Если ни холод, ни тепло не помогли, пробуйте местные растворители. Жидкость для снятия лака с ацетоном мягко разъедает жевательную резинку – смочите ватный диск, приложите к пятну на 2–3 минуты, затем сотрите резинку щёткой. Ксилол (уайт-спирит) или промышленный очиститель WD-40 тоже эффективно размягчают клейкость жвачки. Эти средства хорошо подходят для плотных тканей, но обязательно протестируйте их на незаметном фрагменте, чтобы избежать обесцвечивания. По��ле применения растворителя одежду нужно о��язательно выстирать – это удалит остатки химии и запах.
                 </p>
               </div>
             </section>
@@ -266,7 +266,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="модуль управления"
+                    alt="модуль управ��ения"
                     src="/1/plata.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -455,7 +455,7 @@ const Page = (props) => {
             font-size: 35px;
             align-self: flex-start;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -752,30 +752,30 @@ const Page = (props) => {
             padding: 5px;
           }
           .page-text24 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text25 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text27 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text28 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text30 {
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-text31 {
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 700;
           }
           .page-container15 {
@@ -796,7 +796,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -835,7 +835,7 @@ const Page = (props) => {
             font-size: 20px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             margin-bottom: calc(8px / 1.7);
@@ -1105,7 +1105,7 @@ const Page = (props) => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1158,7 +1158,7 @@ const Page = (props) => {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1204,7 +1204,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1231,7 +1231,7 @@ const Page = (props) => {
             font-size: 19px;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 400;
             line-height: normal;
             font-stretch: normal;
@@ -1243,7 +1243,7 @@ const Page = (props) => {
             width: 279px;
             height: 52px;
             font-size: 15px;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             border-radius: 8px;
             background-color: rgb(40, 40, 40);
           }
@@ -1307,7 +1307,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1320,7 +1320,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1375,7 +1375,7 @@ const Page = (props) => {
             align-self: flex-end;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1388,7 +1388,7 @@ const Page = (props) => {
             height: auto;
             font-size: 16px;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1419,7 +1419,7 @@ const Page = (props) => {
             align-self: center;
             font-style: italic;
             text-align: left;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1618,7 +1618,7 @@ const Page = (props) => {
             align-self: stretch;
             font-style: Medium;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc);
             font-weight: 500;
             line-height: normal;
             font-stretch: normal;
@@ -1929,7 +1929,7 @@ const Page = (props) => {
               font-size: 24px;
               font-style: normal;
               text-align: center;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
@@ -2090,14 +2090,14 @@ const Page = (props) => {
             .page-text50 {
               color: rgb(49, 49, 49);
               font-size: 19px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;
             }
             .page-text51 {
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
             }
             .page-text58 {
               font-style: normal;
@@ -2127,7 +2127,7 @@ const Page = (props) => {
               color: #ffffff;
               width: 100%;
               font-size: 15px;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               border-color: #ffffff;
               background-color: rgb(40, 40, 40);
             }
@@ -2160,7 +2160,7 @@ const Page = (props) => {
               color: rgb(55, 55, 55);
               font-size: 16px;
               font-style: normal;
-              font-family: Noto Serif SC;
+              font-family: var(--font-noto-serif-sc);
               font-weight: 500;
               line-height: normal;
               text-decoration: none;

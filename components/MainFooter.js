@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import OrderButton from './OrderButton'
@@ -9,6 +9,8 @@ const OrderModal = dynamic(() => import('./OrderModal'), { ssr: false })
 const MainFooter = () => {
   const router = useRouter()
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [showMap, setShowMap] = useState(false)
+  const mapObserverRef = useRef(null)
 
   const openModal = () => {
     setIsModalOpen(true)
@@ -34,6 +36,24 @@ const MainFooter = () => {
     router.pathname.includes('vlapalisvkrov') ||
     router.pathname.includes('puhovik')
   ))
+
+  useEffect(() => {
+    if (showMap) return
+    if (typeof window === 'undefined') return
+    const el = document.querySelector('.frame1196-map-observer')
+    if (!el || !('IntersectionObserver' in window)) return
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          setShowMap(true)
+          io.disconnect()
+        }
+      })
+    }, { rootMargin: '200px' })
+    io.observe(el)
+    mapObserverRef.current = io
+    return () => io.disconnect()
+  }, [showMap])
 
   return (
     <div className="main-footer-isolation">
@@ -98,11 +118,21 @@ const MainFooter = () => {
               <OrderButton onClick={openModal} variant="footer" />
             </div>
             <div className="frame1196-container237">
-              <iframe
-                src="https://www.google.com/maps?q=%D0%BF%D0%BB.%20%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%2C%201%2C%20%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0%2C%20%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%2065000&output=embed"
-                className="frame1196-google-maps"
-                title="Карта местоположения"
-              ></iframe>
+              <div className="frame1196-map-wrapper frame1196-map-observer" onClick={() => setShowMap(true)}>
+                {showMap ? (
+                  <iframe
+                    loading="lazy"
+                    src="https://www.google.com/maps?q=%D0%BF%D0%BB.%20%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%2C%201%2C%20%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0%2C%20%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%2065000&output=embed"
+                    className="frame1196-google-maps"
+                    title="Карта местоположения"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                ) : (
+                  <button type="button" className="frame1196-map-placeholder" aria-label="Загрузить карту">
+                    Показать карту
+                  </button>
+                )}
+              </div>
             </div>
           </div>
           <nav className="frame1196-container238">
@@ -331,9 +361,32 @@ const MainFooter = () => {
             flex-direction: column;
           }
 
-          .frame1196-google-maps {
+          .frame1196-map-wrapper {
+            position: relative;
             width: 100%;
             height: 200px;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #f2f2f2;
+          }
+
+          .frame1196-google-maps {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            display: block;
+          }
+
+          .frame1196-map-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #303030;
+            background: repeating-linear-gradient(-45deg, #f6f6f6, #f6f6f6 10px, #efefef 10px, #efefef 20px);
+            cursor: pointer;
+            border: 1px solid rgba(0,0,0,0.08);
           }
 
           .frame1196-container238 {
