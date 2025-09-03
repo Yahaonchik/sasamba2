@@ -158,7 +158,7 @@ const Blue1 = ({ rootClassName = '', text3, text, text2, imageSrc = '/ICONS/29.s
             font-size: 16px;
             font-style: normal;
             font-family: var(--font-noto-serif-sc);
-            font-weight: 300;
+            font-weight: 400;
           }
 
           .clickable-service-title {

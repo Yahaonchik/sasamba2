@@ -63,7 +63,7 @@ const Component3 = (props) => {
             font-style: normal;
             text-align: center;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             padding-left: var(--dl-layout-space-halfunit);
@@ -109,7 +109,7 @@ const Component3 = (props) => {
               font-size: 14px;
               font-style: normal;
               font-family: var(--font-nunito);
-              font-weight: 300;
+            font-weight: 300;
               letter-spacing: 0.3px;
             }
           }

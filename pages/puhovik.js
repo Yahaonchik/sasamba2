@@ -147,7 +147,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Для пуховых изделий не подходят обычные агрессивные порошки – они плохо выполаскиваются и могут оставлять разводы. Лучше взять специальный гель или жидкость д��я стирки пуховиков и деликатных тканей. Многие производители выпускают средства, предназначенные именно для пуховых курток. Если их нет, используйте гель для деликатной стирки или капсулы с жидким составом. От обычного порошка лучше отказаться – он может скапливаться внутри пухового наполнителя и собираться комками. Не добавляйте кондиционер и отбеливатель при основной стирке, чтобы не нарушить структуру пуха.
+                  Для пуховых изделий не подходят обычные агрессивные порошки – они плохо выполаскиваются и могут оставлять разводы. Лучше взять специальный гель или жидкость д��я стирки пуховиков и деликатных тканей. Многие производители выпускают средства, предназначенные именно для пуховых курток. Если их нет, используйте гель для деликатной стирки или капсулы с жидким составом. От обычного порошка лучше отка��аться – он может скапливаться внутри пухового наполнителя и собираться комками. Не добавляйте кондиционер и отбеливатель при основной стирке, чтобы не нарушить структуру пуха.
                 </p>
               </div>
             </section>
@@ -229,7 +229,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  После стирки аккуратно достаньте пуховик из барабана. Если в вашей машине есть режим лёгкой сушки для деликатных вещей, используйте его с большим количеством тех же теннисных мячиков – это позволит частично высушить пух и уменьшить его слёживание. В домашних условиях сушить пуховик лучше горизонтально, на ровной поверхности. Разложите изделие на чистом полотенце или на вешалке, периодически встряхивая и переворачивая его, чтобы пух высыхал равномерно. Не сушите пуховик на солнце и не ставьте на батарею – это может испортить и ткань, и наполнитель. Если пух сбился в комки после стирки, аккуратно разомните его руками по изнаночной стороне изделия: так наполнитель распустится и равномерно распределится по всему объёму. В крайнем случае можно воспользоваться пылесосом с обратной функцией или мягкой щёткой, чтобы «расчистить» пух после полного высыхания. После полного высыхания пуховик снова станет пышным и тёплым. Соблюдая эти простые правила – тщательную подготовку, щадящий режим и бережную сушку – вы продлите жизнь своей верхней одежде. Пуховик будет радовать своим видом не один сезон, а вы сэкономите время и деньги на химчистках.
+                  После стирки аккуратно достаньте пуховик из барабана. Если в вашей машине есть режим лёгкой сушки для деликатных вещей, используйте его с большим количеством тех же теннисных мячиков – это позволит частично высуш��ть пух и уменьшить его слёживание. В домашних условиях сушить пуховик лучше горизонтально, на ровной поверхности. Разложите изделие на чистом полотенце или на вешалке, периодически встряхивая и переворачивая его, чтобы пух высыхал равномерно. Не сушите пуховик на солнце и не ставьте на батарею – это может испортить и ткань, и наполнитель. Если пух сбился в комки после стирки, аккуратно разомните его руками по изнаночной стороне изделия: так наполнитель распустится и равномерно распределится по всему объёму. В крайнем случае можно воспользоваться пылесосом с обратной функцией или мягкой щёткой, чтобы «расчистить» пух после полного высыхания. После полного высыхания пуховик снова станет пышным и тёплым. Соблюдая эти простые правила – тщательную подготовку, щадящий режим и бережную сушку – вы продлите жизнь своей верхней одежде. Пуховик будет радовать своим видом не один сезон, а вы сэкономите время и деньги на химчистках.
                 </p>
               </div>
             </section>
@@ -1062,7 +1062,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1251,7 +1251,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1264,7 +1264,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1319,7 +1319,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1332,7 +1332,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1363,7 +1363,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1583,7 +1583,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1614,7 +1614,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1645,7 +1645,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1676,7 +1676,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1707,7 +1707,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1738,7 +1738,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

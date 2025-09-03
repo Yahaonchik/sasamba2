@@ -67,7 +67,7 @@ const Page = (props) => {
               title="Основные причины отсутствия слива:"
               items={[
                 { icon: '/external/vector8669-r6fr.svg', href: '#1', text: '1. Засор сливного фильтра' },
-                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '2. Неисправность датчика уровня воды (прессостата)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '2. Неисправность датчика уровня воды (прессо��тата)' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2b', text: '3. Неисправность сливного насоса.' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2c', text: '4. Сбой или поломка модуля управления' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2d', text: '5. Засор сливного патрубка' },
@@ -197,7 +197,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Помпа откачивает воду из бака в канализацию. Под крышкой фильтра видна крыльчатка насоса – маленький винт, который вращается при сливе. Проверьте, легко ли он проворачивается вручную. Если крыльчатка заклинила из-за застрявшего предмета, или мотор совсем не вращается, насос не справи��ся со сливом. Для проверки запустите короткий режим «Слив» или «Отжим» – при исправном насосе крыльчатка будет вращаться, и вы услышите её гул. Если помпа едва вращается или останавливается при небольшом нажатии (значит, износила ресурс), её нужно заменить. При поломке насоса вода не откачиваетс�� вообще, и дверца остаётся закрытой.
+                  Помпа откачивает воду из бака в канализацию. Под крышкой фильтра в��дна крыльчатка насоса – маленький винт, который вращается при сливе. Проверьте, легко ли он проворачивается вручную. Если крыльчатка заклинила из-за застрявшего предмета, или мотор совсем не вращается, насос не справи��ся со сливом. Для проверки запустите короткий режим «Слив» или «Отжим» – при исправном насосе крыльчатка будет вращаться, и вы услышите её гул. Если помпа едва вращается или останавливается при небольшом нажатии (значит, износила ресурс), её нужно заменить. При поломке насоса вода не откачиваетс�� вообще, и дверца остаётся закрытой.
                 </p>
               </div>
             </section>
@@ -397,7 +397,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <div className="vicetext">
                   <p><strong>1. Регулярно очищайте фильтр.</strong><br />Чистый фильтр предотвращает заторы из ворса и мелкого мусора.</p>
-                  <p><strong>2. Не допускайте попадания мелких предметов.</strong><br />Проверяйте карманы одежды перед стиркой: монеты, заколки, платки и т.п. могут попасть в патрубок.</p>
+                  <p><strong>2. Не допускайте попадания мелких предметов.</strong><br />Проверяйте карманы одежды перед стиркой: монеты, закол��и, платки и т.п. могут попасть в патрубок.</p>
                   <p><strong>3. Следите за положением сливного шланга.</strong><br />Шланг не должен перегибаться или пережиматься. Оптимальная высота вывода — до 50 см от уровня пола. Ставьте машинку ровно и снижайте вибрации, чтобы не перетирались провода и не ослабевали патрубки.</p>
                   <p><strong>4. Проверяйте канализацию.</strong><br />Убедитесь, что стояк или сифон не засорены. Если из раковины вода уходит медленно, стирочная может застаиваться. Периодически очищайте сантехнику.</p>
                 </div>
@@ -1256,7 +1256,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1445,7 +1445,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1458,7 +1458,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1513,7 +1513,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1526,7 +1526,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1557,7 +1557,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1777,7 +1777,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1808,7 +1808,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1839,7 +1839,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1870,7 +1870,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1901,7 +1901,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1932,7 +1932,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

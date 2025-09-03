@@ -183,7 +183,7 @@ const ReviewModal = ({ isOpen, onClose }) => {
         .modal-description { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 40px; font-family: var(--font-nunito), sans-serif; }
         .review-form { display: flex; flex-direction: column; gap: 25px; flex: 1; }
         .form-group { display: flex; flex-direction: column; }
-        .rating-label { font-size: 16px; font-weight: 600; margin-bottom: 5px; color: #333; font-family: var(--font-nunito), sans-serif; }
+        .rating-label { font-size: 16px; font-weight: 500; margin-bottom: 5px; color: #333; font-family: var(--font-nunito), sans-serif; }
         .star-rating { display: flex; gap: 5px; }
         .star { font-size: 30px; cursor: pointer; color: #ddd; transition: all 0.3s ease; user-select: none; }
         .star:hover { transform: scale(1.1); }

@@ -67,7 +67,7 @@ const Page = (props) => {
             <AnchorLinksSection
               title="Стиральная машина зависает на программе:"
               items={[
-                { icon: '/external/vector8669-r6fr.svg', href: '#1', text: 'Что делать, если стиральная машина зависает на программе' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#1', text: 'Что делать, если стиральная машина завис��ет на программе' },
                 { icon: '/vector.svg', href: '#2', text: 'Другие возможные причины:' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Засор сливного фильтра' },
                 { icon: '/external/vector8669-r6fr.svg', href: '#2a', text: '2. Неплотно закрыт люк или неисправен замок' },
@@ -104,7 +104,7 @@ const Page = (props) => {
                 <p className="vicetext page-text18">
                   <strong>1. Попробйте сбросить программу штатным способом.</strong>
                   <br />
-                  Нажмите кнопку «Стоп» или «Пауза». В некоторых моделях есть отдельные режимы «Слив» или «Отжим» — выберите их и запустите на минимальных оборотах. Часто такой сброс помогает завершить цикл и вернуть управление.
+                  Нажмите кнопку «Стоп» или «Пауза». В некоторых моделях есть отдельные режимы «Слив» или «Отжим» — выберите их и запустите на минимальных оборотах. Часто такой сброс помогает завершит�� цикл и вернуть управление.
                   <br />
                   <strong>2. Если сброс не сработал — обесточьте машинку.</strong>
                   <br />
@@ -114,7 +114,7 @@ const Page = (props) => {
                   <br />
                   Если вода не уходит при штатных попытках, подставьте под фильтр глубокую ёмкость. Открутите сливной фильтр против часовой стрелки. После откручивания вода пойдёт в ёмкость; Слейте всю жидкость и уберите мусор из фильтра и отверстия. Такие действия помогают восстановить слив во многих случаях.
                   <br />
-                  <strong>4. После ручного слива можно безопасно открыть люк.</strong>
+                  <strong>4. После ручного слива можно безо��асно открыть люк.</strong>
                   <br />
                   Обычно дверца автоматически разблокируется после снятия напряжения, но если она осталась заблокированной, подождите несколько минут или разберите систему блокировки (иногда нужно подождать пока УБЛ «остынет»).
                   <br />
@@ -168,7 +168,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сливной фильтр — это сетчатый элемент на передней нижней части машины, который задерживает ворсинки, мелкий мусор и мелкие предметы при сливе. Если фильтр забит, вода не уходит из бака, бельё остается мокрым, а насос (помпа) не может откачать жидкость. Программа может «зависнуть» на этапе слива или отжима. Проверьте, не гуди�� ли насос без слива или не остаётся ли вода после цикла — это признаки засора. Проверьте фильтр. Удалите грязь и скопившийся мусор, промойте фильтр тёплой водой и закрутите обратно. Обычно эту процедуру можно выполнить самостоятельно (важно предварительно слить воду через фильтр или аварийный слив). Если после очистки фильтра машинка снова работает нормально, причина найдена. Если фильтр чист и вода всё равно не уходит, проблема может быть глубже (насос, шланги и т.д.).
+                  Сливной фильтр — это сетчатый элемент на передней нижней части машины, который задерживает ворсинки, мелкий мусор и мелкие предметы при сливе. Если фильтр забит, вода не уходит из бака, бельё остается мокрым, а насос (помпа) не может откачать жидкость. Программа может «зависнуть» на этапе слива или отжима. Проверьте, не гуди�� ли насос без слива или не остаётся ли вода после цикла — это признаки засора. Проверьте фильтр. Удалите грязь и скопившийся мусор, промойте фильтр тёплой водой и закрутите обратно. Обычно эту процедуру можно выполнить самостоятельно (важно предварительно слить воду через фильтр или аварийный слив). Если после очистк�� фильтра машинка снова работает нормально, причина найдена. Если фильтр чист и вода всё равно не уходит, проблема может быть глубже (насос, шланги и т.д.).
                 </p>
               </div>
             </section>
@@ -247,7 +247,7 @@ const Page = (props) => {
             <section id="2c" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  4. Сбой электронного модуля управления
+                  4. Сбой электронно��о модуля управления
                 </h3>
                 <svg
                   width="330"
@@ -331,7 +331,7 @@ const Page = (props) => {
             <section id="2e" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  6. Неисправность ТЭНа (нагревательного элемента)
+                  6. Неисправность ТЭНа (н��гревательного элемента)
                 </h3>
                 <svg
                   width="330"
@@ -412,7 +412,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  Как продлить жизнь машине на 3–5 лет — простые привычки,
+                  Как продлить жизнь машине на 3–5 лет — простые прив��чки,
                   которые сэкономят деньги
                 </span>
                 <div className="page-container46"></div>
@@ -1243,7 +1243,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1432,7 +1432,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1445,7 +1445,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1500,7 +1500,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1513,7 +1513,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1544,7 +1544,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1764,7 +1764,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1795,7 +1795,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1826,7 +1826,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1857,7 +1857,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1888,7 +1888,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1919,7 +1919,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

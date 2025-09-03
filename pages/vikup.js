@@ -750,7 +750,7 @@ const Vikup = (props) => {
             align-self: center;
             font-style: normal;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
           }
           .page1-text10-black { color: #000000; }
           .page1-text10-blue { color: #87ceeb; font-weight: 700; }
@@ -1101,7 +1101,7 @@ const Vikup = (props) => {
             font-style: Regular;
             text-align: center;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             margin-bottom: calc(var(--dl-layout-space-twounits) * 1.5);
@@ -1492,7 +1492,7 @@ const Vikup = (props) => {
               font-size: 14px;
               font-style: italic;
               font-family: var(--font-nunito);
-              font-weight: 300;
+            font-weight: 300;
             }
             .page1-text31 {
               font-size: 14px;
@@ -1502,7 +1502,7 @@ const Vikup = (props) => {
               font-size: 14px;
               font-style: italic;
               font-family: var(--font-nunito);
-              font-weight: 300;
+            font-weight: 300;
               max-width: 140px;
               line-height: 1.2;
             }

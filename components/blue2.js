@@ -158,7 +158,7 @@ const Blue2 = ({ text3, imageAlt = 'image', text, text2, text1, imageSrc = '/ICO
             font-size: 1em;
             font-style: normal;
             font-family: var(--font-noto-serif-sc);
-            font-weight: 300;
+            font-weight: 400;
           }
 
           .clickable-service-title {

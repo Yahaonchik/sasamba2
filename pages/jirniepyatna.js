@@ -198,7 +198,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Жидкость для мытья посуды содержит компоненты, разрушающие жировые загрязнения, поэтому она подходит и для одежды. Нанесите несколько капель средства на пятно и оставьте на 5–10 минут. Затем постирайте вещь – как правило, этого достаточно. Для очень застарелых пятен можно предварительно замочить одежду: нанесите гель на пятно, накройте пищевой плёнкой на пару часов, а потом постирайте в тёплой воде с порошком. Это сочетание агрессивного средства и дополнительного времени улучшит результат.
+                  Жидкость для мытья посуды содержит компоненты, разрушающие жировые загрязнения, поэтому она подходит и для одежды. Нанесите нес��олько капель средства на пятно и оставьте на 5–10 минут. Затем постирайте вещь – как правило, этого достаточно. Для очень застарелых пятен можно предварительно замочить одежду: нанесите гель на пятно, накройте пищевой плёнкой на пару часов, а потом постирайте в тёплой воде с порошком. Это сочетание агрессивного средства и дополнительного времени улучшит результат.
                 </p>
               </div>
             </section>
@@ -315,7 +315,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Если домашние средства не помогают, обращаются к магазинным пятновыводителям. На рынке есть гели, спреи, стикеры и мыло-пятновыводители, предназначенные специально для жирных или сложных пятен. Внимательно читайте инструкцию: существуют средства для белых, цветных и деликатных тканей. Нанесите препарат на загрязнение, выдержите указанное время и постирайте. Перед применением любого средства проверьте его на незаметном участке, чтобы не испортить вещь.
+                  Если домашние средства не помогают, обращаются к магазинным пятновыводителям. На рынке есть гели, спреи, стикеры и м��ло-пятновыводители, предназначенные специально для жирных или сложных пятен. Внимательно читайте инструкцию: существуют средства для белых, цветных и деликатных тканей. Нанесите препарат на загрязнение, выдержите указанное время и постирайте. Перед применением любого средства проверьте его на незаметном участке, чтобы не испортить вещь.
 
                   Таким образом, комбинация быстрых мер (промокнуть пятно, не растирать) и одного из перечисленных методов позволит удалить жирный след практически с любой ткани. Важно действовать спокойно и не торопиться – тогда вещь сохранит цвет и форму.
                   <span
@@ -1156,7 +1156,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1345,7 +1345,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1358,7 +1358,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1413,7 +1413,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1426,7 +1426,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1457,7 +1457,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: var(--font-spectral);
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1677,7 +1677,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1708,7 +1708,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1739,7 +1739,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1770,7 +1770,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1801,7 +1801,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1832,7 +1832,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

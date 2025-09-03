@@ -154,7 +154,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Этот приём подойдёт для прочных тканей (лучше избегать шёлка и шерсти). Разведите очень горячую воду и погрузите поражённый участок на 5–10 минут – жвачка быстро расплавится. Аккуратно счистите размягчённые кусочки щёткой. Также можно воспользоваться утюгом: положите под шмотку плотный картон (и��и бумажное полотенце), прогрейте утюг до 100–120 °C и на несколько секунд прижмите им место с жвачкой. Жвачка расплавится и прилипнет к картону. Повторяйте, пока все остатки не исчезнут. После используйте ткань: поместите тряпочку между утюгом и вещью, чтобы не пропекать волокна.
+                  Этот приём подойдёт для прочных тканей (лучше избегать шёлка и шерсти). Разведите очень горячую воду и погрузите поражённый участок на 5–10 минут – жвачка быстро расплавится. Аккуратно счистите размягчённые кусочки щёткой. Также можно воспользоваться утюгом: положите под шмотку плотный картон (и��и бумажное полотенце), прогрейте утюг до 100–120 °C и на несколько секунд прижмите им место с жвачкой. Жвачка расплавится и прилипнет к картону. Повторяйте, пока все остатки не исчезнут. После используйте ткань: поместит�� тряпочку между утюгом и вещью, чтобы не пропекать волокна.
                 </p>
               </div>
             </section>
@@ -202,7 +202,7 @@ const Page = (props) => {
             </section>
             <section id="3" className="page-thirdproblem2">
               <div className="page-container19 zagolovkiskorobkoy">
-                <h3 className="zagolovki2">4. Растворители (ацетон, уайт-спирит, WD-40)</h3>
+                <h3 className="zagolovki2">4. Растворители (ацетон, у��йт-спирит, WD-40)</h3>
                 <svg
                   width="330"
                   xmlns="http://www.w3.org/2000/svg"
@@ -278,7 +278,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Другое народное средство – растительно�� или сливочное масло: нанесите его на жвачку, дождитесь 10–15 минут и попробуйте стереть жвачку (масло уменьшит её липкость). Ацетон из жидкостей для снятия лака часто заменяют уксусом: подогрейте столовый уксус до 40 °C, нанесите на жвачку и оставьте на пару минут. Жвачка размягчится, и её можно будет счистить щёткой. Эти способы хороши, но оставляют жирные пятна: после удаления резинки одежду нужно выстирать с порошком или жидкостью для посуды.
+                  Другое народное средство – растительно�� или сливочное масло: нанесите его на жвачку, дождитесь 10–15 минут и по��робуйте стереть жвачку (масло уменьшит её липкость). Ацетон из жидкостей для снятия лака часто заменяют уксусом: подогрейте столовый уксус до 40 °C, нанесите на жвачку и оставьте на пару минут. Жвачка размягчится, и её можно будет счистить щёткой. Эти способы хороши, но оставляют жирные пятна: после удаления резинки одежду нужно выстирать с порошком или жидкостью для посуды.
 
                   После всех процедур обязательно постирайте вещь (лучше в прохладной воде с моющим средством). Так вы удалите остатки жвачки и любых использованных химикатов. Благодаря таким методам даже застаревшую жвачку можно убрать без следов, главное – терпение и аккуратность.
                   <span
@@ -345,7 +345,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12984">
                 <span className="page-text76">
-                  Как ��экономить электричес��во и воду — реаль��ые настройк�� и
+                  Как ��экономить электричес����во и воду — реаль��ые настройк�� и
                   лайфхаки
                 </span>
                 <div className="page-container48"></div>
@@ -1119,7 +1119,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1308,7 +1308,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1321,7 +1321,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1376,7 +1376,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1389,7 +1389,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1420,7 +1420,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1640,7 +1640,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1671,7 +1671,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1702,7 +1702,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1733,7 +1733,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1764,7 +1764,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1795,7 +1795,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

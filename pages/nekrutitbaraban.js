@@ -105,7 +105,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>2. Перераспределите или уберите часть белья.</strong><br />
-                    Откройте дверцу и выньте часть белья. При необходимости уменьшите загрузку, если она была слишком большой. Если белья совсем мало, добавьте ещё 2–3 вещи р��вн��го веса. Встряхните оставшиеся вещи, равномерно распределив их по барабану.
+                    Откройте дверцу и выньте часть белья. При необходимости уменьшите загрузку, если она была слишком большой. Ес��и белья совсем мало, добавьте ещё 2–3 вещи р��вн��го веса. Встряхните оставшиеся вещи, равномерно распределив их по барабану.
                   </p>
 
                   <p>
@@ -257,7 +257,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  В коллекторных двигателях со временем изнашиваются угольные щётки, и при плохом конта��те мотор теряет мощность или вообще не запускается; иногда слышен только гул мотора без движения барабана, а при серьёзном повреждении обмоток возможен и полный отказ. При подозрении на износ щёток или внутренние проблемы мотора самостоятельный ремонт не рекомендуется — точную диагностику и замену выполняет мастер, который проверит состояние щёток, обмоток и подшипников и при необходимости выполнит квалифицированную замену.
+                  В коллекторных двигателях со вре��енем изнашиваются угольные щётки, и при плохом конта��те мотор теряет мощность или вообще не запускается; иногд�� слышен только гул мотора без движения барабана, а при серьёзном повреждении обмоток возможен и полный отказ. При подозрении на износ щёток или внутренние проблемы мотора самостоятельный ремонт не рекомендуется — точную диагностику и замену выполняет мастер, который проверит состояние щёток, обмоток и подшипников и при необходимости выполнит квалифицированную замену.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -1159,7 +1159,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1348,7 +1348,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1361,7 +1361,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1416,7 +1416,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1429,7 +1429,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1460,7 +1460,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1680,7 +1680,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1711,7 +1711,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1742,7 +1742,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1773,7 +1773,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1804,7 +1804,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1835,7 +1835,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

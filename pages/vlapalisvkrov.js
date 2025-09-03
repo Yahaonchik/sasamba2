@@ -197,7 +197,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или палочку) и наблюдайте, как кровь «вспенивается». После нескольких минут, когда прореагировавшие остатки растворятся, смойте тёплой (остывшей, не горячей) водой и постирайте ткань. Важно помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тканей (шифон, шерсть) лучше обойтись другими м��тодами.
+                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или палочку) и наблюдайте, как кровь «вспенивается». После нескольких минут, когда прореагировавшие остатки растворятся, смойте тёплой (остывшей, не горячей) водой и постирайте ткань. Важно помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тканей (шифон, шер��ть) лучше обойтись другими м��тодами.
                 </p>
               </div>
             </section>
@@ -237,7 +237,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Есть и «сухой» вариант: обильно посыпьте пятно солью, потрите мягкой щёткой и дайте впитаться 15–30 минут, затем смойте и постирайте. Аналогично работают и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и снова постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средней давности пятен.
+                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Есть и «сухой» вариант: обильно посыпьте пятно солью, потрите мягкой щёткой и дайте впитаться 15–30 минут, затем смойте и постирайте. Аналогично работают и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и снова постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средне�� давности пятен.
                 </p>
               </div>
             </section>
@@ -314,7 +314,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Один из малоизвестных, но действенных методов – использование подогретого глицерина. Глицерин слегка подогревают, пропитывают им ватный диск и растирают пятно с обеих сторон. Такой приём позволяет «распустить» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказано!), глицерин действительно помогает вывести пятно без высоких температур.
+                  Один из малоизвестных, но действенных методов – использование подогретого глицерина. Глицерин слегка подогревают, пропитывают им ват��ый диск и растирают пятно с обеих сторон. Такой приём позволяет «распустить» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказано!), глицерин действительно помогает вывести пятно без высоких температур.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -1153,7 +1153,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1342,7 +1342,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1355,7 +1355,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1410,7 +1410,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1423,7 +1423,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1454,7 +1454,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1674,7 +1674,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1705,7 +1705,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1736,7 +1736,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1767,7 +1767,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1798,7 +1798,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1829,7 +1829,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

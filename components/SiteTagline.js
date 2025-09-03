@@ -15,7 +15,7 @@ const SiteTagline = () => {
           text-align: center;
           font-family: var(--font-nunito);
           font-size: 16px;
-          font-weight: 400;
+          font-weight: 300;
           line-height: 1.25;
           text-decoration: none;
           margin: 8px auto;

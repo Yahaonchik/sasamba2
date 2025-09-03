@@ -124,13 +124,13 @@ const Page = (props) => {
                   </p>
 
                   <p>
-                    <strong>3. Ещё одна распространенная причин�� — неверные настройки.</strong><br />
+                    <strong>3. ��щё одна распространенная причин�� — неверные настройки.</strong><br />
                     Убедитесь, что вы не выбрали режим без отжима, например «Полоскание без отжима» или «Деликатная стирка». В некоторых программах скорость вращения барабана снижена или отжим отключён полностью, чтобы не повредить ткань. Если это так, просто перезапустите стирку с нужным режимом.
                   </p>
 
                   <p>
                     <strong>4. Иногда проблема связана с загрузкой белья.</strong><br />
-                    Если вещи сбились в комок, барабан не может сбалансироваться. Встроенный датчик дисбаланса блокирует разгон, чтобы машина не «скакала» по комнате. Перетряхните бельё в барабане, добавьте несколько мелких вещей или, наоборот, разделите большую партию на две стирки. Так бельё распределится равномерно, и о��жим пройдёт без проблем.
+                    Если вещи сбились в комок, барабан не может сбалансироваться. Встроенный датчик дисбаланса блокирует разгон, чтобы машина не «скакала» по комнате. Перетряхните бельё в барабане, добавьте несколько мелких вещей или, наоборот, разделите большую партию на две стирки. Так ��ельё распределится равномерно, и о��жим пройдёт без проблем.
                   </p>
 
                   <p>
@@ -228,7 +228,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если датчик неправильно определяет уровень воды, блок управления не срабатывает нормально. При этом машинка может «зависать» перед отжимом – она не сливает воду полностью и аварийно останавливается. Признаки: после завершения стирки в бак�� остаётся вода, могут появляться ошибки уровня воды. Решается замена прессостата.
+                  Если датчик неправильно определяет уровень воды, блок управления не срабатывает нормально. При этом машинка может «зависать» перед отжимом – она не сливает воду полностью и аварийно остана��ливается. Признаки: после завершения стирки в бак�� остаётся вода, могут появляться ошибки уровня воды. Решается замена прессостата.
                 </p>
               </div>
             </section>
@@ -399,7 +399,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если датчик оборотов выдаёт неверные показания, контроллер перестаёт доверять двигателю – стиральная машина может просто не давать команду на отжим. Это происходит без явных механических шумов, но при этом барабан либо вращается очень медленно, либо вообще не двигается. Решается з����еной датчика.
+                  Если датчик оборотов выдаёт неверные показания, контроллер перестаёт доверять двигателю – стиральная машина может просто не давать команду на отжим. Это происходит без явных механических шумов, но при этом барабан либо вращае��ся очень медленно, либо вообще не двигается. Решается з����еной датчика.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -1257,7 +1257,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1446,7 +1446,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1459,7 +1459,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1514,7 +1514,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1527,7 +1527,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1558,7 +1558,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1778,7 +1778,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1809,7 +1809,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1840,7 +1840,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1871,7 +1871,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1902,7 +1902,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1933,7 +1933,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

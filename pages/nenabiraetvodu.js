@@ -108,7 +108,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>2. Проверьте кран и напор.</strong><br />
-                    Откройте кран на полную мощность и оцените напор. Если воды нет в кране, позвоните в коммунальную службу. Если вентиль б��л закрыт, полностью его откройте.
+                    Откройте кран на полную мощность и оцените напор. Если воды нет в кране, позвоните в ко��м��нальную службу. Если вентиль б��л закрыт, полностью его откройте.
                   </p>
 
                   <p>
@@ -123,7 +123,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>5. Проверьте дверцу.</strong><br />
-                    Убедитесь, что люк закрывается плотно и фиксируется. Ес��и бельё мешает закрытию, правильно уложите вещи. Машина не начнёт з��лив, пока замок не сработает.
+                    Убедитесь, что люк з���крывается плотно и фиксируется. Ес��и бельё мешает закрытию, правильно уложите вещи. Машина не начнёт з��лив, пока замок не сработает.
                   </p>
 
                   <p>
@@ -177,7 +177,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Водяной кран – это вентиль на трубе, подающей воду к машинке. Если он закрыт ил�� напор воды очень слабый, вода в машину просто не поступает. Признак т��кой неисправности: машина пытается начать работу (гудит), но вода не набирается или идёт очень медленно. Убедитесь, что вентиль полностью открыт (ручка параллельна трубе).Если напор в кране слабый, попробуйте подождать стабилизации давления или сообщить об этом в ЖКХ. Если кран сломан или не держит герметичность, вызовите сантехника или мастера.
+                  Водяной кран – это вентиль на трубе, подающей воду к машинке. Если он закрыт ил�� напор воды очень слабый, вода в машину просто не поступает. Признак т��кой неисправности: машина пыт��ется начать работу (гудит), но вода не набирается или идёт очень медленно. Убедитесь, что вентиль полностью открыт (ручка параллельна трубе).Если напор в кране слабый, попробуйте подождать стабилизации давления или сообщить об этом в ЖКХ. Если кран сломан или не держит герметичность, вызовите сантехника или мастера.
                 </p>
               </div>
             </section>
@@ -217,7 +217,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Устройство блокировки люка (УБЛ) фиксирует дверцу перед стартом. Если оно изношено или сломано, дверца не закрывается плотно и стирка не начнётся. Симптом: машинка не запускается вообще, люк может остаться незаблокированным, часто загорается ошибка. Проверьте, плотно ли закрывается люк – он должен щёлкать. Если замок не срабатывает, машина «гудит», но воды не набирается. Осмотрите уплотнитель и корпус замка: при деформации или поломке нужен мастер.
+                  Устройство блокировки люка (УБЛ) фиксирует дверцу перед стартом. Если оно изношено или сломано, дверца не закрывается плотно и стирка не начнётся. Симптом: машинка не запускается вообще, люк может остаться незаблокированным, часто загорается ошибка. Проверьте, плотно ли закрывается люк – о�� должен щёлкать. Если замок не срабатывает, машина «гудит», но воды не набирается. Осмотрите уплотнитель и корпус замка: при деформации или поломке нужен мастер.
                 </p>
               </div>
             </section>
@@ -405,7 +405,7 @@ const Page = (props) => {
               }}
               nextPage={{
                 href: '/neotkrivaetsadverca',
-                title: 'У стиральной машины не открывается дверца'
+                title: 'У стиральной машины не открывае��ся дверца'
               }}
             />
             <svg
@@ -460,7 +460,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12985">
                 <span className="page-text77">
-                  Как безопасно перевозить и хранить стиральную машину
+                  Как безопасно перевозить и храни��ь стиральную машину
                 </span>
                 <div className="page-container49"></div>
               </div>
@@ -1254,7 +1254,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1443,7 +1443,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1456,7 +1456,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1511,7 +1511,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1524,7 +1524,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1555,7 +1555,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: var(--font-spectral);
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1775,7 +1775,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1806,7 +1806,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1837,7 +1837,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1868,7 +1868,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1899,7 +1899,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1930,7 +1930,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

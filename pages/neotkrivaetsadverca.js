@@ -117,7 +117,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Многие модели оснащены функцией «Child Lock», которая предотвращает случайное открытие люка во время работы. Если эта блокировка активна, дверца не откроется, и на панели обычно горит соответствующая пиктограмма. В таком случае нужно отключить функцию в соответствии с инструкцией к вашей модели — не пытайтесь тянуть дверцу силой, сначала снимите защиту.
+                  Многие модели оснащены функцией «Child Lock», которая предотвращает случайное открытие люка во время работы. Е��ли эта блокировка активна, дверца не откроется, и на панели обычно горит соответствующая пиктограмма. В таком случае нужно отключить функцию в соответствии с инструкцией к вашей модели — не пытайтесь тянуть дверцу силой, сначала снимите защиту.
                 </p>
               </div>
             </section>
@@ -236,7 +236,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Внезапные перебои с питанием или ошибки в модуле управления могут приводить к «замораживанию» замка люка: контро��лер просто не получает или не обрабатывает команду на разблокировку. Иногда помогает полная перезагрузка питания, в иных случаях требуется диагностика и ремонт электронной части в сервисном центре.
+                  Внезапные перебои с питанием или ошибки в модуле управления могут приво��ить к «замораживанию» замка люка: контро��лер просто не получает или не обрабатывает команду на разблокировку. Иногда помогает полная перезагрузка питания, в иных случаях требуется диагностика и ремонт электронной части в сервисном центре.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -1135,7 +1135,7 @@ const Page = (props) => {
             max-width: 100%;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1324,7 +1324,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1337,7 +1337,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5;
@@ -1392,7 +1392,7 @@ const Page = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1405,7 +1405,7 @@ const Page = (props) => {
             font-size: 16px;
             text-align: left;
             font-family: 'Noto Serif SC';
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             letter-spacing: 0.5px;
@@ -1436,7 +1436,7 @@ const Page = (props) => {
             font-style: italic;
             text-align: left;
             font-family: var(--font-spectral);
-            font-weight: 600;
+            font-weight: 500;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1656,7 +1656,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1687,7 +1687,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1718,7 +1718,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1749,7 +1749,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1780,7 +1780,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;
@@ -1811,7 +1811,7 @@ const Page = (props) => {
             font-style: Regular;
             text-align: left;
             font-family: var(--font-nunito);
-            font-weight: 400;
+            font-weight: 300;
             line-height: normal;
             font-stretch: normal;
             text-decoration: none;

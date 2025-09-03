@@ -102,7 +102,7 @@ const Header = () => {
                   <span className="frame1196-text102">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Выкуп б/у машин',
+                        __html: 'Выкуп б/у ма��ин',
                       }}
                     ></span>
                   </span>
@@ -396,7 +396,7 @@ const Header = () => {
       </style>
       <style jsx>
         {`
-          /* 📞 Анимация #1: "Incoming Call" (Входящий звонок) - АКТИВНА */
+          /* 📞 Анимация #1: "Incoming Call" (Входящий з��онок) - АКТИВНА */
           @keyframes phoneAnimation {
             0%, 100% {
               transform: scale(1) rotate(0deg);
@@ -517,7 +517,7 @@ const Header = () => {
             word-wrap: break-word;
             font-style: normal;
             font-family: var(--font-noto-serif-sc);
-            font-weight: 300;
+            font-weight: 400;
             white-space: normal;
             letter-spacing: 1.5px;
           }

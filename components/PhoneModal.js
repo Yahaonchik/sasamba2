@@ -53,7 +53,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
               <a href={tgHref} className="pm-icon-link telegram" aria-label="Telegram">
                 <svg className="pm-telegram-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.74 116.7" aria-hidden="true" focusable="false">
                   <defs><style>{`.cls-1{fill:#249bd7;}.cls-2{fill:#fff;}`}</style></defs>
-                  <g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1">
+                  <g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="С��ой 1">
                     <path className="cls-1" d="M58.34,0c31.91-.28,59.12,26.31,58.39,59.78A58.38,58.38,0,1,1,0,56.55C.82,26,26.16-.13,58.34,0Z"/>
                     <path id="_1" data-name="1" className="cls-2" d="M43.49,85.37c.24-3.82.43-7.69,1.87-11.36a21.87,21.87,0,0,1,6.37-8.59c7.05-6,13.87-12.31,20.79-18.48.57-.5,1.15-1,1.72-1.5A1.15,1.15,0,0,0,74.63,44c-.39-.58-1-.26-1.5,0-2.23,1.39-4.45,2.82-6.67,4.24Q52.26,57.3,38.07,66.36a2.79,2.79,0,0,1-2.68.33C31.27,65.28,27.12,64,23,62.62A7.51,7.51,0,0,1,19.81,61a2,2,0,0,1,.09-3.2,8.42,8.42,0,0,1,2.4-1.33c19.07-8.33,38.52-15.73,58.09-22.79a28.19,28.19,0,0,1,3-.9c2.1-.5,3.26.59,3,2.73-.82,5.9-2.07,11.71-3.24,17.53-2.24,11.11-4.44,22.22-7,33.27-.13.54-.26,1.09-.42,1.62A3.62,3.62,0,0,1,70,90.09c-2.49-1.74-4.86-3.66-7.27-5.5s-4.58-3.49-6.84-5.27a1.11,1.11,0,0,0-1.73.05c-1.25,1.19-2.45,2.42-3.62,3.68A26.22,26.22,0,0,1,46.12,87a5.84,5.84,0,0,1-1.16.61c-1.17.44-1.48.21-1.47-1.07Z"/>
                   </g></g>
@@ -112,7 +112,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
         .pm-caption { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); font-family: var(--font-roboto); font-size: 14px; color: #fff; line-height: 1; text-shadow: 0 1px 2px rgba(0,0,0,.35); transition: color .2s ease, text-shadow .2s ease; }
         .pm-item:hover .pm-caption { color: #4EC8ED; text-shadow: 0 0 8px rgba(78,200,237,.8), 0 1px 2px rgba(0,0,0,.35); }
         .pm-center { position: absolute; inset: 0 0 110px 0; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #FFFFFF; text-align: center; } .pm-phone { user-select: text; -webkit-user-select: text; }
-        .pm-schedule { margin-top: 12px; font-family: var(--font-noto-serif-sc); font-weight: 300; font-size: 14px; color: #000000; } .pm-schedule-bold { font-weight: 700; } .pm-schedule-normal { font-weight: 300; }
+        .pm-schedule { margin-top: 12px; font-family: var(--font-noto-serif-sc); font-weight: 400; font-size: 14px; color: #000000; } .pm-schedule-bold { font-weight: 700; } .pm-schedule-normal { font-weight: 400; }
         .pm-title { font-family: var(--font-noto-serif-sc); font-weight: 500; font-size: 22px; margin-bottom: 12px; letter-spacing: 0; color: #000000; text-shadow: none; }
         .pm-phone { display: block; color: #4EC8ED; text-decoration: none; font-family: var(--font-noto-serif-sc); font-weight: 700; font-size: 26px; line-height: 1.5; letter-spacing: 0; text-shadow: none; }
         .pm-waves { position: absolute; top: 50%; width: 56px; height: 140px; transform: translateY(-50%); pointer-events: none; contain: paint; }

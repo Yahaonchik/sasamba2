@@ -194,7 +194,7 @@ const MainFooter = () => {
             font-style: normal;
             text-align: left;
             font-family: var(--font-noto-serif-sc);
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.15;
             text-transform: none;
             text-decoration: none;
@@ -297,7 +297,7 @@ const MainFooter = () => {
             font-style: normal;
             text-align: center;
             font-family: var(--font-noto-serif-sc);
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.15;
             text-transform: none;
             text-decoration: none;

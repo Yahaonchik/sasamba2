@@ -100,7 +100,7 @@ const CallMasterSection = ({
           font-size: 16px;
           text-align: left;
           font-family: var(--font-nunito);
-          font-weight: 400;
+          font-weight: 300;
           margin: 3px 0 5px;
           align-self: center;
         }

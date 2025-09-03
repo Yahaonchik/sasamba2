@@ -25,7 +25,7 @@ class CustomDocument extends Document {
           {/* Keep only required Google Fonts */}
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;800;900&subset=cyrillic,latin&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&subset=cyrillic,latin&display=swap"
             data-tag="font"
           ></link>
         </Head>
