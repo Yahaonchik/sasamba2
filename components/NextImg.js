@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function NextImg({ src, alt = '', className = '', priority = false, quality, objectFit = 'contain', unoptimized = false }) {
+export default function NextImg({ src, alt = '', className = '', priority = false, quality = 100, objectFit = 'contain', unoptimized = false }) {
   return (
     <span className={`ni-wrap ${className}`}>
       <Image src={src} alt={alt} fill priority={priority} quality={quality} unoptimized={unoptimized} />

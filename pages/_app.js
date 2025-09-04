@@ -1,8 +1,9 @@
 import './teleporthq.css';
 import './style.css';
 import '../styles/problem-pages.css';
-import GoogleAnalytics from '../components/GoogleAnalytics';
-import SiteTagline from '../components/SiteTagline';
+import dynamic from 'next/dynamic'
+const GoogleAnalytics = dynamic(() => import('../components/GoogleAnalytics'), { ssr: false })
+const SiteTagline = dynamic(() => import('../components/SiteTagline'))
 import { nunito, roboto } from '../utils/fonts';
 import { useEffect } from 'react';
 
