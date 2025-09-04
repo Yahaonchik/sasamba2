@@ -223,7 +223,7 @@ const Header = () => {
           <div className="frame1196-sidebar-overlay" onClick={toggleMenu}></div>
           <div className="frame1196-sidebar-content">
             <div className="frame1196-sidebar-header">
-              <button className="frame1196-sidebar-close" onClick={toggleMenu}>
+              <button type="button" aria-label="Закрыть меню" title="Закрыть меню" className="frame1196-sidebar-close" onClick={toggleMenu}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path d="M18 6L6 18M6 6L18 18" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
@@ -357,7 +357,7 @@ const Header = () => {
             .page-text40,
             .page-text45,
             .page-text48 {
-              font-size: 13px !important; /* на маленьких экранах уменьшить на 2 (было 15px) */
+              font-size: 13px !important; /* на маленьких ��кранах уменьшить на 2 (было 15px) */
             }
           }
 

@@ -26,6 +26,20 @@ const Frame1196 = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isQuestionModalOpen, setIsQuestionModalOpen] = useState(false)
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false)
+  const [showWorks, setShowWorks] = useState(false)
+  const worksRef = React.useRef(null)
+  const [showBrands, setShowBrands] = useState(false)
+  const brandsRef = React.useRef(null)
+  const [showParallax, setShowParallax] = useState(false)
+  const parallaxRef = React.useRef(null)
+  const [showFAQ, setShowFAQ] = useState(false)
+  const faqRef = React.useRef(null)
+  const [showAsk, setShowAsk] = useState(false)
+  const askRef = React.useRef(null)
+  const [showItogi, setShowItogi] = useState(false)
+  const itogiRef = React.useRef(null)
+  const [showReviews, setShowReviews] = useState(false)
+  const reviewsRef = React.useRef(null)
   const router = useRouter()
 
   // Пр��веряе��, является ли текущая страница стр��ницей проблемы
@@ -93,6 +107,99 @@ const Frame1196 = (props) => {
 
     return () => window.removeEventListener('resize', checkMobile)
   }, [])
+
+  useEffect(() => {
+    if (showWorks) return
+    const el = worksRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') {
+      setShowWorks(true)
+      return
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          setShowWorks(true)
+          io.disconnect()
+        }
+      })
+    }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showWorks])
+
+  useEffect(() => {
+    if (showBrands) return
+    const el = brandsRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') {
+      setShowBrands(true)
+      return
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          setShowBrands(true)
+          io.disconnect()
+        }
+      })
+    }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showBrands])
+
+  useEffect(() => {
+    if (showParallax) return
+    const el = parallaxRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') {
+      setShowParallax(true)
+      return
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          setShowParallax(true)
+          io.disconnect()
+        }
+      })
+    }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showParallax])
+
+  useEffect(() => {
+    if (showFAQ) return
+    const el = faqRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') { setShowFAQ(true); return }
+    const io = new IntersectionObserver((entries) => { entries.forEach((e) => { if (e.isIntersecting) { setShowFAQ(true); io.disconnect() } }) }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showFAQ])
+
+  useEffect(() => {
+    if (showAsk) return
+    const el = askRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') { setShowAsk(true); return }
+    const io = new IntersectionObserver((entries) => { entries.forEach((e) => { if (e.isIntersecting) { setShowAsk(true); io.disconnect() } }) }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showAsk])
+
+  useEffect(() => {
+    if (showItogi) return
+    const el = itogiRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') { setShowItogi(true); return }
+    const io = new IntersectionObserver((entries) => { entries.forEach((e) => { if (e.isIntersecting) { setShowItogi(true); io.disconnect() } }) }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showItogi])
+
+  useEffect(() => {
+    if (showReviews) return
+    const el = reviewsRef.current
+    if (!el || typeof IntersectionObserver === 'undefined') { setShowReviews(true); return }
+    const io = new IntersectionObserver((entries) => { entries.forEach((e) => { if (e.isIntersecting) { setShowReviews(true); io.disconnect() } }) }, { rootMargin: '200px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [showReviews])
 
   const seoData = getSEOData('/')
   const baseUrl = 'https://remstirmash.od.ua'
@@ -243,7 +350,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image20"><Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image20"><Image alt="" aria-hidden="true" role="presentation" src="/problems 2/61-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/neotjimaet">
@@ -264,7 +371,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image21"><Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image21"><Image alt="" aria-hidden="true" role="presentation" src="/problems 2/71-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/nenabiraetvodu">
@@ -333,7 +440,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-container123">
           <p className="frame1196-text122">
             <span className="frame1196-text123">В </span>
-            <span className="frame1196-text124">"Ваше название" </span>
+            <span className="frame1196-text124">"Ваше назван��е" </span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
                мы з��ботимс�� �� надёжной ��абот�� вашей техники во вс����х уголках
@@ -742,7 +849,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text151">3</span>
                 </div>
                 <span className="frame1196-text152">
-                  Диаг��остика оборудования (при отказе от ремонта)
+                  Диаг��остика ��борудования (при отказе от ремонта)
                 </span>
               </div>
               <div className="frame1196-container143">
@@ -1072,7 +1179,7 @@ const Frame1196 = (props) => {
               text3={
                 <Fragment>
                   <span className="frame1196-text190">
-                    <span>Вызвать мастера</span>
+                    <span>Вызвать мастер��</span>
                   </span>
                 </Fragment>
               }
@@ -1083,7 +1190,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text191">
-                    <span>Ремонт блокировки люка (б��з учета стоимости деталей)</span>
+                    <span>Ремонт блокировки люка (б��з учета стои��ости деталей)</span>
                   </span>
                 </Fragment>
               }
@@ -1148,7 +1255,7 @@ const Frame1196 = (props) => {
               text={
                 <Fragment>
                   <span className="frame1196-text199">
-                    <span>Замена сливноого или наливн��го шланга</span>
+                    <span>Замена сливноо��о или наливн��го шланга</span>
                   </span>
                 </Fragment>
               }
@@ -1423,6 +1530,8 @@ const Frame1196 = (props) => {
             </svg>
           </section>
         </section>
+        <div ref={brandsRef} className="brands-sentinel"></div>
+        {showBrands && (
         <section className="frame1196-remont-vsehmar">
           <div className="frame1196-remont-vseh-marok">
             <h2 className="frame1196-text215">
@@ -1485,7 +1594,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машин Electrolux �� Одессе - профессиональный сер��ис"
+                  alt="Рем��нт стиральных машин Electrolux �� Одессе - профессиональный сер��ис"
                   src="/brands/electrolux-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image36"
@@ -1521,7 +1630,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машиин Siemens в Одессе - проф����сиональный сервис"
+                  alt="Ремонт стиральных машиин Siemens в Одессе - проф����сион��льный сервис"
                   src="/brands/image%203823125-200h.webp"
                   loading="eager"
                   className="frame1196-image39"
@@ -1694,6 +1803,9 @@ const Frame1196 = (props) => {
             </div>
           </div>
         </section>
+        )}
+        <div ref={parallaxRef} className="parallax-sentinel"></div>
+        {showParallax && (
         <div className="frame1196-container156">
           <section className="frame1196-container157 parallax">
             <div className="frame1196-container158">
@@ -1714,6 +1826,7 @@ const Frame1196 = (props) => {
             </div>
           </section>
         </div>
+        )}
         <section className="frame1196-container160">
           <div className="frame1196-container161">
             <h2 className="frame1196-text217">
@@ -2041,7 +2154,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text221">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Получаем нужные з��пчасти быстро, по выгодным ценам и без перепл��т.',
+                      __html: 'Получаем нужные з���пчасти быстро, по выгодным ценам и без перепл��т.',
                     }}
                   ></span>
                 </p>
@@ -2238,7 +2351,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text223">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Выполняем работу качественно и доступно, без скрытых доплат и ненужных расходов.',
+                      __html: 'Выполняем работу качествен��о и доступно, без скрытых доплат и ненужных расходов.',
                     }}
                   ></span>
                 </p>
@@ -2846,6 +2959,8 @@ const Frame1196 = (props) => {
               strokeDasharray="11 11"
             ></path>
           </svg>
+          <div ref={worksRef} className="works-sentinel"></div>
+          {showWorks && (
           <div className="frame1196-nashi-raboti">
             <div className="frame1196-container185">
               <div className="frame1196-container186">
@@ -2871,7 +2986,7 @@ const Frame1196 = (props) => {
             <div className="frame1196-container191">
               <div className="frame1196-container192">
                 <figcaption className="frame1196-text232">
-                  Установка новой втулки уплотнителя
+                  Установка новой втулки упло��нителя
                 </figcaption>
               </div>
             </div>
@@ -2911,6 +3026,7 @@ const Frame1196 = (props) => {
               </div>
             </div>
           </div>
+          )}
         </div>
         <div className="frame1196-container203">
           <div className="frame1196-container204" onClick={scrollLeft}>
@@ -2940,6 +3056,8 @@ const Frame1196 = (props) => {
             </svg>
           </div>
         </div>
+        <div ref={faqRef} className="faq-sentinel"></div>
+        {showFAQ && (<>
         <div className="frame1196-container206">
           <div className="frame1196-container207">
             <h2 className="frame1196-text238">
@@ -3102,7 +3220,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text242">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'На все виды работ даем гарантию 6 месяцев, на замененые запчасти - 1 го����. Гарантийный талон выдается сразу после завершения ремо��та',
+                      __html: 'Н�� все виды работ даем гара��тию 6 месяцев, на замененые запчасти - 1 го����. Гарантийный талон выдается сразу после завершения ремо��та',
                     }}
                   ></span>
                 </p>
@@ -3210,7 +3328,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. проверяем наличие по тел��фону заране��.',
+                      __html: 'Мастер возит базовый набор популярных запчастей. Для редких моделей заказываем детали за 1-2 дня. прове��яем наличие по тел��фону заране��.',
                     }}
                   ></span>
                 </p>
@@ -3264,7 +3382,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если ��то��мость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консультируем от целесообра��ности ремонта.',
+                      __html: 'Если ��то��мость ремонта превышает 60% от цены новой машшины - луучше заменить. Мы всегда честно консул��тируем от целесообра��ности р��монта.',
                     }}
                   ></span>
                 </p>
@@ -3350,9 +3468,15 @@ const Frame1196 = (props) => {
             </span>
           </strong>
         </div>
+        </>)}
+        <div ref={askRef} className="ask-sentinel"></div>
+        {showAsk && (
         <div className="ask-button-wrapper">
           <AskButton onClick={openQuestionModal} variant="primary" />
         </div>
+        )}
+        <div ref={itogiRef} className="itogi-sentinel"></div>
+        {showItogi && (
         <div className="frame1196-container225">
           <div className="frame1196-container226">
             <span className="textglavitogi frame1196-text250">
@@ -3360,10 +3484,10 @@ const Frame1196 = (props) => {
             </span>
           </div>
           <p className="frame1196-text251 textITOGI">
-            <span>Стира��ьная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со времене�� тре��ует внимания. Механические детали изнашиваются, электроник�� даёт сбои, а бытовая на��рузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реа��ьная необходимость для многих владельцев. Важно доверить ремонт проверен��ым ��пе��иалистам, а не случайному мастеру.</span>
+            <span>Стира��ьная машина — ��ехника, которая д��лжна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со времене�� тре��ует внимания. Механические детали изнашиваются, эл��ктроник�� даёт сбои, а бытовая на����рузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не ��азовая услуга, а реа��ьная необходимость для многих владельцев. Важно доверить ремонт проверен��ым ��пе��иалистам, а не случайному мастеру.</span>
           </p>
           <p className="frame1196-text252 textITOGI">
-            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессио����ально оснащённая мастерская, склад комплекту��щих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
+            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении �� профессио����ально оснащённая мастерская, склад комплекту��щих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
           </p>
           <h2 className="textglavitogi">
             <span>Поче��у выбирают нас</span>
@@ -3409,7 +3533,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Работаем как с типовыми, так и со сложными неисправно��тями.',
+                    __html: 'Работаем как с типовыми, так и со сложными неисправно��т��ми.',
                   }}
                 ></span>
               </span>
@@ -3421,7 +3545,7 @@ const Frame1196 = (props) => {
           <p className="frame1196-text260 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ремонт стиральных машин в Одессе необходим как новым, так и давно использованным моделям. Все уз��ы техники имею�� ограниченный ре��урс, и при активной эксплуатации однажды выходят из строя. Мы собрали самые частые причины, по к��торым клиенты обращаются в наш сервис:',
+                __html: 'Ремонт стиральных машин в Одессе необходим как новым, так и давно использованным ��оделям. Все уз��ы техники имею���� ограниченный ре��урс, и при активной эксплуатации однажды выходят из строя. Мы собрали самые частые причины, по к��торым клиенты обращаются в наш сервис:',
               }}
             ></span>
           </p>
@@ -3439,7 +3563,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Шум и вибраци�� — чаще всего износ амортизаторов или подшипни��ов.',
+                    __html: 'Шум и вибраци�� — чаще всего износ амортиза��оров или подшипни��ов.',
                   }}
                 ></span>
               </span>
@@ -3484,7 +3608,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Регулярное техобслуживание — профилактика ��аз в 12 месяцев продлевает срок службы.',
+                    __html: 'Регу��ярное техобслуживание — профилактика ��аз в 12 месяцев продлевает срок службы.',
                   }}
                 ></span>
               </span>
@@ -3497,11 +3621,11 @@ const Frame1196 = (props) => {
             <span>LG, Samsung, Bosch, Electrolux, Whirlpool, Indesit, Zanussi, Gorenje, AEG, Miele и другие. Работаем не только по Одессе, но и в пригородах.</span>
           </p>
           <h2 className="textglavitogi">
-            <span>Сервисная мастерская</span>
+            <span>Сервисная мастер��кая</span>
           </h2>
           <p className="frame1196-text271 textITOGI">
             <span>
-              Сервисный ц��нтр "Ваше название" — это современная профессиональная мастерска���� в Одессе, где в���п��лняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмс�� за любую технику: от массовых моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Прово��им профилактику и глубокую чистку барабана и бака. Каждый ремонт начинается с диагностики — ма��тер объясняет, в чём проблема, и предлагает решение. Только по���ле согласования с клиентом мы ��риступаем к работе. Мы ц��ним довери�� и работаем аккуратно — б��з спешки и халтуры.
+              Сервисный ц��нтр "Ваше название" — э��о современная профессиональная мастерска���� в Одессе, где в���п��лняются все виды ремонта: от быстрой замены деталей до полного восстановления после серьёзных поломок. Мы берёмс�� за любую технику: от массов��х моделей до премиум-сегмента. Выполняем замену амортизаторов, подшипников, сливных насосов, управляющих модулей, датчиков, ТЭ��ов. Также восстанавливаем герметичность, ��еняем л��ки, устраняем вибрации и посто��онние шумы. Прово��им профилактику и глубокую чистку барабана и бака. Каждый ремонт начинае��ся с диагностики — ма��тер объясняет, в чём проблема, и предлагает решение. Только по���ле согл��сования с клиентом мы ��риступаем к работе. Мы ц��ним довери�� и работаем аккуратно — б��з спешки и халтуры.
             </span>
           </p>
           <h2 className="textglavitogi">
@@ -3511,6 +3635,9 @@ const Frame1196 = (props) => {
             <span>��иже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, ко��сультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем. "Ваше название" — это ремонт стиральны�� машин в Одессе быстро, надёжно и профес��ионально.</span>
           </p>
         </div>
+        )}
+        <div ref={reviewsRef} className="reviews-sentinel"></div>
+        {showReviews && (<>
         <div className="frame1196-container227">
           <h2 className="frame1196-text274">
             <span>Отзывы</span>
@@ -3701,7 +3828,7 @@ const Frame1196 = (props) => {
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              Я считаю это победа над стиральной маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдала��ь ему полностью, �� не стала брыкаться. не знаю, что он там с ней делал, н�� ���ейчас она как шелковая стирает мой ситцевое кружевное белье&lt;3
+              Я считаю это победа над стираль����й маши��ой, кото��ой 12 лет))  Очень круто!! Бла��о��арю!! Она пала в руки мастера и отдала��ь ему полностью, �� не стала брыкаться. не знаю, что он там с ней делал, н�� ���ейчас она как шелковая стирает мой ситцевое круж��вное белье&lt;3
             </p>
             <svg
               width="330"
@@ -3969,6 +4096,7 @@ const Frame1196 = (props) => {
             </svg>
           </article>
         </div>
+        </>)}
         <button type="button" className="frame1196-button4 button" onClick={openReviewModal}>
           <span>Добавить отзыв</span>
         </button>
@@ -4063,7 +4191,7 @@ const Frame1196 = (props) => {
             text-decoration: none;
           }
 
-          /* ��ерный цвет для заг��ловка когда нет фоновой ��артинки (на мобильных экра��ах) */
+          /* ��ерный цвет для заг��ловка ког��а нет фоновой ��артинки (на мобильных экра��ах) */
           @media (max-width: 767px) {
             .frame1196-text108 {
               color: #000000;
@@ -11489,7 +11617,7 @@ const Frame1196 = (props) => {
             padding-bottom: 0 !important;
           }
 
-          /* По��азывать ��ктивные от���е��ы с эффекто���� разв���р��чивания */
+          /* По��азывать ��ктивные от���е��ы с эффе��то���� разв���р��чивания */
           .frame1196-otvet1.faq-active,
           .frame1196-otvet2.faq-active,
           .frame1196-otvet3.faq-active,
