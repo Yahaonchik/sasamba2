@@ -11,7 +11,7 @@ import MainFooter from '../components/MainFooter'
 import dynamic from 'next/dynamic'
 const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Image from 'next/image'
-import QuestionModal from '../components/QuestionModal'
+const QuestionModal = dynamic(() => import('../components/QuestionModal'), { ssr: false })
 import OrderButton from '../components/OrderButton'
 import AskButton from '../components/AskButton'
 const ReviewModal = dynamic(() => import('../components/ReviewModal'), { ssr: false })
@@ -112,9 +112,7 @@ const Frame1196 = (props) => {
         <Breadcrumbs style="white-left" />
 
         <section className="frame1196-container111">
-          <div className="frame1196-hero-bg" aria-hidden="true">
-            <Image src="/all%20ina%20dast%20or%20dust.webp" alt="" fill priority sizes="100vw" quality={100} unoptimized className="frame1196-hero-bg-img" />
-          </div>
+          <div className="frame1196-hero-bg" aria-hidden="true"></div>
           <div className="frame1196-container112">
             <h1 className="frame1196-text108">
               <span>Ремонт стирал��ных маши�� </span>
@@ -142,9 +140,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image15">{typeof window === 'undefined' ? null : (window.innerWidth > 991 && (
-                  <Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} style={{ objectFit: 'cover' }} />
-                ))}</div>
+                <div className="frame1196-image15"><Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/negreetvodu">
@@ -165,7 +161,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image16"><Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image16"><Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/protekaet">
@@ -184,7 +180,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image17"><Image alt="Ст���ральная машина протекает" src="/problems 2/31-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image17"><Image alt="Ст���ральная машина протекает" src="/problems 2/31-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/silnoshumit">
@@ -205,7 +201,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image18"><Image alt="��тиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image18"><Image alt="��тиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/nevkluchaetsa">
@@ -226,7 +222,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image19"><Image alt="Стирал����ная машина не вклю��ается" src="/problems 2/51-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image19"><Image alt="Стирал����ная машина не вклю��ается" src="/problems 2/51-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/zavisaetnaprogramme">
@@ -247,7 +243,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image20"><Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image20"><Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/neotjimaet">
@@ -268,7 +264,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image21"><Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image21"><Image alt="Стиральная машина не отжимает" src="/problems 2/71-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/nenabiraetvodu">
@@ -289,7 +285,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image22"><Image alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image22"><Image alt="Стиральная машина не наби��ает воду" src="/problems/8-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/neotkrivaetsadverca">
@@ -310,7 +306,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image23"><Image alt="Не откры��ается дверца стиральной машины" src="/problems 2/91-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover', objectPosition: 'top left' }} /></div>
+                <div className="frame1196-image23"><Image alt="Не откры��ается дверца стиральной машины" src="/problems 2/91-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover', objectPosition: 'top left' }} /></div>
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
@@ -330,7 +326,7 @@ const Frame1196 = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="frame1196-image24"><Image alt="Сти��альная ма��ина не крутит барабан" src="/problems/10-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+              <div className="frame1196-image24"><Image alt="Сти��альная ма��ина не крутит барабан" src="/problems/10-300h.webp" fill sizes="149px" quality={100} priority fetchPriority="high" loading="eager" style={{ objectFit: 'cover' }} /></div>
             </a>
           </article>
         </section>
@@ -1430,7 +1426,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-remont-vsehmar">
           <div className="frame1196-remont-vseh-marok">
             <h2 className="frame1196-text215">
-              <span>Ремонтируем все марки</span>
+              <span>Ремо��тируем все марки</span>
             </h2>
           </div>
           <div>
@@ -1489,7 +1485,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных машин Electrolux в Одессе - профессиональный сер��ис"
+                  alt="Ремонт стиральных машин Electrolux �� Одессе - профессиональный сер��ис"
                   src="/brands/electrolux-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image36"
@@ -1597,7 +1593,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремонт стиральных ��ашин LG в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных ��ашин LG в Одес��е - профессиональный сервис"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
@@ -2636,7 +2632,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text227">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Подтверждаем надёжность рем��нта длительным сроком гарантии.',
+                      __html: 'Подтверждаем надёжность рем��нта д��ительным сроком гарантии.',
                     }}
                   ></span>
                 </p>
@@ -3364,13 +3360,13 @@ const Frame1196 = (props) => {
             </span>
           </div>
           <p className="frame1196-text251 textITOGI">
-            <span>Стира��ьная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со времене�� тре��ует внимания. Механические детали изнашиваются, электроник�� даёт сбои, а бытовая на��рузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реа��ьная необходимость для многих владельцев. Важно доверить ремонт проверен��ым спе��иалистам, а не случайному мастеру.</span>
+            <span>Стира��ьная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со времене�� тре��ует внимания. Механические детали изнашиваются, электроник�� даёт сбои, а бытовая на��рузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реа��ьная необходимость для многих владельцев. Важно доверить ремонт проверен��ым ��пе��иалистам, а не случайному мастеру.</span>
           </p>
           <p className="frame1196-text252 textITOGI">
             <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессио����ально оснащённая мастерская, склад комплекту��щих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
           </p>
           <h2 className="textglavitogi">
-            <span>Почему выбирают нас</span>
+            <span>Поче��у выбирают нас</span>
           </h2>
           <ul className="frame1196-ul1 list">
             <li className="list-item">
@@ -3452,7 +3448,7 @@ const Frame1196 = (props) => {
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не запускается стирка — проверяем модуль управления или кнопку питания.',
+                    __html: 'Не запускается стирка — проверяем модуль у��равления или кнопку питания.',
                   }}
                 ></span>
               </span>
@@ -3512,7 +3508,7 @@ const Frame1196 = (props) => {
             <span>Контакты</span>
           </h2>
           <p className="textITOGI">
-            <span>Ниже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, ко��сультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем. "Ваше название" — это ремонт стиральны�� машин в Одессе быстро, надёжно и профес��ионально.</span>
+            <span>��иже на сайте — карта проезда к нашей мастерской, а также наши телефоны. Звоните для записи, ко��сультации или если заметили сбои в работе вашей стиральной машины. Мы всё объясним, рассчитаем стоимость и поможем. "Ваше название" — это ремонт стиральны�� машин в Одессе быстро, надёжно и профес��ионально.</span>
           </p>
         </div>
         <div className="frame1196-container227">
@@ -3983,9 +3979,9 @@ const Frame1196 = (props) => {
           className="frame1196-vector"
         />
 
-        <OrderModal isOpen={isModalOpen} onClose={closeModal} />
-        <QuestionModal isOpen={isQuestionModalOpen} onClose={closeQuestionModal} />
-        <ReviewModal isOpen={isReviewModalOpen} onClose={closeReviewModal} />
+        {isModalOpen && <OrderModal isOpen={isModalOpen} onClose={closeModal} />}
+        {isQuestionModalOpen && <QuestionModal isOpen={isQuestionModalOpen} onClose={closeQuestionModal} />}
+        {isReviewModalOpen && <ReviewModal isOpen={isReviewModalOpen} onClose={closeReviewModal} />}
 
         <MainFooter />
       </main>
@@ -4031,7 +4027,7 @@ const Frame1196 = (props) => {
             .frame1196-container111 {
               background-image: none !important;
             }
-            .frame1196-hero-bg { display: none; }
+            .frame1196-hero-bg { display: block; }
             .frame1196-container100 { background-image: none !important; }
           }
           @media (max-width: 991px) {
@@ -4834,7 +4830,7 @@ const Frame1196 = (props) => {
               box-shadow: 0px 10px 20px 0px #d4d4d4 !important;
             }
 
-            /* У��еньшение ��азм��ра ш��ифта ��арточек н�� м��бильных экранах */
+            /* У��еньшен��е ��азм��ра ш��ифта ��арточек н�� м��бильных экранах */
             .frame1196-text112,
             .frame1196-text113,
             .frame1196-text114,
@@ -5149,8 +5145,9 @@ const Frame1196 = (props) => {
             height: 5px;
             position: absolute;
           }
-          .frame1196-hero-bg { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
-          .frame1196-hero-bg-img { object-fit: cover !important; object-position: bottom center !important; min-width: 1500px !important; min-height: 750px !important; max-width: none !important; max-height: none !important; }
+          .frame1196-hero-bg { position: absolute; inset: 0; pointer-events: none; z-index: 0; background-size: cover; background-position: bottom center; }
+          @media (min-width: 768px) { .frame1196-hero-bg { background-image: url('/all%20ina%20dast%20or%20dust.webp'); } }
+          @media (max-width: 767px) { .frame1196-hero-bg { background-image: none; } }
           .frame1196-container131 {
             width: 298px;
             height: 50px;
@@ -11505,7 +11502,7 @@ const Frame1196 = (props) => {
           }
 
 
-          /* Ли����йная ан��м��ция д�����я ико����к */
+          /* Ли������йная ан��м��ция д�����я ико����к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,
