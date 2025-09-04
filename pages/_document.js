@@ -5,7 +5,7 @@ class CustomDocument extends Document {
     return (
       <Html lang="ru" className={`${nunito.variable} ${roboto.variable}`}>
         <Head>
-          <link rel="preload" as="image" href="/to%20the%20backgrouund-1500w.png" media="(min-width: 992px)" />
+          <link rel="preload" as="image" href="/to%20the%20backgrouund-1500w.png" media="(min-width: 991px)" />
           <link rel="preload" as="image" href="/all%20ina%20dast%20or%20dust.webp" media="(min-width: 768px)" />
           <meta charSet="utf-8"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
